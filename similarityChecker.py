@@ -49,33 +49,56 @@ def highlight_keywords(keywords, user_text):
             highlighted.append(w)
     return ' '.join(highlighted)
 
-def mark_answer(correct_answer, user_answer, keyword_weight=0.4, semantic_weight=0.6):
+def mark_answer(correct_answer, user_answer, keyword_weight=0.4, semantic_weight=0.6, threshold=0.5):
     processed_correct = preprocess(correct_answer)
     processed_user = preprocess(user_answer)
 
     sim_score = tfidf_similarity(processed_correct, processed_user)
-    
+
     keywords = extract_keywords(correct_answer)
     matches = keyword_match(keywords, user_answer)
     keyword_hits = sum(1 for _, matched in matches if matched)
     keyword_score = keyword_hits / len(keywords) if keywords else 0.0
 
     final_score = round((semantic_weight * sim_score + keyword_weight * keyword_score), 2)
-    return final_score, matches
+
+    is_correct = final_score >= threshold
+    return is_correct, final_score
+
+def mark_answer_verbose(correct_answer, user_answer, keyword_weight=0.4, semantic_weight=0.6):
+    processed_correct = preprocess(correct_answer)
+    processed_user = preprocess(user_answer)
+
+    sim_score = tfidf_similarity(processed_correct, processed_user)
+
+    keywords = extract_keywords(correct_answer)
+    matches = keyword_match(keywords, user_answer)
+    keyword_hits = sum(1 for _, matched in matches if matched)
+    keyword_score = keyword_hits / len(keywords) if keywords else 0.0
+
+    final_score = round((semantic_weight * sim_score + keyword_weight * keyword_score), 2)
+
+    highlighted_text = highlight_keywords([kw for kw, _ in matches], user_answer)
+
+    return final_score, matches, highlighted_text
 
 def main():
     answer = "Python is high-level programming language used for software development."
     user = "Python is used to create software and is a coding tool."
-    score, matches = mark_answer(answer, user)
-    
-    print("Score:", score)
+
+    print("Verbose output:")
+    score, matches, highlighted = mark_answer_verbose(answer, user)
+    print(f"Score: {score}")
     print("Keyword Matches:")
     for kw, matched in matches:
-        status = "YES" if matched else "NO"
-        print(f"{kw}: {status}")
-    highlighted_answer = highlight_keywords([kw for kw, _ in matches], user)
-    print("Highlighted Answer:", highlighted_answer)
+        print(f"  {kw}: {'YES' if matched else 'NO'}")
+    print("Highlighted User Text:", highlighted)
+
+    print("\nSimple output:")
+    correct, final_score = mark_answer(answer, user)
+    print(f"Correct? {'YES' if correct else 'NO'} with score {final_score}")
 
 if __name__ == "__main__":
     main()
+
 
