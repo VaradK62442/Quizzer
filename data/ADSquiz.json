@@ -1,0 +1,674 @@
+[
+  {
+    "question": "What is an algorithm?",
+    "answer": "A finite sequence of well-defined instructions for solving a problem or performing a computation."
+  },
+  {
+    "question": "What is a data structure?",
+    "answer": "A way of organizing and storing data to enable efficient access and modification."
+  },
+  {
+    "question": "What is the time complexity of an algorithm?",
+    "answer": "A function describing how the running time of an algorithm increases with the size of the input."
+  },
+  {
+    "question": "What is Big O notation?",
+    "answer": "A mathematical notation that describes the upper bound of an algorithm's running time or space requirements."
+  },
+  {
+    "question": "What is the worst-case time complexity of linear search?",
+    "answer": "O(n), where n is the number of elements in the array."
+  },
+  {
+    "question": "What is the best-case time complexity of binary search?",
+    "answer": "O(1), when the target is at the middle index."
+  },
+  {
+    "question": "What is the worst-case time complexity of binary search?",
+    "answer": "O(log n), where n is the number of elements in the sorted array."
+  },
+  {
+    "question": "What is a recursive algorithm?",
+    "answer": "An algorithm that solves a problem by solving smaller instances of the same problem."
+  },
+  {
+    "question": "What is a base case in recursion?",
+    "answer": "A condition that stops the recursion by providing a direct answer without further recursive calls."
+  },
+  {
+    "question": "What is a stack?",
+    "answer": "A linear data structure that follows the Last-In-First-Out (LIFO) principle."
+  },
+  {
+    "question": "What are the two main operations of a stack?",
+    "answer": "Push (add an element) and pop (remove the top element)."
+  },
+  {
+    "question": "What is a queue?",
+    "answer": "A linear data structure that follows the First-In-First-Out (FIFO) principle."
+  },
+  {
+    "question": "What are the two main operations of a queue?",
+    "answer": "Enqueue (add to the rear) and dequeue (remove from the front)."
+  },
+  {
+    "question": "What is an array?",
+    "answer": "A collection of elements identified by index, stored in contiguous memory locations."
+  },
+  {
+    "question": "What is a linked list?",
+    "answer": "A linear data structure where each element (node) contains a value and a reference to the next node."
+  },
+  {
+    "question": "What is the main advantage of a linked list over an array?",
+    "answer": "Dynamic size and efficient insertions/deletions at arbitrary positions."
+  },
+  {
+    "question": "What is a singly linked list?",
+    "answer": "A linked list where each node points only to the next node."
+  },
+  {
+    "question": "What is a doubly linked list?",
+    "answer": "A linked list where each node points to both the next and previous nodes."
+  },
+  {
+    "question": "What is a circular linked list?",
+    "answer": "A linked list where the last node points back to the first node."
+  },
+  {
+    "question": "What is a hash table?",
+    "answer": "A data structure that maps keys to values using a hash function to compute an index."
+  },
+  {
+    "question": "What is a collision in a hash table?",
+    "answer": "When two keys are hashed to the same index."
+  },
+  {
+    "question": "Name two common collision resolution techniques.",
+    "answer": "Chaining and open addressing."
+  },
+  {
+    "question": "What is a binary tree?",
+    "answer": "A tree data structure in which each node has at most two children."
+  },
+  {
+    "question": "What is a binary search tree (BST)?",
+    "answer": "A binary tree in which for each node, all elements in the left subtree are less than the node, and all elements in the right subtree are greater."
+  },
+  {
+    "question": "What is the time complexity of searching in a balanced BST?",
+    "answer": "O(log n), where n is the number of nodes."
+  },
+  {
+    "question": "What is a balanced tree?",
+    "answer": "A tree where the height difference between left and right subtrees is at most one for every node."
+  },
+  {
+    "question": "What is a heap?",
+    "answer": "A complete binary tree where each parent node is greater than or equal to (max-heap) or less than or equal to (min-heap) its children."
+  },
+  {
+    "question": "What is a priority queue?",
+    "answer": "A data structure where each element has a priority and the element with the highest priority is served first."
+  },
+  {
+    "question": "How is a priority queue commonly implemented?",
+    "answer": "Using a heap."
+  },
+  {
+    "question": "What is the time complexity of inserting into a heap?",
+    "answer": "O(log n)."
+  },
+  {
+    "question": "What is the time complexity of extracting the max/min from a heap?",
+    "answer": "O(log n)."
+  },
+  {
+    "question": "What is a graph?",
+    "answer": "A collection of vertices (nodes) and edges (connections between nodes)."
+  },
+  {
+    "question": "What is an adjacency matrix?",
+    "answer": "A 2D array used to represent a graph, where each cell indicates the presence of an edge."
+  },
+  {
+    "question": "What is an adjacency list?",
+    "answer": "A collection of lists or arrays, one for each vertex, listing all adjacent vertices."
+  },
+  {
+    "question": "What is a directed graph?",
+    "answer": "A graph where edges have a direction, going from one vertex to another."
+  },
+  {
+    "question": "What is an undirected graph?",
+    "answer": "A graph where edges have no direction."
+  },
+  {
+    "question": "What is a weighted graph?",
+    "answer": "A graph where each edge has a numerical value (weight) associated with it."
+  },
+  {
+    "question": "What is a cycle in a graph?",
+    "answer": "A path that starts and ends at the same vertex without repeating edges or vertices."
+  },
+  {
+    "question": "What is a spanning tree?",
+    "answer": "A subgraph that includes all the vertices of the original graph and is a tree."
+  },
+  {
+    "question": "What is depth-first search (DFS)?",
+    "answer": "A graph traversal algorithm that explores as far as possible along each branch before backtracking."
+  },
+  {
+    "question": "What is breadth-first search (BFS)?",
+    "answer": "A graph traversal algorithm that explores all neighbors at the present depth before moving to the next level."
+  },
+  {
+    "question": "What data structure is typically used to implement BFS?",
+    "answer": "A queue."
+  },
+  {
+    "question": "What data structure is typically used to implement DFS?",
+    "answer": "A stack (or recursion)."
+  },
+  {
+    "question": "What is Dijkstra's algorithm used for?",
+    "answer": "Finding the shortest path from a source to all other vertices in a weighted graph with non-negative edge weights."
+  },
+  {
+    "question": "What is the time complexity of Dijkstra's algorithm using a min-heap?",
+    "answer": "O((V + E) log V), where V is the number of vertices and E is the number of edges."
+  },
+  {
+    "question": "What is a minimum spanning tree (MST)?",
+    "answer": "A spanning tree with the minimum total edge weight."
+  },
+  {
+    "question": "Name two algorithms for finding a minimum spanning tree.",
+    "answer": "Kruskal's algorithm and Prim's algorithm."
+  },
+  {
+    "question": "What is a topological sort?",
+    "answer": "A linear ordering of vertices in a directed acyclic graph such that for every directed edge uv, u comes before v."
+  },
+  {
+    "question": "What is dynamic programming?",
+    "answer": "A method for solving complex problems by breaking them down into simpler subproblems and storing the results."
+  },
+  {
+    "question": "What is memoization?",
+    "answer": "An optimization technique where results of expensive function calls are cached and reused."
+  },
+  {
+    "question": "What is greedy algorithm?",
+    "answer": "An algorithm that makes the locally optimal choice at each step with the hope of finding a global optimum."
+  },
+  {
+    "question": "What is divide and conquer?",
+    "answer": "A strategy that divides a problem into smaller subproblems, solves them, and combines their solutions."
+  },
+  {
+    "question": "What is the time complexity of merge sort?",
+    "answer": "O(n log n)."
+  },
+  {
+    "question": "What is the time complexity of quicksort in the average case?",
+    "answer": "O(n log n)."
+  },
+  {
+    "question": "What is the worst-case time complexity of quicksort?",
+    "answer": "O(n^2)."
+  },
+  {
+    "question": "What is the time complexity of insertion sort?",
+    "answer": "O(n^2)."
+  },
+  {
+    "question": "What is the time complexity of selection sort?",
+    "answer": "O(n^2)."
+  },
+  {
+    "question": "What is the time complexity of bubble sort?",
+    "answer": "O(n^2)."
+  },
+  {
+    "question": "What is the time complexity of heap sort?",
+    "answer": "O(n log n)."
+  },
+  {
+    "question": "What is the time complexity of searching in a hash table?",
+    "answer": "O(1) on average."
+  },
+  {
+    "question": "What is the time complexity of inserting into a hash table?",
+    "answer": "O(1) on average."
+  },
+  {
+    "question": "What is hashing?",
+    "answer": "The process of converting a key into an index for a hash table."
+  },
+  {
+    "question": "What is a load factor in a hash table?",
+    "answer": "The ratio of the number of elements to the size of the table."
+  },
+  {
+    "question": "What is rehashing?",
+    "answer": "The process of increasing the size of a hash table and redistributing the elements."
+  },
+  {
+    "question": "What is a collision chain?",
+    "answer": "A linked list of elements that hash to the same index."
+  },
+  {
+    "question": "What is open addressing?",
+    "answer": "A collision resolution method in which, upon a collision, the algorithm searches for the next available slot."
+  },
+  {
+    "question": "What is linear probing?",
+    "answer": "An open addressing technique where the next slot is checked sequentially."
+  },
+  {
+    "question": "What is quadratic probing?",
+    "answer": "An open addressing technique where the interval between probes increases quadratically."
+  },
+  {
+    "question": "What is double hashing?",
+    "answer": "A collision resolution technique that uses a second hash function to determine the probe sequence."
+  },
+  {
+    "question": "What is a tree traversal?",
+    "answer": "The process of visiting all the nodes in a tree in a specific order."
+  },
+  {
+    "question": "What are the three main types of depth-first tree traversal?",
+    "answer": "Preorder, inorder, and postorder."
+  },
+  {
+    "question": "What is preorder traversal?",
+    "answer": "Visit the root node, traverse the left subtree, then traverse the right subtree."
+  },
+  {
+    "question": "What is inorder traversal?",
+    "answer": "Traverse the left subtree, visit the root node, then traverse the right subtree."
+  },
+  {
+    "question": "What is postorder traversal?",
+    "answer": "Traverse the left subtree, traverse the right subtree, then visit the root node."
+  },
+  {
+    "question": "What is level-order traversal?",
+    "answer": "Visit nodes level by level from the root down."
+  },
+  {
+    "question": "What is a leaf node?",
+    "answer": "A node with no children."
+  },
+  {
+    "question": "What is the height of a tree?",
+    "answer": "The length of the longest path from the root to a leaf."
+  },
+  {
+    "question": "What is a balanced binary tree?",
+    "answer": "A binary tree in which the heights of the two child subtrees of any node differ by at most one."
+  },
+  {
+    "question": "What is an AVL tree?",
+    "answer": "A self-balancing binary search tree where the height difference between left and right subtrees is at most one for every node."
+  },
+  {
+    "question": "What is a red-black tree?",
+    "answer": "A self-balancing binary search tree with additional properties to ensure balance using node colors."
+  },
+  {
+    "question": "What is a B-tree?",
+    "answer": "A self-balancing search tree used in databases and file systems, where nodes can have more than two children."
+  },
+  {
+    "question": "What is a trie?",
+    "answer": "A tree-like data structure used to store associative arrays where the keys are usually strings."
+  },
+  {
+    "question": "What is a graph traversal?",
+    "answer": "The process of visiting all the nodes in a graph in a systematic way."
+  },
+  {
+    "question": "What is topological sorting used for?",
+    "answer": "Ordering tasks in a way that respects their dependencies, such as scheduling jobs."
+  },
+  {
+    "question": "What is a strongly connected component?",
+    "answer": "A maximal subset of vertices in a directed graph where every vertex is reachable from every other vertex."
+  },
+  {
+    "question": "What is a connected graph?",
+    "answer": "A graph in which there is a path between every pair of vertices."
+  },
+  {
+    "question": "What is a directed acyclic graph (DAG)?",
+    "answer": "A directed graph with no cycles."
+  },
+  {
+    "question": "What is the space complexity of an algorithm?",
+    "answer": "The amount of memory space required by an algorithm as a function of input size."
+  },
+  {
+    "question": "What is amortized analysis?",
+    "answer": "An analysis technique to average the running time of operations over a sequence of operations."
+  },
+  {
+    "question": "What is a stable sorting algorithm?",
+    "answer": "A sorting algorithm that preserves the relative order of equal elements."
+  },
+  {
+    "question": "Is merge sort stable?",
+    "answer": "Yes, merge sort is stable."
+  },
+  {
+    "question": "Is quicksort stable?",
+    "answer": "No, quicksort is not stable in its standard form."
+  },
+  {
+    "question": "What is the time complexity of searching for an element in a sorted array using binary search?",
+    "answer": "O(log n)."
+  },
+  {
+    "question": "What is the difference between a shallow copy and a deep copy?",
+    "answer": "A shallow copy copies references to objects, while a deep copy copies the objects themselves."
+  },
+  {
+    "question": "What is a sentinel in data structures?",
+    "answer": "A special value used to simplify boundary conditions."
+  },
+  {
+    "question": "What is a circular queue?",
+    "answer": "A queue in which the last position is connected back to the first position to make a circle."
+  },
+  {
+    "question": "What is a sparse matrix?",
+    "answer": "A matrix in which most elements are zero."
+  },
+  {
+    "question": "What is an adjacency matrix best suited for?",
+    "answer": "Dense graphs where most possible edges are present."
+  },
+  {
+    "question": "What is an adjacency list best suited for?",
+    "answer": "Sparse graphs where most possible edges are absent."
+  },
+  {
+    "question": "What is a hash function?",
+    "answer": "A function that converts input data into a fixed-size integer, used for indexing in hash tables."
+  },
+  {
+    "question": "What is the birthday paradox in hashing?",
+    "answer": "The probability of a collision increases rapidly as the number of inserted elements increases."
+  },
+  {
+    "question": "What is the difference between a stack and a queue?",
+    "answer": "A stack is LIFO (last-in, first-out), while a queue is FIFO (first-in, first-out)."
+  },
+  {
+    "question": "What is a deque?",
+    "answer": "A double-ended queue that allows insertion and deletion at both ends."
+  },
+  {
+    "question": "What is a circular buffer?",
+    "answer": "A fixed-size buffer that wraps around when the end is reached."
+  },
+  {
+    "question": "What is a self-balancing tree?",
+    "answer": "A tree that automatically keeps its height small after insertions and deletions."
+  },
+  {
+    "question": "What is a hash collision?",
+    "answer": "When two different keys produce the same hash value."
+  },
+  {
+    "question": "What is a perfect hash function?",
+    "answer": "A hash function that maps each key to a unique slot with no collisions."
+  },
+  {
+    "question": "What is a universal hash function?",
+    "answer": "A hash function chosen randomly from a family of hash functions with low collision probability."
+  },
+  {
+    "question": "What is the difference between depth-first and breadth-first traversal?",
+    "answer": "Depth-first explores as far as possible along each branch; breadth-first explores all neighbors at the current depth before going deeper."
+  },
+  {
+    "question": "What is the difference between a tree and a graph?",
+    "answer": "A tree is a connected acyclic graph; a general graph can have cycles and may not be connected."
+  },
+  {
+    "question": "What is a root node?",
+    "answer": "The top node in a tree, with no parent."
+  },
+  {
+    "question": "What is a parent node?",
+    "answer": "A node that has one or more child nodes."
+  },
+  {
+    "question": "What is a child node?",
+    "answer": "A node that descends from a parent node."
+  },
+  {
+    "question": "What is a sibling node?",
+    "answer": "Nodes that share the same parent."
+  },
+  {
+    "question": "What is a complete binary tree?",
+    "answer": "A binary tree in which every level except possibly the last is completely filled, and all nodes are as far left as possible."
+  },
+  {
+    "question": "What is a full binary tree?",
+    "answer": "A binary tree in which every node has 0 or 2 children."
+  },
+  {
+    "question": "What is a degenerate (or pathological) tree?",
+    "answer": "A tree where each parent node has only one child, resembling a linked list."
+  },
+  {
+    "question": "What is a multigraph?",
+    "answer": "A graph that can have multiple edges between the same pair of vertices."
+  },
+  {
+    "question": "What is a weighted edge?",
+    "answer": "An edge with an associated numerical value (weight)."
+  },
+  {
+    "question": "What is a cut vertex?",
+    "answer": "A vertex whose removal increases the number of connected components in a graph."
+  },
+  {
+    "question": "What is an articulation point?",
+    "answer": "Another term for a cut vertex."
+  },
+  {
+    "question": "What is a bridge in a graph?",
+    "answer": "An edge whose removal increases the number of connected components."
+  },
+  {
+    "question": "What is a Hamiltonian path?",
+    "answer": "A path that visits each vertex exactly once."
+  },
+  {
+    "question": "What is a Eulerian path?",
+    "answer": "A path that visits every edge exactly once."
+  },
+  {
+    "question": "What is the difference between a Hamiltonian and Eulerian path?",
+    "answer": "Hamiltonian path visits every vertex once; Eulerian path visits every edge once."
+  },
+  {
+    "question": "What is the traveling salesman problem?",
+    "answer": "The problem of finding the shortest possible route that visits each city exactly once and returns to the origin city."
+  },
+  {
+    "question": "What is NP-completeness?",
+    "answer": "A class of decision problems for which no polynomial-time solution is known, but a solution can be verified in polynomial time."
+  },
+  {
+    "question": "What is a brute-force algorithm?",
+    "answer": "An algorithm that tries all possible solutions to find the answer."
+  },
+  {
+    "question": "What is backtracking?",
+    "answer": "A general algorithmic technique for finding solutions by trying partial solutions and then abandoning them if they are not suitable."
+  },
+  {
+    "question": "What is memoization?",
+    "answer": "Storing the results of expensive function calls and reusing them when the same inputs occur again."
+  },
+  {
+    "question": "What is a greedy choice property?",
+    "answer": "A property that a global optimum can be arrived at by selecting a local optimum at each step."
+  },
+  {
+    "question": "What is a recurrence relation?",
+    "answer": "An equation that recursively defines a sequence where each term is a function of previous terms."
+  },
+  {
+    "question": "What is the master theorem?",
+    "answer": "A formula for solving recurrence relations of the form T(n) = aT(n/b) + f(n)."
+  },
+  {
+    "question": "What is tail recursion?",
+    "answer": "A recursive function in which the recursive call is the last operation in the function."
+  },
+  {
+    "question": "What is memoization used for?",
+    "answer": "To optimize recursive algorithms by caching results."
+  },
+  {
+    "question": "What is a sentinel node?",
+    "answer": "A dummy node used to simplify boundary conditions in data structures."
+  },
+  {
+    "question": "What is the amortized time complexity of push and pop operations in a stack implemented with a dynamic array?",
+    "answer": "O(1)."
+  },
+  {
+    "question": "What is a hash set?",
+    "answer": "A collection of unique elements implemented using a hash table."
+  },
+  {
+    "question": "What is a hash map?",
+    "answer": "A collection of key-value pairs implemented using a hash table."
+  },
+  {
+    "question": "What is a bloom filter?",
+    "answer": "A probabilistic data structure for set membership queries, allowing false positives but not false negatives."
+  },
+  {
+    "question": "What is a skip list?",
+    "answer": "A probabilistic data structure for fast search, insertion, and deletion in a sorted sequence."
+  },
+  {
+    "question": "What is a LIFO structure?",
+    "answer": "A Last-In-First-Out data structure, such as a stack."
+  },
+  {
+    "question": "What is a FIFO structure?",
+    "answer": "A First-In-First-Out data structure, such as a queue."
+  },
+  {
+    "question": "What is a heap property?",
+    "answer": "In a max-heap, every parent is greater than or equal to its children; in a min-heap, every parent is less than or equal to its children."
+  },
+  {
+    "question": "What is the time complexity of building a heap?",
+    "answer": "O(n)."
+  },
+  {
+    "question": "What is a self-organizing list?",
+    "answer": "A list that reorders its elements based on access patterns to improve performance."
+  },
+  {
+    "question": "What is a splay tree?",
+    "answer": "A self-adjusting binary search tree that moves accessed elements closer to the root."
+  },
+  {
+    "question": "What is a disjoint-set (union-find) structure?",
+    "answer": "A data structure that keeps track of a partition of a set into disjoint subsets."
+  },
+  {
+    "question": "What are the two main operations in a disjoint-set structure?",
+    "answer": "Find and union."
+  },
+  {
+    "question": "What is path compression in union-find?",
+    "answer": "A technique to flatten the structure of the tree whenever Find is called, speeding up future operations."
+  },
+  {
+    "question": "What is union by rank?",
+    "answer": "A technique to keep the tree flat by always attaching the smaller tree to the root of the larger tree."
+  },
+  {
+    "question": "What is a minimum cut in a graph?",
+    "answer": "A partition of the vertices into two non-empty sets such that the number of edges between the sets is minimized."
+  },
+  {
+    "question": "What is a flow network?",
+    "answer": "A directed graph where each edge has a capacity and each edge receives a flow."
+  },
+  {
+    "question": "What is the maximum flow problem?",
+    "answer": "Finding the greatest possible flow from a source to a sink in a flow network."
+  },
+  {
+    "question": "What is the Ford-Fulkerson algorithm?",
+    "answer": "An algorithm to compute the maximum flow in a flow network."
+  },
+  {
+    "question": "What is a residual graph?",
+    "answer": "A graph that shows the remaining capacity for each edge after some flow has been assigned."
+  },
+  {
+    "question": "What is a greedy algorithm?",
+    "answer": "An algorithm that makes the locally optimal choice at each stage."
+  },
+  {
+    "question": "What is the difference between greedy and dynamic programming algorithms?",
+    "answer": "Greedy algorithms make local choices; dynamic programming solves subproblems and combines solutions."
+  },
+  {
+    "question": "What is a randomized algorithm?",
+    "answer": "An algorithm that uses random numbers to influence its behavior."
+  },
+  {
+    "question": "What is a Monte Carlo algorithm?",
+    "answer": "A randomized algorithm that has a probability of producing an incorrect result."
+  },
+  {
+    "question": "What is a Las Vegas algorithm?",
+    "answer": "A randomized algorithm that always produces a correct result, but whose running time is random."
+  },
+  {
+    "question": "What is the time complexity of finding the maximum element in an unsorted array?",
+    "answer": "O(n)."
+  },
+  {
+    "question": "What is the time complexity of finding the minimum element in a min-heap?",
+    "answer": "O(1)."
+  },
+  {
+    "question": "What is the time complexity of deleting the minimum element from a min-heap?",
+    "answer": "O(log n)."
+  },
+  {
+    "question": "What is the purpose of a sentinel node in a linked list?",
+    "answer": "To simplify boundary conditions and eliminate the need for special cases."
+  },
+  {
+    "question": "What is a tail pointer in a linked list?",
+    "answer": "A reference to the last node in the list, allowing O(1) insertions at the end."
+  },
+  {
+    "question": "What is a hash collision?",
+    "answer": "When two different keys produce the same hash value."
+  },
+  {
+    "question": "What is a perfect hash function?",
+    "answer": "A hash function that maps each key to a unique slot with no collisions."
+  }
+]
