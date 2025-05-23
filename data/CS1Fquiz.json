@@ -1,0 +1,559 @@
+[
+  {
+    "question": "What is the main purpose of a database management system (DBMS)?",
+    "answer": "A DBMS stores, retrieves, and manages data efficiently, ensuring data consistency and allowing controlled concurrent access."
+  },
+  {
+    "question": "Define data redundancy and explain why it should be minimized in databases.",
+    "answer": "Data redundancy is the unnecessary duplication of data, which can lead to inconsistency and wasted storage."
+  },
+  {
+    "question": "What is the difference between data and information?",
+    "answer": "Data is raw facts and figures, while information is data that has been processed and given meaning."
+  },
+  {
+    "question": "What is knowledge in the context of data management?",
+    "answer": "Knowledge is the understanding and interpretation derived from information, often used to make decisions."
+  },
+  {
+    "question": "List three key issues in managing large amounts of data.",
+    "answer": "Ensuring data consistency, avoiding redundancy, and providing efficient access and security."
+  },
+  {
+    "question": "What is the role of data centers in modern data management?",
+    "answer": "Data centers store vast quantities of structured data in thousands of servers, enabling efficient querying and retrieval."
+  },
+  {
+    "question": "What are the main objectives of the Information Management module?",
+    "answer": "To understand how databases manage large data, the architecture of DBMS, and how to design and use relational databases."
+  },
+  {
+    "question": "Name two types of older database models.",
+    "answer": "Hierarchic databases and network databases."
+  },
+  {
+    "question": "What is a relational database?",
+    "answer": "A database organized as a collection of tables (relations) with relationships between them."
+  },
+  {
+    "question": "Give an example of a real-world application that relies on databases.",
+    "answer": "Managing user accounts and data for a social media platform like Facebook."
+  },
+  {
+    "question": "What is a database schema?",
+    "answer": "A schema is the structure of a database described in a formal language, including tables, fields, and relationships."
+  },
+  {
+    "question": "What is an entity in the context of databases?",
+    "answer": "An entity is a uniquely identifiable object in the real world about which data is stored."
+  },
+  {
+    "question": "What is an attribute in an ER diagram?",
+    "answer": "An attribute is a property or characteristic of an entity."
+  },
+  {
+    "question": "What is a relationship in an ER diagram?",
+    "answer": "A relationship captures how two or more entity types are related."
+  },
+  {
+    "question": "What is a primary key?",
+    "answer": "A primary key is an attribute or set of attributes that uniquely identifies each record in a table."
+  },
+  {
+    "question": "What is a foreign key?",
+    "answer": "A foreign key is an attribute in one table that references the primary key of another table, establishing a relationship."
+  },
+  {
+    "question": "What is a composite key?",
+    "answer": "A composite key is a primary key composed of multiple attributes."
+  },
+  {
+    "question": "What is a weak entity?",
+    "answer": "A weak entity cannot be uniquely identified by its own attributes alone and relies on a related strong entity."
+  },
+  {
+    "question": "Explain the concept of subtyping in ER modeling.",
+    "answer": "Subtyping allows an entity type to inherit properties from a parent entity type, representing specialization."
+  },
+  {
+    "question": "What is a recursive relationship in an ER diagram?",
+    "answer": "A recursive relationship is when an entity type is related to itself, such as an employee supervising another employee."
+  },
+  {
+    "question": "What is a multi-valued attribute?",
+    "answer": "A multi-valued attribute can have multiple values for a single entity, such as a person with multiple hobbies."
+  },
+  {
+    "question": "What is a composite attribute?",
+    "answer": "A composite attribute is made up of several component attributes, like an address consisting of street, city, and postcode."
+  },
+  {
+    "question": "What is the purpose of an ER diagram?",
+    "answer": "An ER diagram visually represents entities, attributes, and relationships in a database design."
+  },
+  {
+    "question": "List the main steps in constructing an ER diagram.",
+    "answer": "Identify entities, determine attributes, select primary keys, define relationships, and specify cardinality and participation."
+  },
+  {
+    "question": "What is cardinality in the context of relationships?",
+    "answer": "Cardinality specifies the number of entity instances that can participate in a relationship, such as one-to-one or one-to-many."
+  },
+  {
+    "question": "What is total participation in an ER model?",
+    "answer": "Total participation means every instance of an entity must participate in a relationship."
+  },
+  {
+    "question": "What is partial participation in an ER model?",
+    "answer": "Partial participation means only some instances of an entity participate in a relationship."
+  },
+  {
+    "question": "What is the difference between a strong and a weak entity?",
+    "answer": "A strong entity has a primary key; a weak entity depends on another entity for unique identification."
+  },
+  {
+    "question": "What is the three-level architecture in database systems?",
+    "answer": "It consists of the external (user view), conceptual (logical structure), and internal (physical storage) schemas."
+  },
+  {
+    "question": "What is the purpose of the conceptual schema?",
+    "answer": "The conceptual schema models the logical structure of the database, independent of how data is stored."
+  },
+  {
+    "question": "What is the internal schema?",
+    "answer": "The internal schema defines how data is physically stored in the database."
+  },
+  {
+    "question": "What is the external schema?",
+    "answer": "The external schema defines how different users view the data."
+  },
+  {
+    "question": "What is the role of a database administrator?",
+    "answer": "A database administrator maintains the accuracy, speed, integrity, and security of a database."
+  },
+  {
+    "question": "What is data modeling?",
+    "answer": "Data modeling is the process of creating a conceptual representation of the data to be stored in a database."
+  },
+  {
+    "question": "What is the difference between logical and physical design in databases?",
+    "answer": "Logical design defines the schema and relationships; physical design determines how data is stored and accessed."
+  },
+  {
+    "question": "What is normalization?",
+    "answer": "Normalization is the process of organizing data to minimize redundancy and improve data integrity."
+  },
+  {
+    "question": "What is denormalization?",
+    "answer": "Denormalization is the process of combining tables to improve read performance at the cost of redundancy."
+  },
+  {
+    "question": "What is a relational schema?",
+    "answer": "A relational schema is a set of attributes defining the structure of a relation (table) in a database."
+  },
+  {
+    "question": "What is a domain in a relational schema?",
+    "answer": "A domain is the set of allowable values for an attribute."
+  },
+  {
+    "question": "What is the degree of a relation?",
+    "answer": "The degree of a relation is the number of attributes (columns) it has."
+  },
+  {
+    "question": "What is the cardinality of a relation?",
+    "answer": "The cardinality of a relation is the number of tuples (rows) it contains."
+  },
+  {
+    "question": "What is a tuple in a relational database?",
+    "answer": "A tuple is a row in a table, representing a single record."
+  },
+  {
+    "question": "What is the First Normal Form (1NF)?",
+    "answer": "First Normal Form requires that all values in a table are atomic, with no multi-valued attributes."
+  },
+  {
+    "question": "What is a NULL value in SQL?",
+    "answer": "A NULL value represents missing or unknown data in a table."
+  },
+  {
+    "question": "What is referential integrity?",
+    "answer": "Referential integrity ensures that foreign key values always refer to existing primary key values in another table."
+  },
+  {
+    "question": "What is a constraint in SQL?",
+    "answer": "A constraint is a rule enforced on data columns to ensure validity, such as NOT NULL or UNIQUE."
+  },
+  {
+    "question": "What is a unique constraint?",
+    "answer": "A unique constraint ensures that all values in a column are distinct."
+  },
+  {
+    "question": "What is a check constraint?",
+    "answer": "A check constraint enforces a specific condition that values in a column must satisfy."
+  },
+  {
+    "question": "What is the difference between DDL and DML in SQL?",
+    "answer": "DDL (Data Definition Language) defines structures (CREATE, ALTER), while DML (Data Manipulation Language) modifies data (INSERT, UPDATE, DELETE)."
+  },
+  {
+    "question": "What is a view in SQL?",
+    "answer": "A view is a virtual table based on the result of an SQL query."
+  },
+  {
+    "question": "What is indexing in databases?",
+    "answer": "Indexing is creating a data structure to speed up data retrieval operations."
+  },
+  {
+    "question": "What is a transaction in a DBMS?",
+    "answer": "A transaction is a sequence of operations performed as a single logical unit of work."
+  },
+  {
+    "question": "What are the ACID properties of transactions?",
+    "answer": "Atomicity, Consistency, Isolation, and Durability."
+  },
+  {
+    "question": "What is atomicity in transactions?",
+    "answer": "Atomicity ensures that all operations in a transaction are completed or none are."
+  },
+  {
+    "question": "What is consistency in transactions?",
+    "answer": "Consistency ensures that a transaction brings the database from one valid state to another."
+  },
+  {
+    "question": "What is isolation in transactions?",
+    "answer": "Isolation ensures that concurrent transactions do not interfere with each other."
+  },
+  {
+    "question": "What is durability in transactions?",
+    "answer": "Durability ensures that once a transaction is committed, its changes are permanent."
+  },
+  {
+    "question": "What is a deadlock in a DBMS?",
+    "answer": "A deadlock occurs when two or more transactions wait indefinitely for each other to release resources."
+  },
+  {
+    "question": "What is concurrency control?",
+    "answer": "Concurrency control manages simultaneous operations without conflicting, ensuring data integrity."
+  },
+  {
+    "question": "What is two-phase locking?",
+    "answer": "Two-phase locking is a concurrency control method that guarantees serializability by dividing the locking process into growing and shrinking phases."
+  },
+  {
+    "question": "What is optimistic concurrency control?",
+    "answer": "Optimistic concurrency control assumes conflicts are rare and checks for conflicts only at commit time."
+  },
+  {
+    "question": "What is a database cursor?",
+    "answer": "A database cursor is a pointer that enables traversal over the records in a database."
+  },
+  {
+    "question": "What is the purpose of the COMMIT command in SQL?",
+    "answer": "COMMIT saves all changes made during the current transaction."
+  },
+  {
+    "question": "What does the ROLLBACK command do in SQL?",
+    "answer": "ROLLBACK undoes changes made in the current transaction."
+  },
+  {
+    "question": "What is a trigger in SQL?",
+    "answer": "A trigger is a set of instructions that are automatically executed in response to certain events on a table."
+  },
+  {
+    "question": "What is a stored procedure?",
+    "answer": "A stored procedure is a prepared SQL code that can be saved and reused."
+  },
+  {
+    "question": "What is a surrogate key?",
+    "answer": "A surrogate key is a system-generated unique identifier for a record, not derived from application data."
+  },
+  {
+    "question": "What is a candidate key?",
+    "answer": "A candidate key is an attribute, or set of attributes, that can uniquely identify a tuple."
+  },
+  {
+    "question": "What is a data warehouse?",
+    "answer": "A data warehouse is a central repository of integrated data from multiple sources for analysis and reporting."
+  },
+  {
+    "question": "What is data mining?",
+    "answer": "Data mining is the process of discovering patterns in large data sets."
+  },
+  {
+    "question": "What is a NoSQL database?",
+    "answer": "A NoSQL database is a non-relational database designed for large-scale data storage and real-time web applications."
+  },
+  {
+    "question": "What is SQL injection?",
+    "answer": "SQL injection is a code injection technique that can compromise a database by inserting malicious SQL statements."
+  },
+  {
+    "question": "What is data abstraction in databases?",
+    "answer": "Data abstraction is the process of hiding irrelevant details from users, presenting only necessary information."
+  },
+  {
+    "question": "What is the difference between INNER JOIN and OUTER JOIN?",
+    "answer": "INNER JOIN returns matching rows from both tables; OUTER JOIN returns all rows from one table and matched rows from the other."
+  },
+  {
+    "question": "What is a cross join?",
+    "answer": "A cross join returns the Cartesian product of two tables."
+  },
+  {
+    "question": "What is a self join?",
+    "answer": "A self join is a join where a table is joined with itself."
+  },
+  {
+    "question": "What is the difference between DELETE and TRUNCATE in SQL?",
+    "answer": "DELETE removes rows based on a condition and logs each row; TRUNCATE removes all rows and is faster but cannot be rolled back."
+  },
+  {
+    "question": "What is a bitmap index?",
+    "answer": "A bitmap index uses bitmaps for efficient query processing on columns with low cardinality."
+  },
+  {
+    "question": "What is eventual consistency in distributed databases?",
+    "answer": "Eventual consistency means updates propagate eventually so all replicas become consistent over time."
+  },
+  {
+    "question": "What is a star schema in data warehousing?",
+    "answer": "A star schema has a central fact table connected to multiple dimension tables."
+  },
+  {
+    "question": "What is OLAP?",
+    "answer": "OLAP (Online Analytical Processing) is used for complex analytical queries on large datasets."
+  },
+  {
+    "question": "What is the HAVING clause in SQL used for?",
+    "answer": "HAVING filters groups created by the GROUP BY clause."
+  },
+  {
+    "question": "What is a snowflake schema?",
+    "answer": "A snowflake schema is a normalized version of the star schema, with dimension tables broken into sub-dimensions."
+  },
+  {
+    "question": "What is the CAP theorem?",
+    "answer": "The CAP theorem states that a distributed system can only guarantee two of Consistency, Availability, and Partition tolerance."
+  },
+  {
+    "question": "What is a document-oriented database?",
+    "answer": "A document-oriented database stores, retrieves, and manages document-oriented information, usually in JSON or XML format."
+  },
+  {
+    "question": "What is a graph database?",
+    "answer": "A graph database uses graph structures for semantic queries with nodes, edges, and properties."
+  },
+  {
+    "question": "What is a key-value store?",
+    "answer": "A key-value store is a simple database that stores data as a collection of key-value pairs."
+  },
+  {
+    "question": "What is vertical partitioning?",
+    "answer": "Vertical partitioning divides a table into smaller tables with fewer columns."
+  },
+  {
+    "question": "What is horizontal partitioning?",
+    "answer": "Horizontal partitioning divides a table into smaller tables with fewer rows."
+  },
+  {
+    "question": "What is a B-tree index?",
+    "answer": "A B-tree index is a balanced tree data structure used for indexing in databases."
+  },
+  {
+    "question": "What is a hash index?",
+    "answer": "A hash index uses a hash function to map keys to locations for fast access."
+  },
+  {
+    "question": "What is a materialized view?",
+    "answer": "A materialized view is a database object that contains the results of a query and is physically stored."
+  },
+  {
+    "question": "What is sharding in databases?",
+    "answer": "Sharding is distributing data across multiple machines to improve scalability."
+  },
+  {
+    "question": "What is the difference between procedural and declarative query languages?",
+    "answer": "Procedural languages specify how to get results; declarative languages specify what results are desired."
+  },
+  {
+    "question": "What is relational algebra?",
+    "answer": "Relational algebra is a formal language for manipulating relations using operators like select, project, and join."
+  },
+  {
+    "question": "What does the SELECT operation do in relational algebra?",
+    "answer": "It retrieves rows that satisfy a given predicate."
+  },
+  {
+    "question": "What does the PROJECT operation do in relational algebra?",
+    "answer": "It extracts specific columns from a table."
+  },
+  {
+    "question": "What is a JOIN operation in relational algebra?",
+    "answer": "A JOIN operation combines rows from two or more tables based on a related column."
+  },
+  {
+    "question": "What is the UNION operation in relational algebra?",
+    "answer": "UNION combines tuples from two relations, removing duplicates."
+  },
+  {
+    "question": "What is the INTERSECTION operation in relational algebra?",
+    "answer": "INTERSECTION returns tuples that are present in both relations."
+  },
+  {
+    "question": "What is the DIFFERENCE operation in relational algebra?",
+    "answer": "DIFFERENCE returns tuples that are in the first relation but not in the second."
+  },
+  {
+    "question": "What is the CARTESIAN PRODUCT in relational algebra?",
+    "answer": "The CARTESIAN PRODUCT pairs each tuple of one relation with every tuple of another."
+  },
+  {
+    "question": "What is a natural join?",
+    "answer": "A natural join pairs tuples from two relations with equal values in common attributes, removing duplicate columns."
+  },
+  {
+    "question": "What is a selection predicate?",
+    "answer": "A selection predicate is a condition used to filter rows in a relation."
+  },
+  {
+    "question": "What is the difference between a set and a relation?",
+    "answer": "A set is an unordered collection of distinct elements; a relation is a set of ordered tuples."
+  },
+  {
+    "question": "What is set builder notation?",
+    "answer": "Set builder notation describes a set by stating the properties its members must satisfy."
+  },
+  {
+    "question": "What is the power set of a set?",
+    "answer": "The power set is the set of all subsets of a set, including the empty set and the set itself."
+  },
+  {
+    "question": "What is set union?",
+    "answer": "Set union combines all elements from two sets, without duplicates."
+  },
+  {
+    "question": "What is set intersection?",
+    "answer": "Set intersection returns elements common to both sets."
+  },
+  {
+    "question": "What is set difference?",
+    "answer": "Set difference returns elements in one set but not in the other."
+  },
+  {
+    "question": "What is the Cartesian product of two sets?",
+    "answer": "The Cartesian product is the set of all ordered pairs formed by taking one element from each set."
+  },
+  {
+    "question": "What is a predicate in set theory?",
+    "answer": "A predicate is a statement that may be true or false depending on the value of its variables, used to define set membership."
+  },
+  {
+    "question": "What is a subset?",
+    "answer": "A subset is a set where all its elements are also elements of another set."
+  },
+  {
+    "question": "What is the difference between a subset and a proper subset?",
+    "answer": "A proper subset is a subset that is not equal to the original set."
+  },
+  {
+    "question": "What is the empty set?",
+    "answer": "The empty set is a set with no elements, denoted by {} or Ø."
+  },
+  {
+    "question": "What is a Venn diagram?",
+    "answer": "A Venn diagram is a graphical representation of sets and their relationships."
+  },
+  {
+    "question": "What is the degree of a relation in relational algebra?",
+    "answer": "The degree is the number of attributes (columns) in the relation."
+  },
+  {
+    "question": "What is the cardinality of a relation in relational algebra?",
+    "answer": "The cardinality is the number of tuples (rows) in the relation."
+  },
+  {
+    "question": "What is the SELECT statement in SQL used for?",
+    "answer": "SELECT retrieves data from one or more tables based on specified criteria."
+  },
+  {
+    "question": "What does the WHERE clause do in SQL?",
+    "answer": "WHERE filters records based on a condition."
+  },
+  {
+    "question": "What does the GROUP BY clause do in SQL?",
+    "answer": "GROUP BY groups rows sharing a value in specified columns into summary rows."
+  },
+  {
+    "question": "What does the ORDER BY clause do in SQL?",
+    "answer": "ORDER BY sorts the result set by one or more columns."
+  },
+  {
+    "question": "What is a DDL command in SQL?",
+    "answer": "A DDL command defines or modifies the structure of database objects, such as CREATE or ALTER."
+  },
+  {
+    "question": "What is a DML command in SQL?",
+    "answer": "A DML command manipulates data within tables, such as INSERT, UPDATE, or DELETE."
+  },
+  {
+    "question": "What is an example of a one-to-many relationship?",
+    "answer": "A department has many employees, but each employee belongs to one department."
+  },
+  {
+    "question": "What is an example of a many-to-many relationship?",
+    "answer": "Students enroll in many courses, and each course has many students."
+  },
+  {
+    "question": "What is an example of a one-to-one relationship?",
+    "answer": "Each person has one passport, and each passport belongs to one person."
+  },
+  {
+    "question": "What is a foreign key constraint?",
+    "answer": "A foreign key constraint enforces referential integrity between two tables."
+  },
+  {
+    "question": "What is a schema refinement?",
+    "answer": "Schema refinement is the process of checking and improving a schema to remove redundancies and anomalies."
+  },
+  {
+    "question": "What is the main goal of physical database design?",
+    "answer": "To optimize storage and access efficiency based on expected workloads."
+  },
+  {
+    "question": "What is the purpose of a lab/tutorial in the CS1F module?",
+    "answer": "To provide hands-on experience in designing, building, and querying databases."
+  },
+  {
+    "question": "What is the role of MySQL Workbench in database design?",
+    "answer": "MySQL Workbench is used to design schemas, create tables, and manage databases visually."
+  },
+  {
+    "question": "What is the difference between a strong and a weak entity in ER modeling?",
+    "answer": "A strong entity has a primary key; a weak entity depends on a strong entity for identification."
+  },
+  {
+    "question": "What is a many-to-many relationship in ER modeling?",
+    "answer": "A relationship where multiple instances of one entity relate to multiple instances of another."
+  },
+  {
+    "question": "What is a ternary relationship?",
+    "answer": "A relationship involving three different entity types."
+  },
+  {
+    "question": "What is the difference between a schema and an instance in databases?",
+    "answer": "A schema is the structure of the database; an instance is the actual data at a given time."
+  },
+  {
+    "question": "What is the role of sets in relational algebra?",
+    "answer": "Sets provide the mathematical foundation for relations and operations in relational algebra."
+  },
+  {
+    "question": "What is the difference between a relation and a table?",
+    "answer": "A relation is a mathematical concept; a table is its implementation in a database."
+  }
+]
+
+
+
+
+

@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is a programming language?",
+    "answer": "A programming language is a formal system for communicating instructions to a computer."
+  },
+  {
+    "question": "What are the three main programming paradigms discussed in the course?",
+    "answer": "Imperative, functional, and object-oriented."
+  },
+  {
+    "question": "What is a programming paradigm?",
+    "answer": "A programming paradigm is a style of programming that dictates the principles, techniques, and methods used to solve problems."
+  },
+  {
+    "question": "Give an example of a multi-paradigm language.",
+    "answer": "Scala is a multi-paradigm language."
+  },
+  {
+    "question": "What is the main feature of imperative programming?",
+    "answer": "It is built around mutability and uses statements that alter program state."
+  },
+  {
+    "question": "What is the difference between expressions and statements?",
+    "answer": "An expression evaluates to a value, while a statement performs an action and does not return a value."
+  },
+  {
+    "question": "What is a first-class function?",
+    "answer": "A function that can be created, stored, and passed as a value."
+  },
+  {
+    "question": "What is encapsulation in object-oriented programming?",
+    "answer": "Encapsulation is the principle of hiding internal state and requiring all interaction to be performed through methods."
+  },
+  {
+    "question": "What is inheritance?",
+    "answer": "Inheritance is the ability to define new objects based on existing ones, extending their behavior."
+  },
+  {
+    "question": "What is the purpose of syntax in programming languages?",
+    "answer": "Syntax defines the structure and appearance of valid programs in a language."
+  },
+  {
+    "question": "What is the difference between concrete and abstract syntax?",
+    "answer": "Concrete syntax is how code is written by programmers, while abstract syntax is a simplified representation used internally."
+  },
+  {
+    "question": "What is a regular expression?",
+    "answer": "A pattern used to match strings, often for tokenization or searching."
+  },
+  {
+    "question": "Give an example of a use case for regular expressions in programming languages.",
+    "answer": "Tokenizing source code into tokens for parsing."
+  },
+  {
+    "question": "What is Backus-Naur Form (BNF)?",
+    "answer": "A notation for expressing the grammar of a language using production rules."
+  },
+  {
+    "question": "What is a parse tree?",
+    "answer": "A tree that represents how a string is derived from a grammar."
+  },
+  {
+    "question": "What does it mean for a grammar to be ambiguous?",
+    "answer": "It means that a string can be parsed in more than one way, leading to different parse trees."
+  },
+  {
+    "question": "What is the 'dangling if' problem?",
+    "answer": "An ambiguity in programming languages where it is unclear to which 'if' an 'else' belongs."
+  },
+  {
+    "question": "What is an abstract syntax tree (AST)?",
+    "answer": "A tree representation of the abstract syntactic structure of source code."
+  },
+  {
+    "question": "What is tokenization?",
+    "answer": "The process of converting a sequence of characters into a sequence of tokens."
+  },
+  {
+    "question": "What is the role of a parser?",
+    "answer": "A parser converts a sequence of tokens into an abstract syntax tree."
+  },
+  {
+    "question": "What is operational semantics?",
+    "answer": "A formal way to describe how programs execute, focusing on the steps of computation."
+  },
+  {
+    "question": "What is denotational semantics?",
+    "answer": "A method of giving mathematical meaning to programming languages by mapping expressions to mathematical objects."
+  },
+  {
+    "question": "What is axiomatic semantics?",
+    "answer": "A way to describe program behavior using logical assertions about program states."
+  },
+  {
+    "question": "What is the difference between an interpreter and a compiler?",
+    "answer": "An interpreter executes code directly, while a compiler translates code into another language, usually lower-level."
+  },
+  {
+    "question": "What is a virtual machine?",
+    "answer": "A software emulation of a physical computer that executes bytecode instructions."
+  },
+  {
+    "question": "What is a just-in-time (JIT) compiler?",
+    "answer": "A compiler that translates code to native machine code at runtime, usually for performance optimization."
+  },
+  {
+    "question": "What is the Church-Rosser property?",
+    "answer": "A property of deterministic evaluation: reducing subexpressions in any order yields the same result."
+  },
+  {
+    "question": "What is a value in the context of programming languages?",
+    "answer": "A value is the result of computation that cannot be evaluated further."
+  },
+  {
+    "question": "What is a big-step operational semantics?",
+    "answer": "A style of operational semantics that relates expressions directly to their final values."
+  },
+  {
+    "question": "What is a small-step operational semantics?",
+    "answer": "A style of operational semantics that describes computation as a sequence of individual reduction steps."
+  },
+  {
+    "question": "What is a derivation tree?",
+    "answer": "A tree showing how an expression is evaluated step by step according to the rules of operational semantics."
+  },
+  {
+    "question": "What is a conditional expression?",
+    "answer": "An expression that evaluates one of two branches depending on a Boolean condition."
+  },
+  {
+    "question": "What is a Boolean value?",
+    "answer": "A value that is either true or false."
+  },
+  {
+    "question": "What is a let-binding?",
+    "answer": "A construct that gives a name to a subexpression within a certain scope."
+  },
+  {
+    "question": "What is the scope of a variable?",
+    "answer": "The region of a program where a variable is bound to a particular value."
+  },
+  {
+    "question": "What is name shadowing?",
+    "answer": "When a variable declared in an inner scope has the same name as one in an outer scope, hiding the outer variable."
+  },
+  {
+    "question": "What is a free variable?",
+    "answer": "A variable that is used in an expression but not bound within it."
+  },
+  {
+    "question": "What is a bound variable?",
+    "answer": "A variable that is declared within an expression and is only meaningful within its scope."
+  },
+  {
+    "question": "What is substitution in programming languages?",
+    "answer": "Replacing all free occurrences of a variable in an expression with a value."
+  },
+  {
+    "question": "What is α-equivalence?",
+    "answer": "Two expressions are α-equivalent if they differ only in the names of their bound variables."
+  },
+  {
+    "question": "What is an anonymous function?",
+    "answer": "A function defined without a name, often called a lambda expression."
+  },
+  {
+    "question": "What is currying?",
+    "answer": "A technique where a function with multiple arguments is transformed into a sequence of functions each taking a single argument."
+  },
+  {
+    "question": "What is syntactic sugar?",
+    "answer": "Syntax within a programming language designed to make things easier to read or express, but which does not add new functionality."
+  },
+  {
+    "question": "What is function application?",
+    "answer": "The process of applying a function to an argument to produce a result."
+  },
+  {
+    "question": "What is variable capture?",
+    "answer": "When a free variable becomes bound after substitution, potentially changing the meaning of the expression."
+  },
+  {
+    "question": "How do you avoid variable capture?",
+    "answer": "By renaming bound variables to fresh names before substitution."
+  },
+  {
+    "question": "What is capture-avoiding substitution?",
+    "answer": "Substitution that ensures no free variable becomes bound, preserving the meaning of expressions."
+  },
+  {
+    "question": "What is the lambda calculus?",
+    "answer": "A formal system for expressing computation based on function abstraction and application."
+  },
+  {
+    "question": "What is recursion?",
+    "answer": "A function is recursive if it calls itself directly or indirectly."
+  },
+  {
+    "question": "What is a recursive let-binding?",
+    "answer": "A let-binding that allows the defined variable to be used within its own definition."
+  },
+  {
+    "question": "What is an anonymous recursive function?",
+    "answer": "A function that refers to itself without being given a name in the global scope."
+  },
+  {
+    "question": "What is a type in programming languages?",
+    "answer": "A classification that constrains the values an expression can take and the operations that can be performed on it."
+  },
+  {
+    "question": "What is typechecking?",
+    "answer": "The process of verifying and enforcing the constraints of types."
+  },
+  {
+    "question": "What is the difference between static and dynamic typing?",
+    "answer": "Static typing checks types at compile time, while dynamic typing checks types at runtime."
+  },
+  {
+    "question": "What is a type environment?",
+    "answer": "A mapping from variables to their types used during typechecking."
+  },
+  {
+    "question": "What is a function type?",
+    "answer": "A type that expresses a function from one type to another, written as A → B."
+  },
+  {
+    "question": "What is type inference?",
+    "answer": "The process of automatically determining the types of expressions without explicit type annotations."
+  },
+  {
+    "question": "What is a polymorphic function?",
+    "answer": "A function that can operate on arguments of many types."
+  },
+  {
+    "question": "What is a substructural type system?",
+    "answer": "A type system that constrains how variables can be used, such as restricting each variable to a single use."
+  },
+  {
+    "question": "What is a dependent type?",
+    "answer": "A type that depends on a value, allowing for more precise types."
+  },
+  {
+    "question": "What is type soundness?",
+    "answer": "A property that ensures well-typed programs do not cause certain kinds of runtime errors."
+  },
+  {
+    "question": "What is the preservation property in type soundness?",
+    "answer": "If a well-typed program takes a step of computation, the result is also well-typed."
+  },
+  {
+    "question": "What is the progress property in type soundness?",
+    "answer": "A well-typed program is either a value or can take a computational step (it does not get stuck)."
+  },
+  {
+    "question": "What is structural induction?",
+    "answer": "A proof technique that shows a property holds for all elements of an inductively defined structure."
+  },
+  {
+    "question": "What is rule induction?",
+    "answer": "A proof technique that shows a property holds for all derivations using the rules of an inductive definition."
+  },
+  {
+    "question": "What is the difference between big-step and small-step semantics?",
+    "answer": "Big-step relates expressions to their final values, while small-step relates expressions to their immediate next step."
+  },
+  {
+    "question": "What is an imperative programming language?",
+    "answer": "A language where computation is performed through statements that change program state."
+  },
+  {
+    "question": "What is the LWhile language?",
+    "answer": "A simple imperative language used to illustrate concepts like variable assignment, sequencing, and loops."
+  },
+  {
+    "question": "What is a statement in LWhile?",
+    "answer": "An instruction such as assignment, sequencing, conditional, or loop."
+  },
+  {
+    "question": "What is the role of the program state in imperative semantics?",
+    "answer": "It keeps track of the current values of all variables during execution."
+  },
+  {
+    "question": "What does the assignment statement do in LWhile?",
+    "answer": "It updates the value of a variable in the program state."
+  },
+  {
+    "question": "What does the skip statement do in LWhile?",
+    "answer": "It does nothing and leaves the program state unchanged."
+  },
+  {
+    "question": "How is sequencing modeled in LWhile?",
+    "answer": "By evaluating one statement and then the next, updating the state accordingly."
+  },
+  {
+    "question": "How is the if statement modeled in LWhile?",
+    "answer": "By evaluating the condition and then executing either the then-branch or the else-branch."
+  },
+  {
+    "question": "How is the while loop modeled in LWhile?",
+    "answer": "By repeatedly evaluating the body as long as the condition holds true."
+  },
+  {
+    "question": "What is the difference between expressions and statements in imperative languages?",
+    "answer": "Expressions compute values; statements perform actions and may change state."
+  },
+  {
+    "question": "What is the difference between a variable in an expression and a variable in a statement?",
+    "answer": "In expressions, variables are read for their values; in statements, variables can be assigned new values."
+  },
+  {
+    "question": "What is a program counter?",
+    "answer": "A register that tracks the current position in the program during execution."
+  },
+  {
+    "question": "What is a call stack?",
+    "answer": "A data structure that keeps track of active subroutines or function calls."
+  },
+  {
+    "question": "What is a stack-based virtual machine?",
+    "answer": "A VM that uses a stack to store operands for instructions, rather than registers."
+  },
+  {
+    "question": "What is the SVM in this course?",
+    "answer": "A simple stack-based virtual machine used for teaching imperative language implementation."
+  },
+  {
+    "question": "What is the role of an opcode in a virtual machine?",
+    "answer": "An opcode specifies the operation to be performed by the VM."
+  },
+  {
+    "question": "What does the ADD opcode do in SVM?",
+    "answer": "It pops two values from the stack, adds them, and pushes the result."
+  },
+  {
+    "question": "What does the JUMP opcode do in SVM?",
+    "answer": "It sets the program counter to a specified address."
+  },
+  {
+    "question": "What is the difference between LOADG and STOREG in SVM?",
+    "answer": "LOADG loads a value from a global address onto the stack; STOREG stores a value from the stack at a global address."
+  },
+  {
+    "question": "What is the purpose of a parser generator like ANTLR?",
+    "answer": "To automatically generate a lexer and parser from a grammar specification."
+  },
+  {
+    "question": "What is the visitor pattern?",
+    "answer": "A design pattern that separates operations from the objects on which they operate, useful for traversing ASTs."
+  },
+  {
+    "question": "What is the difference between a hand-written AST and one generated by a parser generator?",
+    "answer": "A hand-written AST can have more specific structure and types, making it easier to reason about and extend."
+  },
+  {
+    "question": "What is desugaring?",
+    "answer": "The process of translating syntactic sugar into more primitive constructs before further processing."
+  },
+  {
+    "question": "What is the main advantage of environment-based interpreters over substitution-based interpreters?",
+    "answer": "Environment-based interpreters are more efficient because they avoid repeated traversals of the AST."
+  },
+  {
+    "question": "What is the difference between call-by-value and call-by-name evaluation?",
+    "answer": "Call-by-value evaluates arguments before passing them to functions; call-by-name substitutes arguments directly into the function body."
+  },
+  {
+    "question": "What is lazy evaluation?",
+    "answer": "An evaluation strategy where expressions are only evaluated when their values are needed."
+  },
+  {
+    "question": "What is a type annotation?",
+    "answer": "An explicit declaration of the type of a variable or function parameter."
+  },
+  {
+    "question": "What is a type error?",
+    "answer": "An error that occurs when an operation is applied to operands of incompatible types."
+  },
+  {
+    "question": "What is a type variable?",
+    "answer": "A placeholder for a type, used in polymorphic functions and type inference."
+  },
+  {
+    "question": "What is the progress theorem?",
+    "answer": "If a program is well-typed, then it is either a value or can take a computational step."
+  },
+  {
+    "question": "What is the preservation theorem?",
+    "answer": "If a well-typed program takes a step of computation, the result is also well-typed."
+  },
+  {
+    "question": "What is the main benefit of static typechecking?",
+    "answer": "Early detection of errors and the ability to check all code paths without running the program."
+  },
+  {
+    "question": "What is the main benefit of dynamic typechecking?",
+    "answer": "Flexibility, allowing for more dynamic behaviors such as branches with different types."
+  },
+  {
+    "question": "What is a meta-level function in type systems?",
+    "answer": "A function defined outside the language itself, used to describe typing rules."
+  },
+  {
+    "question": "What is the purpose of type soundness proofs?",
+    "answer": "To formally guarantee that well-typed programs do not get stuck or produce certain runtime errors."
+  },
+  {
+    "question": "What is the difference between primitive and reference types?",
+    "answer": "Primitive types represent basic values; reference types refer to objects or data structures."
+  },
+  {
+    "question": "What is a truthy value?",
+    "answer": "A value that is considered true in a Boolean context, even if it is not strictly the Boolean true."
+  },
+  {
+    "question": "What is the role of a typechecker in an editor?",
+    "answer": "To provide real-time feedback and error detection as code is written."
+  },
+  {
+    "question": "What is an example of a language with type inference?",
+    "answer": "Haskell uses type inference to deduce types automatically."
+  },
+  {
+    "question": "What is a set-theoretic type system?",
+    "answer": "A type system that allows types to be defined as sets of values, supporting more flexible typing."
+  },
+  {
+    "question": "What is a sum type?",
+    "answer": "A type that can hold values of several different types, also known as a tagged union or variant type."
+  },
+  {
+    "question": "What is a product type?",
+    "answer": "A type that combines several values together, like a tuple or record."
+  },
+  {
+    "question": "What is a recursive type?",
+    "answer": "A type defined in terms of itself, allowing for structures like linked lists or trees."
+  },
+  {
+    "question": "What is the main purpose of formal semantics?",
+    "answer": "To provide a precise and unambiguous description of program behavior."
+  },
+  {
+    "question": "What is a side effect in programming?",
+    "answer": "An observable change in state caused by executing a statement or expression."
+  },
+  {
+    "question": "What is a closure?",
+    "answer": "A function together with its referencing environment, allowing it to access non-local variables."
+  },
+  {
+    "question": "What is garbage collection?",
+    "answer": "Automatic memory management that reclaims memory occupied by objects no longer in use."
+  },
+  {
+    "question": "What is a runtime system?",
+    "answer": "Support code that provides services like memory management and type checking during program execution."
+  },
+  {
+    "question": "What is the difference between lexical and dynamic scope?",
+    "answer": "Lexical scope is determined by the program structure; dynamic scope depends on the call stack at runtime."
+  },
+  {
+    "question": "What is a production rule in a grammar?",
+    "answer": "A rule that defines how symbols can be combined to form valid sentences in a language."
+  },
+  {
+    "question": "What is a terminal symbol in a grammar?",
+    "answer": "A symbol that appears in the language's strings and cannot be replaced by other symbols."
+  },
+  {
+    "question": "What is a nonterminal symbol in a grammar?",
+    "answer": "A symbol that can be replaced by groups of terminals and nonterminals according to production rules."
+  },
+  {
+    "question": "What is Chomsky's hierarchy?",
+    "answer": "A classification of formal languages into types: regular, context-free, context-sensitive, and recursively enumerable."
+  },
+  {
+    "question": "What is a context-free language?",
+    "answer": "A language that can be generated by a context-free grammar, often used for programming languages."
+  },
+  {
+    "question": "What is a push-down automaton?",
+    "answer": "A computational model that recognizes context-free languages using a stack."
+  },
+  {
+    "question": "What is a finite state automaton?",
+    "answer": "A computational model that recognizes regular languages without a stack."
+  },
+  {
+    "question": "What is the expressive limitation of regular expressions?",
+    "answer": "They cannot recognize languages with nested structures, such as matching parentheses."
+  },
+  {
+    "question": "What is the purpose of the visitor pattern in AST traversal?",
+    "answer": "To separate the logic of operations from the structure of the tree, making code more modular and extensible."
+  },
+  {
+    "question": "What is the difference between a hand-written interpreter and one generated by a parser generator?",
+    "answer": "Hand-written interpreters offer more control and optimization, while generated ones are quicker to implement but less flexible."
+  }
+]
