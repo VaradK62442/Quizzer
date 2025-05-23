@@ -1,0 +1,434 @@
+[
+  {
+    "question": "What does it mean for two functions to be equal?",
+    "answer": "They have the same value for every point in their domain."
+  },
+  {
+    "question": "What is the zero function?",
+    "answer": "A function that maps every real number to 0."
+  },
+  {
+    "question": "What is the unital function?",
+    "answer": "A function that maps every real number to 1."
+  },
+  {
+    "question": "How is the sum of two functions f and g defined?",
+    "answer": "By (f+g)(t) = f(t) + g(t) for all t in the domain."
+  },
+  {
+    "question": "How is the product of two functions f and g defined?",
+    "answer": "By (f*g)(t) = f(t) * g(t) for all t in the domain."
+  },
+  {
+    "question": "What does it mean for a function to be constant?",
+    "answer": "There is a real number c such that x(t) = c for all t in the domain."
+  },
+  {
+    "question": "State Rolle's Theorem for differentiable functions.",
+    "answer": "A function has zero derivative everywhere if and only if it is constant."
+  },
+  {
+    "question": "What is an initial-value problem (IVP)?",
+    "answer": "A differential equation together with a specified value at a starting point."
+  },
+  {
+    "question": "What is the solution to the trivial IVP dx/dt = 0, x(t0) = x0?",
+    "answer": "The constant function x(t) = x0 for all t."
+  },
+  {
+    "question": "State the Fundamental Theorem of Calculus.",
+    "answer": "If F(t) = ∫_{t0}^{t} f(τ) dτ, then F'(t) = f(t)."
+  },
+  {
+    "question": "How do you solve the IVP dx/dt = f(t), x(t0) = x0?",
+    "answer": "By x(t) = x0 + ∫_{t0}^{t} f(τ) dτ."
+  },
+  {
+    "question": "What is a maximal solution in the context of IVPs?",
+    "answer": "A solution that cannot be extended beyond its domain due to singularities or blow-up."
+  },
+  {
+    "question": "What is the canonical linear IVP?",
+    "answer": "An IVP of the form dx/dt = λx(t), x(t0) = x0."
+  },
+  {
+    "question": "What is the general solution to dx/dt = λx(t)?",
+    "answer": "x(t) = x0 * exp(λ(t-t0))."
+  },
+  {
+    "question": "What is the linear flow associated with a linear IVP?",
+    "answer": "A map φ(t; x0) = x0 * exp(λt) satisfying the group property."
+  },
+  {
+    "question": "What is the group property of the linear flow?",
+    "answer": "φ(t+s; x0) = φ(t; φ(s; x0)) for all t, s."
+  },
+  {
+    "question": "What is the canonical inhomogeneous linear IVP?",
+    "answer": "An IVP of the form dx/dt = λx(t) + q(t), x(t0) = x0."
+  },
+  {
+    "question": "What is the general solution to the inhomogeneous linear IVP?",
+    "answer": "x(t) = exp(λ(t-t0)) x0 + ∫_{t0}^{t} exp(λ(t-τ)) q(τ) dτ."
+  },
+  {
+    "question": "How do you solve the general inhomogeneous linear IVP dx/dt = p(t)x(t) + q(t)?",
+    "answer": "By integrating factors: x(t) = exp(∫_{t0}^{t} p(τ) dτ) x0 + ∫_{t0}^{t} exp(∫_{τ}^{t} p(s) ds) q(τ) dτ."
+  },
+  {
+    "question": "What is an autonomous IVP?",
+    "answer": "An IVP where the right-hand side depends only on the unknown function, not explicitly on time."
+  },
+  {
+    "question": "Write the general form of an autonomous IVP.",
+    "answer": "dx/dt = f(x(t)), x(0) = x0."
+  },
+  {
+    "question": "What is the quadratic IVP?",
+    "answer": "An IVP of the form dx/dt = x^2, x(0) = x0."
+  },
+  {
+    "question": "What is the maximal solution for the quadratic IVP with x0 > 0?",
+    "answer": "x(t) = x0 / (1 - x0 t) defined for t < 1/x0."
+  },
+  {
+    "question": "What is an equilibrium point for an autonomous IVP?",
+    "answer": "A value x0 such that f(x0) = 0."
+  },
+  {
+    "question": "What is an orbit in the context of IVPs?",
+    "answer": "The set of all values attained by the solution for admissible times."
+  },
+  {
+    "question": "What is a phase portrait?",
+    "answer": "A diagram showing orbits and equilibrium points, with arrows indicating direction of flow."
+  },
+  {
+    "question": "What are the equilibrium points of the logistic model dx/dt = (1-x)x?",
+    "answer": "0 and 1."
+  },
+  {
+    "question": "What is the explicit solution to the logistic IVP dx/dt = (1-x)x, x(0) = x0?",
+    "answer": "x(t) = x0 * exp(t) / (1 - x0 + x0 * exp(t))."
+  },
+  {
+    "question": "What is the general solution form for an autonomous IVP dx/dt = f(x)?",
+    "answer": "∫_{x0}^{x(t)} 1/f(w) dw = t."
+  },
+  {
+    "question": "What is a linear ODE in R^n?",
+    "answer": "An equation of the form dx/dt = A x(t) where A is a matrix."
+  },
+  {
+    "question": "What is the solution to dx/dt = A x(t), x(0) = x0?",
+    "answer": "x(t) = exp(tA) x0."
+  },
+  {
+    "question": "How is the matrix exponential exp(A) defined?",
+    "answer": "By the power series exp(A) = sum_{j=0}^∞ A^j / j!."
+  },
+  {
+    "question": "What is the commutator of two matrices A and B?",
+    "answer": "[A, B] = AB - BA."
+  },
+  {
+    "question": "What is a nilpotent matrix?",
+    "answer": "A matrix A such that A^k = 0 for some positive integer k."
+  },
+  {
+    "question": "What is the exponential group generated by a matrix A?",
+    "answer": "The family T(t) = exp(tA) for t in R."
+  },
+  {
+    "question": "What is the derivative of exp(tA) with respect to t?",
+    "answer": "A exp(tA)."
+  },
+  {
+    "question": "What is the solution to the diagonal linear IVP dx/dt = λ1 x, dy/dt = λ2 y?",
+    "answer": "x(t) = x0 exp(λ1 t), y(t) = y0 exp(λ2 t)."
+  },
+  {
+    "question": "What is the solution to the skew linear IVP dx/dt = αx - ωy, dy/dt = ωx + αy?",
+    "answer": "x(t) = exp(α t)(x0 cos(ω t) - y0 sin(ω t)), y(t) = exp(α t)(x0 sin(ω t) + y0 cos(ω t))."
+  },
+  {
+    "question": "What is the solution to the third canonical linear IVP dx/dt = αx + βy, dy/dt = αy?",
+    "answer": "x(t) = (x0 + β y0 t) exp(α t), y(t) = y0 exp(α t)."
+  },
+  {
+    "question": "What is an eigenpair of a matrix?",
+    "answer": "A pair (λ, d) such that Ad = λd."
+  },
+  {
+    "question": "How does the matrix exponential act on an eigenvector?",
+    "answer": "exp(tA) d = exp(λ t) d if Ad = λ d."
+  },
+  {
+    "question": "What is Duhamel’s formula for the inhomogeneous linear IVP in R^n?",
+    "answer": "x(t) = exp(tA) x0 + ∫_0^t exp((t-s)A) q(s) ds."
+  },
+  {
+    "question": "How do you compute the Laplace transform of a function x(t)?",
+    "answer": "L[x](s) = ∫_0^∞ x(t) exp(-s t) dt."
+  },
+  {
+    "question": "What is the Laplace transform of the unit function x(t) = 1?",
+    "answer": "1/s for s > 0."
+  },
+  {
+    "question": "What is the Laplace transform of x(t) = t?",
+    "answer": "1/s^2 for s > 0."
+  },
+  {
+    "question": "What is the Laplace transform of x(t) = exp(α t)?",
+    "answer": "1/(s - α) for s > α."
+  },
+  {
+    "question": "What is the Laplace transform of sin(α t)?",
+    "answer": "α / (s^2 + α^2) for s > 0."
+  },
+  {
+    "question": "What is the Laplace transform of cos(α t)?",
+    "answer": "s / (s^2 + α^2) for s > 0."
+  },
+  {
+    "question": "What is the Laplace transform of the shifted step function u_τ(t)?",
+    "answer": "exp(-τ s) / s for s > 0."
+  },
+  {
+    "question": "What is the Laplace transform of the delta function δ_τ(t)?",
+    "answer": "exp(-τ s) for all s."
+  },
+  {
+    "question": "State the linearity property of the Laplace transform.",
+    "answer": "The Laplace transform of a linear combination is the same combination of Laplace transforms."
+  },
+  {
+    "question": "What is the shifting theorem for the Laplace transform?",
+    "answer": "Multiplying by exp(β t) shifts the Laplace transform: L[exp(β t)x](s) = L[x](s-β)."
+  },
+  {
+    "question": "What is the Laplace transform of t x(t)?",
+    "answer": "-d/ds L[x](s)."
+  },
+  {
+    "question": "What is the Laplace transform of the convolution x * y?",
+    "answer": "L[x](s) L[y](s)."
+  },
+  {
+    "question": "What is the Laplace transform of a derivative dx/dt?",
+    "answer": "s L[x](s) - x(0)."
+  },
+  {
+    "question": "What is the Laplace transform of the nth derivative x^{(n)}(t)?",
+    "answer": "s^n L[x](s) - s^{n-1} x(0) - ... - x^{(n-1)}(0)."
+  },
+  {
+    "question": "How do you use Laplace transforms to solve ODEs?",
+    "answer": "Transform the ODE to an algebraic equation, solve for L[x](s), then invert the transform."
+  },
+  {
+    "question": "What is the Laplace transform of the solution to d^2x/dt^2 + a1 dx/dt + a0 x = 0 with initial conditions?",
+    "answer": "L[x](s) = (a2 x0 s + a2 v0 + a1 x0) / (a2 s^2 + a1 s + a0)."
+  },
+  {
+    "question": "What is the Laplace transform of the exponential function exp(α t)?",
+    "answer": "1/(s - α) for s > α."
+  },
+  {
+    "question": "What is the convolution of two functions?",
+    "answer": "(x * y)(t) = ∫_0^t x(τ) y(t-τ) dτ."
+  },
+  {
+    "question": "What is the Fourier series of a function?",
+    "answer": "A representation as a sum of sines and cosines with specific coefficients."
+  },
+  {
+    "question": "How do you determine the coefficients of a Fourier series?",
+    "answer": "By integrating the function times sine or cosine over one period."
+  },
+  {
+    "question": "What is an even function?",
+    "answer": "A function satisfying f(-x) = f(x)."
+  },
+  {
+    "question": "What is an odd function?",
+    "answer": "A function satisfying f(-x) = -f(x)."
+  },
+  {
+    "question": "What is the condition for convergence of a Fourier series?",
+    "answer": "If the function is piecewise continuous and has a finite number of maxima and minima."
+  },
+  {
+    "question": "What is the Fourier transform of a function f(t)?",
+    "answer": "F(ω) = ∫_{-∞}^{∞} f(t) exp(-i ω t) dt."
+  },
+  {
+    "question": "State the linearity property of the Fourier transform.",
+    "answer": "The Fourier transform of a sum is the sum of the Fourier transforms."
+  },
+  {
+    "question": "What is the Fourier transform of f(t-a)?",
+    "answer": "exp(-i ω a) F(ω)."
+  },
+  {
+    "question": "What is the Fourier transform of exp(i α t) f(t)?",
+    "answer": "F(ω - α)."
+  },
+  {
+    "question": "What is Parseval's theorem?",
+    "answer": "The integral of the square of a function equals the integral of the square of its Fourier transform (up to a constant)."
+  },
+  {
+    "question": "What is a trigonometric polynomial?",
+    "answer": "A finite sum of sines and cosines with real coefficients."
+  },
+  {
+    "question": "What is the period of a trigonometric polynomial?",
+    "answer": "The value T such that S(t+T) = S(t) for all t."
+  },
+  {
+    "question": "What is the Dirac delta function?",
+    "answer": "An idealized object with Laplace transform 1, representing an instantaneous impulse."
+  },
+  {
+    "question": "What is the shifted delta function δ_τ?",
+    "answer": "A delta function centered at t = τ."
+  },
+  {
+    "question": "What is the Laplace transform of δ_τ?",
+    "answer": "exp(-τ s) for all s."
+  },
+  {
+    "question": "What is the convolution theorem for Laplace transforms?",
+    "answer": "The Laplace transform of a convolution is the product of the Laplace transforms."
+  },
+  {
+    "question": "What is the initial value theorem for Laplace transforms?",
+    "answer": "If x(t) is continuous at t=0, then lim_{t→0^+} x(t) = lim_{s→∞} s L[x](s)."
+  },
+  {
+    "question": "What is the final value theorem for Laplace transforms?",
+    "answer": "If x(t) has a finite limit as t→∞, then lim_{t→∞} x(t) = lim_{s→0} s L[x](s)."
+  },
+  {
+    "question": "How do you use Laplace transforms to solve ODEs with discontinuous forcing?",
+    "answer": "By representing the forcing term with step or delta functions and using their Laplace transforms."
+  },
+  {
+    "question": "What is the Fourier transform of a Gaussian function?",
+    "answer": "It is another Gaussian function in the frequency domain."
+  },
+  {
+    "question": "What is the Fourier transform of sin(ω0 t)?",
+    "answer": "It is proportional to δ(ω - ω0) - δ(ω + ω0)."
+  },
+  {
+    "question": "What is the Fourier transform of cos(ω0 t)?",
+    "answer": "It is proportional to δ(ω - ω0) + δ(ω + ω0)."
+  },
+  {
+    "question": "What is the significance of the exponential order condition for Laplace transforms?",
+    "answer": "It ensures the Laplace integral converges."
+  },
+  {
+    "question": "What is the kernel of the Laplace transform?",
+    "answer": "The function exp(-s t)."
+  },
+  {
+    "question": "What is the kernel of the Fourier transform?",
+    "answer": "The function exp(-i ω t)."
+  },
+  {
+    "question": "What does it mean for a function to be of exponential order?",
+    "answer": "Its absolute value is bounded by M exp(α t) for some M, α."
+  },
+  {
+    "question": "What is the Laplace transform of a shifted function x(t-a)u(t-a)?",
+    "answer": "exp(-a s) L[x](s)."
+  },
+  {
+    "question": "What is the Laplace transform of the nth derivative of a function?",
+    "answer": "s^n L[x](s) - s^{n-1} x(0) - ... - x^{(n-1)}(0)."
+  },
+  {
+    "question": "What is the Fourier series representation of a periodic function?",
+    "answer": "A sum of sines and cosines with coefficients determined by integrals over one period."
+  },
+  {
+    "question": "What is the orthogonality property of sine and cosine functions?",
+    "answer": "Integrals of products of different sines or cosines over a period are zero."
+  },
+  {
+    "question": "What is the Parseval identity for Fourier series?",
+    "answer": "The sum of the squares of the Fourier coefficients equals the average value of the square of the function."
+  },
+  {
+    "question": "What is the effect of shifting a function in time on its Fourier transform?",
+    "answer": "It multiplies the transform by an exponential factor."
+  },
+  {
+    "question": "What is the effect of scaling a function in time on its Fourier transform?",
+    "answer": "It scales the frequency variable inversely and multiplies by a constant."
+  },
+  {
+    "question": "What is the Fourier transform of a rectangular pulse?",
+    "answer": "A sinc function in the frequency domain."
+  },
+  {
+    "question": "What is the convolution theorem for Fourier transforms?",
+    "answer": "The Fourier transform of a convolution is the product of the Fourier transforms."
+  },
+  {
+    "question": "What is the inverse Fourier transform?",
+    "answer": "It recovers the original function from its transform using an integral over all frequencies."
+  },
+  {
+    "question": "What is the relationship between Laplace and Fourier transforms?",
+    "answer": "The Fourier transform is a special case of the Laplace transform with purely imaginary argument."
+  },
+  {
+    "question": "What is a mode amplitude in Fourier series?",
+    "answer": "The magnitude of the coefficient for a particular frequency."
+  },
+  {
+    "question": "What is the phase of a mode in a Fourier series?",
+    "answer": "The angle associated with the complex Fourier coefficient."
+  },
+  {
+    "question": "What is the uniqueness theorem for Fourier series?",
+    "answer": "If two functions have the same Fourier coefficients, they are equal almost everywhere."
+  },
+  {
+    "question": "What is the periodic extension of a function?",
+    "answer": "A function defined on a finite interval extended to all real numbers by repeating its values."
+  },
+  {
+    "question": "What is the effect of differentiation on the Fourier transform?",
+    "answer": "Differentiation in time multiplies the transform by iω."
+  },
+  {
+    "question": "What is the effect of integration on the Fourier transform?",
+    "answer": "Integration in time divides the transform by iω."
+  },
+  {
+    "question": "What is the Fourier transform of a derivative?",
+    "answer": "It is iω F(ω) where F(ω) is the Fourier transform of f(t)."
+  },
+  {
+    "question": "What is the Fourier transform of an integral?",
+    "answer": "It is F(ω)/(iω)."
+  },
+  {
+    "question": "What is the Fourier transform of an even function?",
+    "answer": "It is real and even."
+  },
+  {
+    "question": "What is the Fourier transform of an odd function?",
+    "answer": "It is imaginary and odd."
+  },
+  {
+    "question": "What is the Fourier transform of a delta function?",
+    "answer": "It is 1 for all frequencies."
+  }
+]
