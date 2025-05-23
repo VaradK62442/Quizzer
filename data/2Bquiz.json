@@ -1,0 +1,622 @@
+[
+  {
+    "question": "What is a linear equation in n variables?",
+    "answer": "An equation of the form a1x1 + a2x2 + ... + anxn = b, where the coefficients ai and b are real numbers."
+  },
+  {
+    "question": "What is a solution to a linear equation?",
+    "answer": "A sequence s1, s2, ..., sn such that a1s1 + a2s2 + ... + ansn = b."
+  },
+  {
+    "question": "What is a system of linear equations?",
+    "answer": "A finite set of linear equations in the same variables."
+  },
+  {
+    "question": "What does it mean for a system of equations to be consistent?",
+    "answer": "It has at least one solution."
+  },
+  {
+    "question": "What does it mean for a system of equations to be inconsistent?",
+    "answer": "It has no solutions."
+  },
+  {
+    "question": "What is an augmented matrix?",
+    "answer": "A matrix that includes the coefficients and the constants from a system of linear equations."
+  },
+  {
+    "question": "What is row echelon form?",
+    "answer": "A matrix form where all-zero rows are at the bottom, each leading entry is 1, and each leading 1 is to the right of the one above."
+  },
+  {
+    "question": "What is reduced row echelon form?",
+    "answer": "A row echelon form where each leading 1 is the only nonzero entry in its column."
+  },
+  {
+    "question": "What are the three types of elementary row operations?",
+    "answer": "Row interchange, multiplying a row by a nonzero scalar, and adding a multiple of one row to another."
+  },
+  {
+    "question": "What is the rank of a matrix?",
+    "answer": "The number of leading 1s in any row echelon form of the matrix."
+  },
+  {
+    "question": "What does the rank tell you about the solutions to a system?",
+    "answer": "If the system is consistent and the rank is r, there are n - r free parameters in the solution."
+  },
+  {
+    "question": "How do you solve a system of equations using Gaussian elimination?",
+    "answer": "Write the augmented matrix, use row operations to reduce it to row echelon form, then use back substitution."
+  },
+  {
+    "question": "What is a homogeneous system?",
+    "answer": "A system where all constants are zero: a1x1 + ... + anxn = 0."
+  },
+  {
+    "question": "When does a homogeneous system have nontrivial solutions?",
+    "answer": "When the number of variables exceeds the rank of the coefficient matrix."
+  },
+  {
+    "question": "What is a vector in R^n?",
+    "answer": "An ordered n-tuple of real numbers."
+  },
+  {
+    "question": "How is vector addition defined in R^n?",
+    "answer": "Componentwise: (x1,...,xn) + (y1,...,yn) = (x1+y1,...,xn+yn)."
+  },
+  {
+    "question": "How is scalar multiplication defined in R^n?",
+    "answer": "c(x1,...,xn) = (cx1,...,cxn) for any scalar c."
+  },
+  {
+    "question": "What is a linear combination of vectors?",
+    "answer": "A sum c1v1 + ... + ckvk for scalars c1,...,ck and vectors v1,...,vk."
+  },
+  {
+    "question": "What does it mean for vectors to span R^n?",
+    "answer": "Every vector in R^n can be written as a linear combination of them."
+  },
+  {
+    "question": "What is linear independence?",
+    "answer": "A set of vectors is linearly independent if the only solution to c1v1 + ... + ckvk = 0 is c1 = ... = ck = 0."
+  },
+  {
+    "question": "What is a basis of a vector space?",
+    "answer": "A linearly independent spanning set."
+  },
+  {
+    "question": "What is the dimension of a vector space?",
+    "answer": "The number of vectors in any basis."
+  },
+  {
+    "question": "What is a subspace?",
+    "answer": "A subset of a vector space that is itself a vector space under the same operations."
+  },
+  {
+    "question": "What is the zero vector?",
+    "answer": "The vector with all entries zero."
+  },
+  {
+    "question": "What is the standard basis for R^n?",
+    "answer": "The set of vectors e1,...,en where ei has 1 in the ith coordinate and 0 elsewhere."
+  },
+  {
+    "question": "What is the sum of two subspaces U and W?",
+    "answer": "The set {u + w : u in U, w in W}."
+  },
+  {
+    "question": "What is the intersection of two subspaces?",
+    "answer": "The set of vectors belonging to both subspaces."
+  },
+  {
+    "question": "What is a matrix?",
+    "answer": "A rectangular array of numbers arranged in rows and columns."
+  },
+  {
+    "question": "What is a square matrix?",
+    "answer": "A matrix with the same number of rows and columns."
+  },
+  {
+    "question": "What is the identity matrix?",
+    "answer": "A square matrix with 1s on the diagonal and 0s elsewhere."
+  },
+  {
+    "question": "What is a diagonal matrix?",
+    "answer": "A square matrix where all off-diagonal entries are zero."
+  },
+  {
+    "question": "What is the transpose of a matrix?",
+    "answer": "The matrix obtained by switching rows and columns."
+  },
+  {
+    "question": "What is a symmetric matrix?",
+    "answer": "A square matrix equal to its transpose."
+  },
+  {
+    "question": "How is matrix addition defined?",
+    "answer": "Entrywise: (A+B)_{ij} = a_{ij} + b_{ij}."
+  },
+  {
+    "question": "How is scalar multiplication of a matrix defined?",
+    "answer": "Entrywise: (cA)_{ij} = c a_{ij}."
+  },
+  {
+    "question": "What is matrix-vector multiplication?",
+    "answer": "For A an m x n matrix and x in R^n, Ax is the linear combination of the columns of A with coefficients from x."
+  },
+  {
+    "question": "What is matrix multiplication?",
+    "answer": "For A (m x n) and B (n x k), AB is the m x k matrix with entries c_{ij} = sum_{r=1}^n a_{ir} b_{rj}."
+  },
+  {
+    "question": "When is matrix multiplication defined?",
+    "answer": "When the number of columns of the first matrix equals the number of rows of the second."
+  },
+  {
+    "question": "What is the zero matrix?",
+    "answer": "A matrix with all entries zero."
+  },
+  {
+    "question": "What is an elementary matrix?",
+    "answer": "A matrix obtained by performing a single elementary row operation on the identity matrix."
+  },
+  {
+    "question": "What is the inverse of a matrix?",
+    "answer": "A matrix B such that AB = BA = I, where I is the identity matrix."
+  },
+  {
+    "question": "When does a square matrix have an inverse?",
+    "answer": "If and only if it is nonsingular (determinant nonzero)."
+  },
+  {
+    "question": "What is a linear transformation?",
+    "answer": "A function T: V → W between vector spaces that preserves addition and scalar multiplication."
+  },
+  {
+    "question": "How can every linear transformation from R^n to R^m be represented?",
+    "answer": "By multiplication by an m x n matrix."
+  },
+  {
+    "question": "What is the kernel of a linear transformation?",
+    "answer": "The set of all vectors v such that T(v) = 0."
+  },
+  {
+    "question": "What is the image of a linear transformation?",
+    "answer": "The set of all vectors T(v) as v runs over the domain."
+  },
+  {
+    "question": "What is the rank-nullity theorem?",
+    "answer": "dim(domain) = rank(T) + nullity(T), where rank is the dimension of the image and nullity is the dimension of the kernel."
+  },
+  {
+    "question": "What is an eigenvalue of a matrix?",
+    "answer": "A scalar λ such that there exists a nonzero vector v with Av = λv."
+  },
+  {
+    "question": "What is an eigenvector?",
+    "answer": "A nonzero vector v such that Av = λv for some scalar λ."
+  },
+  {
+    "question": "How do you find the eigenvalues of a square matrix A?",
+    "answer": "By solving det(A - λI) = 0."
+  },
+  {
+    "question": "What is the characteristic polynomial of a matrix?",
+    "answer": "The polynomial det(A - λI)."
+  },
+  {
+    "question": "What is a diagonalizable matrix?",
+    "answer": "A matrix similar to a diagonal matrix; that is, there exists an invertible P such that P^{-1}AP is diagonal."
+  },
+  {
+    "question": "When is a matrix diagonalizable?",
+    "answer": "When it has enough linearly independent eigenvectors to form a basis."
+  },
+  {
+    "question": "What is an orthogonal matrix?",
+    "answer": "A square matrix Q such that Q^T Q = I."
+  },
+  {
+    "question": "What is the dot product of two vectors in R^n?",
+    "answer": "The sum of the products of their corresponding components: x · y = x1y1 + ... + xnyn."
+  },
+  {
+    "question": "What does it mean for two vectors to be orthogonal?",
+    "answer": "Their dot product is zero."
+  },
+  {
+    "question": "What is the length (norm) of a vector x in R^n?",
+    "answer": "The square root of the sum of the squares of its components: ||x|| = sqrt(x1^2 + ... + xn^2)."
+  },
+  {
+    "question": "What is a unit vector?",
+    "answer": "A vector of length 1."
+  },
+  {
+    "question": "What is the process of Gram-Schmidt orthogonalization?",
+    "answer": "A method to convert a basis into an orthogonal (or orthonormal) basis."
+  },
+  {
+    "question": "What is a quadratic form?",
+    "answer": "A function Q(x) = x^T A x for a symmetric matrix A."
+  },
+  {
+    "question": "What is a positive definite matrix?",
+    "answer": "A symmetric matrix A for which x^T A x > 0 for all nonzero x."
+  },
+  {
+    "question": "What is the trace of a square matrix?",
+    "answer": "The sum of the diagonal entries."
+  },
+  {
+    "question": "What is the determinant of a 2x2 matrix?",
+    "answer": "For A = [[a, b], [c, d]], det(A) = ad - bc."
+  },
+  {
+    "question": "What is the effect of swapping two rows on the determinant?",
+    "answer": "It multiplies the determinant by -1."
+  },
+  {
+    "question": "What is the effect of multiplying a row by a scalar on the determinant?",
+    "answer": "It multiplies the determinant by that scalar."
+  },
+  {
+    "question": "What is the determinant of a triangular matrix?",
+    "answer": "The product of the diagonal entries."
+  },
+  {
+    "question": "What is Cramer's rule?",
+    "answer": "A formula for the solution of a system of n linear equations in n variables using determinants."
+  },
+  {
+    "question": "What is the rank of a matrix?",
+    "answer": "The maximum number of linearly independent rows or columns."
+  },
+  {
+    "question": "What is a singular matrix?",
+    "answer": "A square matrix with determinant zero."
+  },
+  {
+    "question": "What is a nonsingular matrix?",
+    "answer": "A square matrix with nonzero determinant."
+  },
+  {
+    "question": "What is the adjugate of a matrix?",
+    "answer": "The transpose of the cofactor matrix."
+  },
+  {
+    "question": "What is the formula for the inverse of a 2x2 matrix?",
+    "answer": "If A = [[a, b], [c, d]], then A^{-1} = (1/(ad-bc)) [[d, -b], [-c, a]] if ad-bc ≠ 0."
+  },
+  {
+    "question": "What is the effect of multiplying a matrix by the identity matrix?",
+    "answer": "It leaves the matrix unchanged."
+  },
+  {
+    "question": "What is the minimal polynomial of a matrix?",
+    "answer": "The monic polynomial of least degree such that p(A) = 0."
+  },
+  {
+    "question": "What is the Cayley-Hamilton theorem?",
+    "answer": "Every square matrix satisfies its own characteristic equation."
+  },
+  {
+    "question": "What is a projection matrix?",
+    "answer": "A square matrix P such that P^2 = P."
+  },
+  {
+    "question": "What is an idempotent matrix?",
+    "answer": "A matrix P such that P^2 = P."
+  },
+  {
+    "question": "What is the rank-nullity theorem for matrices?",
+    "answer": "The number of columns equals the rank plus the nullity."
+  },
+  {
+    "question": "What is the null space of a matrix?",
+    "answer": "The set of all solutions to Ax = 0."
+  },
+  {
+    "question": "What is the column space of a matrix?",
+    "answer": "The span of its columns."
+  },
+  {
+    "question": "What is the row space of a matrix?",
+    "answer": "The span of its rows."
+  },
+  {
+    "question": "What is the dimension theorem for vector spaces?",
+    "answer": "All bases for a finite-dimensional vector space have the same number of elements."
+  },
+  {
+    "question": "What is the standard inner product in R^n?",
+    "answer": "The dot product."
+  },
+  {
+    "question": "What is the orthogonal complement of a subspace W?",
+    "answer": "The set of all vectors orthogonal to every vector in W."
+  },
+  {
+    "question": "What is the sum of the dimensions of a subspace and its orthogonal complement in R^n?",
+    "answer": "n."
+  },
+  {
+    "question": "What is a linear map?",
+    "answer": "A function between vector spaces preserving vector addition and scalar multiplication."
+  },
+  {
+    "question": "What is the matrix of a linear map with respect to a basis?",
+    "answer": "The matrix whose columns are the images of the basis vectors expressed in the basis."
+  },
+  {
+    "question": "What is the change of basis matrix?",
+    "answer": "A matrix that converts coordinates from one basis to another."
+  },
+  {
+    "question": "What is a similarity transformation?",
+    "answer": "A transformation of the form P^{-1}AP for invertible P."
+  },
+  {
+    "question": "What is the geometric meaning of an eigenvector?",
+    "answer": "A direction that is stretched or shrunk by the transformation but not rotated."
+  },
+  {
+    "question": "What is the geometric meaning of an eigenvalue?",
+    "answer": "The factor by which the eigenvector is stretched or shrunk."
+  },
+  {
+    "question": "What is the spectral theorem for symmetric matrices?",
+    "answer": "A real symmetric matrix can be diagonalized by an orthogonal matrix."
+  },
+  {
+    "question": "What is an orthonormal set?",
+    "answer": "A set of vectors that are all unit vectors and mutually orthogonal."
+  },
+  {
+    "question": "What is the QR decomposition of a matrix?",
+    "answer": "A factorization A = QR where Q is orthogonal and R is upper triangular."
+  },
+  {
+    "question": "What is the least squares solution to an inconsistent system?",
+    "answer": "The vector x minimizing ||Ax - b||^2."
+  },
+  {
+    "question": "What is a quadratic form?",
+    "answer": "A function Q(x) = x^T A x for a symmetric matrix A."
+  },
+  {
+    "question": "What is the principal axis theorem?",
+    "answer": "Any real symmetric matrix can be diagonalized by an orthogonal transformation."
+  },
+  {
+    "question": "What is the spectral radius of a matrix?",
+    "answer": "The largest absolute value of its eigenvalues."
+  },
+  {
+    "question": "What is the rank of a linear transformation?",
+    "answer": "The dimension of its image."
+  },
+  {
+    "question": "What is the nullity of a linear transformation?",
+    "answer": "The dimension of its kernel."
+  },
+  {
+    "question": "What is the determinant of a diagonal matrix?",
+    "answer": "The product of its diagonal entries."
+  },
+  {
+    "question": "What is the determinant of the identity matrix?",
+    "answer": "1."
+  },
+  {
+    "question": "What is the effect of row operations on the determinant?",
+    "answer": "Swapping rows multiplies by -1, scaling a row multiplies by the scalar, adding a multiple of one row to another does not change the determinant."
+  },
+  {
+    "question": "What is the formula for the determinant of a 3x3 matrix?",
+    "answer": "If A = [[a, b, c], [d, e, f], [g, h, i]], then det(A) = aei + bfg + cdh - ceg - bdi - afh."
+  },
+  {
+    "question": "What is a block matrix?",
+    "answer": "A matrix partitioned into smaller matrices called blocks."
+  },
+  {
+    "question": "What is the Schur complement?",
+    "answer": "Given a block matrix, the Schur complement is a derived matrix used in block matrix inversion."
+  },
+  {
+    "question": "What is a permutation matrix?",
+    "answer": "A matrix obtained by permuting the rows of the identity matrix."
+  },
+  {
+    "question": "What is the effect of multiplying by a permutation matrix?",
+    "answer": "It permutes the rows or columns of a matrix."
+  },
+  {
+    "question": "What is a nilpotent matrix?",
+    "answer": "A square matrix N such that N^k = 0 for some positive integer k."
+  },
+  {
+    "question": "What is a Jordan block?",
+    "answer": "A square matrix with a single eigenvalue on the diagonal, ones on the superdiagonal, and zeros elsewhere."
+  },
+  {
+    "question": "What is the Jordan canonical form?",
+    "answer": "A block diagonal matrix with Jordan blocks on the diagonal, similar to the original matrix."
+  },
+  {
+    "question": "What is the geometric multiplicity of an eigenvalue?",
+    "answer": "The dimension of its eigenspace."
+  },
+  {
+    "question": "What is the algebraic multiplicity of an eigenvalue?",
+    "answer": "Its multiplicity as a root of the characteristic polynomial."
+  },
+  {
+    "question": "What is the trace of a matrix?",
+    "answer": "The sum of its diagonal entries."
+  },
+  {
+    "question": "What is the relationship between trace and eigenvalues?",
+    "answer": "The trace equals the sum of the eigenvalues (counted with multiplicity)."
+  },
+  {
+    "question": "What is the relationship between determinant and eigenvalues?",
+    "answer": "The determinant equals the product of the eigenvalues (counted with multiplicity)."
+  },
+  {
+    "question": "What is the effect of similarity on eigenvalues?",
+    "answer": "Similar matrices have the same eigenvalues."
+  },
+  {
+    "question": "What is a linear operator?",
+    "answer": "A linear transformation from a vector space to itself."
+  },
+  {
+    "question": "What is the minimal polynomial of a linear operator?",
+    "answer": "The monic polynomial of least degree such that p(T) = 0."
+  },
+  {
+    "question": "What is the kernel of a matrix?",
+    "answer": "The set of vectors x such that Ax = 0."
+  },
+  {
+    "question": "What is the image of a matrix?",
+    "answer": "The set of all vectors y such that y = Ax for some x."
+  },
+  {
+    "question": "What is the rank of a matrix?",
+    "answer": "The dimension of its image (column space)."
+  },
+  {
+    "question": "What is the nullity of a matrix?",
+    "answer": "The dimension of its kernel (null space)."
+  },
+  {
+    "question": "What is a projection?",
+    "answer": "A linear transformation P such that P^2 = P."
+  },
+  {
+    "question": "What is a reflection matrix?",
+    "answer": "A matrix representing a reflection transformation in space."
+  },
+  {
+    "question": "What is the effect of an orthogonal matrix on length?",
+    "answer": "It preserves the length of vectors."
+  },
+  {
+    "question": "What is the effect of an orthogonal matrix on angles?",
+    "answer": "It preserves angles between vectors."
+  },
+  {
+    "question": "What is the determinant of an orthogonal matrix?",
+    "answer": "Either 1 or -1."
+  },
+  {
+    "question": "What is the Gram-Schmidt process used for?",
+    "answer": "To construct an orthonormal basis from a set of linearly independent vectors."
+  },
+  {
+    "question": "What is a unitary matrix?",
+    "answer": "A complex square matrix U such that U*U = I, where U* is the conjugate transpose."
+  },
+  {
+    "question": "What is the difference between real and complex vector spaces?",
+    "answer": "Real vector spaces have real scalars; complex vector spaces have complex scalars."
+  },
+  {
+    "question": "What is a direct sum of subspaces?",
+    "answer": "A sum U + W where U ∩ W = {0}."
+  },
+  {
+    "question": "What is the dimension of the direct sum of two subspaces U and W?",
+    "answer": "dim(U) + dim(W) if U ∩ W = {0}."
+  },
+  {
+    "question": "What is the rank of a product of two matrices?",
+    "answer": "It is less than or equal to the minimum of the ranks of the two matrices."
+  },
+  {
+    "question": "What is the effect of a similarity transformation on the trace?",
+    "answer": "The trace is unchanged."
+  },
+  {
+    "question": "What is the spectral decomposition of a diagonalizable matrix?",
+    "answer": "A representation as a sum of projections onto its eigenspaces."
+  },
+  {
+    "question": "What is the Moore-Penrose pseudoinverse?",
+    "answer": "A generalization of the inverse for non-square or singular matrices."
+  },
+  {
+    "question": "What is the SVD (singular value decomposition)?",
+    "answer": "A factorization A = UΣV^T where U and V are orthogonal and Σ is diagonal with non-negative entries."
+  },
+  {
+    "question": "What is a rank-1 matrix?",
+    "answer": "A matrix that can be written as the outer product of two vectors."
+  },
+  {
+    "question": "What is the effect of multiplying a matrix by a scalar?",
+    "answer": "All entries are multiplied by the scalar."
+  },
+  {
+    "question": "What is the effect of multiplying a row by a scalar on the determinant?",
+    "answer": "The determinant is multiplied by the scalar."
+  },
+  {
+    "question": "What is a block diagonal matrix?",
+    "answer": "A matrix made up of square diagonal blocks and zeros elsewhere."
+  },
+  {
+    "question": "What is the trace of a block diagonal matrix?",
+    "answer": "The sum of the traces of the diagonal blocks."
+  },
+  {
+    "question": "What is the determinant of a block diagonal matrix?",
+    "answer": "The product of the determinants of the diagonal blocks."
+  },
+  {
+    "question": "What is a companion matrix?",
+    "answer": "A matrix whose characteristic polynomial is a given monic polynomial."
+  },
+  {
+    "question": "What is the Cayley-Hamilton theorem for a companion matrix?",
+    "answer": "The companion matrix satisfies its own characteristic polynomial."
+  },
+  {
+    "question": "What is the effect of row reducing a matrix to echelon form?",
+    "answer": "It reveals the rank and the structure of solutions to Ax = b."
+  },
+  {
+    "question": "What is the effect of changing the basis on the matrix of a linear transformation?",
+    "answer": "The matrix changes by a similarity transformation."
+  },
+  {
+    "question": "What is a basis for the null space of a matrix?",
+    "answer": "A set of vectors that spans the set of solutions to Ax = 0."
+  },
+  {
+    "question": "What is a basis for the column space of a matrix?",
+    "answer": "A set of columns that spans the image of the matrix."
+  },
+  {
+    "question": "What is a basis for the row space of a matrix?",
+    "answer": "A set of rows that spans the row space."
+  },
+  {
+    "question": "What is the dimension of the null space plus the rank of a matrix?",
+    "answer": "It equals the number of columns of the matrix."
+  },
+  {
+    "question": "What is the effect of an invertible linear transformation on dimension?",
+    "answer": "It preserves the dimension of the vector space."
+  },
+  {
+    "question": "What is the geometric interpretation of the determinant?",
+    "answer": "It gives the scaling factor for volume under the linear transformation."
+  },
+  {
+    "question": "What is the effect of a linear transformation on the origin?",
+    "answer": "It always maps the origin to the origin."
+  }
+]
