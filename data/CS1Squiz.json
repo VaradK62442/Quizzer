@@ -1,0 +1,530 @@
+[
+  {
+    "question": "What is the difference between analogue and digital data representation?",
+    "answer": "Analogue uses continuous physical quantities, while digital uses discrete values such as binary digits."
+  },
+  {
+    "question": "Give an example of analogue data representation.",
+    "answer": "Using voltage to represent a number."
+  },
+  {
+    "question": "What is a bit?",
+    "answer": "A bit is a binary digit, which can be either 0 or 1."
+  },
+  {
+    "question": "How many values can a byte represent?",
+    "answer": "A byte can represent 256 values."
+  },
+  {
+    "question": "What is a word in computer architecture?",
+    "answer": "A word is a group of bits processed as a unit by the CPU."
+  },
+  {
+    "question": "What is the main advantage of digital representation?",
+    "answer": "It allows for high precision and error correction."
+  },
+  {
+    "question": "What is the ASCII code for 'A'?",
+    "answer": "01000001"
+  },
+  {
+    "question": "What is the decimal value of binary 1010?",
+    "answer": "10"
+  },
+  {
+    "question": "How do you convert decimal 13 to binary?",
+    "answer": "13 in binary is 1101."
+  },
+  {
+    "question": "What is two's complement?",
+    "answer": "A way to represent signed integers in binary."
+  },
+  {
+    "question": "How do you negate a number in two's complement?",
+    "answer": "Invert all bits and add one."
+  },
+  {
+    "question": "What is the range of 8-bit two's complement numbers?",
+    "answer": "-128 to 127"
+  },
+  {
+    "question": "What is the hexadecimal for binary 11110000?",
+    "answer": "F0"
+  },
+  {
+    "question": "What is a logic gate?",
+    "answer": "A device that implements a Boolean function."
+  },
+  {
+    "question": "What does an AND gate output if both inputs are 1?",
+    "answer": "1"
+  },
+  {
+    "question": "What is a multiplexer?",
+    "answer": "A circuit that selects one input from several and forwards it to the output."
+  },
+  {
+    "question": "What is a combinational circuit?",
+    "answer": "A circuit whose output depends only on current inputs."
+  },
+  {
+    "question": "What is Boolean algebra?",
+    "answer": "Mathematics of logic with true/false values."
+  },
+  {
+    "question": "What is a half adder?",
+    "answer": "A circuit that adds two bits and outputs sum and carry."
+  },
+  {
+    "question": "What is a full adder?",
+    "answer": "A circuit that adds three bits (including carry-in) and outputs sum and carry."
+  },
+  {
+    "question": "What is a ripple carry adder?",
+    "answer": "A chain of full adders to add multi-bit numbers."
+  },
+  {
+    "question": "How is subtraction performed in digital circuits?",
+    "answer": "By adding the two's complement of the subtracted number."
+  },
+  {
+    "question": "What is a synchronous circuit?",
+    "answer": "A circuit where state changes are controlled by a clock signal."
+  },
+  {
+    "question": "What does a flip-flop do?",
+    "answer": "Stores one bit of information."
+  },
+  {
+    "question": "What is a register?",
+    "answer": "A fast storage location in the CPU."
+  },
+  {
+    "question": "What is a register file?",
+    "answer": "An array of registers in the CPU."
+  },
+  {
+    "question": "What is the ALU?",
+    "answer": "Arithmetic Logic Unit, performs arithmetic and logic operations."
+  },
+  {
+    "question": "What is the program counter?",
+    "answer": "A register holding the address of the next instruction."
+  },
+  {
+    "question": "What is an instruction register?",
+    "answer": "A register holding the current instruction."
+  },
+  {
+    "question": "What is the stack pointer?",
+    "answer": "A register pointing to the top of the stack."
+  },
+  {
+    "question": "What is the von Neumann architecture?",
+    "answer": "A computer design with shared memory for data and instructions."
+  },
+  {
+    "question": "What is machine language?",
+    "answer": "Binary instructions executed by the CPU."
+  },
+  {
+    "question": "What is assembly language?",
+    "answer": "A symbolic representation of machine language."
+  },
+  {
+    "question": "What does an assembler do?",
+    "answer": "Translates assembly code to machine code."
+  },
+  {
+    "question": "What is the function of the 'trap' instruction?",
+    "answer": "Requests an OS operation like I/O or program termination."
+  },
+  {
+    "question": "How do you load a constant into a register in Sigma16?",
+    "answer": "Use 'lea R2,57[R0]' to load 57 into R2."
+  },
+  {
+    "question": "What does 'add R1,R2,R3' do in Sigma16?",
+    "answer": "Adds R2 and R3, stores result in R1."
+  },
+  {
+    "question": "What does the 'load' instruction do?",
+    "answer": "Copies data from memory to a register."
+  },
+  {
+    "question": "What does the 'store' instruction do?",
+    "answer": "Copies data from a register to memory."
+  },
+  {
+    "question": "What is an RX instruction?",
+    "answer": "An instruction operating on a register and a memory location."
+  },
+  {
+    "question": "How do you define a variable in Sigma16?",
+    "answer": "Use 'data' statement, e.g., x data 23."
+  },
+  {
+    "question": "What is the difference between RRR and RX instructions?",
+    "answer": "RRR uses three registers, RX uses a register and memory."
+  },
+  {
+    "question": "How do you access the third element of an array x in Sigma16?",
+    "answer": "Use 'load R3,x[R2]' where R2 is the index."
+  },
+  {
+    "question": "How are arrays stored in memory?",
+    "answer": "In consecutive memory locations."
+  },
+  {
+    "question": "What is address arithmetic?",
+    "answer": "Calculating addresses using base and offset."
+  },
+  {
+    "question": "What is an effective address?",
+    "answer": "The computed memory address used in an instruction."
+  },
+  {
+    "question": "How do you traverse an array in assembly?",
+    "answer": "Use a loop and index register to access each element."
+  },
+  {
+    "question": "What is a record?",
+    "answer": "A data structure grouping related fields."
+  },
+  {
+    "question": "How are records stored in memory?",
+    "answer": "As consecutive memory locations for each field."
+  },
+  {
+    "question": "How do you access a record field in assembly?",
+    "answer": "Calculate offset and use load/store."
+  },
+  {
+    "question": "What is a pointer?",
+    "answer": "A variable storing the address of another variable."
+  },
+  {
+    "question": "How do you get the address of a variable in assembly?",
+    "answer": "Use 'lea' instruction."
+  },
+  {
+    "question": "How do you follow a pointer in assembly?",
+    "answer": "Use 'load' with the pointer register as index."
+  },
+  {
+    "question": "What is the call stack?",
+    "answer": "A data structure storing active procedure info."
+  },
+  {
+    "question": "How do you call a procedure in Sigma16?",
+    "answer": "Use 'jal' instruction."
+  },
+  {
+    "question": "How do you return from a procedure in Sigma16?",
+    "answer": "Use 'jump 0[reg]' where reg holds return address."
+  },
+  {
+    "question": "What is parameter passing?",
+    "answer": "Providing input values to procedures."
+  },
+  {
+    "question": "Why use procedures?",
+    "answer": "For code reuse and modularity."
+  },
+  {
+    "question": "What is a control structure?",
+    "answer": "A construct that controls the flow of execution."
+  },
+  {
+    "question": "How is an if-then-else implemented in assembly?",
+    "answer": "Using compare and conditional jump instructions."
+  },
+  {
+    "question": "What is a goto statement?",
+    "answer": "A command to jump to a labeled instruction."
+  },
+  {
+    "question": "How is a while loop implemented in assembly?",
+    "answer": "With a label, compare, conditional jump, and loop."
+  },
+  {
+    "question": "What is structured programming?",
+    "answer": "Using clear control flow constructs, avoiding goto."
+  },
+  {
+    "question": "Why are comments important in assembly?",
+    "answer": "They explain code for easier understanding."
+  },
+  {
+    "question": "How do you copy a register value in assembly?",
+    "answer": "Use 'add dest,src,R0'."
+  },
+  {
+    "question": "What is a label in assembly?",
+    "answer": "A name for a line, used as a jump target."
+  },
+  {
+    "question": "What is the difference between high-level and low-level languages?",
+    "answer": "High-level is more abstract, low-level is closer to hardware."
+  },
+  {
+    "question": "What does the cmp instruction do in Sigma16?",
+    "answer": "Compares two registers and sets status flags."
+  },
+  {
+    "question": "How do you write a for-loop in assembly?",
+    "answer": "Initialize, compare, conditional jump, increment, loop."
+  },
+  {
+    "question": "How do you define an array in assembly?",
+    "answer": "Use consecutive data statements."
+  },
+  {
+    "question": "What is the purpose of the trap instruction for I/O?",
+    "answer": "To request input or output from the OS."
+  },
+  {
+    "question": "How do you write a string in memory in Sigma16?",
+    "answer": "Use data statements for each character's ASCII code."
+  },
+  {
+    "question": "What is the difference between a variable and a constant?",
+    "answer": "A variable can change, a constant is fixed."
+  },
+  {
+    "question": "What does the OS do for user programs?",
+    "answer": "Manages resources and provides services like I/O."
+  },
+  {
+    "question": "What does the lea instruction do?",
+    "answer": "Loads a constant or address into a register."
+  },
+  {
+    "question": "How do you implement nested procedure calls?",
+    "answer": "Save return addresses and registers on the stack."
+  },
+  {
+    "question": "Why is the stack pointer important?",
+    "answer": "It tracks the top of the call stack."
+  },
+  {
+    "question": "What is a truth table?",
+    "answer": "A table showing all possible input and output values for a logic circuit."
+  },
+  {
+    "question": "What is the function of a decoder?",
+    "answer": "Converts binary input to a one-hot output."
+  },
+  {
+    "question": "What is a bus in computer architecture?",
+    "answer": "A communication system that transfers data between components."
+  },
+  {
+    "question": "What is an opcode?",
+    "answer": "The part of a machine instruction that specifies the operation."
+  },
+  {
+    "question": "What is pipelining?",
+    "answer": "A technique where multiple instruction steps are overlapped to improve performance."
+  },
+  {
+    "question": "What is a hazard in pipelining?",
+    "answer": "A situation that prevents the next instruction from executing in the next cycle."
+  },
+  {
+    "question": "What is cache memory?",
+    "answer": "A small, fast memory that stores frequently accessed data."
+  },
+  {
+    "question": "What is direct addressing?",
+    "answer": "An addressing mode where the address is given explicitly in the instruction."
+  },
+  {
+    "question": "What is indirect addressing?",
+    "answer": "An addressing mode where the address is held in a register or memory location."
+  },
+  {
+    "question": "What is immediate addressing?",
+    "answer": "An addressing mode where a constant value is specified in the instruction."
+  },
+  {
+    "question": "What is the function of the status register?",
+    "answer": "It holds flags that indicate the outcome of operations."
+  },
+  {
+    "question": "What is a micro-operation?",
+    "answer": "A basic operation performed on data stored in registers."
+  },
+  {
+    "question": "What is a microinstruction?",
+    "answer": "A low-level instruction in a microprogrammed control unit."
+  },
+  {
+    "question": "What is a finite state machine?",
+    "answer": "A model of computation with a finite number of states and transitions."
+  },
+  {
+    "question": "What is a state diagram?",
+    "answer": "A graphical representation of a finite state machine."
+  },
+  {
+    "question": "What is a control unit?",
+    "answer": "The part of the CPU that directs operations by issuing control signals."
+  },
+  {
+    "question": "What is instruction decoding?",
+    "answer": "The process of interpreting the opcode and operands of an instruction."
+  },
+  {
+    "question": "What is the Harvard architecture?",
+    "answer": "A computer architecture with separate memory for instructions and data."
+  },
+  {
+    "question": "What is the difference between static and dynamic RAM?",
+    "answer": "Static RAM retains data as long as power is supplied; dynamic RAM needs to be refreshed periodically."
+  },
+  {
+    "question": "What is a memory hierarchy?",
+    "answer": "A structure that uses multiple levels of memory with different speeds and sizes."
+  },
+  {
+    "question": "What is a page in virtual memory?",
+    "answer": "A fixed-size block of memory used in virtual memory systems."
+  },
+  {
+    "question": "What is a page fault?",
+    "answer": "An event that occurs when a program accesses a page not currently in main memory."
+  },
+  {
+    "question": "What is a TLB?",
+    "answer": "Translation Lookaside Buffer, a cache for virtual-to-physical address translations."
+  },
+  {
+    "question": "What is a context switch?",
+    "answer": "The process of saving and restoring the state of a CPU so that execution can be resumed from the same point later."
+  },
+  {
+    "question": "What is a system call?",
+    "answer": "A request from a program to the operating system for a service."
+  },
+  {
+    "question": "What is an interrupt?",
+    "answer": "A signal that causes the CPU to stop its current activity and execute a handler routine."
+  },
+  {
+    "question": "What is polling?",
+    "answer": "A method where the CPU repeatedly checks the status of an I/O device."
+  },
+  {
+    "question": "What is DMA?",
+    "answer": "Direct Memory Access, a feature that allows devices to transfer data to or from memory without CPU intervention."
+  },
+  {
+    "question": "What is a peripheral device?",
+    "answer": "An external device connected to a computer, such as a keyboard or printer."
+  },
+  {
+    "question": "What is a bus protocol?",
+    "answer": "A set of rules for communication over a bus."
+  },
+  {
+    "question": "What is endianess?",
+    "answer": "The order in which bytes are stored for multi-byte data types."
+  },
+  {
+    "question": "What is big-endian?",
+    "answer": "A format where the most significant byte is stored at the lowest memory address."
+  },
+  {
+    "question": "What is little-endian?",
+    "answer": "A format where the least significant byte is stored at the lowest memory address."
+  },
+  {
+    "question": "What is a bootloader?",
+    "answer": "A small program that loads the operating system into memory."
+  },
+  {
+    "question": "What is firmware?",
+    "answer": "Software programmed into read-only memory."
+  },
+  {
+    "question": "What is a ROM?",
+    "answer": "Read-Only Memory, non-volatile memory used to store firmware."
+  },
+  {
+    "question": "What is the difference between ROM and RAM?",
+    "answer": "ROM is non-volatile and stores permanent data; RAM is volatile and stores temporary data."
+  },
+  {
+    "question": "What is a cache miss?",
+    "answer": "When data requested by the CPU is not found in the cache."
+  },
+  {
+    "question": "What is a cache hit?",
+    "answer": "When data requested by the CPU is found in the cache."
+  },
+  {
+    "question": "What is instruction pipelining?",
+    "answer": "A technique to execute multiple instructions simultaneously by breaking them into stages."
+  },
+  {
+    "question": "What is branch prediction?",
+    "answer": "A technique to guess the outcome of a conditional branch to improve pipelining."
+  },
+  {
+    "question": "What is speculative execution?",
+    "answer": "Executing instructions before the outcome of a branch is known."
+  },
+  {
+    "question": "What is a superscalar processor?",
+    "answer": "A processor that can execute more than one instruction per clock cycle."
+  },
+  {
+    "question": "What is SIMD?",
+    "answer": "Single Instruction, Multiple Data—a type of parallel processing."
+  },
+  {
+    "question": "What is MIMD?",
+    "answer": "Multiple Instruction, Multiple Data—a type of parallel processing."
+  },
+  {
+    "question": "What is a GPU?",
+    "answer": "Graphics Processing Unit, specialized for parallel processing."
+  },
+  {
+    "question": "What is a multicore processor?",
+    "answer": "A CPU with multiple processing cores on a single chip."
+  },
+  {
+    "question": "What is hyperthreading?",
+    "answer": "A technology that allows a single CPU core to execute multiple threads simultaneously."
+  },
+  {
+    "question": "What is a thread?",
+    "answer": "A sequence of programmed instructions that can be managed independently by a scheduler."
+  },
+  {
+    "question": "What is process scheduling?",
+    "answer": "The method by which the OS decides which process runs next."
+  },
+  {
+    "question": "What is a real-time operating system?",
+    "answer": "An OS designed to process data as it comes in, typically for systems with strict timing requirements."
+  },
+  {
+    "question": "What is a deadlock?",
+    "answer": "A situation where two or more processes are unable to proceed because each is waiting for the other to release a resource."
+  },
+  {
+    "question": "What is mutual exclusion?",
+    "answer": "A property ensuring that only one process accesses a critical section at a time."
+  },
+  {
+    "question": "What is a semaphore?",
+    "answer": "A synchronization primitive used to control access to a shared resource."
+  },
+  {
+    "question": "What is a race condition?",
+    "answer": "A situation where the outcome depends on the sequence or timing of uncontrollable events."
+  }
+]
