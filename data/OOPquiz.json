@@ -1,0 +1,346 @@
+[
+  {
+    "question": "What is a variable in Java?",
+    "answer": "A variable is a container that stores information, allowing data to be referenced and manipulated in a program."
+  },
+  {
+    "question": "What does it mean that Java is statically typed?",
+    "answer": "Variables must be declared with a type, and can only store values compatible with that type."
+  },
+  {
+    "question": "What is the difference between declaration and initialisation of a variable?",
+    "answer": "Declaration reserves memory and associates a name with a type; initialisation assigns an initial value."
+  },
+  {
+    "question": "What are the rules for Java identifiers?",
+    "answer": "Identifiers must begin with a letter or underscore, be at least one character, and can include letters, numbers, or underscores."
+  },
+  {
+    "question": "What is the convention for naming classes and variables in Java?",
+    "answer": "Classes use PascalCase (start with a capital letter), variables and methods use camelCase (start with a lowercase letter), constants use ALL_CAPS."
+  },
+  {
+    "question": "What is a primitive type in Java?",
+    "answer": "A built-in type that is not a class, such as int, double, boolean, or char."
+  },
+  {
+    "question": "List all Java primitive types.",
+    "answer": "byte, short, int, long, float, double, boolean, char."
+  },
+  {
+    "question": "What are wrapper classes in Java?",
+    "answer": "Object versions of primitive types, such as Integer, Double, Boolean, Character."
+  },
+  {
+    "question": "How do you convert a String to a primitive type in Java?",
+    "answer": "Use parseXXX methods of wrapper classes, e.g., Integer.parseInt(\"42\")."
+  },
+  {
+    "question": "What is integer division in Java?",
+    "answer": "Division between two integers returns only the integer part, discarding any remainder."
+  },
+  {
+    "question": "How do you force floating-point division in Java?",
+    "answer": "Cast one operand to float or double, e.g., (double) 7 / 4."
+  },
+  {
+    "question": "What are the main control structures in Java?",
+    "answer": "Conditional execution (if, switch) and iteration (for, while)."
+  },
+  {
+    "question": "How does variable scope work in Java?",
+    "answer": "A variable is in scope from its declaration to the end of the enclosing block."
+  },
+  {
+    "question": "What is the syntax of a for loop in Java?",
+    "answer": "for (initialisation; condition; update) { statements }"
+  },
+  {
+    "question": "What is the difference between a for and a while loop?",
+    "answer": "A for loop is typically used when the number of iterations is known; a while loop is used when the condition is checked before each iteration."
+  },
+  {
+    "question": "What do break and continue do in loops?",
+    "answer": "break exits the loop immediately; continue skips to the next iteration."
+  },
+  {
+    "question": "What is a switch statement in Java?",
+    "answer": "A control structure that executes code blocks based on the value of an integer, char, enum, or String expression."
+  },
+  {
+    "question": "What is fall-through in a switch statement?",
+    "answer": "Execution continues into the next case unless a break statement is used."
+  },
+  {
+    "question": "What is a method in Java?",
+    "answer": "A block of code with a name, parameter list, and return type, that can be called to perform a task."
+  },
+  {
+    "question": "What is method overloading?",
+    "answer": "Defining multiple methods with the same name but different parameter lists."
+  },
+  {
+    "question": "What is the difference between a parameter and an argument?",
+    "answer": "A parameter is a variable in a method definition; an argument is the value passed to the method."
+  },
+  {
+    "question": "What is an array in Java?",
+    "answer": "A fixed-length sequence of elements of the same type, indexed from 0."
+  },
+  {
+    "question": "How do you declare and initialise an array in Java?",
+    "answer": "int[] arr = new int[5]; or int[] arr = {1, 2, 3, 4, 5};"
+  },
+  {
+    "question": "What is an ArrayList?",
+    "answer": "A resizable array implementation from the Java Collections framework."
+  },
+  {
+    "question": "How do you add, access, and remove elements from an ArrayList?",
+    "answer": "Use add(), get(index), and remove(index) methods."
+  },
+  {
+    "question": "What is the difference between an array and an ArrayList?",
+    "answer": "Arrays have fixed size and use [] for access; ArrayLists are resizable and use methods."
+  },
+  {
+    "question": "What is the Collections framework in Java?",
+    "answer": "A set of interfaces and classes for storing and manipulating groups of objects, including List, Set, and Map."
+  },
+  {
+    "question": "What is a class in Java?",
+    "answer": "A blueprint for creating objects, defining their fields (attributes) and methods (behaviours)."
+  },
+  {
+    "question": "What is an object in Java?",
+    "answer": "An instance of a class, with its own field values and access to class methods."
+  },
+  {
+    "question": "What is encapsulation?",
+    "answer": "The bundling of data and methods that operate on that data, restricting direct access to some components."
+  },
+  {
+    "question": "What is a constructor?",
+    "answer": "A special method with the same name as the class, used to initialise new objects."
+  },
+  {
+    "question": "What does the 'this' keyword refer to?",
+    "answer": "The current object instance."
+  },
+  {
+    "question": "What are visibility modifiers in Java?",
+    "answer": "Keywords that control access to class members: public, private, protected, and (default) package-private."
+  },
+  {
+    "question": "What is a static field or method?",
+    "answer": "A class member shared by all instances, accessed using the class name."
+  },
+  {
+    "question": "What is a final variable?",
+    "answer": "A variable whose value cannot be changed after it is assigned."
+  },
+  {
+    "question": "What is inheritance in Java?",
+    "answer": "A mechanism where a subclass inherits fields and methods from a superclass."
+  },
+  {
+    "question": "What is method overriding?",
+    "answer": "Redefining a method in a subclass that exists in the superclass to change its behaviour."
+  },
+  {
+    "question": "What is polymorphism?",
+    "answer": "The ability for objects of different classes related by inheritance to respond differently to the same method call."
+  },
+  {
+    "question": "What is the super keyword?",
+    "answer": "A reference to the superclass, used to call superclass methods or constructors."
+  },
+  {
+    "question": "What is an abstract class?",
+    "answer": "A class that cannot be instantiated and may contain abstract methods that must be implemented by subclasses."
+  },
+  {
+    "question": "What is an interface in Java?",
+    "answer": "A reference type that can contain abstract methods, default methods, and constants; classes implement interfaces to provide behaviour."
+  },
+  {
+    "question": "How does Java implement multiple inheritance?",
+    "answer": "Java allows classes to implement multiple interfaces, but only single class inheritance."
+  },
+  {
+    "question": "What is the difference between an abstract class and an interface?",
+    "answer": "An abstract class can have fields and implemented methods; interfaces cannot have fields (except constants) and all methods are abstract by default (until Java 8 default methods)."
+  },
+  {
+    "question": "What is the purpose of the 'final' keyword for classes and methods?",
+    "answer": "A final class cannot be subclassed; a final method cannot be overridden."
+  },
+  {
+    "question": "What is a package in Java?",
+    "answer": "A namespace for organising related classes and interfaces."
+  },
+  {
+    "question": "How do you import classes from a package?",
+    "answer": "Using the import statement at the top of the source file."
+  },
+  {
+    "question": "What is the convention for package naming in Java?",
+    "answer": "All lower case, often starting with the reversed domain name of the organisation."
+  },
+  {
+    "question": "What is an exception in Java?",
+    "answer": "An object representing an error or exceptional condition that can be thrown and caught."
+  },
+  {
+    "question": "What is the difference between checked and unchecked exceptions?",
+    "answer": "Checked exceptions must be declared or handled; unchecked exceptions (RuntimeException and subclasses) do not."
+  },
+  {
+    "question": "How do you handle exceptions in Java?",
+    "answer": "Using try-catch blocks, and optionally a finally block for cleanup."
+  },
+  {
+    "question": "How do you throw an exception?",
+    "answer": "Using the throw statement, e.g., throw new Exception(\"message\");"
+  },
+  {
+    "question": "What are the equals(), hashCode(), and toString() methods?",
+    "answer": "Methods inherited from Object; equals() tests for logical equality, hashCode() returns a hash value, toString() returns a string representation."
+  },
+  {
+    "question": "Why must equals() and hashCode() be overridden together?",
+    "answer": "Because objects that are equal according to equals() must have the same hash code, especially for use in collections like HashSet and HashMap."
+  },
+  {
+    "question": "What is the purpose of the Java Collections framework?",
+    "answer": "To provide reusable data structures and algorithms for storing and manipulating groups of objects."
+  },
+  {
+    "question": "What is a generic type in Java?",
+    "answer": "A class or interface parameterised by type, allowing code to be written for any object type (e.g., ArrayList<T>)."
+  },
+  {
+    "question": "What is a wildcard in Java generics?",
+    "answer": "A type parameter represented by '?', used to specify an unknown type."
+  },
+  {
+    "question": "What is a bounded wildcard?",
+    "answer": "'? extends T' restricts the unknown type to be a subtype of T; '? super T' restricts it to be a supertype of T."
+  },
+  {
+    "question": "What is type inference in Java generics?",
+    "answer": "The compiler automatically determines the type parameter from the context, allowing the use of diamond syntax <>."
+  },
+  {
+    "question": "What is a lambda expression in Java?",
+    "answer": "A concise way to represent an anonymous function or block of code, using the syntax (parameters) -> expression."
+  },
+  {
+    "question": "Where are lambda expressions commonly used in Java?",
+    "answer": "For functional interfaces, such as event listeners, Comparator, and in streams and collections."
+  },
+  {
+    "question": "What is the Consumer interface in Java?",
+    "answer": "A functional interface with a single method accept(T t), often used with lambda expressions."
+  },
+  {
+    "question": "What is the Model-View-Controller (MVC) pattern?",
+    "answer": "A design pattern that separates an application into model (data), view (UI), and controller (logic) components."
+  },
+  {
+    "question": "What is Swing in Java?",
+    "answer": "A GUI toolkit for building graphical user interfaces in Java, part of javax.swing."
+  },
+  {
+    "question": "What is a JFrame?",
+    "answer": "A top-level window in Swing, used as the main container for GUI components."
+  },
+  {
+    "question": "What is an event listener in Swing?",
+    "answer": "An object that implements a listener interface to handle events such as button presses or mouse clicks."
+  },
+  {
+    "question": "What is a thread in Java?",
+    "answer": "A lightweight process that allows concurrent execution of code within a program."
+  },
+  {
+    "question": "How do you create a thread in Java?",
+    "answer": "By extending the Thread class or implementing the Runnable interface and starting it with start()."
+  },
+  {
+    "question": "What is thread interference?",
+    "answer": "A problem where two threads access and modify shared data concurrently, causing inconsistent results."
+  },
+  {
+    "question": "What is synchronization in Java?",
+    "answer": "A mechanism to ensure that only one thread accesses a critical section of code at a time, using the synchronized keyword."
+  },
+  {
+    "question": "What is a deadlock?",
+    "answer": "A situation where two or more threads are blocked forever, each waiting for the other to release a lock."
+  },
+  {
+    "question": "What is an atomic variable?",
+    "answer": "A variable that supports atomic operations, ensuring thread-safe updates without explicit synchronization."
+  },
+  {
+    "question": "What is the difference between a process and a thread?",
+    "answer": "A process has its own memory space; a thread shares memory with other threads in the same process."
+  },
+  {
+    "question": "What is the SOLID principle in OOP?",
+    "answer": "A set of five design principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion."
+  },
+  {
+    "question": "What is DRY (Don't Repeat Yourself)?",
+    "answer": "A principle that encourages reducing repetition by modularising code into reusable units."
+  },
+  {
+    "question": "What is a code smell?",
+    "answer": "A symptom in code that may indicate a deeper problem, such as duplication or long methods."
+  },
+  {
+    "question": "What is the benefit of using packages?",
+    "answer": "Packages group related classes, avoid naming conflicts, and control access between classes."
+  },
+  {
+    "question": "What is the purpose of an IDE?",
+    "answer": "An Integrated Development Environment provides tools for writing, debugging, and managing code efficiently."
+  },
+  {
+    "question": "What is a breakpoint in debugging?",
+    "answer": "A marker set in code to pause execution at a specific line, allowing inspection of program state."
+  },
+  {
+    "question": "What is the call stack?",
+    "answer": "The sequence of method calls that led to the current point in program execution."
+  },
+  {
+    "question": "What is the difference between public, protected, private, and package-private?",
+    "answer": "public: accessible anywhere; protected: accessible in subclasses and package; private: accessible only in the class; package-private: accessible only in the same package."
+  },
+  {
+    "question": "What is the main benefit of using interfaces?",
+    "answer": "Interfaces allow for abstraction and multiple inheritance of type, enabling flexible and decoupled design."
+  },
+  {
+    "question": "What is the purpose of the Comparator interface?",
+    "answer": "To define custom ordering for objects, used in sorting and ordering collections."
+  },
+  {
+    "question": "What is the difference between List, Set, and Map in Java?",
+    "answer": "List: ordered collection with duplicates; Set: unordered collection without duplicates; Map: key-value pairs."
+  },
+  {
+    "question": "What is a generic method?",
+    "answer": "A method that introduces its own type parameter, allowing it to operate on different types."
+  },
+  {
+    "question": "What is the diamond syntax in Java generics?",
+    "answer": "Using <> to let the compiler infer the type arguments, e.g., new ArrayList<>();"
+  },
+  {
+    "question": "What is the main advantage of using lambda expressions?",
+    "answer": "They allow for more concise and readable code, especially when working with functional interfaces and collections."
+  }
+]

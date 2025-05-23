@@ -1,0 +1,526 @@
+[
+  {
+    "question": "What is a random experiment?",
+    "answer": "A process or action that leads to one of several possible outcomes, where the outcome cannot be predicted with certainty."
+  },
+  {
+    "question": "Define a sample space.",
+    "answer": "The set of all possible outcomes of a random experiment."
+  },
+  {
+    "question": "What is an event in probability?",
+    "answer": "A subset of the sample space; a collection of outcomes."
+  },
+  {
+    "question": "What is the probability of an event?",
+    "answer": "A number between 0 and 1 that measures the likelihood of the event occurring."
+  },
+  {
+    "question": "State the three axioms of probability.",
+    "answer": "1. For any event A, P(A) ≥ 0. 2. P(S) = 1 for the sample space S. 3. For disjoint events A and B, P(A ∪ B) = P(A) + P(B)."
+  },
+  {
+    "question": "What is the complement of an event A?",
+    "answer": "The set of all outcomes in the sample space that are not in A."
+  },
+  {
+    "question": "How do you calculate the probability of the complement of A?",
+    "answer": "P(A') = 1 - P(A)."
+  },
+  {
+    "question": "What does it mean for two events to be mutually exclusive?",
+    "answer": "They cannot both occur at the same time; their intersection is empty."
+  },
+  {
+    "question": "What is the union of two events?",
+    "answer": "The event that at least one of the two events occurs."
+  },
+  {
+    "question": "What is the intersection of two events?",
+    "answer": "The event that both events occur simultaneously."
+  },
+  {
+    "question": "What is conditional probability?",
+    "answer": "The probability of event A given that event B has occurred, denoted P(A|B)."
+  },
+  {
+    "question": "State the formula for conditional probability.",
+    "answer": "P(A|B) = P(A ∩ B) / P(B), provided P(B) > 0."
+  },
+  {
+    "question": "What does it mean for two events to be independent?",
+    "answer": "P(A ∩ B) = P(A)P(B); the occurrence of one does not affect the probability of the other."
+  },
+  {
+    "question": "What is the law of total probability?",
+    "answer": "If {B1, ..., Bn} is a partition of the sample space, then P(A) = Σ P(A|Bi)P(Bi)."
+  },
+  {
+    "question": "State Bayes' theorem.",
+    "answer": "P(B|A) = P(A|B)P(B) / P(A), provided P(A) > 0."
+  },
+  {
+    "question": "What is a discrete random variable?",
+    "answer": "A variable that can take on a countable number of distinct values."
+  },
+  {
+    "question": "What is a probability mass function (PMF)?",
+    "answer": "A function that gives the probability that a discrete random variable is exactly equal to some value."
+  },
+  {
+    "question": "What is a continuous random variable?",
+    "answer": "A variable that can take on any value in a continuous range."
+  },
+  {
+    "question": "What is a probability density function (PDF)?",
+    "answer": "A function that describes the likelihood of a continuous random variable taking on a particular value."
+  },
+  {
+    "question": "How do you compute the probability that a continuous random variable falls in an interval [a, b]?",
+    "answer": "By integrating the PDF over [a, b]: P(a ≤ X ≤ b) = ∫_a^b f(x) dx."
+  },
+  {
+    "question": "What is the cumulative distribution function (CDF)?",
+    "answer": "F(x) = P(X ≤ x), the probability that the random variable is less than or equal to x."
+  },
+  {
+    "question": "How is the CDF related to the PDF?",
+    "answer": "The PDF is the derivative of the CDF for continuous random variables."
+  },
+  {
+    "question": "What is the expected value (mean) of a discrete random variable X?",
+    "answer": "E[X] = Σ x P(X = x), summing over all possible values of X."
+  },
+  {
+    "question": "How do you compute the expected value of a continuous random variable?",
+    "answer": "E[X] = ∫ x f(x) dx, integrating over all possible values."
+  },
+  {
+    "question": "What is the variance of a random variable X?",
+    "answer": "Var(X) = E[(X - E[X])^2] = E[X^2] - (E[X])^2."
+  },
+  {
+    "question": "What is the standard deviation?",
+    "answer": "The square root of the variance."
+  },
+  {
+    "question": "What is the moment generating function (MGF)?",
+    "answer": "M_X(t) = E[e^{tX}], a function that generates the moments of the distribution."
+  },
+  {
+    "question": "What is a Bernoulli distribution?",
+    "answer": "A discrete distribution with two possible outcomes, 1 (success) with probability p and 0 (failure) with probability 1-p."
+  },
+  {
+    "question": "What is the mean and variance of a Bernoulli(p) random variable?",
+    "answer": "Mean = p, Variance = p(1-p)."
+  },
+  {
+    "question": "What is a Binomial distribution?",
+    "answer": "The distribution of the number of successes in n independent Bernoulli trials with success probability p."
+  },
+  {
+    "question": "State the PMF of a Binomial(n, p) random variable.",
+    "answer": "P(X = k) = C(n, k) p^k (1-p)^{n-k} for k = 0, 1, ..., n."
+  },
+  {
+    "question": "What is the mean and variance of a Binomial(n, p) random variable?",
+    "answer": "Mean = np, Variance = np(1-p)."
+  },
+  {
+    "question": "What is a Poisson distribution?",
+    "answer": "A distribution describing the number of events in a fixed interval, given a constant average rate λ."
+  },
+  {
+    "question": "State the PMF of a Poisson(λ) random variable.",
+    "answer": "P(X = k) = (λ^k e^{-λ}) / k!, for k = 0, 1, 2, ..."
+  },
+  {
+    "question": "What is the mean and variance of a Poisson(λ) random variable?",
+    "answer": "Both the mean and variance are λ."
+  },
+  {
+    "question": "What is a geometric distribution?",
+    "answer": "The distribution of the number of trials until the first success in a sequence of independent Bernoulli trials."
+  },
+  {
+    "question": "What is the mean of a geometric(p) random variable?",
+    "answer": "Mean = 1/p."
+  },
+  {
+    "question": "What is the variance of a geometric(p) random variable?",
+    "answer": "Variance = (1-p)/p^2."
+  },
+  {
+    "question": "What is a uniform distribution on [a, b]?",
+    "answer": "A continuous distribution where all outcomes in [a, b] are equally likely."
+  },
+  {
+    "question": "What is the PDF of a uniform(a, b) random variable?",
+    "answer": "f(x) = 1/(b-a) for x in [a, b], and 0 otherwise."
+  },
+  {
+    "question": "What is the mean and variance of a uniform(a, b) random variable?",
+    "answer": "Mean = (a+b)/2, Variance = (b-a)^2/12."
+  },
+  {
+    "question": "What is an exponential distribution?",
+    "answer": "A continuous distribution often used to model the time between independent events, with parameter λ > 0."
+  },
+  {
+    "question": "What is the PDF of an exponential(λ) random variable?",
+    "answer": "f(x) = λ e^{-λx} for x ≥ 0."
+  },
+  {
+    "question": "What is the mean and variance of an exponential(λ) random variable?",
+    "answer": "Mean = 1/λ, Variance = 1/λ^2."
+  },
+  {
+    "question": "What is the memoryless property?",
+    "answer": "For an exponential random variable X, P(X > s + t | X > s) = P(X > t)."
+  },
+  {
+    "question": "What is a normal (Gaussian) distribution?",
+    "answer": "A continuous distribution with PDF f(x) = (1/(σ√(2π))) exp(-(x-μ)^2/(2σ^2))."
+  },
+  {
+    "question": "What are the mean and variance of a normal(μ, σ^2) random variable?",
+    "answer": "Mean = μ, Variance = σ^2."
+  },
+  {
+    "question": "What is the standard normal distribution?",
+    "answer": "A normal distribution with mean 0 and variance 1."
+  },
+  {
+    "question": "How do you standardize a normal random variable X ~ N(μ, σ^2)?",
+    "answer": "By computing Z = (X - μ)/σ, which has a standard normal distribution."
+  },
+  {
+    "question": "What is the central limit theorem?",
+    "answer": "The sum of a large number of independent, identically distributed random variables is approximately normally distributed."
+  },
+  {
+    "question": "What is the law of large numbers?",
+    "answer": "The sample average converges to the expected value as the sample size increases."
+  },
+  {
+    "question": "What is a joint probability distribution?",
+    "answer": "A probability distribution that gives the probability of each possible pair (or tuple) of outcomes for two (or more) random variables."
+  },
+  {
+    "question": "What is the joint PDF of two continuous random variables X and Y?",
+    "answer": "A function f(x, y) such that P((X, Y) in A) = ∬_A f(x, y) dx dy."
+  },
+  {
+    "question": "What is the marginal distribution?",
+    "answer": "The probability distribution of one variable obtained by summing or integrating the joint distribution over the other variables."
+  },
+  {
+    "question": "How do you find the marginal PDF of X from the joint PDF f(x, y)?",
+    "answer": "By integrating out y: f_X(x) = ∫ f(x, y) dy."
+  },
+  {
+    "question": "What is conditional probability for random variables?",
+    "answer": "The probability distribution of one variable given the value of another."
+  },
+  {
+    "question": "What is covariance?",
+    "answer": "Cov(X, Y) = E[(X - E[X])(Y - E[Y])], a measure of how two variables vary together."
+  },
+  {
+    "question": "What is correlation?",
+    "answer": "The normalized covariance: Corr(X, Y) = Cov(X, Y) / (σ_X σ_Y)."
+  },
+  {
+    "question": "What does it mean if two random variables are independent?",
+    "answer": "Their joint PDF factors: f(x, y) = f_X(x) f_Y(y) for all x, y."
+  },
+  {
+    "question": "What is the expectation of the sum of two random variables?",
+    "answer": "E[X + Y] = E[X] + E[Y], regardless of independence."
+  },
+  {
+    "question": "What is the variance of the sum of two independent random variables?",
+    "answer": "Var(X + Y) = Var(X) + Var(Y)."
+  },
+  {
+    "question": "What is a Markov chain?",
+    "answer": "A stochastic process where the future state depends only on the current state, not the past."
+  },
+  {
+    "question": "What is a transition matrix?",
+    "answer": "A matrix describing the probabilities of moving from one state to another in a Markov chain."
+  },
+  {
+    "question": "What is a stationary distribution?",
+    "answer": "A probability distribution that remains unchanged in a Markov chain after transitions."
+  },
+  {
+    "question": "What is a Poisson process?",
+    "answer": "A process where events occur randomly and independently over time at a constant average rate."
+  },
+  {
+    "question": "What is the interarrival time in a Poisson process?",
+    "answer": "The time between consecutive events, which is exponentially distributed."
+  },
+  {
+    "question": "What is the likelihood function?",
+    "answer": "A function of the parameters of a statistical model, given observed data."
+  },
+  {
+    "question": "What is maximum likelihood estimation (MLE)?",
+    "answer": "A method for estimating the parameters of a model by maximizing the likelihood function."
+  },
+  {
+    "question": "What is a point estimator?",
+    "answer": "A statistic used to estimate the value of a population parameter."
+  },
+  {
+    "question": "What is an unbiased estimator?",
+    "answer": "An estimator whose expected value is equal to the parameter it estimates."
+  },
+  {
+    "question": "What is the sample mean?",
+    "answer": "The average of observed data points: (1/n) Σ x_i."
+  },
+  {
+    "question": "What is the sample variance?",
+    "answer": "The average squared deviation from the sample mean: (1/(n-1)) Σ (x_i - x̄)^2."
+  },
+  {
+    "question": "What is a confidence interval?",
+    "answer": "An interval estimate for a parameter that, with a specified probability, contains the true parameter value."
+  },
+  {
+    "question": "What is a hypothesis test?",
+    "answer": "A statistical procedure to decide whether to reject a null hypothesis based on sample data."
+  },
+  {
+    "question": "What is the null hypothesis?",
+    "answer": "The default assumption that there is no effect or difference."
+  },
+  {
+    "question": "What is the alternative hypothesis?",
+    "answer": "The hypothesis that there is an effect or difference."
+  },
+  {
+    "question": "What is a Type I error?",
+    "answer": "Rejecting the null hypothesis when it is true."
+  },
+  {
+    "question": "What is a Type II error?",
+    "answer": "Failing to reject the null hypothesis when it is false."
+  },
+  {
+    "question": "What is the significance level (alpha)?",
+    "answer": "The probability of making a Type I error, often set at 0.05."
+  },
+  {
+    "question": "What is the p-value?",
+    "answer": "The probability, under the null hypothesis, of obtaining a result at least as extreme as the observed one."
+  },
+  {
+    "question": "When do you reject the null hypothesis in a hypothesis test?",
+    "answer": "When the p-value is less than or equal to the significance level."
+  },
+  {
+    "question": "What is a one-tailed test?",
+    "answer": "A hypothesis test where the alternative hypothesis is directional."
+  },
+  {
+    "question": "What is a two-tailed test?",
+    "answer": "A hypothesis test where the alternative hypothesis is not directional."
+  },
+  {
+    "question": "What is the t-distribution?",
+    "answer": "A probability distribution used for inference about a mean when the sample size is small and population variance is unknown."
+  },
+  {
+    "question": "What is the chi-squared distribution?",
+    "answer": "A distribution of the sum of the squares of independent standard normal random variables."
+  },
+  {
+    "question": "What is the F-distribution?",
+    "answer": "A distribution used to compare two sample variances."
+  },
+  {
+    "question": "What is a goodness-of-fit test?",
+    "answer": "A test to determine if sample data fits a distribution from a certain population."
+  },
+  {
+    "question": "What is the Kolmogorov-Smirnov test?",
+    "answer": "A nonparametric test to compare a sample with a reference probability distribution."
+  },
+  {
+    "question": "What is the method of moments?",
+    "answer": "A technique for estimating parameters by equating sample moments to population moments."
+  },
+  {
+    "question": "What is linear regression?",
+    "answer": "A method for modeling the relationship between a dependent variable and one or more independent variables."
+  },
+  {
+    "question": "What is the least squares method?",
+    "answer": "A method for estimating regression coefficients by minimizing the sum of squared residuals."
+  },
+  {
+    "question": "What is the coefficient of determination (R^2)?",
+    "answer": "A measure of the proportion of variance in the dependent variable explained by the independent variable(s)."
+  },
+  {
+    "question": "What is multicollinearity?",
+    "answer": "A situation in regression analysis where independent variables are highly correlated."
+  },
+  {
+    "question": "What is heteroscedasticity?",
+    "answer": "When the variance of errors in a regression model is not constant."
+  },
+  {
+    "question": "What is autocorrelation?",
+    "answer": "When residuals in a regression model are correlated with each other."
+  },
+  {
+    "question": "What is the difference between population and sample?",
+    "answer": "A population includes all members of a group, while a sample is a subset of the population."
+  },
+  {
+    "question": "What is sampling bias?",
+    "answer": "A bias that occurs when the sample is not representative of the population."
+  },
+  {
+    "question": "What is stratified sampling?",
+    "answer": "Dividing the population into subgroups and sampling from each subgroup."
+  },
+  {
+    "question": "What is cluster sampling?",
+    "answer": "Dividing the population into clusters and randomly sampling entire clusters."
+  },
+  {
+    "question": "What is the central tendency?",
+    "answer": "A measure that represents the center or typical value in a dataset, such as mean, median, or mode."
+  },
+  {
+    "question": "What is the median?",
+    "answer": "The middle value in a sorted dataset."
+  },
+  {
+    "question": "What is the mode?",
+    "answer": "The value that appears most frequently in a dataset."
+  },
+  {
+    "question": "What is the interquartile range (IQR)?",
+    "answer": "The difference between the third and first quartiles, measuring the spread of the middle 50% of data."
+  },
+  {
+    "question": "What is a boxplot?",
+    "answer": "A graphical summary of data showing the median, quartiles, and outliers."
+  },
+  {
+    "question": "What is an outlier?",
+    "answer": "A value that lies far outside the range of most other values in a dataset."
+  },
+  {
+    "question": "What is a histogram?",
+    "answer": "A graphical representation of the distribution of numerical data using bars."
+  },
+  {
+    "question": "What is a scatterplot?",
+    "answer": "A graph showing the relationship between two quantitative variables."
+  },
+  {
+    "question": "What is a probability tree diagram?",
+    "answer": "A diagram used to visualize all possible outcomes of a sequence of events."
+  },
+  {
+    "question": "What is the difference between descriptive and inferential statistics?",
+    "answer": "Descriptive statistics summarize data; inferential statistics make predictions or inferences about a population based on a sample."
+  },
+  {
+    "question": "What is a random sample?",
+    "answer": "A sample in which each member of the population has an equal chance of being selected."
+  },
+  {
+    "question": "What is the difference between parametric and nonparametric tests?",
+    "answer": "Parametric tests assume a specific distribution; nonparametric tests do not."
+  },
+  {
+    "question": "What is the bootstrap method?",
+    "answer": "A resampling technique used to estimate statistics on a population by sampling a dataset with replacement."
+  },
+  {
+    "question": "What is the empirical rule for normal distributions?",
+    "answer": "About 68% of data falls within 1 standard deviation, 95% within 2, and 99.7% within 3."
+  },
+  {
+    "question": "What is a QQ-plot?",
+    "answer": "A plot to assess if a dataset comes from a particular distribution, typically normal."
+  },
+  {
+    "question": "What is the difference between a parameter and a statistic?",
+    "answer": "A parameter describes a population; a statistic describes a sample."
+  },
+  {
+    "question": "What is a p-value used for?",
+    "answer": "To determine the statistical significance of a test result."
+  },
+  {
+    "question": "What is a permutation test?",
+    "answer": "A nonparametric method for testing hypotheses by calculating all possible values of the test statistic under rearrangements of the labels."
+  },
+  {
+    "question": "What is a power of a statistical test?",
+    "answer": "The probability of correctly rejecting the null hypothesis when it is false."
+  },
+  {
+    "question": "What is a type I error rate?",
+    "answer": "The probability of incorrectly rejecting the null hypothesis when it is true."
+  },
+  {
+    "question": "What is a type II error rate?",
+    "answer": "The probability of failing to reject the null hypothesis when it is false."
+  },
+  {
+    "question": "What is a paired sample t-test?",
+    "answer": "A test comparing the means of two related groups."
+  },
+  {
+    "question": "What is an ANOVA test?",
+    "answer": "A test used to compare the means of three or more groups."
+  },
+  {
+    "question": "What is a residual in regression?",
+    "answer": "The difference between an observed value and the value predicted by the model."
+  },
+  {
+    "question": "What is the null hypothesis in a chi-squared goodness-of-fit test?",
+    "answer": "That the data follows the specified distribution."
+  },
+  {
+    "question": "What is the purpose of a control group in an experiment?",
+    "answer": "To provide a baseline for comparison with the treatment group."
+  },
+  {
+    "question": "What is randomization in experimental design?",
+    "answer": "The process of randomly assigning subjects to different groups to reduce bias."
+  },
+  {
+    "question": "What is a double-blind study?",
+    "answer": "An experiment in which neither the subjects nor the experimenters know which group is receiving the treatment."
+  },
+  {
+    "question": "What is a placebo?",
+    "answer": "A substance with no therapeutic effect, used as a control in testing new drugs."
+  },
+  {
+    "question": "What is a confounding variable?",
+    "answer": "A variable that influences both the dependent and independent variables, causing a spurious association."
+  },
+  {
+    "question": "What is Simpson's paradox?",
+    "answer": "A phenomenon where a trend appears in several groups but reverses when the groups are combined."
+  },
+  {
+    "question": "What is the difference between causation and correlation?",
+    "answer": "Correlation is a relationship between two variables; causation means one variable directly affects the other."
+  }
+]
