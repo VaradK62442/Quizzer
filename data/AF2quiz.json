@@ -1,0 +1,354 @@
+[
+  {
+    "question": "What is a set?",
+    "answer": "A set is an unordered collection of elements or members, where order and number of occurrences do not matter."
+  },
+  {
+    "question": "What is set builder notation?",
+    "answer": "Set builder notation defines a set by a property its members must satisfy, e.g., S = { x | x ∈ U and P(x) }."
+  },
+  {
+    "question": "What is the intersection of two sets A and B?",
+    "answer": "The set of all elements that are in both A and B, denoted A ∩ B."
+  },
+  {
+    "question": "What is the union of two sets A and B?",
+    "answer": "The set of all elements that are in A or B or both, denoted A ∪ B."
+  },
+  {
+    "question": "What does it mean for A to be a subset of B?",
+    "answer": "A ⊆ B means every element of A is also an element of B."
+  },
+  {
+    "question": "What is the empty set?",
+    "answer": "The set containing no elements, denoted Ø or {}."
+  },
+  {
+    "question": "What is the universal set?",
+    "answer": "The set that contains all elements under consideration, denoted U."
+  },
+  {
+    "question": "What is the cardinality of a set?",
+    "answer": "The number of elements in the set, denoted |S|."
+  },
+  {
+    "question": "What is the power set of S?",
+    "answer": "The set of all subsets of S, denoted P(S)."
+  },
+  {
+    "question": "What is the size of the power set of a set with n elements?",
+    "answer": "2^n."
+  },
+  {
+    "question": "How can subsets be represented using binary strings?",
+    "answer": "Each subset corresponds to a bit string of length n, with 1 indicating inclusion of an element."
+  },
+  {
+    "question": "What is Russell's Paradox?",
+    "answer": "The paradox that arises when considering the set of all sets that are not members of themselves, leading to a contradiction."
+  },
+  {
+    "question": "What is the Cartesian product of sets A and B?",
+    "answer": "The set of ordered pairs (a, b) where a ∈ A and b ∈ B, denoted A × B."
+  },
+  {
+    "question": "What is an improper subset?",
+    "answer": "A subset that may be equal to the original set; every set is an improper subset of itself."
+  },
+  {
+    "question": "Is the empty set a subset of every set?",
+    "answer": "Yes, the empty set is a subset of every set."
+  },
+  {
+    "question": "What is a proper subset?",
+    "answer": "A subset that is strictly smaller than the original set, i.e., A ⊂ B and A ≠ B."
+  },
+  {
+    "question": "When are two sets equal?",
+    "answer": "If every element of A is in B and every element of B is in A."
+  },
+  {
+    "question": "What does it mean for two sets to be disjoint?",
+    "answer": "They have no elements in common; their intersection is empty."
+  },
+  {
+    "question": "How can sets be represented in binary?",
+    "answer": "With a bit string where each bit indicates membership of an element from a universal set."
+  },
+  {
+    "question": "How is the union of two sets computed in binary representation?",
+    "answer": "By bitwise OR of their binary representations."
+  },
+  {
+    "question": "How is the intersection of two sets computed in binary representation?",
+    "answer": "By bitwise AND of their binary representations."
+  },
+  {
+    "question": "How is the complement of a set computed in binary representation?",
+    "answer": "By flipping all the bits in the binary representation."
+  },
+  {
+    "question": "How is the set difference A\\B computed in binary?",
+    "answer": "By setting bits to 1 where A is 1 and B is 0."
+  },
+  {
+    "question": "What is the symmetric difference of sets A and B?",
+    "answer": "The set of elements in either A or B but not both, A Δ B = (A\\B) ∪ (B\\A)."
+  },
+  {
+    "question": "State the identity, domination, and idempotent laws for sets.",
+    "answer": "Identity: A ∪ Ø = A, A ∩ U = A; Domination: A ∪ U = U, A ∩ Ø = Ø; Idempotent: A ∪ A = A, A ∩ A = A."
+  },
+  {
+    "question": "State the commutative, associative, and distributive laws for sets.",
+    "answer": "Commutative: A ∪ B = B ∪ A, A ∩ B = B ∩ A; Associative: A ∪ (B ∪ C) = (A ∪ B) ∪ C, A ∩ (B ∩ C) = (A ∩ B) ∩ C; Distributive: A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C), A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)."
+  },
+  {
+    "question": "State De Morgan's laws for sets.",
+    "answer": "The complement of a union is the intersection of complements: (A ∪ B)' = A' ∩ B'; the complement of an intersection is the union of complements: (A ∩ B)' = A' ∪ B'."
+  },
+  {
+    "question": "How can you prove two sets are equal?",
+    "answer": "By showing each is a subset of the other, by membership tables, set comprehension/logical equivalences, or Venn diagrams."
+  },
+  {
+    "question": "What is a function?",
+    "answer": "A mapping from elements of one set (domain) to elements of another set (codomain), with each input having exactly one output."
+  },
+  {
+    "question": "What is the domain, codomain, and range of a function?",
+    "answer": "Domain: set of inputs; Codomain: set of possible outputs; Range: actual set of outputs."
+  },
+  {
+    "question": "What does it mean for a function to be injective?",
+    "answer": "It maps different elements of the domain to different elements of the codomain (one-to-one)."
+  },
+  {
+    "question": "What does it mean for a function to be surjective?",
+    "answer": "Every element of the codomain is the image of some element of the domain (onto)."
+  },
+  {
+    "question": "What does it mean for a function to be bijective?",
+    "answer": "It is both injective and surjective; a one-to-one correspondence between domain and codomain."
+  },
+  {
+    "question": "What is a function composition?",
+    "answer": "Applying one function to the result of another: (g∘f)(x) = g(f(x))."
+  },
+  {
+    "question": "What is the inverse of a function?",
+    "answer": "For a bijection f:X→Y, the inverse f⁻¹:Y→X satisfies f⁻¹(f(x)) = x and f(f⁻¹(y)) = y."
+  },
+  {
+    "question": "What does it mean for a set to be countable?",
+    "answer": "It has the same cardinality as a subset of the natural numbers; its elements can be listed in a sequence."
+  },
+  {
+    "question": "What is a countably infinite set?",
+    "answer": "A set with the same cardinality as the natural numbers, e.g., ℕ, ℤ, or ℚ."
+  },
+  {
+    "question": "What is an uncountable set?",
+    "answer": "A set that does not have the same cardinality as any subset of the natural numbers, e.g., the real numbers between 0 and 1."
+  },
+  {
+    "question": "What is Cantor's diagonal argument?",
+    "answer": "A proof that the real numbers between 0 and 1 are uncountable by constructing a number not in any given list."
+  },
+  {
+    "question": "Are the set of all Java programs countable or uncountable?",
+    "answer": "Countable, since programs are finite strings over a finite alphabet."
+  },
+  {
+    "question": "What is a sequence?",
+    "answer": "An ordered list of numbers, often defined by a formula or recurrence."
+  },
+  {
+    "question": "What is an arithmetic progression?",
+    "answer": "A sequence where each term is a fixed amount more than the previous term: aₙ = a + n·d."
+  },
+  {
+    "question": "What is a geometric progression?",
+    "answer": "A sequence where each term is a fixed multiple of the previous: aₙ = a·rⁿ."
+  },
+  {
+    "question": "What is the sum notation (sigma notation)?",
+    "answer": "Σ denotes the sum of a sequence of terms, e.g., Σ_{i=m}^n a_i."
+  },
+  {
+    "question": "What is the formula for the sum of the first n positive integers?",
+    "answer": "n(n+1)/2."
+  },
+  {
+    "question": "What is the formula for the sum of a geometric series?",
+    "answer": "If r ≠ 1, Σ_{i=0}^n r^i = (r^{n+1} - 1)/(r - 1)."
+  },
+  {
+    "question": "What is the product notation (pi notation)?",
+    "answer": "Π denotes the product of a sequence of terms, e.g., Π_{i=m}^n a_i."
+  },
+  {
+    "question": "What is divisibility?",
+    "answer": "An integer a divides b (a|b) if there exists an integer c such that a·c = b."
+  },
+  {
+    "question": "What is the division algorithm?",
+    "answer": "For any integer a and positive integer d, there exist unique integers q and r such that a = d·q + r and 0 ≤ r < d."
+  },
+  {
+    "question": "What is a prime number?",
+    "answer": "An integer greater than 1 whose only positive factors are 1 and itself."
+  },
+  {
+    "question": "What is the Fundamental Theorem of Arithmetic?",
+    "answer": "Every positive integer greater than 1 can be written uniquely as a product of primes."
+  },
+  {
+    "question": "What is the greatest common divisor (gcd)?",
+    "answer": "The largest positive integer that divides two integers a and b."
+  },
+  {
+    "question": "What is the Euclidean algorithm?",
+    "answer": "An efficient method for computing the gcd of two integers using the recurrence gcd(a, b) = gcd(b, a mod b)."
+  },
+  {
+    "question": "What is the least common multiple (lcm)?",
+    "answer": "The smallest positive integer divisible by both a and b."
+  },
+  {
+    "question": "What is modular arithmetic?",
+    "answer": "Arithmetic for integers where numbers 'wrap around' after reaching a certain value, the modulus."
+  },
+  {
+    "question": "When are two integers congruent modulo m?",
+    "answer": "If m divides their difference: a ≡ b (mod m)."
+  },
+  {
+    "question": "State two properties of congruence modulo m.",
+    "answer": "If a ≡ b (mod m) and c ≡ d (mod m), then a + c ≡ b + d (mod m) and a·c ≡ b·d (mod m)."
+  },
+  {
+    "question": "What is public key cryptography?",
+    "answer": "A cryptographic system using a public key for encryption and a private key for decryption."
+  },
+  {
+    "question": "What is the RSA algorithm based on?",
+    "answer": "The computational difficulty of factoring large numbers."
+  },
+  {
+    "question": "What is a matrix?",
+    "answer": "A rectangular array of numbers arranged in rows and columns."
+  },
+  {
+    "question": "How is matrix addition defined?",
+    "answer": "By adding corresponding elements of two matrices of the same size."
+  },
+  {
+    "question": "How is matrix multiplication defined?",
+    "answer": "For A (m×k) and B (k×n), the (i,j) entry of AB is the sum over r of a_{i,r}·b_{r,j}."
+  },
+  {
+    "question": "Is matrix multiplication commutative?",
+    "answer": "No, in general AB ≠ BA."
+  },
+  {
+    "question": "Is matrix multiplication associative?",
+    "answer": "Yes, (AB)C = A(BC) when the products are defined."
+  },
+  {
+    "question": "What is the identity matrix?",
+    "answer": "A square matrix with 1's along the diagonal and 0's elsewhere."
+  },
+  {
+    "question": "What is the inverse of a matrix?",
+    "answer": "A matrix A⁻¹ such that AA⁻¹ = A⁻¹A = I, if it exists."
+  },
+  {
+    "question": "What is the transpose of a matrix?",
+    "answer": "The matrix obtained by swapping rows and columns."
+  },
+  {
+    "question": "When is a matrix symmetric?",
+    "answer": "If it equals its transpose: A = Aᵗ."
+  },
+  {
+    "question": "What is a rule of inference?",
+    "answer": "A logical rule that describes how to deduce new statements from given premises."
+  },
+  {
+    "question": "What is modus ponens?",
+    "answer": "If p and p→q are true, then q is true."
+  },
+  {
+    "question": "What is modus tollens?",
+    "answer": "If ¬q and p→q are true, then ¬p is true."
+  },
+  {
+    "question": "What is hypothetical syllogism?",
+    "answer": "If p→q and q→r are true, then p→r is true."
+  },
+  {
+    "question": "What is disjunctive syllogism?",
+    "answer": "If p∨q and ¬p are true, then q is true."
+  },
+  {
+    "question": "What is resolution in logic?",
+    "answer": "A rule that allows deriving (q∨r) from (p∨q) and (¬p∨r)."
+  },
+  {
+    "question": "What is universal instantiation?",
+    "answer": "From ∀x.P(x), infer P(c) for any particular c."
+  },
+  {
+    "question": "What is existential instantiation?",
+    "answer": "From ∃x.P(x), infer P(c) for some c (but you cannot choose which c)."
+  },
+  {
+    "question": "What is universal generalisation?",
+    "answer": "If P(c) holds for arbitrary c, infer ∀x.P(x)."
+  },
+  {
+    "question": "What is existential generalisation?",
+    "answer": "If P(c) holds for some c, infer ∃x.P(x)."
+  },
+  {
+    "question": "What is mathematical induction?",
+    "answer": "A proof technique showing a statement holds for all natural numbers by proving a base case and an inductive step."
+  },
+  {
+    "question": "What is the base case in induction?",
+    "answer": "The initial value(s) for which the property is shown to be true."
+  },
+  {
+    "question": "What is the inductive step in induction?",
+    "answer": "Showing that if the property holds for n, it also holds for n+1."
+  },
+  {
+    "question": "What is strong induction?",
+    "answer": "An induction where the inductive step assumes the property for all values up to n to prove it for n+1."
+  },
+  {
+    "question": "Give an example of a sequence defined recursively.",
+    "answer": "The Fibonacci sequence: fib(0)=0, fib(1)=1, fib(n)=fib(n-1)+fib(n-2) for n≥2."
+  },
+  {
+    "question": "What is a recursively defined set?",
+    "answer": "A set defined by specifying base elements and rules for generating new elements from existing ones."
+  },
+  {
+    "question": "What is a recursively defined function?",
+    "answer": "A function defined by base cases and a rule expressing values in terms of previous values."
+  },
+  {
+    "question": "How can addition be defined recursively on natural numbers?",
+    "answer": "add(n, m) = m if n=0; else add(n-1, m+1)."
+  },
+  {
+    "question": "How can multiplication be defined recursively on natural numbers?",
+    "answer": "mult(n, m) = 0 if n=0; else add(m, mult(n-1, m))."
+  },
+  {
+    "question": "How can exponentiation be defined recursively on natural numbers?",
+    "answer": "pow(n, m) = 1 if m=0; else mult(n, pow(n, m-1))."
+  }
+]
