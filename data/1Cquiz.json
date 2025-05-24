@@ -1,0 +1,322 @@
+[
+  {
+    "question": "What is a set in mathematics?",
+    "answer": "A set is a collection of objects, which may or may not be distinct. The empty set is the set with no objects."
+  },
+  {
+    "question": "What is the notation for the empty set?",
+    "answer": "The empty set is denoted by ∅."
+  },
+  {
+    "question": "What does it mean for an element a to belong to a set A?",
+    "answer": "It means a is a member of A, written as a ∈ A."
+  },
+  {
+    "question": "What is the difference between a subset and a strict subset?",
+    "answer": "A subset A ⊆ B means every element of A is in B. A strict subset A ⊂ B means A ⊆ B and there is at least one element in B not in A."
+  },
+  {
+    "question": "List the common sets of numbers and their notations.",
+    "answer": "Natural numbers (ℕ), whole numbers (ℕ₀ or ℕ*), integers (ℤ), rational numbers (ℚ), real numbers (ℝ)."
+  },
+  {
+    "question": "What is an irrational number?",
+    "answer": "A real number that is not rational, such as π or √2."
+  },
+  {
+    "question": "What is a function?",
+    "answer": "A function is a rule that assigns to each input value x in the domain exactly one output value y in the codomain."
+  },
+  {
+    "question": "What are the domain, codomain, and range of a function?",
+    "answer": "The domain is the set of input values, the codomain is the set of possible output values, and the range (or image) is the set of actual outputs."
+  },
+  {
+    "question": "How do you find the composition of two functions?",
+    "answer": "Given functions f and g, the composition f∘g is defined by (f∘g)(x) = f(g(x))."
+  },
+  {
+    "question": "What is the inverse of a function?",
+    "answer": "The inverse function f⁻¹ reverses the effect of f, so that f⁻¹(f(x)) = x for all x in the domain of f."
+  },
+  {
+    "question": "What is the graph of a function?",
+    "answer": "It is the set of points (x, f(x)) for all x in the domain, plotted in the plane."
+  },
+  {
+    "question": "What is meant by scaling and shifting a graph?",
+    "answer": "Scaling multiplies the graph's coordinates by a constant; shifting moves the graph horizontally or vertically."
+  },
+  {
+    "question": "What does 'completing the square' mean?",
+    "answer": "It is rewriting a quadratic expression ax² + bx + c as a(x + p)² + q for suitable p and q."
+  },
+  {
+    "question": "What is the quadratic formula?",
+    "answer": "The solutions to ax² + bx + c = 0 are x = [-b ± √(b² - 4ac)]/(2a)."
+  },
+  {
+    "question": "What is an interval on the real line?",
+    "answer": "A connected subset of real numbers, such as (a, b), [a, b], (a, b], or [a, b)."
+  },
+  {
+    "question": "What is interval notation for unbounded intervals?",
+    "answer": "Intervals such as (a, ∞) or (−∞, b) indicate all real numbers greater than a or less than b, respectively."
+  },
+  {
+    "question": "What do union and intersection mean for sets?",
+    "answer": "Union (A ∪ B) is the set of elements in A or B; intersection (A ∩ B) is the set of elements in both A and B."
+  },
+  {
+    "question": "How do you express a set using set-builder notation?",
+    "answer": "As {x ∈ A | condition on x}."
+  },
+  {
+    "question": "What is the modulus (absolute value) of a real number x?",
+    "answer": "The distance from x to 0 on the real line, |x| = x if x ≥ 0, |x| = -x if x < 0."
+  },
+  {
+    "question": "What is the distance between two real numbers a and b?",
+    "answer": "It is |a - b|."
+  },
+  {
+    "question": "What is an exponential function?",
+    "answer": "A function of the form f(x) = a^x, where a > 0."
+  },
+  {
+    "question": "What is the natural exponential function?",
+    "answer": "The function f(x) = e^x, where e ≈ 2.71828."
+  },
+  {
+    "question": "State the index laws for exponents.",
+    "answer": "a^{x+y} = a^x a^y; (a^x)^y = a^{xy}; a^{-x} = 1/a^x; (ab)^x = a^x b^x."
+  },
+  {
+    "question": "What is a logarithm?",
+    "answer": "The logarithm log_a x is the power to which a must be raised to get x; that is, a^{log_a x} = x."
+  },
+  {
+    "question": "What is the natural logarithm?",
+    "answer": "The logarithm to base e, denoted log x or ln x."
+  },
+  {
+    "question": "State the laws of logarithms.",
+    "answer": "log 1 = 0; log(xy) = log x + log y; log(x/y) = log x - log y; log(x^a) = a log x."
+  },
+  {
+    "question": "What is the relationship between exponentials and logarithms?",
+    "answer": "They are inverse functions: log_a(a^x) = x and a^{log_a x} = x."
+  },
+  {
+    "question": "What is a radian?",
+    "answer": "A radian is the angle subtended at the center of a circle by an arc whose length equals the radius."
+  },
+  {
+    "question": "How do you convert between degrees and radians?",
+    "answer": "Multiply degrees by π/180 to get radians; multiply radians by 180/π to get degrees."
+  },
+  {
+    "question": "What are the definitions of sine, cosine, and tangent for an acute angle?",
+    "answer": "In a right triangle: sin θ = opposite/hypotenuse, cos θ = adjacent/hypotenuse, tan θ = opposite/adjacent."
+  },
+  {
+    "question": "How are sine and cosine defined for any angle?",
+    "answer": "As the y and x coordinates, respectively, of a point on the unit circle corresponding to the angle."
+  },
+  {
+    "question": "What is the unit circle?",
+    "answer": "The circle of radius 1 centered at the origin in the xy-plane."
+  },
+  {
+    "question": "State the Pythagorean identity for sine and cosine.",
+    "answer": "sin²θ + cos²θ = 1 for all θ."
+  },
+  {
+    "question": "What are the periods of sine, cosine, and tangent?",
+    "answer": "Sine and cosine have period 2π; tangent has period π."
+  },
+  {
+    "question": "What are the exact values of sin θ, cos θ, and tan θ for standard angles (0, π/6, π/4, π/3, π/2)?",
+    "answer": "For example: sin(π/6) = 1/2, cos(π/4) = √2/2, tan(π/3) = √3, etc."
+  },
+  {
+    "question": "What are the addition formulae for sine and cosine?",
+    "answer": "sin(A ± B) = sin A cos B ± cos A sin B; cos(A ± B) = cos A cos B ∓ sin A sin B."
+  },
+  {
+    "question": "What are the double angle formulae for sine and cosine?",
+    "answer": "sin 2A = 2 sin A cos A; cos 2A = cos² A - sin² A."
+  },
+  {
+    "question": "How do you solve trigonometric equations like sin θ = a?",
+    "answer": "Find all θ such that sin θ = a, using related angles and periodicity."
+  },
+  {
+    "question": "What are the inverse trigonometric functions?",
+    "answer": "sin⁻¹ x, cos⁻¹ x, and tan⁻¹ x, which return the angle whose sine, cosine, or tangent is x."
+  },
+  {
+    "question": "What is the derivative of sin x?",
+    "answer": "The derivative of sin x is cos x."
+  },
+  {
+    "question": "What is the derivative of cos x?",
+    "answer": "The derivative of cos x is -sin x."
+  },
+  {
+    "question": "What is the derivative of tan x?",
+    "answer": "The derivative of tan x is sec² x."
+  },
+  {
+    "question": "What is the definition of the derivative from first principles?",
+    "answer": "The derivative of f at x is the limit as h→0 of [f(x+h) - f(x)]/h, if this limit exists."
+  },
+  {
+    "question": "What is the power rule for differentiation?",
+    "answer": "d/dx (x^n) = n x^{n-1}."
+  },
+  {
+    "question": "What is the chain rule?",
+    "answer": "If y = f(g(x)), then dy/dx = f'(g(x)) · g'(x)."
+  },
+  {
+    "question": "What is the product rule?",
+    "answer": "If y = u(x)v(x), then y' = u'v + uv'."
+  },
+  {
+    "question": "What is the quotient rule?",
+    "answer": "If y = u(x)/v(x), then y' = (u'v - uv')/v²."
+  },
+  {
+    "question": "What is the derivative of e^x?",
+    "answer": "The derivative of e^x is e^x."
+  },
+  {
+    "question": "What is the derivative of log x?",
+    "answer": "The derivative of log x is 1/x."
+  },
+  {
+    "question": "What is the derivative of sin⁻¹ x?",
+    "answer": "The derivative of sin⁻¹ x is 1/√(1 - x²)."
+  },
+  {
+    "question": "What is the derivative of cos⁻¹ x?",
+    "answer": "The derivative of cos⁻¹ x is -1/√(1 - x²)."
+  },
+  {
+    "question": "What is the derivative of tan⁻¹ x?",
+    "answer": "The derivative of tan⁻¹ x is 1/(1 + x²)."
+  },
+  {
+    "question": "What is an antiderivative?",
+    "answer": "A function F(x) whose derivative is f(x); F'(x) = f(x)."
+  },
+  {
+    "question": "What is the indefinite integral?",
+    "answer": "The general antiderivative of a function, written ∫ f(x) dx = F(x) + c."
+  },
+  {
+    "question": "What is the definite integral?",
+    "answer": "The signed area under the curve y = f(x) between x = a and x = b, written ∫_a^b f(x) dx."
+  },
+  {
+    "question": "What is the Fundamental Theorem of Calculus?",
+    "answer": "It states that integration and differentiation are inverse processes: if F'(x) = f(x), then ∫_a^b f(x) dx = F(b) - F(a)."
+  },
+  {
+    "question": "What is the linearity property of integrals?",
+    "answer": "∫ [af(x) + bg(x)] dx = a∫ f(x) dx + b∫ g(x) dx for constants a, b."
+  },
+  {
+    "question": "What is the integral of x^n?",
+    "answer": "∫ x^n dx = x^{n+1}/(n+1) + c, for n ≠ -1."
+  },
+  {
+    "question": "What is the integral of 1/x?",
+    "answer": "∫ 1/x dx = log|x| + c."
+  },
+  {
+    "question": "What is the integral of e^x?",
+    "answer": "∫ e^x dx = e^x + c."
+  },
+  {
+    "question": "What is the integral of sin x?",
+    "answer": "∫ sin x dx = -cos x + c."
+  },
+  {
+    "question": "What is the integral of cos x?",
+    "answer": "∫ cos x dx = sin x + c."
+  },
+  {
+    "question": "What is the substitution (change of variables) technique?",
+    "answer": "A method for integrating functions by substituting u = g(x) and rewriting the integral in terms of u."
+  },
+  {
+    "question": "What is integration by parts?",
+    "answer": "A technique based on the product rule: ∫ u dv = uv - ∫ v du."
+  },
+  {
+    "question": "What is the integral of sec² x?",
+    "answer": "∫ sec² x dx = tan x + c."
+  },
+  {
+    "question": "What is the integral of 1/(1 + x²)?",
+    "answer": "∫ 1/(1 + x²) dx = tan⁻¹ x + c."
+  },
+  {
+    "question": "What is the integral of 1/√(1 - x²)?",
+    "answer": "∫ 1/√(1 - x²) dx = sin⁻¹ x + c."
+  },
+  {
+    "question": "What is the integral of 1/(a² + x²)?",
+    "answer": "∫ 1/(a² + x²) dx = (1/a) tan⁻¹(x/a) + c."
+  },
+  {
+    "question": "What is the integral of 1/√(a² - x²)?",
+    "answer": "∫ 1/√(a² - x²) dx = sin⁻¹(x/a) + c."
+  },
+  {
+    "question": "What is the integral of e^{kx}?",
+    "answer": "∫ e^{kx} dx = (1/k) e^{kx} + c, for k ≠ 0."
+  },
+  {
+    "question": "What is an improper rational function?",
+    "answer": "A rational function where the degree of the numerator is at least as large as the degree of the denominator."
+  },
+  {
+    "question": "How do you integrate an improper rational function?",
+    "answer": "First perform long division to write it as a sum of a polynomial and a proper rational function, then integrate each part."
+  },
+  {
+    "question": "What is a partial fraction decomposition?",
+    "answer": "Writing a rational function as a sum of simpler fractions, which can be integrated separately."
+  },
+  {
+    "question": "What is an odd function? What is an even function?",
+    "answer": "An odd function satisfies f(-x) = -f(x); an even function satisfies f(-x) = f(x)."
+  },
+  {
+    "question": "How does symmetry help in evaluating definite integrals?",
+    "answer": "For odd functions over symmetric intervals [-a, a], the integral is zero; for even functions, the integral is twice the integral from 0 to a."
+  },
+  {
+    "question": "What is the area under a curve?",
+    "answer": "It is the definite integral of the function defining the curve between two points."
+  },
+  {
+    "question": "What is the area between two curves y = f(x) and y = g(x)?",
+    "answer": "It is ∫_a^b [f(x) - g(x)] dx, where f(x) ≥ g(x) on [a, b]."
+  },
+  {
+    "question": "What is a volume of revolution?",
+    "answer": "The volume obtained by rotating a curve about an axis, calculated using definite integrals."
+  },
+  {
+    "question": "What is the formula for the volume of revolution about the x-axis?",
+    "answer": "V = π ∫_a^b [f(x)]² dx."
+  },
+  {
+    "question": "What is the surface area of revolution about the x-axis?",
+    "answer": "A = 2π ∫_a^b f(x) √(1 + [f'(x)]²) dx."
+  }
+]
