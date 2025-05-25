@@ -1,0 +1,618 @@
+[
+  {
+    "question": "What is a vector in two dimensions?",
+    "answer": "A quantity with both magnitude and direction, represented by an ordered pair (x, y)."
+  },
+  {
+    "question": "How do you add two vectors in three dimensions?",
+    "answer": "Add their corresponding components: (a, b, c) + (d, e, f) = (a+d, b+e, c+f)."
+  },
+  {
+    "question": "What is the dot product of vectors a = (1,2,3) and b = (4,5,6)?",
+    "answer": "1*4 + 2*5 + 3*6 = 32."
+  },
+  {
+    "question": "What does the cross product of two vectors yield?",
+    "answer": "A vector perpendicular to both original vectors."
+  },
+  {
+    "question": "How do you compute the magnitude of vector (a, b, c)?",
+    "answer": "By calculating sqrt(a^2 + b^2 + c^2)."
+  },
+  {
+    "question": "What is a parametric equation for a line in space?",
+    "answer": "r(t) = r0 + t*v, where r0 is a point and v is the direction vector."
+  },
+  {
+    "question": "What is a plane in three dimensions?",
+    "answer": "A flat surface defined by an equation ax + by + cz = d."
+  },
+  {
+    "question": "How do you find the distance from a point to a plane?",
+    "answer": "Use the formula |ax0 + by0 + cz0 - d| / sqrt(a^2 + b^2 + c^2)."
+  },
+  {
+    "question": "What is the equation of a sphere with center (a, b, c) and radius r?",
+    "answer": "(x-a)^2 + (y-b)^2 + (z-c)^2 = r^2."
+  },
+  {
+    "question": "What is a function of two variables?",
+    "answer": "A function that assigns a real number to each ordered pair (x, y)."
+  },
+  {
+    "question": "What is a level curve?",
+    "answer": "A curve along which a function of two variables has a constant value."
+  },
+  {
+    "question": "How do you find the partial derivative of f(x, y) with respect to x?",
+    "answer": "Differentiate f with respect to x, treating y as a constant."
+  },
+  {
+    "question": "What does the gradient vector represent?",
+    "answer": "The direction of steepest ascent of a function."
+  },
+  {
+    "question": "How do you compute the gradient of f(x, y, z)?",
+    "answer": "By finding the vector (∂f/∂x, ∂f/∂y, ∂f/∂z)."
+  },
+  {
+    "question": "What is a directional derivative?",
+    "answer": "The rate of change of a function in the direction of a given vector."
+  },
+  {
+    "question": "How do you compute the directional derivative of f at point P in direction u?",
+    "answer": "Take the dot product of the gradient at P and the unit vector u."
+  },
+  {
+    "question": "What is the chain rule for functions of several variables?",
+    "answer": "It relates the derivative of a composite function to the derivatives of its components."
+  },
+  {
+    "question": "What does it mean for a function to be differentiable at a point?",
+    "answer": "It can be well-approximated by a linear function near that point."
+  },
+  {
+    "question": "What is a critical point of a function of two variables?",
+    "answer": "A point where both partial derivatives are zero or do not exist."
+  },
+  {
+    "question": "How do you classify a critical point using the second derivative test?",
+    "answer": "Compute the discriminant D = f_xx * f_yy - (f_xy)^2; classify based on the sign of D and f_xx."
+  },
+  {
+    "question": "What is a saddle point?",
+    "answer": "A critical point that is not a local maximum or minimum."
+  },
+  {
+    "question": "What is the method of Lagrange multipliers used for?",
+    "answer": "To find extrema of a function subject to a constraint."
+  },
+  {
+    "question": "How do you set up the equations for Lagrange multipliers?",
+    "answer": "Set grad f = λ grad g, where g(x, y, ...) = 0 is the constraint."
+  },
+  {
+    "question": "What is a double integral?",
+    "answer": "An integral over a two-dimensional region, often written as ∬_R f(x, y) dA."
+  },
+  {
+    "question": "How do you interpret a double integral geometrically?",
+    "answer": "As the volume under the surface z = f(x, y) over region R."
+  },
+  {
+    "question": "How do you change the order of integration in a double integral?",
+    "answer": "Rewrite the bounds to integrate with respect to y first, then x, or vice versa."
+  },
+  {
+    "question": "What is the Jacobian determinant?",
+    "answer": "A factor used when changing variables in multiple integrals."
+  },
+  {
+    "question": "How do you compute the area of a region using a double integral?",
+    "answer": "Integrate 1 over the region: ∬_R 1 dA."
+  },
+  {
+    "question": "What are polar coordinates?",
+    "answer": "A system where each point is determined by a distance from the origin and an angle."
+  },
+  {
+    "question": "How do you convert from Cartesian to polar coordinates?",
+    "answer": "x = r cos θ, y = r sin θ."
+  },
+  {
+    "question": "How do you set up a double integral in polar coordinates?",
+    "answer": "Include an extra factor r: ∬ f(r, θ) r dr dθ."
+  },
+  {
+    "question": "What is a triple integral?",
+    "answer": "An integral over a three-dimensional region, written as ∭_E f(x, y, z) dV."
+  },
+  {
+    "question": "How do you interpret a triple integral geometrically?",
+    "answer": "As the hypervolume under a function over a region in three dimensions."
+  },
+  {
+    "question": "What are cylindrical coordinates?",
+    "answer": "A coordinate system where a point is represented by (r, θ, z)."
+  },
+  {
+    "question": "How do you convert from Cartesian to cylindrical coordinates?",
+    "answer": "x = r cos θ, y = r sin θ, z = z."
+  },
+  {
+    "question": "What are spherical coordinates?",
+    "answer": "A system where a point is given by (ρ, θ, φ), with ρ the distance from the origin."
+  },
+  {
+    "question": "How do you convert from Cartesian to spherical coordinates?",
+    "answer": "x = ρ sin φ cos θ, y = ρ sin φ sin θ, z = ρ cos φ."
+  },
+  {
+    "question": "What is the volume element in spherical coordinates?",
+    "answer": "ρ^2 sin φ dρ dφ dθ."
+  },
+  {
+    "question": "What is a vector field?",
+    "answer": "A function that assigns a vector to each point in space."
+  },
+  {
+    "question": "What is the divergence of a vector field F?",
+    "answer": "The scalar function div F = ∂F1/∂x + ∂F2/∂y + ∂F3/∂z."
+  },
+  {
+    "question": "What is the curl of a vector field F?",
+    "answer": "A vector measuring the rotation of F, given by curl F = ∇ × F."
+  },
+  {
+    "question": "What is a conservative vector field?",
+    "answer": "A field that is the gradient of some scalar function."
+  },
+  {
+    "question": "How do you check if a vector field is conservative?",
+    "answer": "Check if its curl is zero and the domain is simply connected."
+  },
+  {
+    "question": "What is a line integral of a vector field?",
+    "answer": "An integral of the form ∫_C F · dr, representing work done by F along C."
+  },
+  {
+    "question": "How do you compute a line integral over a scalar field?",
+    "answer": "Integrate f(x, y) ds along the curve, where ds is the arc length element."
+  },
+  {
+    "question": "What is Green's Theorem?",
+    "answer": "It relates a line integral around a simple closed curve to a double integral over the region it encloses."
+  },
+  {
+    "question": "State Green's Theorem.",
+    "answer": "∮_C (M dx + N dy) = ∬_R (∂N/∂x - ∂M/∂y) dA."
+  },
+  {
+    "question": "What is a surface integral?",
+    "answer": "An integral over a surface in space, often written as ∬_S f dS."
+  },
+  {
+    "question": "How do you compute the surface area of a parametric surface?",
+    "answer": "Integrate the magnitude of the cross product of the partial derivatives of the parameterization."
+  },
+  {
+    "question": "What is Stokes' Theorem?",
+    "answer": "It relates a surface integral of the curl of a vector field to a line integral around the boundary curve."
+  },
+  {
+    "question": "State Stokes' Theorem.",
+    "answer": "∬_S (curl F) · dS = ∮_C F · dr."
+  },
+  {
+    "question": "What is the Divergence Theorem?",
+    "answer": "It relates the flux of a vector field through a closed surface to the triple integral of its divergence over the region inside."
+  },
+  {
+    "question": "State the Divergence Theorem.",
+    "answer": "∬_S F · n dS = ∭_E div F dV."
+  },
+  {
+    "question": "What is the equation of a paraboloid?",
+    "answer": "z = x^2 + y^2."
+  },
+  {
+    "question": "What is the equation of an ellipsoid?",
+    "answer": "x^2/a^2 + y^2/b^2 + z^2/c^2 = 1."
+  },
+  {
+    "question": "What is the tangent plane to a surface z = f(x, y) at (x0, y0)?",
+    "answer": "z = f(x0, y0) + f_x(x0, y0)(x - x0) + f_y(x0, y0)(y - y0)."
+  },
+  {
+    "question": "What is the normal vector to a surface given by F(x, y, z) = 0?",
+    "answer": "The gradient vector ∇F at the point."
+  },
+  {
+    "question": "What is a level surface?",
+    "answer": "The set of points where a function of three variables equals a constant."
+  },
+  {
+    "question": "What is a contour map?",
+    "answer": "A plot showing level curves of a function of two variables."
+  },
+  {
+    "question": "What is meant by the limit of a function of two variables?",
+    "answer": "The value the function approaches as (x, y) approaches a point."
+  },
+  {
+    "question": "How do you test for continuity of a function of two variables?",
+    "answer": "Check if the limit equals the function value at the point."
+  },
+  {
+    "question": "What is the total differential of f(x, y)?",
+    "answer": "df = f_x dx + f_y dy."
+  },
+  {
+    "question": "What is meant by differentiability in several variables?",
+    "answer": "That the function has a good linear approximation near the point."
+  },
+  {
+    "question": "What is a mixed partial derivative?",
+    "answer": "A second derivative taken with respect to different variables, like f_xy."
+  },
+  {
+    "question": "What is Clairaut's Theorem?",
+    "answer": "If the mixed partials are continuous, f_xy = f_yx."
+  },
+  {
+    "question": "What is the Hessian matrix?",
+    "answer": "The matrix of all second partial derivatives of a function."
+  },
+  {
+    "question": "How do you use the Hessian to classify critical points?",
+    "answer": "By checking its determinant and the sign of f_xx."
+  },
+  {
+    "question": "What is the method for finding absolute extrema on a closed bounded region?",
+    "answer": "Check critical points inside and on the boundary."
+  },
+  {
+    "question": "What is the arc length of a curve r(t) from t=a to t=b?",
+    "answer": "∫_a^b |r'(t)| dt."
+  },
+  {
+    "question": "What is curvature?",
+    "answer": "A measure of how quickly a curve changes direction."
+  },
+  {
+    "question": "How do you find the curvature of a plane curve y = f(x)?",
+    "answer": "κ = |f''(x)| / [1 + (f'(x))^2]^(3/2)."
+  },
+  {
+    "question": "What is a normal vector to a curve in space?",
+    "answer": "A vector perpendicular to the tangent vector."
+  },
+  {
+    "question": "What is torsion of a space curve?",
+    "answer": "A measure of how much the curve deviates from being planar."
+  },
+  {
+    "question": "What is a scalar field?",
+    "answer": "A function that assigns a scalar value to each point in space."
+  },
+  {
+    "question": "What is a vector field?",
+    "answer": "A function that assigns a vector to each point in space."
+  },
+  {
+    "question": "What is the physical interpretation of divergence?",
+    "answer": "It measures the rate at which 'stuff' is expanding from a point."
+  },
+  {
+    "question": "What is the physical interpretation of curl?",
+    "answer": "It measures the rotation or swirling strength of a field."
+  },
+  {
+    "question": "What is a conservative field?",
+    "answer": "A vector field that is the gradient of a scalar function."
+  },
+  {
+    "question": "What is a potential function?",
+    "answer": "A scalar function whose gradient is a given conservative vector field."
+  },
+  {
+    "question": "How do you check if a field is conservative in 2D?",
+    "answer": "If ∂N/∂x = ∂M/∂y for F = (M, N)."
+  },
+  {
+    "question": "What is the work done by a force field along a curve?",
+    "answer": "The line integral of the field along the curve."
+  },
+  {
+    "question": "What is a simple closed curve?",
+    "answer": "A curve that does not cross itself and ends where it starts."
+  },
+  {
+    "question": "What is the flux of a vector field across a surface?",
+    "answer": "The surface integral of the normal component of the field."
+  },
+  {
+    "question": "What is a parameterization of a surface?",
+    "answer": "A mapping from a region in the plane to the surface in space."
+  },
+  {
+    "question": "What is the area element dS for a surface given by r(u, v)?",
+    "answer": "The magnitude of the cross product of the partial derivatives: |r_u × r_v| du dv."
+  },
+  {
+    "question": "What is the orientation of a surface?",
+    "answer": "A choice of unit normal vector at each point."
+  },
+  {
+    "question": "What is the difference between orientable and non-orientable surfaces?",
+    "answer": "Orientable surfaces have a consistent normal direction; non-orientable do not."
+  },
+  {
+    "question": "What is a boundary curve of a surface?",
+    "answer": "The edge or perimeter of the surface."
+  },
+  {
+    "question": "What is a region of integration?",
+    "answer": "The area or volume over which an integral is computed."
+  },
+  {
+    "question": "How do you set up bounds for double integrals over rectangles?",
+    "answer": "Use constant limits for both x and y."
+  },
+  {
+    "question": "How do you set up bounds for double integrals over general regions?",
+    "answer": "Use functions to describe the limits of one variable in terms of the other."
+  },
+  {
+    "question": "How do you change variables in a double integral?",
+    "answer": "Use the Jacobian determinant to adjust for the new variables."
+  },
+  {
+    "question": "What is the geometric meaning of the Jacobian?",
+    "answer": "It represents the area scaling factor under a transformation."
+  },
+  {
+    "question": "What is the triple integral over a box?",
+    "answer": "∭_E f(x, y, z) dV, where E is a rectangular box."
+  },
+  {
+    "question": "How do you set up triple integrals in cylindrical coordinates?",
+    "answer": "Include the r factor: ∭ f(r, θ, z) r dr dθ dz."
+  },
+  {
+    "question": "How do you set up triple integrals in spherical coordinates?",
+    "answer": "Include the ρ^2 sin φ factor: ∭ f(ρ, θ, φ) ρ^2 sin φ dρ dθ dφ."
+  },
+  {
+    "question": "What is a region bounded by a cylinder and planes?",
+    "answer": "A solid whose sides are defined by a cylinder and top/bottom by planes."
+  },
+  {
+    "question": "What is a region bounded by spheres?",
+    "answer": "A solid region inside or between spheres."
+  },
+  {
+    "question": "What is the volume of a sphere of radius r?",
+    "answer": "(4/3)πr^3."
+  },
+  {
+    "question": "What is the surface area of a sphere of radius r?",
+    "answer": "4πr^2."
+  },
+  {
+    "question": "What is the equation of a cone?",
+    "answer": "z = sqrt(x^2 + y^2) or similar forms."
+  },
+  {
+    "question": "What is a solid of revolution?",
+    "answer": "A solid formed by rotating a plane region about an axis."
+  },
+  {
+    "question": "How do you find the centroid of a region?",
+    "answer": "Integrate x and y over the region, divide by the area."
+  },
+  {
+    "question": "What is the moment of inertia?",
+    "answer": "A measure of an object's resistance to rotational acceleration."
+  },
+  {
+    "question": "What is the center of mass?",
+    "answer": "The average position of mass in a region."
+  },
+  {
+    "question": "What is the mass of a lamina with density function ρ(x, y)?",
+    "answer": "∬_R ρ(x, y) dA."
+  },
+  {
+    "question": "What is the moment about the x-axis?",
+    "answer": "∬_R y ρ(x, y) dA."
+  },
+  {
+    "question": "What is the moment about the y-axis?",
+    "answer": "∬_R x ρ(x, y) dA."
+  },
+  {
+    "question": "What is the equation for a paraboloid of revolution?",
+    "answer": "z = x^2 + y^2."
+  },
+  {
+    "question": "How do you find the tangent vector to a curve r(t)?",
+    "answer": "Compute r'(t)."
+  },
+  {
+    "question": "What is the unit tangent vector?",
+    "answer": "T(t) = r'(t)/|r'(t)|."
+  },
+  {
+    "question": "What is the normal plane to a curve?",
+    "answer": "A plane perpendicular to the tangent vector at a point."
+  },
+  {
+    "question": "What is the binormal vector?",
+    "answer": "The cross product of the unit tangent and principal normal vectors."
+  },
+  {
+    "question": "What is the Frenet-Serret frame?",
+    "answer": "The set of tangent, normal, and binormal vectors at a point on a space curve."
+  },
+  {
+    "question": "What is a helical curve?",
+    "answer": "A curve winding around a cylinder or cone."
+  },
+  {
+    "question": "What is a conic section?",
+    "answer": "A curve formed by the intersection of a plane and a cone."
+  },
+  {
+    "question": "What is the equation of an ellipse?",
+    "answer": "x^2/a^2 + y^2/b^2 = 1."
+  },
+  {
+    "question": "What is the equation of a hyperbola?",
+    "answer": "x^2/a^2 - y^2/b^2 = 1."
+  },
+  {
+    "question": "What is the equation of a parabola?",
+    "answer": "y = ax^2 + bx + c."
+  },
+  {
+    "question": "What is a parametric surface?",
+    "answer": "A surface defined by a vector function of two parameters."
+  },
+  {
+    "question": "What is the first fundamental form?",
+    "answer": "A quadratic form giving the dot product of tangent vectors on a surface."
+  },
+  {
+    "question": "What is the second fundamental form?",
+    "answer": "A quadratic form related to the curvature of a surface."
+  },
+  {
+    "question": "What is Gaussian curvature?",
+    "answer": "The product of the principal curvatures at a point on a surface."
+  },
+  {
+    "question": "What is mean curvature?",
+    "answer": "The average of the principal curvatures at a point."
+  },
+  {
+    "question": "What is a vector-valued function?",
+    "answer": "A function whose output is a vector."
+  },
+  {
+    "question": "What is the velocity vector of a particle moving along r(t)?",
+    "answer": "The derivative r'(t)."
+  },
+  {
+    "question": "What is the acceleration vector?",
+    "answer": "The second derivative r''(t)."
+  },
+  {
+    "question": "What is uniform circular motion?",
+    "answer": "Motion at constant speed along a circle."
+  },
+  {
+    "question": "What is the equation for arc length in space?",
+    "answer": "s = ∫ |r'(t)| dt."
+  },
+  {
+    "question": "What is a surface of revolution?",
+    "answer": "A surface formed by rotating a curve about an axis."
+  },
+  {
+    "question": "What is a parameterization for a sphere of radius r?",
+    "answer": "x = r sin φ cos θ, y = r sin φ sin θ, z = r cos φ."
+  },
+  {
+    "question": "What is a parameterization for a cylinder?",
+    "answer": "x = r cos θ, y = r sin θ, z = z."
+  },
+  {
+    "question": "What is the arc length parameter?",
+    "answer": "A parameter t such that |r'(t)| = 1."
+  },
+  {
+    "question": "What is the Laplacian operator?",
+    "answer": "Δf = ∂^2f/∂x^2 + ∂^2f/∂y^2 + ∂^2f/∂z^2."
+  },
+  {
+    "question": "What is a harmonic function?",
+    "answer": "A function whose Laplacian is zero."
+  },
+  {
+    "question": "What is the physical interpretation of the Laplacian?",
+    "answer": "It describes the flow of heat, electric potential, etc."
+  },
+  {
+    "question": "What is an exact differential?",
+    "answer": "A differential form that is the derivative of a function."
+  },
+  {
+    "question": "What is a path-independent integral?",
+    "answer": "An integral whose value depends only on the endpoints, not the path."
+  },
+  {
+    "question": "What is the necessary condition for a field to be path-independent?",
+    "answer": "It must be conservative."
+  },
+  {
+    "question": "What is the physical meaning of a line integral in a force field?",
+    "answer": "The work done by the force along a path."
+  },
+  {
+    "question": "What is a closed curve?",
+    "answer": "A curve whose start and end points are the same."
+  },
+  {
+    "question": "What is a simply connected region?",
+    "answer": "A region with no holes; any closed curve can be shrunk to a point."
+  },
+  {
+    "question": "What is a multiply connected region?",
+    "answer": "A region with holes."
+  },
+  {
+    "question": "What is the difference between a scalar and a vector field?",
+    "answer": "A scalar field assigns a number to each point; a vector field assigns a vector."
+  },
+  {
+    "question": "What is the physical meaning of divergence in fluid flow?",
+    "answer": "It measures the net rate of fluid outflow at a point."
+  },
+  {
+    "question": "What is the physical meaning of curl in fluid flow?",
+    "answer": "It measures the local spinning motion of the fluid."
+  },
+  {
+    "question": "What is a conservative force field?",
+    "answer": "A force field where work done is independent of path."
+  },
+  {
+    "question": "What is the necessary and sufficient condition for a vector field to be conservative?",
+    "answer": "Its curl is zero and the domain is simply connected."
+  },
+  {
+    "question": "What is the relationship between Green's, Stokes', and Divergence Theorems?",
+    "answer": "They are higher-dimensional generalizations relating integrals over regions, boundaries, and surfaces."
+  },
+  {
+    "question": "What is the physical interpretation of the Divergence Theorem?",
+    "answer": "It relates the flux out of a closed surface to sources inside the volume."
+  },
+  {
+    "question": "What is the physical interpretation of Stokes' Theorem?",
+    "answer": "It relates the circulation around a boundary to the sum of curls over the surface."
+  },
+  {
+    "question": "What is a flux integral?",
+    "answer": "An integral measuring the flow of a vector field through a surface."
+  },
+  {
+    "question": "What is a circulation integral?",
+    "answer": "An integral measuring the total 'twisting' of a field around a curve."
+  },
+  {
+    "question": "What is a conservative vector field?",
+    "answer": "A vector field that is the gradient of some scalar function."
+  }
+]

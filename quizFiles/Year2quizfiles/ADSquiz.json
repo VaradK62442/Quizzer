@@ -1,0 +1,510 @@
+[
+  {
+    "question": "What is an algorithm?",
+    "answer": "A step-by-step procedure for solving a problem in a finite amount of time."
+  },
+  {
+    "question": "How can an algorithm be specified?",
+    "answer": "In natural language, as a computer program, in pseudocode, or as a hardware design."
+  },
+  {
+    "question": "What is a data structure?",
+    "answer": "A method to store and organise data to facilitate access and modifications."
+  },
+  {
+    "question": "Why is it important to study algorithms in computer science?",
+    "answer": "Algorithms are essential for solving computational problems efficiently and are foundational to CS."
+  },
+  {
+    "question": "Give three practical applications of algorithms.",
+    "answer": "Internet routing, DNA analysis, and public-key cryptography."
+  },
+  {
+    "question": "What is the main property of a good data structure?",
+    "answer": "It allows efficient access and modification of data."
+  },
+  {
+    "question": "List three examples of data structures.",
+    "answer": "Arrays, linked lists, and binary trees."
+  },
+  {
+    "question": "What is the main limitation of arrays?",
+    "answer": "Fixed size and costly insertions/deletions."
+  },
+  {
+    "question": "What is the role of pseudocode in algorithm design?",
+    "answer": "It provides a language-independent way to describe algorithms."
+  },
+  {
+    "question": "What does it mean for an algorithm to be stable?",
+    "answer": "It preserves the relative order of elements with equal keys."
+  },
+  {
+    "question": "What does it mean for an algorithm to be in-place?",
+    "answer": "It requires only a constant amount of extra memory beyond the input."
+  },
+  {
+    "question": "What is the purpose of algorithm analysis?",
+    "answer": "To predict the resources, such as time and space, required by an algorithm."
+  },
+  {
+    "question": "What is a loop invariant?",
+    "answer": "A property that holds before and after each iteration of a loop, used to prove correctness."
+  },
+  {
+    "question": "What are the three parts of a loop invariant proof?",
+    "answer": "Initialisation, maintenance, and termination."
+  },
+  {
+    "question": "What is the worst-case running time?",
+    "answer": "The maximum number of primitive operations executed for any input of size n."
+  },
+  {
+    "question": "Why do we focus on worst-case analysis?",
+    "answer": "It's easier to analyse and crucial for applications where performance guarantees are needed."
+  },
+  {
+    "question": "What is a primitive operation?",
+    "answer": "A basic computation like assignment, array indexing, or method call, assumed to take constant time."
+  },
+  {
+    "question": "What is Big-Oh notation?",
+    "answer": "A way to express an upper bound on the growth rate of a function, up to a constant factor."
+  },
+  {
+    "question": "Give an example of a function that is O(n^2).",
+    "answer": "The running time of insertion sort in the worst case."
+  },
+  {
+    "question": "What is asymptotic analysis?",
+    "answer": "Studying how the running time of an algorithm increases as the input size grows without bound."
+  },
+  {
+    "question": "What does it mean if f(n) = O(g(n))?",
+    "answer": "There exist constants c and n0 such that f(n) ≤ c·g(n) for all n ≥ n0."
+  },
+  {
+    "question": "What is the difference between O(n) and O(n^2)?",
+    "answer": "O(n) grows linearly, O(n^2) grows quadratically with input size."
+  },
+  {
+    "question": "What is the best-case running time of insertion sort?",
+    "answer": "O(n), when the array is already sorted."
+  },
+  {
+    "question": "What is the worst-case running time of insertion sort?",
+    "answer": "O(n^2), when the array is reverse sorted."
+  },
+  {
+    "question": "What is Θ-notation?",
+    "answer": "It gives a tight bound, meaning both upper and lower bounds, on the growth rate."
+  },
+  {
+    "question": "What is Ω-notation?",
+    "answer": "It provides an asymptotic lower bound on the growth rate of a function."
+  },
+  {
+    "question": "What is little-o notation?",
+    "answer": "It describes functions that grow strictly slower than another function."
+  },
+  {
+    "question": "What is a recurrence relation?",
+    "answer": "An equation that defines a function in terms of its value on smaller inputs, often used for recursive algorithms."
+  },
+  {
+    "question": "What is the master theorem?",
+    "answer": "A tool for solving recurrence relations of the form T(n) = aT(n/b) + f(n)."
+  },
+  {
+    "question": "What is the running time of merge sort?",
+    "answer": "O(n log n) in both best and worst cases."
+  },
+  {
+    "question": "What is the main operation in merge sort?",
+    "answer": "Merging two sorted arrays."
+  },
+  {
+    "question": "Is merge sort stable?",
+    "answer": "Yes, it preserves the order of equal elements."
+  },
+  {
+    "question": "Is merge sort in-place?",
+    "answer": "No, it requires O(n) extra memory for merging."
+  },
+  {
+    "question": "What is the running time of quicksort in the best case?",
+    "answer": "O(n log n)."
+  },
+  {
+    "question": "What is the running time of quicksort in the worst case?",
+    "answer": "O(n^2)."
+  },
+  {
+    "question": "What is the key operation in quicksort?",
+    "answer": "Partitioning the array around a pivot."
+  },
+  {
+    "question": "What are three common partitioning schemes for quicksort?",
+    "answer": "Last element as pivot, median-of-three, and random pivot."
+  },
+  {
+    "question": "What is the average-case running time of quicksort?",
+    "answer": "O(n log n)."
+  },
+  {
+    "question": "Is quicksort stable?",
+    "answer": "No, the standard version is not stable."
+  },
+  {
+    "question": "Is quicksort in-place?",
+    "answer": "Yes, it sorts the array using only a small, constant amount of extra memory."
+  },
+  {
+    "question": "What improvement can be made to quicksort for small subarrays?",
+    "answer": "Use insertion sort for subarrays below a certain size."
+  },
+  {
+    "question": "What is the running time of heapsort?",
+    "answer": "O(n log n) in all cases."
+  },
+  {
+    "question": "What data structure does heapsort use?",
+    "answer": "A binary heap."
+  },
+  {
+    "question": "Is heapsort stable?",
+    "answer": "No, it does not preserve the order of equal elements."
+  },
+  {
+    "question": "Is heapsort in-place?",
+    "answer": "Yes, it sorts the array without requiring extra memory."
+  },
+  {
+    "question": "What is the heap property?",
+    "answer": "In a max-heap, every parent node is greater than or equal to its children."
+  },
+  {
+    "question": "What is the running time of building a max-heap?",
+    "answer": "O(n)."
+  },
+  {
+    "question": "What is the running time of extracting the maximum from a heap?",
+    "answer": "O(log n)."
+  },
+  {
+    "question": "What is a decision tree in the context of sorting?",
+    "answer": "A binary tree representing the sequence of comparisons made by a sorting algorithm."
+  },
+  {
+    "question": "What is the lower bound for comparison-based sorting?",
+    "answer": "Ω(n log n) comparisons in the worst case."
+  },
+  {
+    "question": "What is counting sort?",
+    "answer": "A non-comparison sorting algorithm for integers in a fixed range, running in O(n + k) time."
+  },
+  {
+    "question": "Is counting sort stable?",
+    "answer": "Yes, it preserves the order of equal elements."
+  },
+  {
+    "question": "What is radix sort?",
+    "answer": "A sorting algorithm that sorts numbers digit by digit, using a stable sort as a subroutine."
+  },
+  {
+    "question": "What is the running time of radix sort?",
+    "answer": "O(d(n + k)), where d is the number of digits and k is the range of each digit."
+  },
+  {
+    "question": "What is a linked list?",
+    "answer": "A dynamic data structure consisting of nodes, each containing a key and a pointer to the next node."
+  },
+  {
+    "question": "What is the complexity of inserting at the head of a singly linked list?",
+    "answer": "O(1)."
+  },
+  {
+    "question": "What is the complexity of deleting the head of a singly linked list?",
+    "answer": "O(1)."
+  },
+  {
+    "question": "What is the complexity of searching for a key in a singly linked list?",
+    "answer": "O(n)."
+  },
+  {
+    "question": "What is a doubly linked list?",
+    "answer": "A linked list where each node has pointers to both the next and previous nodes."
+  },
+  {
+    "question": "What is the advantage of a doubly linked list over a singly linked list?",
+    "answer": "Easier and faster deletion of arbitrary nodes."
+  },
+  {
+    "question": "What is a circular doubly linked list with a sentinel?",
+    "answer": "A doubly linked list with a dummy node (sentinel) that simplifies boundary conditions."
+  },
+  {
+    "question": "What is an abstract data type (ADT)?",
+    "answer": "A user-defined data type specified by its operations, not by its implementation."
+  },
+  {
+    "question": "Give two examples of ADTs.",
+    "answer": "Stack and queue."
+  },
+  {
+    "question": "What is the stack ADT?",
+    "answer": "A collection of elements with LIFO (last-in, first-out) insertion and deletion."
+  },
+  {
+    "question": "What are the main stack operations?",
+    "answer": "PUSH, POP, and PEEK (or TOP)."
+  },
+  {
+    "question": "What is the queue ADT?",
+    "answer": "A collection of elements with FIFO (first-in, first-out) insertion and deletion."
+  },
+  {
+    "question": "What are the main queue operations?",
+    "answer": "ENQUEUE, DEQUEUE, and FRONT."
+  },
+  {
+    "question": "What is the complexity of stack operations using an array?",
+    "answer": "O(1) for push and pop."
+  },
+  {
+    "question": "What is stack overflow?",
+    "answer": "An error that occurs when pushing onto a full stack in a fixed-size array implementation."
+  },
+  {
+    "question": "What is stack underflow?",
+    "answer": "An error that occurs when popping from an empty stack."
+  },
+  {
+    "question": "What is a resizable array implementation of a stack?",
+    "answer": "An array that doubles in size when full and halves when one-quarter full, avoiding overflow."
+  },
+  {
+    "question": "What is amortised analysis?",
+    "answer": "An analysis technique that averages the cost of operations over a sequence, showing that resizing is efficient."
+  },
+  {
+    "question": "How can a stack be implemented using a linked list?",
+    "answer": "By inserting and deleting at the head of the list."
+  },
+  {
+    "question": "What is the complexity of queue operations using a linked list with head and tail pointers?",
+    "answer": "O(1) for both enqueue and dequeue."
+  },
+  {
+    "question": "What is a binary tree?",
+    "answer": "A tree data structure where each node has at most two children."
+  },
+  {
+    "question": "What is a binary search tree (BST)?",
+    "answer": "A binary tree where the left subtree contains keys ≤ the node and the right subtree contains keys ≥ the node."
+  },
+  {
+    "question": "What is the time complexity of searching a BST?",
+    "answer": "O(h), where h is the height of the tree."
+  },
+  {
+    "question": "What is inorder traversal of a BST?",
+    "answer": "Visiting nodes in left subtree, then root, then right subtree, yielding sorted order."
+  },
+  {
+    "question": "What is the complexity of finding the minimum in a BST?",
+    "answer": "O(h), by following left children."
+  },
+  {
+    "question": "What is the complexity of inserting into a BST?",
+    "answer": "O(h), where h is the height of the tree."
+  },
+  {
+    "question": "What is the complexity of deleting from a BST?",
+    "answer": "O(h), where h is the height of the tree."
+  },
+  {
+    "question": "What is a balanced BST?",
+    "answer": "A BST where the height is O(log n), ensuring efficient operations."
+  },
+  {
+    "question": "What is the main advantage of balancing a BST?",
+    "answer": "Ensures search, insert, and delete operations are efficient (O(log n))."
+  },
+  {
+    "question": "What is a heap?",
+    "answer": "A nearly complete binary tree with the heap property."
+  },
+  {
+    "question": "What is the difference between a max-heap and a min-heap?",
+    "answer": "In a max-heap, parents are greater than children; in a min-heap, parents are less than children."
+  },
+  {
+    "question": "How is a heap represented as an array?",
+    "answer": "By storing tree nodes in level order, with parent and child indices related by formulas."
+  },
+  {
+    "question": "What is the formula for the left child of node i in a heap array?",
+    "answer": "LEFT(i) = 2i + 1."
+  },
+  {
+    "question": "What is the formula for the right child of node i in a heap array?",
+    "answer": "RIGHT(i) = 2i + 2."
+  },
+  {
+    "question": "What is the formula for the parent of node i in a heap array?",
+    "answer": "PARENT(i) = (i - 1) / 2."
+  },
+  {
+    "question": "What is the running time of MAX-HEAPIFY?",
+    "answer": "O(log n)."
+  },
+  {
+    "question": "What is the running time of BUILD-MAX-HEAP?",
+    "answer": "O(n)."
+  },
+  {
+    "question": "What is the running time of HEAPSORT?",
+    "answer": "O(n log n)."
+  },
+  {
+    "question": "Is HEAPSORT stable?",
+    "answer": "No."
+  },
+  {
+    "question": "What is the decision tree model used for?",
+    "answer": "To analyse the lower bound of comparison-based sorting algorithms."
+  },
+  {
+    "question": "How many leaves are in the decision tree for sorting n elements?",
+    "answer": "n! (n factorial) leaves, one for each permutation."
+  },
+  {
+    "question": "What is the height of the decision tree for sorting n elements?",
+    "answer": "At least log₂(n!) ≈ n log n."
+  },
+  {
+    "question": "Why can't comparison-based sorting be faster than O(n log n)?",
+    "answer": "Because the decision tree must distinguish all n! permutations, requiring at least n log n comparisons."
+  },
+  {
+    "question": "What is the main advantage of counting sort?",
+    "answer": "It sorts integers in linear time without comparisons, when the range is small."
+  },
+  {
+    "question": "What is the main limitation of counting sort?",
+    "answer": "It requires O(k) extra space, where k is the range of input values."
+  },
+  {
+    "question": "What is the main idea of radix sort?",
+    "answer": "Sort numbers digit by digit, using a stable sort for each digit."
+  },
+  {
+    "question": "When is radix sort efficient?",
+    "answer": "When the number of digits and the range of each digit are small."
+  },
+  {
+    "question": "What is a stable sort?",
+    "answer": "A sorting algorithm that preserves the relative order of equal elements."
+  },
+  {
+    "question": "What is a dynamic data structure?",
+    "answer": "A structure that can grow or shrink during program execution, like linked lists."
+  },
+  {
+    "question": "What is the main advantage of dynamic data structures?",
+    "answer": "They use memory efficiently and can adapt to changing data sizes."
+  },
+  {
+    "question": "What is the difference between an array and a linked list?",
+    "answer": "Arrays have fixed size and fast random access; linked lists have dynamic size and fast insertions/deletions."
+  },
+  {
+    "question": "What is the complexity of accessing the ith element in a singly linked list?",
+    "answer": "O(i), as you must traverse from the head."
+  },
+  {
+    "question": "What is the main disadvantage of singly linked lists?",
+    "answer": "Slow access to arbitrary elements; must traverse from the head."
+  },
+  {
+    "question": "What is the complexity of inserting at the tail of a singly linked list without a tail pointer?",
+    "answer": "O(n), as you must traverse to the end."
+  },
+  {
+    "question": "How can insertion at the tail of a singly linked list be made O(1)?",
+    "answer": "By maintaining a tail pointer."
+  },
+  {
+    "question": "What is the complexity of deleting an arbitrary node from a singly linked list?",
+    "answer": "O(n), unless you have a pointer to the previous node."
+  },
+  {
+    "question": "What is the advantage of a doubly linked list for deletion?",
+    "answer": "Can delete a node in O(1) time if you have a pointer to it."
+  },
+  {
+    "question": "What is a sentinel in a linked list?",
+    "answer": "A dummy node used to simplify boundary conditions."
+  },
+  {
+    "question": "What is the main advantage of using a sentinel in a circular doubly linked list?",
+    "answer": "Simplifies code by removing the need to check for head or tail."
+  },
+  {
+    "question": "What is the main difference between a stack and a queue?",
+    "answer": "Stack is LIFO; queue is FIFO."
+  },
+  {
+    "question": "What is the complexity of all main queue operations using a linked list?",
+    "answer": "O(1) for enqueue, dequeue, and front."
+  },
+  {
+    "question": "What is the main use of stacks in programming?",
+    "answer": "Tracking function calls, undo operations, and parsing."
+  },
+  {
+    "question": "What is the main use of queues in programming?",
+    "answer": "Scheduling, buffering, and breadth-first search."
+  },
+  {
+    "question": "What is the complexity of resizing an array for a stack?",
+    "answer": "O(n), but the amortised cost per operation is O(1)."
+  },
+  {
+    "question": "What is the main advantage of amortised analysis?",
+    "answer": "Shows that occasional expensive operations don't affect the overall efficiency."
+  },
+  {
+    "question": "What is the main difference between a static and a dynamic array?",
+    "answer": "Static arrays have fixed size; dynamic arrays can grow or shrink as needed."
+  },
+  {
+    "question": "What is a binary search tree property?",
+    "answer": "For each node, all keys in the left subtree are less than or equal, and all keys in the right subtree are greater than or equal."
+  },
+  {
+    "question": "What is the main advantage of a binary search tree?",
+    "answer": "Efficient search, insertion, and deletion when balanced."
+  },
+  {
+    "question": "What is the worst-case height of a binary search tree?",
+    "answer": "O(n), when the tree is completely unbalanced."
+  },
+  {
+    "question": "What is the best-case height of a binary search tree?",
+    "answer": "O(log n), when the tree is perfectly balanced."
+  },
+  {
+    "question": "What is a balanced binary search tree?",
+    "answer": "A BST where the height is always O(log n)."
+  },
+  {
+    "question": "What is the main disadvantage of an unbalanced BST?",
+    "answer": "Operations can degrade to O(n) time."
+  },
+  {
+    "question": "What is the main advantage of balancing a BST?",
+    "answer": "Keeps operations efficient at O(log n) time."
+  }
+]

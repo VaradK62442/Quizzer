@@ -1,0 +1,190 @@
+[
+  {
+    "question": "What is enumeration in mathematics?",
+    "answer": "Enumeration is the process of counting the number of ways certain patterns or arrangements can occur."
+  },
+  {
+    "question": "State the multiplicative principle of counting.",
+    "answer": "If one event can occur in r ways and another independent event in s ways, then the two events together can occur in r × s ways."
+  },
+  {
+    "question": "What is the additive principle of counting?",
+    "answer": "If two events cannot occur simultaneously, and one can occur in r ways and the other in s ways, then either event can occur in r + s ways."
+  },
+  {
+    "question": "What is a permutation?",
+    "answer": "A permutation is an arrangement of a set of objects in a specific order."
+  },
+  {
+    "question": "How many ways can n distinct objects be arranged?",
+    "answer": "n! (n factorial) ways."
+  },
+  {
+    "question": "What is a combination?",
+    "answer": "A combination is a selection of objects where order does not matter."
+  },
+  {
+    "question": "How many ways can you choose r objects from n distinct objects?",
+    "answer": "C(n, r) = n! / (r! (n - r)!)"
+  },
+  {
+    "question": "What is the binomial theorem?",
+    "answer": "It gives the expansion of (a + b)^n as the sum of terms C(n, k)a^{n-k}b^k for k = 0 to n."
+  },
+  {
+    "question": "What is a multinomial coefficient?",
+    "answer": "It counts the number of ways to divide n objects into groups of specified sizes."
+  },
+  {
+    "question": "What is the principle of inclusion-exclusion?",
+    "answer": "A method for counting the size of the union of overlapping sets by including and excluding intersections appropriately."
+  },
+  {
+    "question": "What is a derangement?",
+    "answer": "A permutation with no fixed points; that is, no object appears in its original position."
+  },
+  {
+    "question": "What is the pigeonhole principle?",
+    "answer": "If n+1 objects are placed into n boxes, at least one box contains more than one object."
+  },
+  {
+    "question": "What is a partition of a set?",
+    "answer": "A way of dividing a set into non-empty, non-overlapping subsets whose union is the original set."
+  },
+  {
+    "question": "What is a recurrence relation?",
+    "answer": "An equation that defines each term of a sequence in terms of previous terms."
+  },
+  {
+    "question": "What is a generating function?",
+    "answer": "A formal power series whose coefficients encode information about a sequence."
+  },
+  {
+    "question": "What is modular arithmetic?",
+    "answer": "Arithmetic for integers where numbers wrap around after reaching a certain value, called the modulus."
+  },
+  {
+    "question": "What does it mean for two integers a and b to be congruent modulo n?",
+    "answer": "a and b have the same remainder when divided by n; written as a ≡ b mod n."
+  },
+  {
+    "question": "What is the greatest common divisor (gcd) of two integers?",
+    "answer": "The largest integer that divides both numbers without remainder."
+  },
+  {
+    "question": "What is the Euclidean algorithm used for?",
+    "answer": "Finding the greatest common divisor of two integers."
+  },
+  {
+    "question": "What is a prime number?",
+    "answer": "An integer greater than 1 whose only positive divisors are 1 and itself."
+  },
+  {
+    "question": "State the Fundamental Theorem of Arithmetic.",
+    "answer": "Every integer greater than 1 can be written uniquely as a product of prime numbers, up to the order of the factors."
+  },
+  {
+    "question": "What is Euler's totient function φ(n)?",
+    "answer": "The number of positive integers less than or equal to n that are coprime to n."
+  },
+  {
+    "question": "What is Fermat's Little Theorem?",
+    "answer": "If p is prime and a is not divisible by p, then a^{p-1} ≡ 1 mod p."
+  },
+  {
+    "question": "What is an inverse modulo n?",
+    "answer": "An integer x such that a x ≡ 1 mod n."
+  },
+  {
+    "question": "What is a residue class modulo n?",
+    "answer": "The set of all integers congruent to a given integer modulo n."
+  },
+  {
+    "question": "What is the Chinese Remainder Theorem?",
+    "answer": "If n1, ..., nk are pairwise coprime, then the system of congruences x ≡ ai mod ni has a unique solution modulo N = n1n2...nk."
+  },
+  {
+    "question": "What is a cryptographic cipher?",
+    "answer": "A method for encrypting information so that it can only be read by someone with the key."
+  },
+  {
+    "question": "What is the Caesar cipher?",
+    "answer": "A substitution cipher where each letter is shifted by a fixed number of positions in the alphabet."
+  },
+  {
+    "question": "What is the RSA cryptosystem based on?",
+    "answer": "The difficulty of factoring large integers and properties of modular exponentiation."
+  },
+  {
+    "question": "What is a public key in RSA?",
+    "answer": "A pair (n, e) where n is a product of two large primes and e is an encryption exponent."
+  },
+  {
+    "question": "What is a private key in RSA?",
+    "answer": "A decryption exponent d such that ed ≡ 1 mod φ(n), where φ(n) is Euler's totient function."
+  },
+  {
+    "question": "What is a Boolean algebra?",
+    "answer": "A mathematical structure with operations AND, OR, and NOT, satisfying certain axioms."
+  },
+  {
+    "question": "What is a truth table?",
+    "answer": "A table that shows the output of a logical expression for all possible input values."
+  },
+  {
+    "question": "What is De Morgan's Law for logic?",
+    "answer": "¬(A ∧ B) = (¬A) ∨ (¬B) and ¬(A ∨ B) = (¬A) ∧ (¬B)."
+  },
+  {
+    "question": "What is a tautology?",
+    "answer": "A logical statement that is true for all possible truth values of its variables."
+  },
+  {
+    "question": "What is a contradiction in logic?",
+    "answer": "A statement that is false for all possible truth values of its variables."
+  },
+  {
+    "question": "What is an implication in logic?",
+    "answer": "A statement of the form 'if P then Q', written P ⇒ Q."
+  },
+  {
+    "question": "What is a logical equivalence?",
+    "answer": "Two statements that have the same truth value in every possible case."
+  },
+  {
+    "question": "What is a set?",
+    "answer": "A collection of distinct objects, considered as an object in its own right."
+  },
+  {
+    "question": "What is the union of two sets A and B?",
+    "answer": "The set of all elements that are in A or in B or in both."
+  },
+  {
+    "question": "What is the intersection of two sets A and B?",
+    "answer": "The set of all elements that are in both A and B."
+  },
+  {
+    "question": "What is the complement of a set A?",
+    "answer": "The set of all elements not in A, relative to a universal set."
+  },
+  {
+    "question": "What is a function in mathematics?",
+    "answer": "A rule that assigns to each element in a set exactly one element in another set."
+  },
+  {
+    "question": "What is a surjective function?",
+    "answer": "A function that covers every element of the codomain at least once."
+  },
+  {
+    "question": "What is an injective function?",
+    "answer": "A function where no two different elements in the domain map to the same element in the codomain."
+  },
+  {
+    "question": "What is a bijection?",
+    "answer": "A function that is both injective and surjective."
+  },
+  {
+    "question": "What is a power set?",
+    "answer": "The set of all subsets of a set."
+  }
+]

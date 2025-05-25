@@ -1,0 +1,626 @@
+[
+  {
+    "question": "What is analogue data representation in computing?",
+    "answer": "Analogue data representation uses continuous physical quantities, such as voltage or length, to represent information."
+  },
+  {
+    "question": "Give an example of an analogue computer application.",
+    "answer": "An electronic analogue computer can solve differential equations by making voltages proportional to the quantities being modeled."
+  },
+  {
+    "question": "What are the main disadvantages of analogue computing?",
+    "answer": "Limited precision, error accumulation after many calculations, and difficulty representing anything other than real numbers."
+  },
+  {
+    "question": "What is digital data representation?",
+    "answer": "Digital data representation uses discrete values, typically binary digits, to represent information."
+  },
+  {
+    "question": "What is a bit?",
+    "answer": "A bit is a binary digit, which can be either 0 or 1."
+  },
+  {
+    "question": "Why are digital circuits more reliable than analogue ones?",
+    "answer": "They use only two distinguishable voltages, making circuits simpler and less prone to noise and error."
+  },
+  {
+    "question": "What is a flip-flop in digital circuits?",
+    "answer": "A flip-flop is a basic digital circuit that can store a single bit of data indefinitely until changed."
+  },
+  {
+    "question": "How many values can a byte represent?",
+    "answer": "A byte, which is 8 bits, can represent 256 distinct values."
+  },
+  {
+    "question": "What is a word in computer architecture?",
+    "answer": "A word is a group of bits processed as a unit by the CPU, commonly 16, 32, or 64 bits."
+  },
+  {
+    "question": "What is the information capacity of a 32-bit word?",
+    "answer": "A 32-bit word can represent 4,294,967,296 distinct values."
+  },
+  {
+    "question": "What is the main advantage of digital over analogue representation?",
+    "answer": "Digital allows arbitrary precision by using more digits and can represent all data types."
+  },
+  {
+    "question": "What is binary representation?",
+    "answer": "Binary representation uses a word of k bits to represent a non-negative integer between 0 and 2^k - 1."
+  },
+  {
+    "question": "How do you convert a decimal number to binary?",
+    "answer": "Divide the number by 2 repeatedly, recording the remainders, then write the remainders in reverse order."
+  },
+  {
+    "question": "What is the binary representation of the decimal number 19?",
+    "answer": "10011"
+  },
+  {
+    "question": "What is two's complement?",
+    "answer": "A method for representing signed integers in binary, allowing both positive and negative values."
+  },
+  {
+    "question": "How do you negate a number in two's complement?",
+    "answer": "Invert all bits and add one."
+  },
+  {
+    "question": "What is the range of 8-bit two's complement numbers?",
+    "answer": "-128 to 127"
+  },
+  {
+    "question": "How do you convert a negative two's complement number to decimal?",
+    "answer": "Negate it (invert and add one), then convert to decimal and add a minus sign."
+  },
+  {
+    "question": "What is the sign bit in two's complement?",
+    "answer": "The leftmost bit; 1 means negative, 0 means non-negative."
+  },
+  {
+    "question": "What is hexadecimal notation?",
+    "answer": "A base-16 number system using digits 0-9 and letters a-f."
+  },
+  {
+    "question": "Why is hexadecimal used in computer systems?",
+    "answer": "It provides a compact way to write long binary numbers, grouping bits in sets of four."
+  },
+  {
+    "question": "What is the hexadecimal representation of the binary number 0011110000101111?",
+    "answer": "3c2f"
+  },
+  {
+    "question": "How do you add two binary numbers?",
+    "answer": "Align the numbers, add each column from right to left, carrying over as needed."
+  },
+  {
+    "question": "What is the sum of binary numbers 00101101 and 01001110?",
+    "answer": "01111011"
+  },
+  {
+    "question": "Who invented the binary number system?",
+    "answer": "Gottfried Wilhelm Leibniz."
+  },
+  {
+    "question": "What is a logic gate?",
+    "answer": "A device that implements a basic Boolean function, such as AND, OR, NOT, or XOR."
+  },
+  {
+    "question": "What is a combinational circuit?",
+    "answer": "A circuit whose outputs depend only on current inputs, with no memory."
+  },
+  {
+    "question": "What is a multiplexer?",
+    "answer": "A circuit that selects one of several inputs to forward to the output based on a control signal."
+  },
+  {
+    "question": "What is the function of an inverter gate?",
+    "answer": "It outputs the logical opposite of its input."
+  },
+  {
+    "question": "What is the function of a 2-input AND gate?",
+    "answer": "It outputs 1 if both inputs are 1."
+  },
+  {
+    "question": "What is the function of a 2-input OR gate?",
+    "answer": "It outputs 1 if at least one input is 1."
+  },
+  {
+    "question": "What is the function of a 2-input XOR gate?",
+    "answer": "It outputs 1 if exactly one input is 1."
+  },
+  {
+    "question": "What is gate delay?",
+    "answer": "The small amount of time a logic gate takes to change its output after an input changes."
+  },
+  {
+    "question": "What is Boolean algebra?",
+    "answer": "The mathematics of logic operations on true/false values, using operators like AND, OR, and NOT."
+  },
+  {
+    "question": "What is idempotence in Boolean algebra?",
+    "answer": "An operation is idempotent if applying it multiple times is the same as applying it once, e.g., x AND x = x."
+  },
+  {
+    "question": "What is commutativity in Boolean algebra?",
+    "answer": "The order of inputs does not affect the result, e.g., x AND y = y AND x."
+  },
+  {
+    "question": "What is associativity in Boolean algebra?",
+    "answer": "Grouping of operations does not affect the result, e.g., (x AND y) AND z = x AND (y AND z)."
+  },
+  {
+    "question": "What is a half adder?",
+    "answer": "A circuit that adds two bits and outputs a sum and a carry."
+  },
+  {
+    "question": "What is a full adder?",
+    "answer": "A circuit that adds three bits (including carry-in) and outputs a sum and a carry."
+  },
+  {
+    "question": "What is a ripple carry adder?",
+    "answer": "A chain of full adders used to add multi-bit binary numbers."
+  },
+  {
+    "question": "How is subtraction performed in digital circuits?",
+    "answer": "By adding the two's complement (negation) of the subtracted number."
+  },
+  {
+    "question": "What is a synchronous circuit?",
+    "answer": "A circuit where state changes are coordinated by a global clock signal."
+  },
+  {
+    "question": "What is a flip-flop?",
+    "answer": "A basic memory element that stores one bit of information."
+  },
+  {
+    "question": "What is a register?",
+    "answer": "A collection of flip-flops used to store a multi-bit value in the CPU."
+  },
+  {
+    "question": "What is a register file?",
+    "answer": "An array of registers in the CPU, each accessible by address."
+  },
+  {
+    "question": "What is the ALU?",
+    "answer": "The Arithmetic Logic Unit, which performs arithmetic and logic operations in the CPU."
+  },
+  {
+    "question": "What is the program counter (PC)?",
+    "answer": "A register holding the address of the next instruction to execute."
+  },
+  {
+    "question": "What is an instruction register (IR)?",
+    "answer": "A register holding the current instruction being executed."
+  },
+  {
+    "question": "What is the stack pointer?",
+    "answer": "A register pointing to the top of the call stack."
+  },
+  {
+    "question": "What is the von Neumann architecture?",
+    "answer": "A computer design where data and instructions share the same memory."
+  },
+  {
+    "question": "What is machine language?",
+    "answer": "The set of binary instructions directly executed by the CPU."
+  },
+  {
+    "question": "What is assembly language?",
+    "answer": "A symbolic representation of machine language instructions."
+  },
+  {
+    "question": "What does an assembler do?",
+    "answer": "Translates assembly code into machine code."
+  },
+  {
+    "question": "What is the function of the 'trap' instruction?",
+    "answer": "It requests an operating system operation, such as I/O or program termination."
+  },
+  {
+    "question": "What is an RRR instruction in Sigma16?",
+    "answer": "An instruction that operates on three registers: a destination and two sources."
+  },
+  {
+    "question": "What is an RX instruction in Sigma16?",
+    "answer": "An instruction that operates on a register and a memory location."
+  },
+  {
+    "question": "How do you define a variable in Sigma16 assembly?",
+    "answer": "Using the 'data' statement, e.g., x data 23."
+  },
+  {
+    "question": "How are arrays stored in memory?",
+    "answer": "As consecutive memory locations, with the array name as the address of the first element."
+  },
+  {
+    "question": "How do you access the ith element of an array in assembly?",
+    "answer": "Use indexed addressing, e.g., load R2, x[R3] where R3 holds the index."
+  },
+  {
+    "question": "What is address arithmetic?",
+    "answer": "Calculating memory addresses using a base address and an offset or index."
+  },
+  {
+    "question": "What is an effective address?",
+    "answer": "The computed memory address used in an instruction, combining base and index."
+  },
+  {
+    "question": "What is the purpose of the 'lea' instruction in Sigma16?",
+    "answer": "It loads a constant or address into a register."
+  },
+  {
+    "question": "What is a label in assembly language?",
+    "answer": "A name for a line of code, used as a jump target."
+  },
+  {
+    "question": "What is a control structure?",
+    "answer": "A construct that controls the flow of execution, such as if-then-else or loops."
+  },
+  {
+    "question": "How is an if-then-else implemented in assembly?",
+    "answer": "Using compare and conditional jump instructions."
+  },
+  {
+    "question": "What is a goto statement?",
+    "answer": "A command to jump to a labeled instruction."
+  },
+  {
+    "question": "How is a while loop implemented in assembly?",
+    "answer": "With a label, compare, conditional jump, increment, and loop."
+  },
+  {
+    "question": "What is structured programming?",
+    "answer": "Programming using clear control flow constructs, avoiding arbitrary jumps (goto)."
+  },
+  {
+    "question": "Why are comments important in assembly?",
+    "answer": "They explain code for easier understanding and maintenance."
+  },
+  {
+    "question": "What is the difference between high-level and low-level languages?",
+    "answer": "High-level languages are more abstract and easier for humans; low-level languages are closer to hardware."
+  },
+  {
+    "question": "What does the 'cmp' instruction do in Sigma16?",
+    "answer": "Compares two registers and sets status flags in a control register."
+  },
+  {
+    "question": "How do you write a for-loop in assembly?",
+    "answer": "Initialize the index, compare, conditional jump, update, and loop."
+  },
+  {
+    "question": "What is the purpose of the 'trap' instruction for I/O?",
+    "answer": "To request input or output from the operating system."
+  },
+  {
+    "question": "How do you copy a register value in assembly?",
+    "answer": "Use 'add dest,src,R0' to copy src to dest."
+  },
+  {
+    "question": "What is the difference between a variable and a constant?",
+    "answer": "A variable can change value; a constant is fixed."
+  },
+  {
+    "question": "What does the operating system do for user programs?",
+    "answer": "Manages resources and provides services like I/O."
+  },
+  {
+    "question": "How do you implement nested procedure calls?",
+    "answer": "By saving return addresses and registers on the stack."
+  },
+  {
+    "question": "Why is the stack pointer important?",
+    "answer": "It tracks the top of the call stack for procedure calls and returns."
+  },
+  {
+    "question": "What is a truth table?",
+    "answer": "A table showing all possible input and output values for a logic circuit."
+  },
+  {
+    "question": "What is the function of a decoder?",
+    "answer": "It converts binary input to a one-hot output."
+  },
+  {
+    "question": "What is a bus in computer architecture?",
+    "answer": "A communication system that transfers data between components."
+  },
+  {
+    "question": "What is an opcode?",
+    "answer": "The part of a machine instruction that specifies the operation to perform."
+  },
+  {
+    "question": "What is a finite state machine?",
+    "answer": "A model of computation with a finite number of states and transitions."
+  },
+  {
+    "question": "What is a register transfer machine (RTM)?",
+    "answer": "A digital circuit that performs computations using a register file, an adder, and control signals."
+  },
+  {
+    "question": "What is the main difference between combinational and sequential circuits?",
+    "answer": "Combinational circuits have outputs depending only on inputs; sequential circuits have outputs depending on inputs and state."
+  },
+  {
+    "question": "What is the purpose of the program counter (PC)?",
+    "answer": "It holds the address of the next instruction to execute."
+  },
+  {
+    "question": "What is the function of the instruction register (IR)?",
+    "answer": "It holds the current instruction being executed."
+  },
+  {
+    "question": "What is the role of the assembler in program development?",
+    "answer": "It translates assembly language into machine code."
+  },
+  {
+    "question": "What is the difference between RRR and RX instructions in Sigma16?",
+    "answer": "RRR instructions operate on registers; RX instructions operate on a register and a memory location."
+  },
+  {
+    "question": "Why do we use hexadecimal in assembly programming?",
+    "answer": "Because it provides a compact way to represent binary numbers and instruction fields."
+  },
+  {
+    "question": "What is an addressing mode?",
+    "answer": "A scheme for specifying the address of data in memory."
+  },
+  {
+    "question": "What is the displacement in an RX instruction?",
+    "answer": "The constant part of the address, added to the value in the index register to form the effective address."
+  },
+  {
+    "question": "How do you allocate an array in Sigma16 assembly?",
+    "answer": "By using a label for the first element and consecutive data statements for the rest."
+  },
+  {
+    "question": "What is the difference between load and store instructions?",
+    "answer": "Load copies data from memory to a register; store copies data from a register to memory."
+  },
+  {
+    "question": "Why is R0 special in Sigma16?",
+    "answer": "R0 always contains 0 and cannot be changed."
+  },
+  {
+    "question": "What is the role of R15 in Sigma16?",
+    "answer": "R15 holds status information, such as comparison results."
+  },
+  {
+    "question": "What is a label in assembly language?",
+    "answer": "A name marking a position in code, used as a target for jumps."
+  },
+  {
+    "question": "What is the role of the stack in procedure calls?",
+    "answer": "It stores return addresses and local variables for nested calls."
+  },
+  {
+    "question": "How is a string represented in Sigma16?",
+    "answer": "As an array of character codes, with each character stored in a memory word."
+  },
+  {
+    "question": "How do you write a string to output in Sigma16?",
+    "answer": "Use trap R1,R2,R3, where R1=2, R2 is the address of the string, and R3 is the length."
+  },
+  {
+    "question": "What is the purpose of the jal instruction?",
+    "answer": "It jumps to a procedure and stores the return address in a register."
+  },
+  {
+    "question": "How do you return from a procedure in Sigma16?",
+    "answer": "Use jump 0[Rn], where Rn holds the return address."
+  },
+  {
+    "question": "What is a pointer in assembly programming?",
+    "answer": "A register or variable holding the address of a memory location."
+  },
+  {
+    "question": "How do you obtain the address of a variable in Sigma16?",
+    "answer": "Use lea Rx, var[R0], which loads the address of var into Rx."
+  },
+  {
+    "question": "How do you dereference a pointer in Sigma16?",
+    "answer": "Use load Ry, 0[Rx], where Rx holds the address and Ry receives the value."
+  },
+  {
+    "question": "What is a record in computer systems?",
+    "answer": "A data structure containing several fields, each accessible by name or offset."
+  },
+  {
+    "question": "How do you access a field in a record using assembly?",
+    "answer": "By loading from the base address plus the field's offset."
+  },
+  {
+    "question": "What is the main benefit of using pointers?",
+    "answer": "They allow code to access and manipulate data structures flexibly and efficiently."
+  },
+  {
+    "question": "What is a trap instruction used for besides termination?",
+    "answer": "For OS requests like file I/O or memory allocation."
+  },
+  {
+    "question": "What is structured programming?",
+    "answer": "A paradigm that uses clear control flow constructs like if-then-else and loops, avoiding arbitrary jumps."
+  },
+  {
+    "question": "What is the difference between statement-by-statement and register-variable programming styles?",
+    "answer": "Statement-by-statement compiles each statement independently; register-variable style keeps variables in registers for efficiency."
+  },
+  {
+    "question": "What is the main function of the assembler's symbol table?",
+    "answer": "To map labels and variable names to memory addresses."
+  },
+  {
+    "question": "What is the purpose of the location counter in assembly?",
+    "answer": "To track the address where the next instruction or data will be placed."
+  },
+  {
+    "question": "What is the difference between a comment and a label in assembly?",
+    "answer": "A comment is for human readers and ignored by the assembler; a label marks a code position."
+  },
+  {
+    "question": "What is the effect of using jump loop[R0] in Sigma16?",
+    "answer": "It causes execution to jump to the instruction labeled 'loop'."
+  },
+  {
+    "question": "What is the main advantage of structured control flow in programming?",
+    "answer": "It improves readability, maintainability, and correctness of code."
+  },
+  {
+    "question": "What is the main reason for using the 'store' instruction after a computation?",
+    "answer": "To save the result from a register back to memory."
+  },
+  {
+    "question": "What is the function of the 'lea' instruction when used with a constant?",
+    "answer": "It loads a constant value into a register."
+  },
+  {
+    "question": "How do you copy a value from one register to another in Sigma16?",
+    "answer": "Use add dest,src,R0."
+  },
+  {
+    "question": "What is the difference between a high-level and a low-level language?",
+    "answer": "High-level languages are more abstract and human-friendly; low-level languages are closer to machine code."
+  },
+  {
+    "question": "What is the main purpose of the control registers PC and IR?",
+    "answer": "PC tracks the next instruction; IR holds the current instruction."
+  },
+  {
+    "question": "What is a schematic diagram in circuit design?",
+    "answer": "A graphical representation of a circuit showing components and connections."
+  },
+  {
+    "question": "What is the main purpose of simulation tables in digital circuits?",
+    "answer": "To systematically calculate and display circuit behavior over time."
+  },
+  {
+    "question": "What is a glitch in digital circuits?",
+    "answer": "A temporary incorrect output caused by gate delays during input changes."
+  },
+  {
+    "question": "What is the main difference between combinational and sequential circuits?",
+    "answer": "Combinational circuits have no memory; sequential circuits have memory and state."
+  },
+  {
+    "question": "What is a demultiplexer?",
+    "answer": "A circuit that takes a single input and routes it to one of several outputs based on a control signal."
+  },
+  {
+    "question": "What is a parallel assignment in hardware?",
+    "answer": "All variables (flip-flops) are updated simultaneously at the clock tick."
+  },
+  {
+    "question": "What is the main function of the register transfer machine (RTM)?",
+    "answer": "To execute simple assignment statements using a register file and an adder."
+  },
+  {
+    "question": "What is the purpose of the 'add' instruction in Sigma16?",
+    "answer": "It adds the values in two registers and stores the result in a destination register."
+  },
+  {
+    "question": "What is the purpose of the 'mul' instruction in Sigma16?",
+    "answer": "It multiplies the values in two registers and stores the result in a destination register."
+  },
+  {
+    "question": "What is the purpose of the 'div' instruction in Sigma16?",
+    "answer": "It divides the value in one register by another and stores the result in a destination register."
+  },
+  {
+    "question": "What is the main limitation of the register file compared to memory?",
+    "answer": "The register file is much smaller and cannot hold all program variables."
+  },
+  {
+    "question": "What is the main purpose of memory in a computer?",
+    "answer": "To store program variables and instructions for long-term use."
+  },
+  {
+    "question": "What is the effective address in an RX instruction?",
+    "answer": "The sum of the displacement and the value in the index register."
+  },
+  {
+    "question": "What is the main difference between load and store instructions?",
+    "answer": "Load brings data from memory to a register; store writes data from a register to memory."
+  },
+  {
+    "question": "What is the main reason for using the 'trap' instruction at the end of a program?",
+    "answer": "To signal the operating system to terminate the program."
+  },
+  {
+    "question": "What is the main function of the assembler's first pass?",
+    "answer": "To record all labels and their addresses in the symbol table."
+  },
+  {
+    "question": "What is the main function of the assembler's second pass?",
+    "answer": "To generate machine code, replacing labels with their addresses."
+  },
+  {
+    "question": "What is the purpose of the data statement in Sigma16?",
+    "answer": "To allocate memory for variables and initialize them."
+  },
+  {
+    "question": "What is the main difference between a variable and an array?",
+    "answer": "A variable holds one value; an array holds multiple values in consecutive memory locations."
+  },
+  {
+    "question": "What is the main advantage of using arrays in programming?",
+    "answer": "They allow efficient storage and access to sequences of data."
+  },
+  {
+    "question": "How do you traverse an array in assembly?",
+    "answer": "Use a loop with an index register to access each element in turn."
+  },
+  {
+    "question": "What is the purpose of the 'cmp' instruction?",
+    "answer": "To compare two register values and set status flags for conditional jumps."
+  },
+  {
+    "question": "What is the main use of conditional jump instructions?",
+    "answer": "To implement control flow structures like if-then-else and loops."
+  },
+  {
+    "question": "What is the main function of the 'jumpz' instruction?",
+    "answer": "To jump to a label if a register contains zero."
+  },
+  {
+    "question": "What is the main function of the 'jumpnz' instruction?",
+    "answer": "To jump to a label if a register contains a nonzero value."
+  },
+  {
+    "question": "What is the main advantage of using compilation patterns?",
+    "answer": "They provide systematic, readable, and correct translations from high-level to assembly code."
+  },
+  {
+    "question": "What is the main reason for using structured programming constructs?",
+    "answer": "To make code more readable, maintainable, and less error-prone."
+  },
+  {
+    "question": "What is the primary function of the stack in procedure calls?",
+    "answer": "To store return addresses and local variables for nested and recursive calls."
+  },
+  {
+    "question": "What is the difference between call-by-value and call-by-reference?",
+    "answer": "Call-by-value passes a copy of the argument; call-by-reference passes the address, allowing the procedure to modify the original."
+  },
+  {
+    "question": "What is the main function of the 'jal' instruction?",
+    "answer": "To jump to a procedure and store the return address in a register."
+  },
+  {
+    "question": "What is the main function of the 'jump' instruction?",
+    "answer": "To transfer control to a specified address or label."
+  },
+  {
+    "question": "What is the main function of the 'lea' instruction when used with a variable?",
+    "answer": "To load the address of the variable into a register."
+  },
+  {
+    "question": "What is the main difference between a pointer and an array?",
+    "answer": "A pointer holds an address; an array is a sequence of values in consecutive memory locations."
+  },
+  {
+    "question": "What is the main advantage of using records in programming?",
+    "answer": "They group related fields together, making data management easier."
+  },
+  {
+    "question": "What is the main purpose of the operating system in relation to user programs?",
+    "answer": "To manage resources, provide services, and ensure security and stability."
+  }
+]

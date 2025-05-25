@@ -1,0 +1,570 @@
+[
+  {
+    "question": "Name three types of astronomical objects visible to the naked eye.",
+    "answer": "The Moon, stars, and planets are all visible to the naked eye."
+  },
+  {
+    "question": "What is the Milky Way as seen in the night sky?",
+    "answer": "The Milky Way appears as a diffuse band of light across the sky and is our view of our own galaxy."
+  },
+  {
+    "question": "What causes the twinkling of stars?",
+    "answer": "Twinkling is caused by atmospheric irregularities that bend the starlight as it passes through Earth's atmosphere."
+  },
+  {
+    "question": "What is the source of the Moon's visible light?",
+    "answer": "The Moon's visible light is reflected sunlight."
+  },
+  {
+    "question": "What is the main source of energy for life on Earth?",
+    "answer": "The Sun is the main source of energy for life on Earth."
+  },
+  {
+    "question": "What is a nebula?",
+    "answer": "A nebula is a cloud of gas and dust in space, sometimes a stellar remnant or a region of star formation."
+  },
+  {
+    "question": "What is the difference between a comet and a meteor?",
+    "answer": "A comet is an icy object with a visible tail when near the Sun, while a meteor is a streak of light from a small body entering Earth's atmosphere."
+  },
+  {
+    "question": "What is aurora and where is it best seen?",
+    "answer": "Aurora is a glow from particles in Earth's upper atmosphere stimulated by charged particles from space, best seen near the magnetic poles."
+  },
+  {
+    "question": "What is the zodiacal light?",
+    "answer": "Zodiacal light is a faint glow of sunlight scattered by interplanetary dust, visible along the zodiac near the Sun."
+  },
+  {
+    "question": "What is the International Space Station (ISS) as seen from Earth?",
+    "answer": "The ISS appears as a bright, moving point of light, reflecting sunlight as it orbits Earth."
+  },
+  {
+    "question": "Why do constellations appear unchanging over thousands of years?",
+    "answer": "Because the stars are so far away that their positions relative to each other change very slowly."
+  },
+  {
+    "question": "What is the typical number of stars in the Milky Way?",
+    "answer": "The Milky Way contains an estimated 2 × 10¹¹ stars."
+  },
+  {
+    "question": "What is a parallax shift?",
+    "answer": "A parallax shift is the apparent displacement of an object when viewed from two different positions."
+  },
+  {
+    "question": "How is the distance to the Moon measured using parallax?",
+    "answer": "By measuring the angle of displacement against a distant background from two locations on Earth and applying trigonometry."
+  },
+  {
+    "question": "What is the speed of light in km/s?",
+    "answer": "The speed of light is 300,000 km/s."
+  },
+  {
+    "question": "What is the typical distance from Earth to the Moon?",
+    "answer": "About 384,400 km."
+  },
+  {
+    "question": "What is the typical distance from Earth to the Sun?",
+    "answer": "About 150 million km, or 1 astronomical unit (AU)."
+  },
+  {
+    "question": "What is the concept of an astronomical unit (AU)?",
+    "answer": "An astronomical unit is the average distance from the Earth to the Sun, about 150 million km."
+  },
+  {
+    "question": "What is the main limitation of the parallax method in astronomy?",
+    "answer": "The parallax angle becomes too small to measure accurately for distant objects."
+  },
+  {
+    "question": "What is geocentric parallax?",
+    "answer": "Geocentric parallax uses a baseline on Earth to measure the parallax of nearby objects like the Moon."
+  },
+  {
+    "question": "What is stellar parallax and why was it not detected until the 19th century?",
+    "answer": "Stellar parallax uses Earth's orbit as a baseline, but the angles are tiny, making detection difficult until precise instruments were available."
+  },
+  {
+    "question": "How can you estimate angles in the sky using your hand?",
+    "answer": "A thumb or finger at arm's length subtends about 1°, a fist about 10°, and an outstretched hand about 18°."
+  },
+  {
+    "question": "What is the radar method for measuring distances in the solar system?",
+    "answer": "It measures the time for a radar pulse to travel to an object and back, using the speed of light to calculate distance."
+  },
+  {
+    "question": "What is the celestial sphere?",
+    "answer": "The celestial sphere is an imaginary sphere with the Earth at its center, onto which all celestial objects are projected."
+  },
+  {
+    "question": "What is the zenith?",
+    "answer": "The zenith is the point in the sky directly overhead an observer."
+  },
+  {
+    "question": "What are azimuth and altitude in the horizon coordinate system?",
+    "answer": "Azimuth is the compass direction along the horizon, and altitude is the angle above the horizon."
+  },
+  {
+    "question": "What is the observer's meridian?",
+    "answer": "The observer's meridian is the semicircle through the zenith joining the north and south points on the horizon."
+  },
+  {
+    "question": "What is diurnal motion?",
+    "answer": "Diurnal motion is the apparent daily movement of celestial objects across the sky due to Earth's rotation."
+  },
+  {
+    "question": "What is a circumpolar star?",
+    "answer": "A circumpolar star never sets below the horizon at a given location."
+  },
+  {
+    "question": "What is the celestial equator?",
+    "answer": "The celestial equator is the projection of Earth's equator onto the celestial sphere."
+  },
+  {
+    "question": "What are the north and south celestial poles?",
+    "answer": "They are the points where Earth's axis of rotation, extended, intersects the celestial sphere."
+  },
+  {
+    "question": "How does the position of the north celestial pole change with latitude?",
+    "answer": "The altitude of the north celestial pole above the horizon equals the observer's latitude."
+  },
+  {
+    "question": "What is right ascension (RA) and declination (Dec)?",
+    "answer": "RA is the celestial equivalent of longitude, measured in hours; Dec is the celestial equivalent of latitude, measured in degrees."
+  },
+  {
+    "question": "What is the ecliptic?",
+    "answer": "The ecliptic is the apparent path of the Sun across the sky, marking the plane of Earth's orbit."
+  },
+  {
+    "question": "What is the vernal equinox?",
+    "answer": "The vernal equinox is the point where the Sun crosses the celestial equator from south to north."
+  },
+  {
+    "question": "How does changing longitude affect the appearance of the sky?",
+    "answer": "Changing longitude shifts the timing of when constellations are visible, but not which constellations are seen."
+  },
+  {
+    "question": "How does changing latitude affect the sky?",
+    "answer": "It changes which stars are circumpolar and the altitude of the celestial pole."
+  },
+  {
+    "question": "What is the relationship between the altitude of the celestial equator and observer's latitude?",
+    "answer": "The greatest altitude of the celestial equator is 90° minus the observer's latitude."
+  },
+  {
+    "question": "What is the effect of Earth's rotation axis tilt on the celestial sphere?",
+    "answer": "It causes the celestial equator to be inclined to the ecliptic by 23.5°."
+  },
+  {
+    "question": "What is a great circle on a sphere?",
+    "answer": "A great circle is the intersection of a sphere with a plane passing through its center."
+  },
+  {
+    "question": "What is a small circle on a sphere?",
+    "answer": "A small circle is the intersection of a sphere with a plane not passing through its center."
+  },
+  {
+    "question": "What is the prime meridian?",
+    "answer": "The prime meridian is the zero of longitude, passing through Greenwich, England."
+  },
+  {
+    "question": "How do you convert degrees, arcminutes, and arcseconds?",
+    "answer": "1° = 60 arcminutes (′); 1′ = 60 arcseconds (″)."
+  },
+  {
+    "question": "What is apparent magnitude?",
+    "answer": "Apparent magnitude is a measure of a star's brightness as seen from Earth."
+  },
+  {
+    "question": "How does apparent brightness change with distance?",
+    "answer": "Apparent brightness decreases with the square of the distance from the observer."
+  },
+  {
+    "question": "What is the formula relating magnitude difference and brightness ratio?",
+    "answer": "m₁ - m₂ = -2.5 log₁₀(B₁/B₂), where m is magnitude and B is brightness."
+  },
+  {
+    "question": "What is a standard candle in astronomy?",
+    "answer": "A standard candle is an object of known luminosity used to measure astronomical distances."
+  },
+  {
+    "question": "What is stellar parallax and what does it measure?",
+    "answer": "Stellar parallax is the apparent shift in a star's position due to Earth's orbit, used to measure distance."
+  },
+  {
+    "question": "What is a sidereal day?",
+    "answer": "A sidereal day is the time it takes for Earth to rotate once relative to the stars, about 23h 56m."
+  },
+  {
+    "question": "What is a solar day?",
+    "answer": "A solar day is the time from one noon to the next, about 24 hours."
+  },
+  {
+    "question": "What is the hour angle in celestial coordinates?",
+    "answer": "The hour angle is the angle between the observer's meridian and the hour circle passing through a celestial object."
+  },
+  {
+    "question": "How are stars named in astronomy?",
+    "answer": "Stars are often named by a Greek letter and constellation, e.g., Alpha Centauri."
+  },
+  {
+    "question": "What is the difference between absolute and apparent magnitude?",
+    "answer": "Apparent magnitude is brightness as seen from Earth; absolute magnitude is brightness at a standard distance of 10 parsecs."
+  },
+  {
+    "question": "What causes the apparent motion of the Sun in the sky?",
+    "answer": "The apparent motion is due to Earth's rotation and its orbit around the Sun."
+  },
+  {
+    "question": "What is the equation of time?",
+    "answer": "The equation of time is the difference between apparent solar time and mean solar time, due to Earth's orbital eccentricity and axial tilt."
+  },
+  {
+    "question": "What are solstices and equinoxes?",
+    "answer": "Solstices are when the Sun is at its highest or lowest point in the sky at noon; equinoxes are when day and night are of equal length."
+  },
+  {
+    "question": "What are circumpolar stars?",
+    "answer": "Stars that never set below the horizon at a given latitude."
+  },
+  {
+    "question": "How does the Sun's declination change throughout the year?",
+    "answer": "The Sun's declination varies between +23.5° and -23.5° due to Earth's axial tilt."
+  },
+  {
+    "question": "What is the cause of the seasons?",
+    "answer": "Seasons are caused by the tilt of Earth's axis relative to its orbital plane."
+  },
+  {
+    "question": "What is the precession of Earth's axis?",
+    "answer": "Precession is the slow wobble of Earth's rotation axis, changing the orientation of the celestial poles over 26,000 years."
+  },
+  {
+    "question": "What is the difference between a tropical and a sidereal year?",
+    "answer": "A tropical year is the time between successive vernal equinoxes; a sidereal year is the time for Earth to orbit the Sun relative to the stars."
+  },
+  {
+    "question": "What are lunar and solar calendars?",
+    "answer": "Lunar calendars are based on the Moon's phases; solar calendars are based on Earth's orbit around the Sun."
+  },
+  {
+    "question": "What causes the phases of the Moon?",
+    "answer": "Phases are caused by the relative positions of the Sun, Moon, and Earth."
+  },
+  {
+    "question": "What is tidal locking?",
+    "answer": "Tidal locking is when an object's rotational period matches its orbital period, causing the same side to always face its partner."
+  },
+  {
+    "question": "What is libration of the Moon?",
+    "answer": "Libration is the slight oscillation that allows us to see slightly more than half of the Moon's surface over time."
+  },
+  {
+    "question": "What is a lunar eclipse?",
+    "answer": "A lunar eclipse occurs when the Moon passes into Earth's shadow."
+  },
+  {
+    "question": "What are the umbra and penumbra?",
+    "answer": "The umbra is the central, darkest part of a shadow; the penumbra is the lighter, outer part."
+  },
+  {
+    "question": "What is a solar eclipse?",
+    "answer": "A solar eclipse occurs when the Moon passes between Earth and the Sun, blocking the Sun's light."
+  },
+  {
+    "question": "What is an annular solar eclipse?",
+    "answer": "An annular solar eclipse occurs when the Moon is too far from Earth to completely cover the Sun, leaving a ring of sunlight."
+  },
+  {
+    "question": "Why don't eclipses happen every month?",
+    "answer": "Because the Moon's orbit is tilted relative to Earth's orbit, so the three bodies do not align every month."
+  },
+  {
+    "question": "What is the Saros cycle?",
+    "answer": "The Saros cycle is about 18 years and 11 days, after which similar eclipses repeat."
+  },
+  {
+    "question": "What is the main reason the Moon has no atmosphere?",
+    "answer": "The Moon's gravity is too weak to retain gas molecules."
+  },
+  {
+    "question": "What is the leading theory for the Moon's formation?",
+    "answer": "The Large Impact Theory, which proposes the Moon formed from debris after a Mars-sized body struck Earth."
+  },
+  {
+    "question": "What are the three criteria for a planet according to the IAU?",
+    "answer": "It must orbit the Sun, be nearly spherical, and have cleared its orbit."
+  },
+  {
+    "question": "Why is Pluto classified as a dwarf planet?",
+    "answer": "Because it has not cleared its orbit of other debris."
+  },
+  {
+    "question": "What are the terrestrial planets?",
+    "answer": "Mercury, Venus, Earth, and Mars."
+  },
+  {
+    "question": "What are the Jovian planets?",
+    "answer": "Jupiter, Saturn, Uranus, and Neptune."
+  },
+  {
+    "question": "What is the Kuiper Belt?",
+    "answer": "A region beyond Neptune containing many icy bodies and dwarf planets."
+  },
+  {
+    "question": "What is the Oort Cloud?",
+    "answer": "A distant, spherical shell of icy objects surrounding the solar system, source of long-period comets."
+  },
+  {
+    "question": "What is an asteroid belt?",
+    "answer": "A region between Mars and Jupiter containing many rocky bodies."
+  },
+  {
+    "question": "What is a comet?",
+    "answer": "An icy body that develops a glowing coma and tail when near the Sun."
+  },
+  {
+    "question": "What is a meteor shower?",
+    "answer": "A meteor shower occurs when Earth passes through debris left by a comet."
+  },
+  {
+    "question": "What is the typical period of Halley's Comet?",
+    "answer": "About 76 years."
+  },
+  {
+    "question": "What is the Solar Nebula Hypothesis?",
+    "answer": "The Sun and planets formed from a rotating cloud of gas and dust."
+  },
+  {
+    "question": "What is accretion in planet formation?",
+    "answer": "Accretion is the process of growth by gradual accumulation of additional layers or matter."
+  },
+  {
+    "question": "What is a planetesimal?",
+    "answer": "A small body formed from dust and gas in the early solar system, which can coalesce to form planets."
+  },
+  {
+    "question": "What is differentiation in planetary evolution?",
+    "answer": "Differentiation is the process by which denser materials sink to the center and lighter materials rise, forming layers."
+  },
+  {
+    "question": "What is the condensation sequence?",
+    "answer": "It describes the order in which different materials condense from the solar nebula as it cools."
+  },
+  {
+    "question": "Why are terrestrial and Jovian planets different in composition?",
+    "answer": "Because only non-volatile materials could condense close to the Sun, while volatile compounds condensed further out."
+  },
+  {
+    "question": "What is the age of the solar system?",
+    "answer": "About 4.6 billion years."
+  },
+  {
+    "question": "How is the age of rocks determined?",
+    "answer": "By measuring the ratio of radioactive elements to their decay products."
+  },
+  {
+    "question": "What is a half-life in radioactive decay?",
+    "answer": "The time required for half of the radioactive atoms in a sample to decay."
+  },
+  {
+    "question": "What is the main force shaping the solar system?",
+    "answer": "Gravity."
+  },
+  {
+    "question": "What is the main difference between catastrophic and evolutionary models of solar system formation?",
+    "answer": "Catastrophic models rely on rare, singular events; evolutionary models involve gradual, common processes."
+  },
+  {
+    "question": "What are the main layers of Earth's interior?",
+    "answer": "The crust, mantle, outer core, and inner core."
+  },
+  {
+    "question": "How do we know about Earth's internal structure?",
+    "answer": "From the study of seismic waves generated by earthquakes."
+  },
+  {
+    "question": "What is the lithosphere?",
+    "answer": "The rigid outer layer of Earth, including the crust and upper mantle."
+  },
+  {
+    "question": "What is the asthenosphere?",
+    "answer": "A region of the upper mantle below the lithosphere, where rocks are close to melting and can flow."
+  },
+  {
+    "question": "What is plate tectonics?",
+    "answer": "The theory that Earth's lithosphere is divided into plates that move over the asthenosphere."
+  },
+  {
+    "question": "What is a mid-ocean ridge?",
+    "answer": "A divergent plate boundary where new oceanic crust is formed."
+  },
+  {
+    "question": "What is a subduction zone?",
+    "answer": "A convergent plate boundary where one plate is forced under another."
+  },
+  {
+    "question": "What causes Earth's magnetic field?",
+    "answer": "The dynamo effect from convection currents in the electrically conducting liquid outer core."
+  },
+  {
+    "question": "What is the magnetosphere?",
+    "answer": "The region around Earth where charged particles are controlled by Earth's magnetic field."
+  },
+  {
+    "question": "What are the Van Allen belts?",
+    "answer": "Regions of trapped charged particles within Earth's magnetosphere."
+  },
+  {
+    "question": "What causes auroras?",
+    "answer": "Charged particles from the solar wind interacting with Earth's magnetic field and atmosphere."
+  },
+  {
+    "question": "What is the diameter of the Moon?",
+    "answer": "About 3,476 km."
+  },
+  {
+    "question": "What is the surface gravity on the Moon compared to Earth?",
+    "answer": "About 1/6 of Earth's gravity."
+  },
+  {
+    "question": "What are maria on the Moon?",
+    "answer": "Dark plains formed by ancient volcanic eruptions."
+  },
+  {
+    "question": "What is a central peak in a lunar crater?",
+    "answer": "A peak formed by the rebound of rock after an impact."
+  },
+  {
+    "question": "Why does the Moon have no large-scale magnetic field?",
+    "answer": "Because it lacks a liquid metallic core and is too small for a dynamo effect."
+  },
+  {
+    "question": "What is the main theory for the Moon's origin?",
+    "answer": "The Large Impact Theory, where a Mars-sized body struck Earth and debris formed the Moon."
+  },
+  {
+    "question": "What is the main reason Mercury is hard to observe from Earth?",
+    "answer": "It is close to the Sun and only visible during twilight."
+  },
+  {
+    "question": "What is the rotation period of Mercury relative to its orbital period?",
+    "answer": "Mercury rotates three times for every two orbits around the Sun (3:2 resonance)."
+  },
+  {
+    "question": "What is the surface temperature range on Mercury?",
+    "answer": "From about -170°C to 430°C."
+  },
+  {
+    "question": "What is a lobate scarp on Mercury?",
+    "answer": "A curved cliff formed by the planet's shrinking as it cooled."
+  },
+  {
+    "question": "What is the Caloris Basin?",
+    "answer": "A large impact crater on Mercury."
+  },
+  {
+    "question": "What is unique about Venus's rotation?",
+    "answer": "Venus rotates in the opposite direction to most planets (retrograde rotation)."
+  },
+  {
+    "question": "What is the main component of Venus's atmosphere?",
+    "answer": "Carbon dioxide."
+  },
+  {
+    "question": "What is the greenhouse effect on Venus?",
+    "answer": "The thick CO₂ atmosphere traps heat, making Venus the hottest planet."
+  },
+  {
+    "question": "What is the surface pressure on Venus compared to Earth?",
+    "answer": "About 90 times greater than Earth's."
+  },
+  {
+    "question": "What is the main reason Venus has few impact craters?",
+    "answer": "Its surface is relatively young due to volcanic resurfacing."
+  },
+  {
+    "question": "What is the diameter of Mars?",
+    "answer": "About 6,792 km."
+  },
+  {
+    "question": "What is the main component of Mars's atmosphere?",
+    "answer": "Carbon dioxide."
+  },
+  {
+    "question": "What is Olympus Mons?",
+    "answer": "The largest volcano in the solar system, located on Mars."
+  },
+  {
+    "question": "What are the polar ice caps on Mars made of?",
+    "answer": "Water ice and dry ice (frozen CO₂)."
+  },
+  {
+    "question": "What evidence suggests Mars once had liquid water?",
+    "answer": "Features such as dried-up riverbeds and minerals that form in water."
+  },
+  {
+    "question": "What is the main reason Mars is red?",
+    "answer": "Its surface contains iron oxide (rust)."
+  },
+  {
+    "question": "What is the length of a day on Mars?",
+    "answer": "About 24.6 hours."
+  },
+  {
+    "question": "What is the length of a year on Mars?",
+    "answer": "About 687 Earth days."
+  },
+  {
+    "question": "What is the main difference between terrestrial and Jovian planets?",
+    "answer": "Terrestrial planets are rocky and small; Jovian planets are gaseous and large."
+  },
+  {
+    "question": "What is comparative planetology?",
+    "answer": "The study of similarities and differences among the planets to understand their formation and evolution."
+  },
+  {
+    "question": "What are Kepler's three laws of planetary motion?",
+    "answer": "1. Planets move in ellipses with the Sun at one focus. 2. A line joining a planet and the Sun sweeps out equal areas in equal times. 3. The square of a planet's orbital period is proportional to the cube of its semi-major axis."
+  },
+  {
+    "question": "What is Newton's law of universal gravitation?",
+    "answer": "Every object attracts every other with a force proportional to their masses and inversely proportional to the square of the distance between them."
+  },
+  {
+    "question": "What is the formula for gravitational force between two masses?",
+    "answer": "F = G × (M₁ × M₂) / d², where G is the gravitational constant."
+  },
+  {
+    "question": "What is the value of the gravitational constant G?",
+    "answer": "G = 6.67 × 10⁻¹¹ N·m²/kg²."
+  },
+  {
+    "question": "What is the main evidence for the expansion of the universe?",
+    "answer": "Observations of distant galaxies show they are moving away from us, as indicated by their redshift."
+  },
+  {
+    "question": "What is the significance of the Hubble Space Telescope?",
+    "answer": "It allows astronomers to observe the universe in visible, ultraviolet, and near-infrared light above Earth's atmosphere."
+  },
+  {
+    "question": "What is the James Webb Space Telescope designed to observe?",
+    "answer": "It observes in the infrared, allowing study of the early universe, star formation, and exoplanets."
+  },
+  {
+    "question": "What is a standard candle and why is it important?",
+    "answer": "A standard candle is an astronomical object of known luminosity, used to measure distances in the universe."
+  },
+  {
+    "question": "What is the main purpose of astronomical coordinate systems?",
+    "answer": "To specify the positions of celestial objects in the sky."
+  },
+  {
+    "question": "What is the main difference between the horizon and equatorial coordinate systems?",
+    "answer": "The horizon system is fixed to the observer's location; the equatorial system is fixed to the stars."
+  },
+  {
+    "question": "What is the ecliptic coordinate system?",
+    "answer": "A system based on the plane of Earth's orbit, useful for tracking the Sun, Moon, and planets."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "question": "What is a graph?",
+    "answer": "A graph is a pair (V, E), where V is a finite set of vertices and E is a set of edges, each of which is a pair of vertices from V."
+  },
+  {
+    "question": "What is a simple graph?",
+    "answer": "A graph with no loops or multiple edges between any pair of vertices."
+  },
+  {
+    "question": "What is a multigraph?",
+    "answer": "A graph that may have multiple edges between the same pair of vertices and may have loops."
+  },
+  {
+    "question": "What is the adjacency matrix of a graph?",
+    "answer": "An n x n matrix where entry (i, j) is 1 if there is an edge between vertex i and vertex j, and 0 otherwise."
+  },
+  {
+    "question": "What is a directed graph (digraph)?",
+    "answer": "A graph where edges have a direction, represented as ordered pairs of vertices."
+  },
+  {
+    "question": "What is a weighted graph?",
+    "answer": "A graph in which each edge is assigned a numerical value called a weight."
+  },
+  {
+    "question": "What does it mean for two vertices to be adjacent?",
+    "answer": "They are connected by an edge."
+  },
+  {
+    "question": "What is the degree of a vertex?",
+    "answer": "The number of edges incident with the vertex."
+  },
+  {
+    "question": "What is a walk in a graph?",
+    "answer": "A sequence of vertices where each consecutive pair is connected by an edge."
+  },
+  {
+    "question": "What is a path in a graph?",
+    "answer": "A walk in which all vertices are distinct."
+  },
+  {
+    "question": "What is a cycle in a graph?",
+    "answer": "A path that starts and ends at the same vertex and has at least three edges, with all other vertices distinct."
+  },
+  {
+    "question": "What is a connected graph?",
+    "answer": "A graph in which there is a path between every pair of vertices."
+  },
+  {
+    "question": "What is a disconnected graph?",
+    "answer": "A graph that is not connected; that is, there exists at least one pair of vertices with no path between them."
+  },
+  {
+    "question": "What is a connected component?",
+    "answer": "A maximal connected subgraph."
+  },
+  {
+    "question": "What is an isolated vertex?",
+    "answer": "A vertex with degree zero."
+  },
+  {
+    "question": "What is a subgraph?",
+    "answer": "A graph formed from a subset of the vertices and edges of another graph."
+  },
+  {
+    "question": "What is an induced subgraph?",
+    "answer": "A subgraph formed by a subset of vertices and all edges between them in the original graph."
+  },
+  {
+    "question": "What is a spanning subgraph?",
+    "answer": "A subgraph that contains all the vertices of the original graph."
+  },
+  {
+    "question": "What does it mean for two graphs to be isomorphic?",
+    "answer": "There is a bijection between their vertex sets that preserves adjacency."
+  },
+  {
+    "question": "What properties are preserved under graph isomorphism?",
+    "answer": "Number of vertices, number of edges, degree sequence, and connectivity."
+  },
+  {
+    "question": "What is a complete graph?",
+    "answer": "A graph in which every pair of distinct vertices is connected by an edge."
+  },
+  {
+    "question": "How many edges does a complete graph on n vertices have?",
+    "answer": "n(n-1)/2 edges."
+  },
+  {
+    "question": "What is a path graph P_n?",
+    "answer": "A graph consisting of n vertices connected in a single line."
+  },
+  {
+    "question": "What is a cycle graph C_n?",
+    "answer": "A graph on n vertices where each vertex is connected to two others in a closed loop."
+  },
+  {
+    "question": "What is a tree?",
+    "answer": "A connected acyclic graph."
+  },
+  {
+    "question": "What is a forest?",
+    "answer": "A graph with no cycles; a collection of trees."
+  },
+  {
+    "question": "What is a leaf in a tree?",
+    "answer": "A vertex of degree one."
+  },
+  {
+    "question": "How many edges does a tree with n vertices have?",
+    "answer": "n-1 edges."
+  },
+  {
+    "question": "What is a spanning tree?",
+    "answer": "A spanning subgraph that is a tree and includes all the vertices."
+  },
+  {
+    "question": "What is a minimum spanning tree?",
+    "answer": "A spanning tree of a weighted graph with the smallest possible total edge weight."
+  },
+  {
+    "question": "What does Cayley's formula state?",
+    "answer": "A complete graph with n vertices has n^{n-2} labelled spanning trees."
+  },
+  {
+    "question": "What is Kruskal's algorithm used for?",
+    "answer": "Finding a minimum spanning tree in a weighted graph."
+  },
+  {
+    "question": "What is Prim's algorithm?",
+    "answer": "A greedy algorithm for finding a minimum spanning tree by building it one edge at a time."
+  },
+  {
+    "question": "What is the Handshaking Lemma?",
+    "answer": "The sum of the degrees of all vertices in a graph equals twice the number of edges."
+  },
+  {
+    "question": "What does the Handshaking Lemma imply about the degrees of vertices?",
+    "answer": "The number of vertices with odd degree is even."
+  },
+  {
+    "question": "What is a bipartite graph?",
+    "answer": "A graph whose vertex set can be partitioned into two sets so that all edges go between the sets."
+  },
+  {
+    "question": "What is a complete bipartite graph K_{p,q}?",
+    "answer": "A bipartite graph where every vertex in the first set is connected to every vertex in the second set."
+  },
+  {
+    "question": "What is a matching in a graph?",
+    "answer": "A set of edges with no two sharing a vertex."
+  },
+  {
+    "question": "What is a perfect matching?",
+    "answer": "A matching that covers every vertex of the graph."
+  },
+  {
+    "question": "State Hall's Marriage Theorem.",
+    "answer": "A bipartite graph with equal-sized parts has a perfect matching if and only if every subset of one part has at least as many neighbours in the other part."
+  },
+  {
+    "question": "What is a proper colouring of a graph?",
+    "answer": "An assignment of colours to vertices so that no two adjacent vertices share the same colour."
+  },
+  {
+    "question": "What is the chromatic number of a graph?",
+    "answer": "The minimum number of colours needed for a proper colouring."
+  },
+  {
+    "question": "What is a clique in a graph?",
+    "answer": "A subset of vertices that forms a complete subgraph."
+  },
+  {
+    "question": "What is the clique number of a graph?",
+    "answer": "The size of the largest clique in the graph."
+  },
+  {
+    "question": "What is an independent set?",
+    "answer": "A set of vertices no two of which are adjacent."
+  },
+  {
+    "question": "What is the independence number of a graph?",
+    "answer": "The size of the largest independent set."
+  },
+  {
+    "question": "What is the greedy colouring algorithm?",
+    "answer": "An algorithm that colours vertices one at a time, always choosing the smallest available colour."
+  },
+  {
+    "question": "What is the maximum degree of a graph?",
+    "answer": "The largest degree among all vertices in the graph."
+  },
+  {
+    "question": "What upper bound does the greedy algorithm give for the chromatic number?",
+    "answer": "At most one more than the maximum degree."
+  },
+  {
+    "question": "What is a planar graph?",
+    "answer": "A graph that can be drawn in the plane without any edges crossing."
+  },
+  {
+    "question": "What is Euler's formula for planar graphs?",
+    "answer": "For a connected planar graph, n - m + r = 2, where n is the number of vertices, m is the number of edges, and r is the number of regions."
+  },
+  {
+    "question": "What is the maximum number of edges in a planar graph with n ≥ 3 vertices?",
+    "answer": "At most 3n - 6 edges."
+  },
+  {
+    "question": "What is the Four Colour Theorem?",
+    "answer": "Every planar graph can be properly coloured with at most four colours."
+  },
+  {
+    "question": "What is a region in a planar drawing of a graph?",
+    "answer": "A connected area of the plane bounded by edges, including the unbounded exterior."
+  },
+  {
+    "question": "What is a cut in a flow network?",
+    "answer": "A partition of the vertices into two sets, separating the source from the sink."
+  },
+  {
+    "question": "What is the capacity of a cut?",
+    "answer": "The sum of the capacities of all edges going from the source side to the sink side."
+  },
+  {
+    "question": "What is the Max-Flow Min-Cut Theorem?",
+    "answer": "In any flow network, the value of the maximum flow equals the capacity of the minimum cut."
+  },
+  {
+    "question": "What is an augmenting path in a flow network?",
+    "answer": "A path from source to sink along which the flow can be increased."
+  },
+  {
+    "question": "What is a source in a directed graph?",
+    "answer": "A vertex with in-degree zero."
+  },
+  {
+    "question": "What is a sink in a directed graph?",
+    "answer": "A vertex with out-degree zero."
+  },
+  {
+    "question": "What is an Euler tour?",
+    "answer": "A closed walk that uses every edge of a graph exactly once."
+  },
+  {
+    "question": "What is an Eulerian graph?",
+    "answer": "A connected graph in which every vertex has even degree."
+  },
+  {
+    "question": "What is a Hamilton cycle?",
+    "answer": "A cycle that visits every vertex of the graph exactly once."
+  },
+  {
+    "question": "What is a Hamiltonian graph?",
+    "answer": "A graph that contains a Hamilton cycle."
+  },
+  {
+    "question": "State Dirac's theorem about Hamilton cycles.",
+    "answer": "If a graph has n ≥ 3 vertices and every vertex has degree at least n/2, then the graph has a Hamilton cycle."
+  },
+  {
+    "question": "What is the Travelling Salesman Problem?",
+    "answer": "Finding a minimum-weight Hamilton cycle in a weighted complete graph."
+  },
+  {
+    "question": "What is the Nearest Neighbour Heuristic for TSP?",
+    "answer": "A greedy algorithm that always visits the nearest unvisited vertex next."
+  },
+  {
+    "question": "What is Ramsey's theorem in graph theory?",
+    "answer": "For all s, t ≥ 2, there is a number n such that every red-blue colouring of the edges of K_n contains a red K_s or a blue K_t."
+  },
+  {
+    "question": "What is a Ramsey number R(s, t)?",
+    "answer": "The smallest n such that every red-blue colouring of K_n contains a red K_s or a blue K_t."
+  },
+  {
+    "question": "What is the complement of a graph?",
+    "answer": "A graph on the same vertex set where two vertices are adjacent if and only if they are not adjacent in the original graph."
+  }
+]

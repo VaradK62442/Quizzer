@@ -1,0 +1,362 @@
+[
+  {
+    "question": "What is a set in mathematics?",
+    "answer": "A set is an unordered collection of elements or members, where order and number of occurrences do not matter."
+  },
+  {
+    "question": "How do you denote the set of natural numbers?",
+    "answer": "The set of natural numbers is denoted by \\(\\mathbb{N} = \\{0,1,2,3,\\ldots\\}\\)."
+  },
+  {
+    "question": "What is set builder notation?",
+    "answer": "Set builder notation defines a set as \\(\\{ x \\mid x \\in U \\wedge P(x) \\}\\), the set of all elements x in U for which the predicate P(x) is true."
+  },
+  {
+    "question": "How is the intersection of two sets A and B defined?",
+    "answer": "The intersection of A and B is the set of elements in both A and B, denoted \\(A \\cap B\\)."
+  },
+  {
+    "question": "How is the union of two sets A and B defined?",
+    "answer": "The union of A and B is the set of elements in A or B or both, denoted \\(A \\cup B\\)."
+  },
+  {
+    "question": "What does it mean for a set A to be included in set B?",
+    "answer": "A is a subset of B, written \\(A \\subseteq B\\), if every element of A is also an element of B."
+  },
+  {
+    "question": "What is the empty set?",
+    "answer": "The set that contains no elements, denoted by \\(\\varnothing\\) or \\(\\{\\}\\)."
+  },
+  {
+    "question": "What is the universal set?",
+    "answer": "The set that contains all elements under consideration in a particular context."
+  },
+  {
+    "question": "What does |S| denote for a set S?",
+    "answer": "It denotes the cardinality of S, i.e., the number of elements in S."
+  },
+  {
+    "question": "What is the power set P(S)?",
+    "answer": "The set of all subsets of S."
+  },
+  {
+    "question": "If S has n elements, how many elements does P(S) have?",
+    "answer": "P(S) has \\(2^n\\) elements."
+  },
+  {
+    "question": "How can subsets of a set S be represented using binary strings?",
+    "answer": "Each subset corresponds to a binary string of length |S|, with 1 indicating presence and 0 indicating absence of an element."
+  },
+  {
+    "question": "What is Russell's Paradox?",
+    "answer": "It arises when considering the set of all sets that do not contain themselves, leading to a contradiction."
+  },
+  {
+    "question": "What is the Cartesian product of sets A and B?",
+    "answer": "The set of all ordered pairs (a, b) where a ∈ A and b ∈ B, denoted \\(A \\times B\\)."
+  },
+  {
+    "question": "What is an improper subset?",
+    "answer": "A subset that may be equal to the set itself; every set is an improper subset of itself."
+  },
+  {
+    "question": "What is a proper subset?",
+    "answer": "A subset that is strictly contained within the set, i.e., \\(A \\subset B\\) and \\(A \\neq B\\)."
+  },
+  {
+    "question": "How do you prove two sets A and B are equal?",
+    "answer": "Show that \\(A \\subseteq B\\) and \\(B \\subseteq A\\)."
+  },
+  {
+    "question": "What does it mean for two sets to be disjoint?",
+    "answer": "They have no elements in common; their intersection is the empty set."
+  },
+  {
+    "question": "How can sets be represented in binary?",
+    "answer": "By a bitstring where each bit represents membership of an element in the universal set."
+  },
+  {
+    "question": "What is the complement of a set A?",
+    "answer": "The set of all elements in the universal set that are not in A."
+  },
+  {
+    "question": "What is the set difference A \\ B?",
+    "answer": "The set of elements in A that are not in B."
+  },
+  {
+    "question": "What is the symmetric difference of sets A and B?",
+    "answer": "The set of elements in either A or B but not both, denoted \\(A \\oplus B\\) or \\(A \\Delta B\\)."
+  },
+  {
+    "question": "What are the identity laws for sets?",
+    "answer": "\\(A \\cup \\varnothing = A\\) and \\(A \\cap U = A\\)."
+  },
+  {
+    "question": "What are the domination laws for sets?",
+    "answer": "\\(A \\cup U = U\\) and \\(A \\cap \\varnothing = \\varnothing\\)."
+  },
+  {
+    "question": "What are the idempotent laws for sets?",
+    "answer": "\\(A \\cup A = A\\) and \\(A \\cap A = A\\)."
+  },
+  {
+    "question": "What are the commutative laws for sets?",
+    "answer": "\\(A \\cup B = B \\cup A\\) and \\(A \\cap B = B \\cap A\\)."
+  },
+  {
+    "question": "What are the associative laws for sets?",
+    "answer": "\\(A \\cup (B \\cup C) = (A \\cup B) \\cup C\\) and \\(A \\cap (B \\cap C) = (A \\cap B) \\cap C\\)."
+  },
+  {
+    "question": "What are the distributive laws for sets?",
+    "answer": "\\(A \\cap (B \\cup C) = (A \\cap B) \\cup (A \\cap C)\\) and \\(A \\cup (B \\cap C) = (A \\cup B) \\cap (A \\cup C)\\)."
+  },
+  {
+    "question": "What are De Morgan's laws for sets?",
+    "answer": "\\((A \\cup B)' = A' \\cap B'\\) and \\((A \\cap B)' = A' \\cup B'\\)."
+  },
+  {
+    "question": "What are four ways to prove two sets are equal?",
+    "answer": "Membership tables, containment proofs, set comprehension/logical equivalence, and Venn diagrams."
+  },
+  {
+    "question": "What is a function from X to Y?",
+    "answer": "A mapping f: X → Y that assigns to each element of X exactly one element of Y."
+  },
+  {
+    "question": "What is the domain of a function?",
+    "answer": "The set X from which the function's inputs are taken."
+  },
+  {
+    "question": "What is the codomain of a function?",
+    "answer": "The set Y into which the function maps its inputs."
+  },
+  {
+    "question": "What is the range of a function?",
+    "answer": "The set of images of all elements of the domain."
+  },
+  {
+    "question": "What does it mean for a function to be injective?",
+    "answer": "It maps different elements of the domain to different elements of the codomain (one-to-one)."
+  },
+  {
+    "question": "What does it mean for a function to be surjective?",
+    "answer": "Every element of the codomain is the image of at least one element of the domain (onto)."
+  },
+  {
+    "question": "What does it mean for a function to be bijective?",
+    "answer": "It is both injective and surjective; every element of the codomain is the image of exactly one element of the domain."
+  },
+  {
+    "question": "What is the inverse of a function?",
+    "answer": "For a bijection f: X→Y, the inverse f⁻¹: Y→X satisfies f⁻¹(f(x))=x and f(f⁻¹(y))=y."
+  },
+  {
+    "question": "What is function composition?",
+    "answer": "Given f: X→Y and g: Y→Z, the composition g∘f: X→Z is defined by (g∘f)(x) = g(f(x))."
+  },
+  {
+    "question": "What is a countable set?",
+    "answer": "A set that has the same cardinality as a subset of the natural numbers."
+  },
+  {
+    "question": "What is a countably infinite set?",
+    "answer": "A set that has the same cardinality as the natural numbers \\(\\mathbb{N}\\)."
+  },
+  {
+    "question": "What is an uncountable set?",
+    "answer": "A set that does not have the same cardinality as any subset of the natural numbers."
+  },
+  {
+    "question": "Give an example of a countably infinite set.",
+    "answer": "The set of even numbers, odd numbers, or integers."
+  },
+  {
+    "question": "Give an example of an uncountable set.",
+    "answer": "The set of real numbers between 0 and 1."
+  },
+  {
+    "question": "What is the diagonal argument in uncountability proofs?",
+    "answer": "A method for showing that the real numbers cannot be listed by constructing a new number differing in at least one digit from each listed number."
+  },
+  {
+    "question": "What is a sequence?",
+    "answer": "An ordered list of numbers, typically denoted a₁, a₂, a₃, ..."
+  },
+  {
+    "question": "What is an arithmetic progression?",
+    "answer": "A sequence where each term is obtained by adding a fixed value to the previous term."
+  },
+  {
+    "question": "What is a geometric progression?",
+    "answer": "A sequence where each term is obtained by multiplying the previous term by a fixed value."
+  },
+  {
+    "question": "What does the summation symbol Σ represent?",
+    "answer": "The sum of a sequence of terms, indexed by an integer variable."
+  },
+  {
+    "question": "How can you shift the index in a summation?",
+    "answer": "By changing the variable of summation and adjusting the limits and terms accordingly."
+  },
+  {
+    "question": "What does the product symbol Π represent?",
+    "answer": "The product of a sequence of terms."
+  },
+  {
+    "question": "What is the division algorithm?",
+    "answer": "Given integers a and positive d, there exist unique integers q and r such that a = dq + r and 0 ≤ r < d."
+  },
+  {
+    "question": "What does it mean for a to divide b?",
+    "answer": "There exists an integer c such that a·c = b."
+  },
+  {
+    "question": "What is the greatest common divisor (gcd) of two integers?",
+    "answer": "The largest positive integer that divides both numbers."
+  },
+  {
+    "question": "What does it mean for two integers to be relatively prime?",
+    "answer": "Their greatest common divisor is 1."
+  },
+  {
+    "question": "What is the fundamental theorem of arithmetic?",
+    "answer": "Every integer greater than 1 can be written uniquely as a product of prime numbers."
+  },
+  {
+    "question": "What is a prime number?",
+    "answer": "An integer greater than 1 whose only positive divisors are 1 and itself."
+  },
+  {
+    "question": "What is the least common multiple (lcm) of two integers?",
+    "answer": "The smallest positive integer that is a multiple of both numbers."
+  },
+  {
+    "question": "What is modular arithmetic?",
+    "answer": "Arithmetic where numbers wrap around after reaching a modulus m, using remainders."
+  },
+  {
+    "question": "What does it mean for a ≡ b (mod m)?",
+    "answer": "a and b have the same remainder when divided by m, or m divides (a-b)."
+  },
+  {
+    "question": "State two properties of congruence modulo m.",
+    "answer": "If a ≡ b (mod m) and c ≡ d (mod m), then (a+c) ≡ (b+d) (mod m) and (ac) ≡ (bd) (mod m)."
+  },
+  {
+    "question": "What is the principle behind public key cryptography?",
+    "answer": "Encryption and decryption use different keys; the public key is for encryption and the private key is for decryption."
+  },
+  {
+    "question": "Why is the RSA algorithm secure?",
+    "answer": "Because it is computationally infeasible to factorise very large numbers."
+  },
+  {
+    "question": "What is a matrix?",
+    "answer": "A rectangular array of elements, usually numbers, arranged in rows and columns."
+  },
+  {
+    "question": "How can a matrix be viewed as a function?",
+    "answer": "As a function from pairs of indices (i, j) to entries in a set S."
+  },
+  {
+    "question": "How is matrix addition defined?",
+    "answer": "By adding corresponding elements of two matrices of the same size."
+  },
+  {
+    "question": "When is matrix multiplication defined?",
+    "answer": "When the number of columns in the first matrix equals the number of rows in the second."
+  },
+  {
+    "question": "Is matrix multiplication commutative?",
+    "answer": "No, matrix multiplication is generally not commutative."
+  },
+  {
+    "question": "Is matrix multiplication associative?",
+    "answer": "Yes, matrix multiplication is associative."
+  },
+  {
+    "question": "What is the identity matrix?",
+    "answer": "A square matrix with 1s on the main diagonal and 0s elsewhere."
+  },
+  {
+    "question": "What is the transpose of a matrix?",
+    "answer": "The matrix obtained by swapping rows and columns."
+  },
+  {
+    "question": "When is a matrix symmetric?",
+    "answer": "When it equals its own transpose."
+  },
+  {
+    "question": "What is a rule of inference?",
+    "answer": "A logical rule that allows the derivation of new statements from existing ones."
+  },
+  {
+    "question": "What is modus ponens?",
+    "answer": "From p and p→q, conclude q."
+  },
+  {
+    "question": "What is modus tollens?",
+    "answer": "From ¬q and p→q, conclude ¬p."
+  },
+  {
+    "question": "What is hypothetical syllogism?",
+    "answer": "From p→q and q→r, conclude p→r."
+  },
+  {
+    "question": "What is disjunctive syllogism?",
+    "answer": "From p∨q and ¬p, conclude q."
+  },
+  {
+    "question": "What is a valid argument in propositional logic?",
+    "answer": "An argument where the truth of all premises guarantees the truth of the conclusion."
+  },
+  {
+    "question": "What is universal instantiation?",
+    "answer": "From ∀x.P(x), conclude P(c) for any c in the domain."
+  },
+  {
+    "question": "What is existential instantiation?",
+    "answer": "From ∃x.P(x), conclude P(c) for some c in the domain."
+  },
+  {
+    "question": "What is mathematical induction?",
+    "answer": "A proof technique for showing a statement holds for all natural numbers by proving a base case and an inductive step."
+  },
+  {
+    "question": "What is the base case in induction?",
+    "answer": "The initial value for which the statement is shown to be true."
+  },
+  {
+    "question": "What is the inductive step in induction?",
+    "answer": "Showing that if the statement holds for n, then it holds for n+1."
+  },
+  {
+    "question": "What is strong induction?",
+    "answer": "A form of induction where the inductive step assumes the statement for all values up to n to prove it for n+1."
+  },
+  {
+    "question": "What is a recursively defined function?",
+    "answer": "A function defined by base cases and an inductive rule relating each value to previous values."
+  },
+  {
+    "question": "Give an example of a recursively defined function.",
+    "answer": "The factorial function: fact(0) = 1, fact(n) = n × fact(n-1) for n > 0."
+  },
+  {
+    "question": "What is a recursively defined set?",
+    "answer": "A set defined by specifying initial elements and rules for constructing new elements from existing ones."
+  },
+  {
+    "question": "What is the recursive definition of the set of natural numbers?",
+    "answer": "0 is in N; if x is in N, then x+1 is in N."
+  },
+  {
+    "question": "What is the recursive definition of the set of strings over an alphabet Σ?",
+    "answer": "The empty string ε is in Σ*; if w ∈ Σ* and x ∈ Σ, then xw ∈ Σ*."
+  },
+  {
+    "question": "What is the recursive definition for concatenation of strings?",
+    "answer": "Base case: ε ++ v = v; inductive step: (xw) ++ v = x(w ++ v)."
+  }
+]

@@ -1,0 +1,454 @@
+[
+  {
+    "question": "What is a distributed information management system (DIM) in the context of web applications?",
+    "answer": "A DIM is a system that enables the management, sharing, finding, modification, and presentation of information across a network in a distributed fashion."
+  },
+  {
+    "question": "List the three main components in a high-level web system architecture.",
+    "answer": "Client, middleware, and database."
+  },
+  {
+    "question": "What is the role of the client in a web application?",
+    "answer": "The client sends request messages, accepts response messages, and acts on the message by communicating with the user or affecting the environment."
+  },
+  {
+    "question": "What is the role of middleware in a web application?",
+    "answer": "Middleware accepts requests from clients, returns responses, and coordinates application components, often handling business logic."
+  },
+  {
+    "question": "What is the main function of the backend/database in a web application?",
+    "answer": "To store and provide data for the application, ensuring scalability and reliability."
+  },
+  {
+    "question": "What protocol is usually used for request and response messages in web applications?",
+    "answer": "HTTP is usually used for both request and response messages."
+  },
+  {
+    "question": "What are some complexities involved in web development?",
+    "answer": "Collision of languages, shifting standards, browser compatibility, and the stateless nature of HTTP."
+  },
+  {
+    "question": "Why is version control important in web development?",
+    "answer": "It maintains a history of a software project, enables collaboration, safeguards code, and simplifies concurrent work."
+  },
+  {
+    "question": "What is the purpose of a package manager like pip or conda?",
+    "answer": "To automate installing, upgrading, and configuring software libraries and their dependencies."
+  },
+  {
+    "question": "What is a virtual environment in Python development?",
+    "answer": "A local environment that provides access to libraries and settings, keeping dependencies for different projects separate."
+  },
+  {
+    "question": "What is the main advantage of using a virtual environment when developing Python web applications?",
+    "answer": "It isolates project dependencies and avoids conflicts between different projects' packages and Python versions."
+  },
+  {
+    "question": "What is the purpose of the 'pip freeze > requirements.txt' command?",
+    "answer": "It exports the list of installed packages and their versions to a requirements file for easy environment replication."
+  },
+  {
+    "question": "What is a monolithic program?",
+    "answer": "A single unit in which every aspect of the application is coded together, including UI, business logic, and data storage."
+  },
+  {
+    "question": "What is a tiered architecture?",
+    "answer": "A way to separate the different tasks of an application into different layers, such as client, middleware, and database."
+  },
+  {
+    "question": "Describe the fat client architecture.",
+    "answer": "The client handles user interface, methods, and functionality, and interacts directly with the database."
+  },
+  {
+    "question": "Describe the thin client architecture.",
+    "answer": "The client handles contents and presentation, interacting with the server, which handles business logic and data."
+  },
+  {
+    "question": "Describe a three-tier architecture in web applications.",
+    "answer": "The client handles interaction, middleware handles business logic, and the database stores application data."
+  },
+  {
+    "question": "What is load balancing in web architecture?",
+    "answer": "Distributing incoming traffic across multiple servers to improve performance, reliability, and scalability."
+  },
+  {
+    "question": "What are two ways that load balancing can be achieved?",
+    "answer": "By using Domain Name Servers or Load Balancing Servers."
+  },
+  {
+    "question": "What is Information Architecture (IA)?",
+    "answer": "The structural design of shared information environments, including organisation, labelling, search, and navigation systems."
+  },
+  {
+    "question": "List some deliverables of an Information Architect.",
+    "answer": "Personas, user needs matrix, wireframes, site maps, URL design, usability testing."
+  },
+  {
+    "question": "What is the purpose of a wireframe in web design?",
+    "answer": "To visually represent the layout and structure of a web page before development, focusing on content placement and navigation."
+  },
+  {
+    "question": "What is a site map in web development?",
+    "answer": "A blueprint showing the organization and relationship between pages of a website."
+  },
+  {
+    "question": "What is the benefit of using a grid layout in web design?",
+    "answer": "It helps organize content visually, ensuring consistency and alignment across the site."
+  },
+  {
+    "question": "What is the difference between global, local, and contextual navigation?",
+    "answer": "Global navigation is available site-wide, local navigation is specific to a section, and contextual navigation relates to the current content."
+  },
+  {
+    "question": "What is the benefit of separating content and style in web development?",
+    "answer": "It improves maintainability, flexibility, and performance by allowing content and presentation to be managed independently."
+  },
+  {
+    "question": "What is the box model in CSS?",
+    "answer": "A model describing the rectangular boxes generated for elements, including content, padding, border, and margin."
+  },
+  {
+    "question": "What are the four main units for specifying length in CSS?",
+    "answer": "Pixels (px), em, rem, and percentages (%)."
+  },
+  {
+    "question": "What is the difference between class and ID selectors in CSS?",
+    "answer": "Class selectors (.) apply to multiple elements; ID selectors (#) apply to a unique element."
+  },
+  {
+    "question": "What is specificity in CSS?",
+    "answer": "A system for determining which CSS rule applies when multiple rules target the same element, based on selector type and order."
+  },
+  {
+    "question": "What is the cascade in CSS?",
+    "answer": "The process by which the browser determines which CSS rules to apply, considering specificity, importance, and source order."
+  },
+  {
+    "question": "What is the purpose of a template in web development?",
+    "answer": "To generate pages by merging a template with specific page data, reducing repetition and enabling dynamic content."
+  },
+  {
+    "question": "What is the main advantage of using external CSS files?",
+    "answer": "They promote separation of concerns, simplify maintenance, and improve performance by sharing styles across multiple pages."
+  },
+  {
+    "question": "What is the main advantage of using a load balancer in web architecture?",
+    "answer": "It distributes incoming traffic across multiple servers to improve performance, reliability, and scalability."
+  },
+  {
+    "question": "What is the main benefit of using static analysis tools like PyLint or JSLint?",
+    "answer": "They help identify errors, enforce coding standards, and improve code quality before runtime."
+  },
+  {
+    "question": "What is HTML?",
+    "answer": "HTML stands for HyperText Markup Language and is the standard language for creating web pages and web applications."
+  },
+  {
+    "question": "What is the purpose of the <head> tag in HTML?",
+    "answer": "It contains metadata about the document, such as the title and links to stylesheets."
+  },
+  {
+    "question": "What is the purpose of the <body> tag in HTML?",
+    "answer": "It contains the content of the web page that is displayed in the browser."
+  },
+  {
+    "question": "What does the <a> tag do in HTML?",
+    "answer": "It creates a hyperlink to another web page or resource."
+  },
+  {
+    "question": "What is the function of the <ul> and <li> tags in HTML?",
+    "answer": "<ul> creates an unordered list, and <li> defines each list item."
+  },
+  {
+    "question": "What is the purpose of the <div> tag in HTML?",
+    "answer": "It divides the page into sections, often used for layout and grouping elements."
+  },
+  {
+    "question": "What is the purpose of the <span> tag in HTML?",
+    "answer": "It groups inline elements for styling or scripting without affecting document layout."
+  },
+  {
+    "question": "What is Django?",
+    "answer": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design."
+  },
+  {
+    "question": "What is the Model-View-Controller (MVC) pattern?",
+    "answer": "It is a software architectural pattern that separates an application into Model (data), View (UI), and Controller (logic) components."
+  },
+  {
+    "question": "How does Django implement the MVC pattern?",
+    "answer": "Django uses models for data, views for logic, and templates for presentation, with the framework handling URL routing and control."
+  },
+  {
+    "question": "What is the purpose of Django's ORM?",
+    "answer": "It maps Python classes to database tables, allowing database operations using Python code."
+  },
+  {
+    "question": "What is the function of the Django admin site?",
+    "answer": "It provides a web-based interface for managing database content and application models."
+  },
+  {
+    "question": "What is the purpose of the settings.py file in a Django project?",
+    "answer": "It contains configuration for the Django project, such as database settings, installed apps, and middleware."
+  },
+  {
+    "question": "What is a Django app?",
+    "answer": "A Django app is a modular component of a Django project, responsible for a specific set of functionality."
+  },
+  {
+    "question": "What command creates a new Django project?",
+    "answer": "django-admin startproject <projectname>"
+  },
+  {
+    "question": "What command creates a new Django app?",
+    "answer": "python manage.py startapp <appname>"
+  },
+  {
+    "question": "How do you register a Django app with a project?",
+    "answer": "Add the app name to the INSTALLED_APPS list in settings.py."
+  },
+  {
+    "question": "What is the purpose of migrations in Django?",
+    "answer": "Migrations manage changes to database schema, allowing you to create and update tables automatically."
+  },
+  {
+    "question": "What command applies migrations in Django?",
+    "answer": "python manage.py migrate"
+  },
+  {
+    "question": "What is the use of the Django shell?",
+    "answer": "It allows you to interact with Django models and database objects in an interactive Python environment."
+  },
+  {
+    "question": "What is a view in Django?",
+    "answer": "A view is a Python function or class that receives a web request and returns a web response."
+  },
+  {
+    "question": "How does Django map URLs to views?",
+    "answer": "Using URL configuration files (urls.py) that map URL patterns to view functions."
+  },
+  {
+    "question": "What is the purpose of the render() function in Django views?",
+    "answer": "It combines a template with a context dictionary and returns an HttpResponse object."
+  },
+  {
+    "question": "What is the purpose of the get_object_or_404() function?",
+    "answer": "It retrieves an object from the database or raises a 404 error if the object does not exist."
+  },
+  {
+    "question": "How do you create a form in a Django template?",
+    "answer": "By using the <form> tag and including CSRF tokens and input fields."
+  },
+  {
+    "question": "What is the purpose of CSRF tokens in Django forms?",
+    "answer": "They protect against Cross-Site Request Forgery attacks by ensuring that form submissions come from trusted sources."
+  },
+  {
+    "question": "How do you use the reverse() function in Django?",
+    "answer": "It generates a URL from a view name and arguments, avoiding hardcoded URLs in code."
+  },
+  {
+    "question": "What is the purpose of the static folder in Django?",
+    "answer": "It stores static files like CSS, JavaScript, and images that are served to clients."
+  },
+  {
+    "question": "How do you include a static CSS file in a Django template?",
+    "answer": "Use {% load static %} and <link rel=\"stylesheet\" href=\"{% static 'path/to/file.css' %}\">."
+  },
+  {
+    "question": "What is the box model in CSS?",
+    "answer": "It describes the rectangular boxes generated for elements, including content, padding, border, and margin."
+  },
+  {
+    "question": "What is the difference between inline, embedded, and external CSS?",
+    "answer": "Inline CSS is applied directly to an element, embedded CSS is in a <style> tag in the HTML, and external CSS is in a separate .css file."
+  },
+  {
+    "question": "What is a class selector in CSS?",
+    "answer": "A selector that applies styles to elements with a specific class attribute, using the dot (.) notation."
+  },
+  {
+    "question": "What is an ID selector in CSS?",
+    "answer": "A selector that applies styles to a single element with a specific id attribute, using the hash (#) notation."
+  },
+  {
+    "question": "What is a descendant selector in CSS?",
+    "answer": "A selector that applies styles to elements that are nested within another element."
+  },
+  {
+    "question": "What is specificity in CSS?",
+    "answer": "A system for determining which CSS rule applies when multiple rules target the same element, based on selector type and order."
+  },
+  {
+    "question": "What is the cascade in CSS?",
+    "answer": "The process by which the browser determines which CSS rules to apply, considering specificity, importance, and source order."
+  },
+  {
+    "question": "What is the Document Object Model (DOM)?",
+    "answer": "A platform- and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of documents."
+  },
+  {
+    "question": "What are the basic node types in the DOM?",
+    "answer": "Document nodes, element nodes, attribute nodes, text nodes, and comment nodes."
+  },
+  {
+    "question": "What is event bubbling in the DOM?",
+    "answer": "A process where an event propagates from the target element up through its ancestors."
+  },
+  {
+    "question": "What is event capturing in the DOM?",
+    "answer": "A process where an event propagates from the root down to the target element."
+  },
+  {
+    "question": "What is the main purpose of JavaScript in web applications?",
+    "answer": "To add interactivity, manipulate the DOM, and handle client-side logic."
+  },
+  {
+    "question": "What is the difference between inline and external JavaScript?",
+    "answer": "Inline JavaScript is included directly in HTML elements, while external JavaScript is stored in separate .js files and linked to the HTML."
+  },
+  {
+    "question": "How do you select an element by ID in JavaScript?",
+    "answer": "Using document.getElementById('id')."
+  },
+  {
+    "question": "How do you select elements by tag name in JavaScript?",
+    "answer": "Using document.getElementsByTagName('tagname')."
+  },
+  {
+    "question": "What is the purpose of the innerHTML property in JavaScript?",
+    "answer": "It gets or sets the HTML content of an element."
+  },
+  {
+    "question": "What is the role of event handlers in JavaScript?",
+    "answer": "They allow code to respond to user actions such as clicks, keypresses, and form submissions."
+  },
+  {
+    "question": "What is AJAX?",
+    "answer": "Asynchronous JavaScript and XML, a technique for updating parts of a web page without reloading the whole page."
+  },
+  {
+    "question": "What is the main advantage of using AJAX in web development?",
+    "answer": "It enables dynamic, responsive interfaces by asynchronously exchanging data with the server."
+  },
+  {
+    "question": "What is jQuery?",
+    "answer": "A fast, small, and feature-rich JavaScript library that simplifies HTML document traversal, event handling, and AJAX."
+  },
+  {
+    "question": "What is the purpose of the Django test client?",
+    "answer": "To simulate a user interacting with the code at the view level for automated testing."
+  },
+  {
+    "question": "What is test-driven development (TDD)?",
+    "answer": "A software development process where tests are written before code, and code is only written to pass those tests."
+  },
+  {
+    "question": "What is the main benefit of automated testing in web development?",
+    "answer": "It verifies that code works as intended, prevents regressions, and supports safe refactoring."
+  },
+  {
+    "question": "What is a migration in Django?",
+    "answer": "A migration is a way of propagating changes made to models into the database schema."
+  },
+  {
+    "question": "What is the use of the admin.site.register() function in Django?",
+    "answer": "It registers a model with the Django admin site, making it manageable via the web interface."
+  },
+  {
+    "question": "What is the difference between CharField and IntegerField in Django models?",
+    "answer": "CharField is used for text data with a maximum length, while IntegerField is used for integer values."
+  },
+  {
+    "question": "What is a ForeignKey in Django models?",
+    "answer": "A field that creates a many-to-one relationship between models."
+  },
+  {
+    "question": "What is a OneToOneField in Django models?",
+    "answer": "A field that creates a one-to-one relationship between models."
+  },
+  {
+    "question": "What is a ManyToManyField in Django models?",
+    "answer": "A field that creates a many-to-many relationship between models."
+  },
+  {
+    "question": "What is the purpose of the __str__ method in Django models?",
+    "answer": "It defines the human-readable string representation of the object."
+  },
+  {
+    "question": "What is the purpose of the Meta class in Django models?",
+    "answer": "It is used to define model metadata, such as ordering and human-readable names."
+  },
+  {
+    "question": "What is the main benefit of using templates in Django?",
+    "answer": "Templates separate presentation from logic, making code more maintainable and reusable."
+  },
+  {
+    "question": "What is the purpose of the context dictionary in Django views?",
+    "answer": "It passes data from the view to the template for rendering."
+  },
+  {
+    "question": "What is the difference between GET and POST methods in HTTP?",
+    "answer": "GET requests data from the server; POST submits data to be processed by the server."
+  },
+  {
+    "question": "What is the role of the settings.py file in Django?",
+    "answer": "It contains configuration for the Django project, such as database settings, installed apps, and middleware."
+  },
+  {
+    "question": "What is the purpose of the ALLOWED_HOSTS setting in Django?",
+    "answer": "It defines a list of host/domain names that the Django site can serve."
+  },
+  {
+    "question": "What is the use of the staticfiles app in Django?",
+    "answer": "It helps manage and serve static files like CSS, JavaScript, and images."
+  },
+  {
+    "question": "What is the purpose of the 'app_name' variable in Django urls.py?",
+    "answer": "It defines the application namespace for URL namespacing in larger projects."
+  },
+  {
+    "question": "What is the use of the {% url %} template tag in Django?",
+    "answer": "It generates a URL for a given view name and arguments, avoiding hardcoded URLs in templates."
+  },
+  {
+    "question": "What is the purpose of the {% csrf_token %} template tag?",
+    "answer": "It inserts a CSRF token into forms to protect against Cross-Site Request Forgery attacks."
+  },
+  {
+    "question": "What is the main advantage of using external JavaScript files?",
+    "answer": "They allow code reuse, easier maintenance, and separation of concerns."
+  },
+  {
+    "question": "What is the main benefit of using a grid layout in CSS?",
+    "answer": "It provides a flexible and consistent way to arrange content in rows and columns."
+  },
+  {
+    "question": "What is the main purpose of using wireframes in web design?",
+    "answer": "To plan page layout and structure before development, focusing on usability and navigation."
+  },
+  {
+    "question": "What is the main purpose of usability testing in web development?",
+    "answer": "To identify and fix issues that affect user experience, ensuring the site is easy to use."
+  },
+  {
+    "question": "What is the main advantage of using Django's admin interface?",
+    "answer": "It provides a ready-to-use web interface for managing application data without extra coding."
+  },
+  {
+    "question": "What is the main role of the middleware in Django?",
+    "answer": "To process requests and responses globally before they reach the view or after the view has processed them."
+  },
+  {
+    "question": "What is the main purpose of a virtual environment in Python development?",
+    "answer": "To isolate project dependencies and avoid conflicts between different projects' packages and Python versions."
+  },
+  {
+    "question": "What is the main purpose of the Django test client?",
+    "answer": "To simulate a user interacting with the code at the view level for automated testing."
+  },
+  {
+    "question": "What is the main advantage of using a package manager like pip or conda?",
+    "answer": "It simplifies installing, upgrading, and managing libraries and their dependencies."
+  }
+]
