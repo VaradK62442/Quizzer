@@ -1,0 +1,954 @@
+[
+  {
+    "question": "Why are numerical arrays important in scientific computing?",
+    "answer": "They allow efficient storage and manipulation of large datasets, enabling fast mathematical operations."
+  },
+  {
+    "question": "What is a vectorized computation?",
+    "answer": "A computation where an operation is applied simultaneously to all elements of an array, rather than using explicit loops."
+  },
+  {
+    "question": "What is an ndarray?",
+    "answer": "An ndarray is a multidimensional numerical array, the core data structure in NumPy for storing numbers."
+  },
+  {
+    "question": "Give an example of data that can be represented as a 2D array.",
+    "answer": "An image, where each element represents a pixel's brightness value."
+  },
+  {
+    "question": "What is the difference between a vector, matrix, and tensor?",
+    "answer": "A vector is a 1D array, a matrix is a 2D array, and a tensor is an n-dimensional array."
+  },
+  {
+    "question": "What does the 'shape' of an array represent?",
+    "answer": "The shape is a tuple indicating the size of the array along each dimension."
+  },
+  {
+    "question": "What is the dtype of an array?",
+    "answer": "The dtype is the data type of all elements in the array, such as float64 or int32."
+  },
+  {
+    "question": "How do you create a new NumPy array from a Python list?",
+    "answer": "By passing the list to np.array()."
+  },
+  {
+    "question": "How do you create a 5x8 array of ones in NumPy?",
+    "answer": "np.ones((5,8))"
+  },
+  {
+    "question": "What does the np.zeros_like(x) function do?",
+    "answer": "It creates a new array of zeros with the same shape and dtype as x."
+  },
+  {
+    "question": "How do you generate a 1D array of numbers from 0 to 9?",
+    "answer": "np.arange(10)"
+  },
+  {
+    "question": "What does np.linspace(0, 1, 5) return?",
+    "answer": "An array of 5 evenly spaced values between 0 and 1, inclusive."
+  },
+  {
+    "question": "What is array slicing?",
+    "answer": "Selecting a subset of an array using start:stop:step notation."
+  },
+  {
+    "question": "How do you reverse a 1D array x in NumPy?",
+    "answer": "x[::-1]"
+  },
+  {
+    "question": "What is the difference between indexing and slicing?",
+    "answer": "Indexing selects a single element or reduces rank; slicing selects a range and preserves rank."
+  },
+  {
+    "question": "How do you select the first row of a 2D array x?",
+    "answer": "x[0, :]"
+  },
+  {
+    "question": "How do you select the last column of a 2D array x?",
+    "answer": "x[:, -1]"
+  },
+  {
+    "question": "What does the transpose of a matrix do?",
+    "answer": "It swaps the rows and columns of the matrix."
+  },
+  {
+    "question": "How do you transpose a NumPy array x?",
+    "answer": "x.T"
+  },
+  {
+    "question": "What does np.concatenate([x, y], axis=0) do?",
+    "answer": "It joins arrays x and y along the first axis (rows)."
+  },
+  {
+    "question": "What does np.stack([x, y]) do?",
+    "answer": "It stacks arrays x and y along a new axis."
+  },
+  {
+    "question": "How do you repeat an array x four times along columns?",
+    "answer": "np.tile(x, (1,4))"
+  },
+  {
+    "question": "What is broadcasting in NumPy?",
+    "answer": "A set of rules for applying binary operations to arrays of different shapes by automatically expanding dimensions."
+  },
+  {
+    "question": "Give an example of broadcasting with a scalar.",
+    "answer": "Adding 1 to an array x: x + 1"
+  },
+  {
+    "question": "What happens if you add a (3,4) array and a (4,) array?",
+    "answer": "The (4,) array is broadcast across the rows of the (3,4) array."
+  },
+  {
+    "question": "What is an invalid broadcasting example?",
+    "answer": "Adding a (2,3,4) array and a (2,4) array."
+  },
+  {
+    "question": "What is reduction in NumPy?",
+    "answer": "Applying an operation like sum or max across an axis or the whole array to reduce its rank."
+  },
+  {
+    "question": "How do you compute the sum of all elements in an array x?",
+    "answer": "np.sum(x)"
+  },
+  {
+    "question": "How do you compute the mean of each column in a 2D array x?",
+    "answer": "np.mean(x, axis=0)"
+  },
+  {
+    "question": "What does np.cumsum(x) compute?",
+    "answer": "The cumulative sum of elements in x."
+  },
+  {
+    "question": "What does np.diff(x) compute?",
+    "answer": "The difference between consecutive elements in x."
+  },
+  {
+    "question": "What does np.argmax(x) return?",
+    "answer": "The index of the largest value in x."
+  },
+  {
+    "question": "What does np.nonzero(x) return?",
+    "answer": "A tuple of arrays, each containing the indices of non-zero elements in x."
+  },
+  {
+    "question": "What is fancy indexing?",
+    "answer": "Indexing an array with another array of integer indices."
+  },
+  {
+    "question": "How do you select elements of x at positions [0, 2, 4]?",
+    "answer": "x[[0, 2, 4]]"
+  },
+  {
+    "question": "What is boolean indexing?",
+    "answer": "Indexing an array with a boolean array to select elements where the condition is True."
+  },
+  {
+    "question": "How do you set all values of x greater than 5 to zero?",
+    "answer": "x[x > 5] = 0"
+  },
+  {
+    "question": "What does np.where(x > 0, 1, -1) do?",
+    "answer": "Returns 1 where x > 0, otherwise -1."
+  },
+  {
+    "question": "What is elementwise arithmetic?",
+    "answer": "Arithmetic operations applied to each element of an array independently."
+  },
+  {
+    "question": "How do you multiply two arrays x and y elementwise?",
+    "answer": "x * y"
+  },
+  {
+    "question": "What does np.maximum(x, 0) do?",
+    "answer": "Returns an array where each element is the maximum of x and 0."
+  },
+  {
+    "question": "What is the difference between np.round, np.floor, and np.ceil?",
+    "answer": "np.round rounds to nearest integer, np.floor rounds down, np.ceil rounds up."
+  },
+  {
+    "question": "How do you clip all values in x to be between -1 and 1?",
+    "answer": "np.clip(x, -1, 1)"
+  },
+  {
+    "question": "What is the result of x[::2]?",
+    "answer": "Every other element of x, starting from the first."
+  },
+  {
+    "question": "How do you reverse the order of rows in a 2D array x?",
+    "answer": "x[::-1, :]"
+  },
+  {
+    "question": "How do you rotate a 2D array 90 degrees?",
+    "answer": "np.rot90(x)"
+  },
+  {
+    "question": "What is the shape of np.ones((3,4,5))?",
+    "answer": "(3, 4, 5)"
+  },
+  {
+    "question": "How do you reshape a 1D array of length 12 into a 3x4 matrix?",
+    "answer": "x.reshape((3,4))"
+  },
+  {
+    "question": "What is the pouring rule in reshaping?",
+    "answer": "Elements fill the last dimension first when reshaping."
+  },
+  {
+    "question": "What does np.squeeze(x) do?",
+    "answer": "Removes all singleton dimensions from x."
+  },
+  {
+    "question": "How do you add a new axis to a 1D array x to make it a column vector?",
+    "answer": "x[:, np.newaxis]"
+  },
+  {
+    "question": "What is the purpose of np.meshgrid?",
+    "answer": "To generate coordinate matrices from coordinate vectors for evaluating functions on a grid."
+  },
+  {
+    "question": "How do you find the indices that would sort an array x?",
+    "answer": "np.argsort(x)"
+  },
+  {
+    "question": "What does np.sort(x) do?",
+    "answer": "Returns a sorted copy of x."
+  },
+  {
+    "question": "What is the difference between np.dot and np.outer?",
+    "answer": "np.dot computes the inner product, np.outer computes the outer product."
+  },
+  {
+    "question": "How do you compute the dot product of two vectors x and y?",
+    "answer": "np.dot(x, y)"
+  },
+  {
+    "question": "How do you compute the outer product of x and y?",
+    "answer": "np.outer(x, y)"
+  },
+  {
+    "question": "What is a ufunc in NumPy?",
+    "answer": "A universal function that operates elementwise on arrays."
+  },
+  {
+    "question": "Give an example of a NumPy ufunc.",
+    "answer": "np.sin, np.exp, np.add"
+  },
+  {
+    "question": "What does np.logical_and(x > 0, x < 10) do?",
+    "answer": "Returns a boolean array where x is greater than 0 and less than 10."
+  },
+  {
+    "question": "What is the difference between np.all and np.any?",
+    "answer": "np.all checks if all elements are True, np.any checks if any element is True."
+  },
+  {
+    "question": "How do you check for NaN values in an array x?",
+    "answer": "np.isnan(x)"
+  },
+  {
+    "question": "What is the result of np.inf + 1?",
+    "answer": "np.inf"
+  },
+  {
+    "question": "What does np.nan == np.nan return?",
+    "answer": "False"
+  },
+  {
+    "question": "How do you test if all elements of x and y are close within a tolerance?",
+    "answer": "np.allclose(x, y)"
+  },
+  {
+    "question": "What is machine epsilon?",
+    "answer": "The smallest difference between two representable floating point numbers."
+  },
+  {
+    "question": "What is roundoff error?",
+    "answer": "The error introduced when a number cannot be represented exactly in floating point."
+  },
+  {
+    "question": "Why should you not compare floats with ==?",
+    "answer": "Because roundoff error can make two numbers that are mathematically equal not exactly equal in floating point."
+  },
+  {
+    "question": "How do you compare floats safely?",
+    "answer": "By checking if their absolute or relative difference is less than a small threshold (epsilon)."
+  },
+  {
+    "question": "What is the difference between float32 and float64?",
+    "answer": "float32 uses 32 bits and has less precision and range than float64, which uses 64 bits."
+  },
+  {
+    "question": "What is overflow in floating point arithmetic?",
+    "answer": "When a result exceeds the largest representable value, resulting in infinity."
+  },
+  {
+    "question": "What is underflow?",
+    "answer": "When a result is closer to zero than the smallest representable value, often resulting in zero."
+  },
+  {
+    "question": "What is NaN?",
+    "answer": "NaN stands for Not a Number, representing undefined or unrepresentable values."
+  },
+  {
+    "question": "What is the difference between +0.0 and -0.0 in IEEE 754?",
+    "answer": "They have different sign bits but compare equal in most operations."
+  },
+  {
+    "question": "What is the shape of a 3x3x3 tensor?",
+    "answer": "(3, 3, 3)"
+  },
+  {
+    "question": "How do you flatten a multidimensional array x?",
+    "answer": "x.ravel()"
+  },
+  {
+    "question": "What is a stride in an ndarray?",
+    "answer": "The number of bytes to step in memory to move to the next element along a dimension."
+  },
+  {
+    "question": "What is the difference between C order and Fortran order?",
+    "answer": "C order is row-major (last index changes fastest), Fortran order is column-major (first index changes fastest)."
+  },
+  {
+    "question": "How do you change the dtype of an array x to float32?",
+    "answer": "x.astype(np.float32)"
+  },
+  {
+    "question": "What is a ragged array and why should it be avoided?",
+    "answer": "An array with rows of different lengths; it breaks the rectangularity required by ndarrays and is inefficient."
+  },
+  {
+    "question": "What does np.empty((3,3)) do?",
+    "answer": "Creates a 3x3 array with uninitialized values."
+  },
+  {
+    "question": "How do you create a random 3x3 array of floats between 0 and 1?",
+    "answer": "np.random.uniform(0, 1, (3,3))"
+  },
+  {
+    "question": "How do you create a random 4x4 array of integers between 0 and 9?",
+    "answer": "np.random.randint(0, 10, (4,4))"
+  },
+  {
+    "question": "What is the purpose of np.loadtxt?",
+    "answer": "To load arrays from a text file."
+  },
+  {
+    "question": "What is the purpose of np.savetxt?",
+    "answer": "To save arrays to a text file."
+  },
+  {
+    "question": "What is the difference between np.full and np.zeros?",
+    "answer": "np.full creates an array filled with a specified value; np.zeros creates an array filled with zeros."
+  },
+  {
+    "question": "How do you select every other row in a 2D array x?",
+    "answer": "x[::2, :]"
+  },
+  {
+    "question": "How do you select a submatrix from row 1 to 4 and column 2 to 5?",
+    "answer": "x[1:5, 2:6]"
+  },
+  {
+    "question": "What does x[:, None] do to a 1D array x?",
+    "answer": "Adds a new axis, turning it into a column vector."
+  },
+  {
+    "question": "What does x[None, :] do to a 1D array x?",
+    "answer": "Adds a new axis, turning it into a row vector."
+  },
+  {
+    "question": "What is the purpose of np.swapaxes?",
+    "answer": "To swap two axes of an array."
+  },
+  {
+    "question": "What does np.einsum('ij->ji', x) do?",
+    "answer": "Transposes the 2D array x using Einstein summation notation."
+  },
+  {
+    "question": "What is vectorization?",
+    "answer": "Writing code that applies operations to whole arrays without explicit loops."
+  },
+  {
+    "question": "Why is vectorization important?",
+    "answer": "It leads to simpler, faster, and more efficient code, especially on modern hardware."
+  },
+  {
+    "question": "How do you multiply two arrays elementwise and sum the result?",
+    "answer": "np.sum(x * y)"
+  },
+  {
+    "question": "What is masking in vectorized code?",
+    "answer": "Using boolean arrays to select or modify elements based on conditions."
+  },
+  {
+    "question": "How do you replace all negative values in x with zero?",
+    "answer": "np.maximum(x, 0)"
+  },
+  {
+    "question": "How do you implement a fade-out effect on a sound array?",
+    "answer": "Multiply the sound array by a fade array generated with np.linspace."
+  },
+  {
+    "question": "What does np.clip(x, 0, 1) do?",
+    "answer": "Limits all values in x to be between 0 and 1."
+  },
+  {
+    "question": "How do you round all elements of x to the nearest integer?",
+    "answer": "np.round(x)"
+  },
+  {
+    "question": "How do you round all elements of x up to the nearest integer?",
+    "answer": "np.ceil(x)"
+  },
+  {
+    "question": "How do you round all elements of x down to the nearest integer?",
+    "answer": "np.floor(x)"
+  },
+  {
+    "question": "What does np.where(x > 5, 1, 0) do?",
+    "answer": "Returns 1 where x > 5, otherwise 0."
+  },
+  {
+    "question": "How do you select the diagonal elements of a 2D array x?",
+    "answer": "np.diag(x)"
+  },
+  {
+    "question": "What does np.sum(x, axis=0) do?",
+    "answer": "Sums the elements of x along the first axis (rows)."
+  },
+  {
+    "question": "What does np.sum(x, axis=1) do?",
+    "answer": "Sums the elements of x along the second axis (columns)."
+  },
+  {
+    "question": "How do you compute the standard deviation of an array x?",
+    "answer": "np.std(x)"
+  },
+  {
+    "question": "What does np.mean(x, axis=None) do?",
+    "answer": "Computes the mean of all elements in x."
+  },
+  {
+    "question": "How do you select elements of x that are even?",
+    "answer": "x[x % 2 == 0]"
+  },
+  {
+    "question": "How do you select elements of x that are greater than the mean?",
+    "answer": "x[x > np.mean(x)]"
+  },
+  {
+    "question": "What does np.unique(x) do?",
+    "answer": "Returns the sorted unique elements of x."
+  },
+  {
+    "question": "How do you count the number of nonzero elements in x?",
+    "answer": "np.count_nonzero(x)"
+  },
+  {
+    "question": "What is a meshgrid used for?",
+    "answer": "To evaluate functions over a grid of points, often for plotting surfaces."
+  },
+  {
+    "question": "What does np.random.choice(x, size=3) do?",
+    "answer": "Randomly selects 3 elements from x."
+  },
+  {
+    "question": "What does np.random.permutation(x) do?",
+    "answer": "Randomly permutes the elements of x."
+  },
+  {
+    "question": "How do you reshape a 3x4 array to a 2x6 array?",
+    "answer": "x.reshape((2,6))"
+  },
+  {
+    "question": "What does np.squeeze(x) do?",
+    "answer": "Removes all dimensions of size 1 from x."
+  },
+  {
+    "question": "How do you add a new singleton dimension at the start of x?",
+    "answer": "x[np.newaxis, ...]"
+  },
+  {
+    "question": "What is the effect of x[..., np.newaxis]?",
+    "answer": "Adds a new singleton dimension at the end of x."
+  },
+  {
+    "question": "What does the ellipsis (...) do in array indexing?",
+    "answer": "It stands for as many ':' as needed to complete the indexing."
+  },
+  {
+    "question": "What is the shape of x[None, :, None] if x is (5,)?",
+    "answer": "(1, 5, 1)"
+  },
+  {
+    "question": "How do you swap the first and last axes of a 3D array x?",
+    "answer": "np.swapaxes(x, 0, -1)"
+  },
+  {
+    "question": "What is the difference between np.reshape and np.ravel?",
+    "answer": "np.reshape changes the shape; np.ravel flattens the array to 1D."
+  },
+  {
+    "question": "How do you check the memory usage of an array x?",
+    "answer": "x.nbytes"
+  },
+  {
+    "question": "What is a dope vector?",
+    "answer": "A structure holding the shape and strides information for an ndarray."
+  },
+  {
+    "question": "What is an Illife vector?",
+    "answer": "A nested list of pointers, used for ragged arrays in some languages."
+  },
+  {
+    "question": "What is the time complexity of a transpose operation?",
+    "answer": "O(1), because it only changes the strides and shape, not the data."
+  },
+  {
+    "question": "What is the time complexity of adding two arrays elementwise?",
+    "answer": "O(N), where N is the number of elements."
+  },
+  {
+    "question": "How do you check the strides of an array x?",
+    "answer": "x.strides"
+  },
+  {
+    "question": "What does np.isinf(x) do?",
+    "answer": "Returns True where elements of x are infinite."
+  },
+  {
+    "question": "What does np.isfinite(x) do?",
+    "answer": "Returns True where elements of x are finite."
+  },
+  {
+    "question": "What does np.isnan(x) do?",
+    "answer": "Returns True where elements of x are NaN."
+  },
+  {
+    "question": "What is the difference between np.min and np.argmin?",
+    "answer": "np.min returns the minimum value; np.argmin returns the index of the minimum value."
+  },
+  {
+    "question": "What is the effect of np.einsum('ij,jk->ik', a, b)?",
+    "answer": "Performs matrix multiplication of a and b."
+  },
+  {
+    "question": "How do you create a 3x3 identity matrix?",
+    "answer": "np.eye(3)"
+  },
+  {
+    "question": "What is the difference between np.sum and np.prod?",
+    "answer": "np.sum adds elements; np.prod multiplies them."
+  },
+  {
+    "question": "How do you compute the cumulative product of x?",
+    "answer": "np.cumprod(x)"
+  },
+  {
+    "question": "How do you generate a 2D grid for plotting?",
+    "answer": "Use np.meshgrid to create coordinate matrices."
+  },
+  {
+    "question": "What is the purpose of np.random.normal?",
+    "answer": "To generate random samples from a normal (Gaussian) distribution."
+  },
+  {
+    "question": "What does np.random.randint(0, 10, (2,2)) produce?",
+    "answer": "A 2x2 array of random integers between 0 and 9."
+  },
+  {
+    "question": "How do you find the mean of each row in a 2D array x?",
+    "answer": "np.mean(x, axis=1)"
+  },
+  {
+    "question": "What is the effect of x.flatten()?",
+    "answer": "Returns a copy of x collapsed into one dimension."
+  },
+  {
+    "question": "How do you select the last two rows of a 2D array x?",
+    "answer": "x[-2:, :]"
+  },
+  {
+    "question": "How do you select the first three columns of a 2D array x?",
+    "answer": "x[:, :3]"
+  },
+  {
+    "question": "What does np.all(x > 0) check?",
+    "answer": "If all elements of x are greater than 0."
+  },
+  {
+    "question": "What does np.any(x < 0) check?",
+    "answer": "If any element of x is less than 0."
+  },
+  {
+    "question": "How do you find the standard deviation of each column in x?",
+    "answer": "np.std(x, axis=0)"
+  },
+  {
+    "question": "How do you find the median of an array x?",
+    "answer": "np.median(x)"
+  },
+  {
+    "question": "How do you find the sum along the last axis?",
+    "answer": "np.sum(x, axis=-1)"
+  },
+  {
+    "question": "What is the difference between x.shape and x.size?",
+    "answer": "x.shape is the dimensions; x.size is the total number of elements."
+  },
+  {
+    "question": "How do you reshape x to be a column vector?",
+    "answer": "x.reshape(-1, 1)"
+  },
+  {
+    "question": "How do you reshape x to be a row vector?",
+    "answer": "x.reshape(1, -1)"
+  },
+  {
+    "question": "What does np.mean(x, axis=None) compute?",
+    "answer": "The mean of all elements in x."
+  },
+  {
+    "question": "How do you check if two arrays have the same shape?",
+    "answer": "Compare their shapes: x.shape == y.shape"
+  },
+  {
+    "question": "What is the effect of x.T.T?",
+    "answer": "Returns x; double transpose returns the original array."
+  },
+  {
+    "question": "What is the effect of x[::-1, ::-1] on a 2D array?",
+    "answer": "Flips the array both vertically and horizontally."
+  },
+  {
+    "question": "How do you create a diagonal matrix from a vector x?",
+    "answer": "np.diag(x)"
+  },
+  {
+    "question": "What does np.triu(x) do?",
+    "answer": "Returns the upper triangle of x, setting other elements to zero."
+  },
+  {
+    "question": "What does np.tril(x) do?",
+    "answer": "Returns the lower triangle of x, setting other elements to zero."
+  },
+  {
+    "question": "How do you create a 4x4 array of random floats in [0,1)?",
+    "answer": "np.random.rand(4,4)"
+  },
+  {
+    "question": "How do you create a 3x3 array of random standard normal values?",
+    "answer": "np.random.randn(3,3)"
+  },
+  {
+    "question": "How do you generate 10 random integers between 1 and 100?",
+    "answer": "np.random.randint(1, 101, 10)"
+  },
+  {
+    "question": "What does np.count_nonzero(x) return?",
+    "answer": "The number of nonzero elements in x."
+  },
+  {
+    "question": "How do you set all negative elements of x to zero in place?",
+    "answer": "x[x < 0] = 0"
+  },
+  {
+    "question": "How do you broadcast a (3,) array to a (3,4) array?",
+    "answer": "By adding or multiplying it with a (3,4) array; NumPy broadcasts automatically."
+  },
+  {
+    "question": "How do you tile a 1D array x to 4 rows?",
+    "answer": "np.tile(x, (4,1))"
+  },
+  {
+    "question": "What does np.repeat(x, 3) do?",
+    "answer": "Repeats each element of x three times."
+  },
+  {
+    "question": "How do you repeat the rows of a 2D array x three times?",
+    "answer": "np.repeat(x, 3, axis=0)"
+  },
+  {
+    "question": "How do you repeat the columns of a 2D array x two times?",
+    "answer": "np.repeat(x, 2, axis=1)"
+  },
+  {
+    "question": "How do you generate a 2D identity matrix of size n?",
+    "answer": "np.eye(n)"
+  },
+  {
+    "question": "How do you create a diagonal array with values 1,2,3?",
+    "answer": "np.diag([1,2,3])"
+  },
+  {
+    "question": "What is the effect of np.flip(x, axis=0)?",
+    "answer": "Flips x along the first axis."
+  },
+  {
+    "question": "What is the effect of np.flip(x, axis=1)?",
+    "answer": "Flips x along the second axis."
+  },
+  {
+    "question": "How do you rotate a 2D array by 180 degrees?",
+    "answer": "np.rot90(x, 2)"
+  },
+  {
+    "question": "What does np.roll(x, 1) do?",
+    "answer": "Rolls the elements of x by one position."
+  },
+  {
+    "question": "How do you roll a 2D array x along axis 1?",
+    "answer": "np.roll(x, 1, axis=1)"
+  },
+  {
+    "question": "How do you roll a 2D array x along axis 0?",
+    "answer": "np.roll(x, 1, axis=0)"
+  },
+  {
+    "question": "How do you find the row with the maximum sum in a 2D array?",
+    "answer": "np.argmax(np.sum(x, axis=1))"
+  },
+  {
+    "question": "How do you find the column with the minimum sum in a 2D array?",
+    "answer": "np.argmin(np.sum(x, axis=0))"
+  },
+  {
+    "question": "How do you generate a random permutation of integers 0 to 9?",
+    "answer": "np.random.permutation(10)"
+  },
+  {
+    "question": "How do you select a random sample of 5 elements from x?",
+    "answer": "np.random.choice(x, size=5, replace=False)"
+  },
+  {
+    "question": "How do you check if any element in x is NaN?",
+    "answer": "np.any(np.isnan(x))"
+  },
+  {
+    "question": "How do you check if all elements in x are finite?",
+    "answer": "np.all(np.isfinite(x))"
+  },
+  {
+    "question": "How do you check if any element in x is infinite?",
+    "answer": "np.any(np.isinf(x))"
+  },
+  {
+    "question": "How do you compute the sum of each 2D slice in a 3D array x?",
+    "answer": "np.sum(x, axis=(1,2))"
+  },
+  {
+    "question": "How do you compute the mean across the last axis of x?",
+    "answer": "np.mean(x, axis=-1)"
+  },
+  {
+    "question": "How do you compute the product of all elements in x?",
+    "answer": "np.prod(x)"
+  },
+  {
+    "question": "How do you compute the cumulative sum along axis 0?",
+    "answer": "np.cumsum(x, axis=0)"
+  },
+  {
+    "question": "How do you compute the cumulative product along axis 1?",
+    "answer": "np.cumprod(x, axis=1)"
+  },
+  {
+    "question": "How do you compute the difference along axis 0?",
+    "answer": "np.diff(x, axis=0)"
+  },
+  {
+    "question": "How do you compute the gradient of x?",
+    "answer": "np.gradient(x)"
+  },
+  {
+    "question": "How do you find the indices of the maximum value in a 2D array?",
+    "answer": "np.unravel_index(np.argmax(x), x.shape)"
+  },
+  {
+    "question": "How do you find the indices of the minimum value in a 2D array?",
+    "answer": "np.unravel_index(np.argmin(x), x.shape)"
+  },
+  {
+    "question": "How do you fill an array with NaN values?",
+    "answer": "np.full(shape, np.nan)"
+  },
+  {
+    "question": "How do you replace NaN values in x with zero?",
+    "answer": "x[np.isnan(x)] = 0"
+  },
+  {
+    "question": "How do you replace infinite values in x with the maximum finite value?",
+    "answer": "x[np.isinf(x)] = np.nanmax(x[np.isfinite(x)])"
+  },
+  {
+    "question": "How do you check if all elements in x are unique?",
+    "answer": "len(np.unique(x)) == x.size"
+  },
+  {
+    "question": "How do you broadcast a (3,1) array to (3,4)?",
+    "answer": "By adding or multiplying with a (3,4) array; NumPy broadcasts automatically."
+  },
+  {
+    "question": "How do you select every third element of x?",
+    "answer": "x[::3]"
+  },
+  {
+    "question": "How do you select the last three elements of x?",
+    "answer": "x[-3:]"
+  },
+  {
+    "question": "How do you select the first three elements of x?",
+    "answer": "x[:3]"
+  },
+  {
+    "question": "How do you select the elements of x in reverse order?",
+    "answer": "x[::-1]"
+  },
+  {
+    "question": "How do you select a subarray from row 2 to 5 and column 1 to 4?",
+    "answer": "x[2:6, 1:5]"
+  },
+  {
+    "question": "How do you mask all elements of x greater than 10?",
+    "answer": "x[x > 10]"
+  },
+  {
+    "question": "How do you mask all elements of x less than 0?",
+    "answer": "x[x < 0]"
+  },
+  {
+    "question": "How do you set all elements of x less than 0 to -1?",
+    "answer": "x[x < 0] = -1"
+  },
+  {
+    "question": "How do you set all elements of x greater than 10 to 10?",
+    "answer": "x[x > 10] = 10"
+  },
+  {
+    "question": "How do you select all rows of x where the first column is greater than 0?",
+    "answer": "x[x[:,0] > 0, :]"
+  },
+  {
+    "question": "How do you select all columns of x where the first row is less than 5?",
+    "answer": "x[:, x[0,:] < 5]"
+  },
+  {
+    "question": "How do you select all elements of x that are multiples of 3?",
+    "answer": "x[x % 3 == 0]"
+  },
+  {
+    "question": "How do you select all elements of x that are odd?",
+    "answer": "x[x % 2 == 1]"
+  },
+  {
+    "question": "How do you select all elements of x that are even?",
+    "answer": "x[x % 2 == 0]"
+  },
+  {
+    "question": "How do you select all elements of x that are positive?",
+    "answer": "x[x > 0]"
+  },
+  {
+    "question": "How do you select all elements of x that are negative?",
+    "answer": "x[x < 0]"
+  },
+  {
+    "question": "How do you select all elements of x that are zero?",
+    "answer": "x[x == 0]"
+  },
+  {
+    "question": "How do you create a 2D array of shape (5,5) filled with 7?",
+    "answer": "np.full((5,5), 7)"
+  },
+  {
+    "question": "How do you create a 1D array of 20 random floats between 0 and 1?",
+    "answer": "np.random.rand(20)"
+  },
+  {
+    "question": "How do you create a 1D array of 10 random integers between 1 and 100?",
+    "answer": "np.random.randint(1, 101, 10)"
+  },
+  {
+    "question": "How do you normalize an array x to have values between 0 and 1?",
+    "answer": "(x - x.min()) / (x.max() - x.min())"
+  },
+  {
+    "question": "How do you compute the L2 norm of a vector x?",
+    "answer": "np.linalg.norm(x)"
+  },
+  {
+    "question": "How do you compute the dot product of two 1D arrays x and y?",
+    "answer": "np.dot(x, y)"
+  },
+  {
+    "question": "How do you compute the cross product of two 3-element vectors?",
+    "answer": "np.cross(x, y)"
+  },
+  {
+    "question": "How do you compute the determinant of a square matrix x?",
+    "answer": "np.linalg.det(x)"
+  },
+  {
+    "question": "How do you compute the inverse of a square matrix x?",
+    "answer": "np.linalg.inv(x)"
+  },
+  {
+    "question": "How do you compute the eigenvalues of a square matrix x?",
+    "answer": "np.linalg.eigvals(x)"
+  },
+  {
+    "question": "How do you compute the singular value decomposition of x?",
+    "answer": "np.linalg.svd(x)"
+  },
+  {
+    "question": "How do you compute the trace of a square matrix x?",
+    "answer": "np.trace(x)"
+  },
+  {
+    "question": "How do you compute the rank of a matrix x?",
+    "answer": "np.linalg.matrix_rank(x)"
+  },
+  {
+    "question": "How do you solve a system of linear equations Ax = b?",
+    "answer": "np.linalg.solve(A, b)"
+  },
+  {
+    "question": "How do you compute the mean squared error between x and y?",
+    "answer": "np.mean((x - y) ** 2)"
+  },
+  {
+    "question": "How do you compute the correlation coefficient between x and y?",
+    "answer": "np.corrcoef(x, y)[0,1]"
+  },
+  {
+    "question": "How do you compute the covariance matrix of x and y?",
+    "answer": "np.cov(x, y)"
+  },
+  {
+    "question": "How do you compute the histogram of x with 10 bins?",
+    "answer": "np.histogram(x, bins=10)"
+  },
+  {
+    "question": "How do you plot a 1D array x as a line plot?",
+    "answer": "plt.plot(x)"
+  },
+  {
+    "question": "How do you plot a 2D array x as an image?",
+    "answer": "plt.imshow(x)"
+  },
+  {
+    "question": "How do you plot a histogram of x?",
+    "answer": "plt.hist(x)"
+  },
+  {
+    "question": "How do you plot the scatter plot of x and y?",
+    "answer": "plt.scatter(x, y)"
+  },
+  {
+    "question": "How do you display the shape and dtype of an array x?",
+    "answer": "print(x.shape, x.dtype)"
+  }
+]

@@ -430,5 +430,217 @@
     {
         "question": "What is the relationship between the number of elements in a subgroup and its cosets",
         "answer": "A coset has the same number of elements as the subgroup"
+    },
+    {
+        "question": "What is a binary operation on a set S?",
+        "answer": "A binary operation on a set S is a rule which takes any two elements of S and combines them to produce a new element of S."
+    },
+    {
+        "question": "Give an example of a binary operation that is not defined for all elements of a set.",
+        "answer": "Division is not a binary operation on the real numbers, since division by zero is undefined."
+    },
+    {
+        "question": "What does it mean for a subset to be closed under a binary operation?",
+        "answer": "A subset is closed under a binary operation if combining any two elements from the subset using the operation yields another element in the subset."
+    },
+    {
+        "question": "How can you define a binary operation on a finite set?",
+        "answer": "By giving a table that shows the result of the operation for each pair of elements."
+    },
+    {
+        "question": "How is a binary operation related to the concept of a function?",
+        "answer": "A binary operation on S is a function S × S → S."
+    },
+    {
+        "question": "Define associativity and commutativity for a binary operation.",
+        "answer": "A binary operation is associative if (x ⋆ y) ⋆ z = x ⋆ (y ⋆ z) for all x, y, z; it is commutative if x ⋆ y = y ⋆ x for all x, y."
+    },
+    {
+        "question": "Give an example of an operation that is associative but not commutative.",
+        "answer": "Matrix multiplication is associative but not commutative."
+    },
+    {
+        "question": "What is an identity element for a binary operation?",
+        "answer": "An element e such that x ⋆ e = e ⋆ x = x for all x in S."
+    },
+    {
+        "question": "What is an inverse with respect to a binary operation?",
+        "answer": "Given an identity element e, y is an inverse of x if x ⋆ y = y ⋆ x = e."
+    },
+    {
+        "question": "Are identity elements and inverses unique?",
+        "answer": "Yes, if an identity or an inverse exists for an element under an associative operation, it is unique."
+    },
+    {
+        "question": "What is modular arithmetic?",
+        "answer": "Arithmetic where numbers wrap around after reaching a certain value n, using the operation a mod n."
+    },
+    {
+        "question": "What does it mean for two integers a and b to be congruent modulo n?",
+        "answer": "a ≡ b (mod n) if a and b have the same remainder when divided by n, or equivalently, n divides (a - b)."
+    },
+    {
+        "question": "What is the set Z_n?",
+        "answer": "Z_n is the set {0, 1, ..., n-1} of possible residues modulo n."
+    },
+    {
+        "question": "How are addition and multiplication defined in Z_n?",
+        "answer": "Addition: a ⊕ b = (a + b) mod n; Multiplication: a ⊗ b = (a × b) mod n."
+    },
+    {
+        "question": "Are addition and multiplication modulo n associative and commutative?",
+        "answer": "Yes, both operations are associative and commutative in Z_n."
+    },
+    {
+        "question": "Does every element in Z_n have an additive inverse?",
+        "answer": "Yes, every element has an additive inverse in Z_n."
+    },
+    {
+        "question": "When does an element in Z_n have a multiplicative inverse?",
+        "answer": "An element a in Z_n has a multiplicative inverse if and only if a and n are relatively prime."
+    },
+    {
+        "question": "What is a field?",
+        "answer": "A field is a set F with two binary operations (addition and multiplication) satisfying associativity, commutativity, distributivity, identities, inverses, and 0 ≠ 1."
+    },
+    {
+        "question": "Give examples of fields.",
+        "answer": "The real numbers ℝ, complex numbers ℂ, rational numbers ℚ, and Z_p for prime p are all fields."
+    },
+    {
+        "question": "Do the integers Z form a field?",
+        "answer": "No, because most integers do not have a multiplicative inverse in Z."
+    },
+    {
+        "question": "What is the distributive law in a field?",
+        "answer": "x(y + z) = xy + xz for all x, y, z in the field."
+    },
+    {
+        "question": "What is the difference between subtraction and division in a field?",
+        "answer": "Subtraction is defined as adding the additive inverse; division is multiplying by the multiplicative inverse (when the divisor is nonzero)."
+    },
+    {
+        "question": "What is a vector space over a field F?",
+        "answer": "A set V with vector addition and scalar multiplication by elements of F, satisfying eight axioms (associativity, commutativity, identities, inverses, distributivity, etc.)."
+    },
+    {
+        "question": "Give examples of vector spaces.",
+        "answer": "ℝ^n, ℂ^n, Z_p^n (for prime p), spaces of matrices, and spaces of polynomials of degree ≤ d."
+    },
+    {
+        "question": "What is a linear combination?",
+        "answer": "A sum a₁v₁ + ... + a_nv_n where the v_i are vectors and the a_i are scalars from the field."
+    },
+    {
+        "question": "What is the span of a set of vectors?",
+        "answer": "The set of all linear combinations of those vectors."
+    },
+    {
+        "question": "What is a subspace?",
+        "answer": "A subset S of a vector space V that contains the zero vector, is closed under addition, and is closed under scalar multiplication."
+    },
+    {
+        "question": "How do you prove a subset is a subspace?",
+        "answer": "Show it contains the zero vector, is closed under addition, and is closed under scalar multiplication."
+    },
+    {
+        "question": "What is the trivial subspace?",
+        "answer": "The set containing only the zero vector."
+    },
+    {
+        "question": "What is a basis for a vector space?",
+        "answer": "A set of linearly independent vectors that span the space."
+    },
+    {
+        "question": "What is the dimension of a vector space?",
+        "answer": "The number of vectors in any basis for the space."
+    },
+    {
+        "question": "What does it mean for vectors to be linearly independent?",
+        "answer": "No nontrivial linear combination of them gives the zero vector."
+    },
+    {
+        "question": "State the dimension theorem.",
+        "answer": "Any two bases of a vector space have the same number of elements."
+    },
+    {
+        "question": "What is a coordinate vector with respect to a basis?",
+        "answer": "The column vector of coefficients expressing a vector as a linear combination of the basis vectors."
+    },
+    {
+        "question": "What is a linear transformation?",
+        "answer": "A function T: V → W between vector spaces that preserves addition and scalar multiplication."
+    },
+    {
+        "question": "How do you represent a linear transformation as a matrix?",
+        "answer": "By expressing the images of basis vectors as columns in the matrix."
+    },
+    {
+        "question": "What is the kernel of a linear transformation?",
+        "answer": "The set of vectors v in V such that T(v) = 0."
+    },
+    {
+        "question": "What is the image (range) of a linear transformation?",
+        "answer": "The set of all vectors T(v) as v ranges over V."
+    },
+    {
+        "question": "State the rank-nullity theorem.",
+        "answer": "For T: V → W, dim(ker T) + dim(im T) = dim(V)."
+    },
+    {
+        "question": "When is a linear transformation injective?",
+        "answer": "If and only if its kernel is {0}."
+    },
+    {
+        "question": "When is a linear transformation surjective?",
+        "answer": "If and only if its image is all of W."
+    },
+    {
+        "question": "What is an isomorphism of vector spaces?",
+        "answer": "A bijective linear transformation; its inverse is also linear."
+    },
+    {
+        "question": "What is a change of basis matrix?",
+        "answer": "A matrix that converts coordinate vectors from one basis to another."
+    },
+    {
+        "question": "What is a group?",
+        "answer": "A set with a binary operation that is associative, has an identity, and every element has an inverse."
+    },
+    {
+        "question": "What is a permutation?",
+        "answer": "A bijective function from a finite set to itself."
+    },
+    {
+        "question": "What is the symmetric group S_n?",
+        "answer": "The group of all permutations of the set {1, ..., n}."
+    },
+    {
+        "question": "How many elements does S_n have?",
+        "answer": "n! (n factorial)."
+    },
+    {
+        "question": "What is a transposition?",
+        "answer": "A permutation that swaps two elements and leaves all others fixed."
+    },
+    {
+        "question": "What is a cycle in S_n?",
+        "answer": "A permutation that cycles a subset of the elements and fixes the rest."
+    },
+    {
+        "question": "How is the product of two permutations defined?",
+        "answer": "By composition: (ab)(i) = a(b(i))."
+    },
+    {
+        "question": "Is permutation multiplication commutative?",
+        "answer": "No, in general it is not commutative."
+    },
+    {
+        "question": "When do two cycles commute?",
+        "answer": "If they are disjoint, i.e., act on disjoint sets of elements."
+    },
+    {
+        "question": "What is the inverse of a permutation?",
+        "answer": "The function that undoes the action of the permutation."
     }
 ]

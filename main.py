@@ -94,34 +94,32 @@ def print_results(data, user_answers, user_data):
 
 
 def setup():
-    GLOB_PATH = "quizFiles/*.json"
+    GLOB_PATH = "quizFiles/**/*.json"  # Recursive pattern
 
     print(f"{Colours.BLUE}QUIZZER{Colours.END} by {Colours.ORANGE}Varad and Liam{Colours.END}")
-
     print("\nSETUP\n")
 
-    for i, filename in enumerate(glob(GLOB_PATH)):
-        print(f"[{i+1}] {filename.split('/')[-1].split('.')[0]}")
+    file_paths = glob(GLOB_PATH, recursive=True)
+
+    for i, filename in enumerate(file_paths):
+        print(f"[{i+1}] {filename.replace('quizFiles/', '')}")
 
     def get_valid_input(prompt: str, min_val: int, max_val: int):
         validate_input_digit = lambda input, min_val, max_val: input.isdigit() and (min_val <= int(input) <= max_val)
-    
         user_input = input(prompt)
         while not validate_input_digit(user_input, min_val, max_val):
             user_input = input(prompt)
-        
         return int(user_input)
 
-    fileIndex = get_valid_input('\nSelect a file: ', 1, len(glob(GLOB_PATH)))
-    
+    fileIndex = get_valid_input('\nSelect a file: ', 1, len(file_paths))
+
     data = []
-    with open(glob(GLOB_PATH)[int(fileIndex)-1]) as f:
+    with open(file_paths[int(fileIndex) - 1]) as f:
         data = json.load(f)
 
-    range = (0,len(data))
-    if (len(sys.argv) > 2):
-        if (sys.argv[1].isdigit() and sys.argv[2].isdigit()):
-            range = (math.floor(int(sys.argv[1])/100*len(data)), math.floor(int(sys.argv[2])/100*len(data)))
+    range = (0, len(data))
+    if len(sys.argv) > 2 and sys.argv[1].isdigit() and sys.argv[2].isdigit():
+        range = (math.floor(int(sys.argv[1]) / 100 * len(data)), math.floor(int(sys.argv[2]) / 100 * len(data)))
 
     data = data[range[0]:range[1]]
 
@@ -133,7 +131,6 @@ def setup():
     numberOfQuestions = int(get_valid_input(f"\nSelect a number of questions from 1 to {len(data)}: ", 1, len(data))) if len(data) > 1 else 1
 
     return numberOfQuestions, data
-
 
 def main():
     numberOfQuestions, data = setup()

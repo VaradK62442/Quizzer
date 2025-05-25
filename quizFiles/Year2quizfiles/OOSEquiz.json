@@ -39,7 +39,6 @@
         "question": "Briefly describe A / B testing.",
         "answer": "It is a method of comparing two versions of an application to see which performs better."
     },
-
     {
         "question": "What is the definition of coupling?",
         "answer": "Coupling is the degree of interdependence between software modules."
@@ -80,7 +79,6 @@
         "question": "What is the impact of high coupling?",
         "answer": "Delay time to market, additional testing and environment setup, additional risk of impact, lack of visibility."
     },
-
     {
         "question": "What are the different types of potential bugs?",
         "answer": "Software doesn't do something that the specification says it should do, software does something that the specification says it shouldn't do, software does something that the specification doesn't mention, software doesn't do something that the specification doesn't mention but it should, software is difficult to understand or slow, or otherwise not right."
@@ -129,7 +127,6 @@
         "question": "What does an effective bug triage require?",
         "answer": "Knowledge about the system / project, descriptive bug reports, good rates of reporting bugs, and coordination with developers."
     },
-
     {
         "question": "What is a bug pattern?",
         "answer": "Bug patterns are recurring relations between signalled errors and underlying bugs in a program."
@@ -170,7 +167,6 @@
         "question": "What are some consequences of a static analysis program designed to make balanced approximations?",
         "answer": "It is neither sound not precise. It misses some real bugs and reports some false warnings, but will be useful."
     },
-
     {
         "question": "What is a class diagram?",
         "answer": "A blueprint or model of the system that you are building."
@@ -199,7 +195,6 @@
         "question": "In a class diagram, what does a solid line with a solid diamond at one end represent?",
         "answer": "Composition. This is when one class contains another, and the contained object cannot exist outside of it."
     },
-
     {
         "question": "Why is clean code and refactoring important?",
         "answer": "Easier to follow, better for team onboarding, more time spent on new features, less time spent on debugging, less time spent on maintenance."
@@ -232,7 +227,6 @@
         "question": "What are some refactoring smells?",
         "answer": "Duplicate code, long methods, switch statements, alternative classes with different interfaces, inappropriate intimacy."
     },
-
     {
         "question": "What are some common coding styles?",
         "answer": "Single developer, code review, pair programming, mob programming, test driven development."
@@ -273,7 +267,6 @@
         "question": "Briefly describe test driven development.",
         "answer": "Write tests, tests fail, write code, tests pass, refactor, repeat."
     },
-
     {
         "question": "What can doubling be used for?",
         "answer": "To read or write to a file / database, or for calls to a web service, other application, or an external library."
@@ -290,7 +283,6 @@
         "question": "What is the difference between spying and mocking?",
         "answer": "Mocking creates a fake object, while spying uses a real object."
     },
-
     {
         "question": "Briefly describe scope.",
         "answer": "Scope establishes the high level description of the system you are building."
@@ -347,8 +339,6 @@
         "question": "What are the benefits of a focus group?",
         "answer": "Promotes co-questioning where stakeholders can ask each other questions that the facilitators don't know to ask."
     },
-
-
     {
         "question": "What are the three types of design patterns?",
         "answer": "Creational, structural, behavioural."
@@ -369,7 +359,6 @@
         "question": "What are some advantages of design patterns?",
         "answer": "They create a common language, you can say more with less, they help to stay in design longer, and help reduce misunderstandings."
     },
-
     {
         "question": "Briefly describe the strategy design pattern.",
         "answer": "The strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. It allows the algorithm to vary independently from the client that uses it."
@@ -382,7 +371,6 @@
         "question": "How does the strategy design pattern apply the open / closed principle?",
         "answer": "It allows for easily introducing new strategies without having to change the context."
     },
-
     {
         "question": "Briefly describe the iterator design pattern.",
         "answer": "The iterator pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation."
@@ -399,7 +387,6 @@
         "question": "What are some pros of the composite design pattern?",
         "answer": "It allows for working with complex tree structures more conveniently, and adheres to the open / closed principle."
     },
-
     {
         "question": "Briefly describe the observer design pattern.",
         "answer": "The observer pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically."
@@ -412,7 +399,6 @@
         "question": "What are the three main methods in an Observerable class?",
         "answer": "registerObserver(), removeObserver(), notifyObservers()."
     },
-
     {
         "question": "Briefly describe the singleton design pattern.",
         "answer": "The singleton pattern ensures that a class has only one instance and provides a global point of access to it."
@@ -425,7 +411,6 @@
         "question": "In a singleton class, how can we protect against multiple threads?",
         "answer": "Using a synchronised block to create the unique instance."
     },
-
     {
         "question": "Briefly describe the factory method design pattern.",
         "answer": "The factory method pattern defines an interface for creating objects, but lets subclasses decide which class to instantiate. It defers instantiation to subclasses."
@@ -434,7 +419,6 @@
         "question": "What are some pros of the factory method design pattern?",
         "answer": "It adheres to the single responsibility principle, as well as the open / closed principle. It also avoids tight coupling between the creator and concrete products."
     },
-
     {
         "question": "Briefly describe the state design pattern.",
         "answer": "The state pattern allows an object to alter its behaviour when its internal state changes. The object will appear to change its class."
@@ -443,7 +427,6 @@
         "question": "What are some pros of the state design pattern?",
         "answer": "It adheres to the single responsibility principle, as well as the open / closed principle. It also simplifies the code of the context by removing the conditional statements."
     },
-    
     {
         "question": "Briefly describe the decorator design pattern.",
         "answer": "The decorator pattern attaches additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality."
@@ -451,5 +434,334 @@
     {
         "question": "What are some pros of the decorator design pattern?",
         "answer": "It allows extension of an object's behaviour without making a new subclass, and adheres to the single responsibility principle. It also allows for adding or removing responsibilities from an object at runtime."
+    },
+    {
+        "question": "What is software engineering?",
+        "answer": "Software engineering is the application of engineering principles to the design, development, maintenance, testing, and evaluation of software."
+    },
+    {
+        "question": "What are the main phases of the software development lifecycle (SDLC)?",
+        "answer": "Requirements analysis, design, implementation (coding), testing, deployment, and maintenance."
+    },
+    {
+        "question": "What is the difference between verification and validation?",
+        "answer": "Verification checks whether the software meets specifications; validation checks whether the software meets the user's needs."
+    },
+    {
+        "question": "What is a requirement?",
+        "answer": "A requirement is a statement of what the system should do or a property it must have."
+    },
+    {
+        "question": "What is the difference between functional and non-functional requirements?",
+        "answer": "Functional requirements specify what the system should do; non-functional requirements specify how the system should behave (e.g. performance, usability, reliability)."
+    },
+    {
+        "question": "What is requirements elicitation?",
+        "answer": "The process of gathering requirements from stakeholders through interviews, surveys, observation, and document analysis."
+    },
+    {
+        "question": "What is a stakeholder in software engineering?",
+        "answer": "Anyone who is affected by or has an interest in the software system, such as users, customers, developers, and managers."
+    },
+    {
+        "question": "What is a use case?",
+        "answer": "A description of a system’s behavior as it responds to a request from an actor (user or another system)."
+    },
+    {
+        "question": "What is a user story?",
+        "answer": "A simple, informal description of a software feature from an end-user perspective, often following the format: 'As a [user], I want [feature] so that [reason]'."
+    },
+    {
+        "question": "What is a software process model?",
+        "answer": "A structured set of activities required to develop a software system, such as waterfall, agile, or spiral models."
+    },
+    {
+        "question": "What is the waterfall model?",
+        "answer": "A linear software development process in which progress flows sequentially through requirements, design, implementation, verification, and maintenance."
+    },
+    {
+        "question": "What is the agile methodology?",
+        "answer": "An iterative and incremental approach to software development that emphasizes flexibility, collaboration, and customer feedback."
+    },
+    {
+        "question": "What is Scrum?",
+        "answer": "A popular agile framework that organizes work into sprints, with defined roles such as Scrum Master and Product Owner."
+    },
+    {
+        "question": "What is a sprint in Scrum?",
+        "answer": "A fixed-length iteration, typically 1-4 weeks, during which a potentially shippable product increment is developed."
+    },
+    {
+        "question": "What is a product backlog?",
+        "answer": "An ordered list of features, enhancements, bug fixes, and technical tasks required for a product."
+    },
+    {
+        "question": "What is a sprint retrospective?",
+        "answer": "A meeting held at the end of a sprint to reflect on what went well, what could be improved, and how to make the next sprint more effective."
+    },
+    {
+        "question": "What is continuous integration?",
+        "answer": "A development practice where code changes are automatically built, tested, and merged into a shared repository several times a day."
+    },
+    {
+        "question": "What is version control?",
+        "answer": "A system that records changes to files over time so that specific versions can be recalled later; examples include Git and Subversion."
+    },
+    {
+        "question": "What is a pull request (or merge request)?",
+        "answer": "A request to merge code changes from one branch into another, often reviewed by other team members before acceptance."
+    },
+    {
+        "question": "What is code review?",
+        "answer": "A process where developers examine each other's code for mistakes, style, and adherence to standards before merging."
+    },
+    {
+        "question": "What is refactoring?",
+        "answer": "The process of restructuring existing code without changing its external behavior to improve readability, maintainability, or performance."
+    },
+    {
+        "question": "What is technical debt?",
+        "answer": "The implied cost of additional rework caused by choosing an easy or limited solution now instead of a better approach that would take longer."
+    },
+    {
+        "question": "What is a design document?",
+        "answer": "A written description of the architecture, components, interfaces, and data for a system to satisfy specified requirements."
+    },
+    {
+        "question": "What is a sequence diagram?",
+        "answer": "A UML diagram that shows how objects interact in a particular scenario of a use case, focusing on the order of messages exchanged."
+    },
+    {
+        "question": "What is a state diagram?",
+        "answer": "A UML diagram that shows the states of an object and transitions between those states based on events."
+    },
+    {
+        "question": "What is a deployment diagram?",
+        "answer": "A UML diagram that shows the physical arrangement of hardware and software in a system."
+    },
+    {
+        "question": "What is a component diagram?",
+        "answer": "A UML diagram that shows the organization and dependencies among a set of components."
+    },
+    {
+        "question": "What is the purpose of documentation in software engineering?",
+        "answer": "To provide information for users, developers, and maintainers about how the system works and how to use or modify it."
+    },
+    {
+        "question": "What is regression testing?",
+        "answer": "Testing existing software functionality to ensure that new changes have not introduced bugs."
+    },
+    {
+        "question": "What is unit testing?",
+        "answer": "Testing individual units or components of a software system in isolation."
+    },
+    {
+        "question": "What is integration testing?",
+        "answer": "Testing the combination of multiple software modules as a group to ensure they work together."
+    },
+    {
+        "question": "What is system testing?",
+        "answer": "Testing the complete and integrated software system to verify that it meets the specified requirements."
+    },
+    {
+        "question": "What is acceptance testing?",
+        "answer": "Testing conducted to determine whether the system satisfies the acceptance criteria and is ready for delivery to the customer."
+    },
+    {
+        "question": "What is black-box testing?",
+        "answer": "Testing software without knowledge of its internal implementation, focusing on inputs and expected outputs."
+    },
+    {
+        "question": "What is white-box testing?",
+        "answer": "Testing based on knowledge of the internal logic and structure of the code."
+    },
+    {
+        "question": "What is code coverage?",
+        "answer": "A measure of how much of the source code is executed during testing."
+    },
+    {
+        "question": "What is a mock object?",
+        "answer": "A simulated object that mimics the behavior of real objects in controlled ways, used in testing."
+    },
+    {
+        "question": "What is the difference between a bug and a defect?",
+        "answer": "A bug is an error found before the product is released; a defect is an error found after release."
+    },
+    {
+        "question": "What is the difference between alpha and beta testing?",
+        "answer": "Alpha testing is performed by internal staff before release; beta testing is performed by external users after release but before final delivery."
+    },
+    {
+        "question": "What is project management in software engineering?",
+        "answer": "The process of planning, organizing, and managing resources to bring about the successful completion of specific software project goals and objectives."
+    },
+    {
+        "question": "What is a Gantt chart?",
+        "answer": "A type of bar chart that illustrates a project schedule, showing tasks, durations, and dependencies."
+    },
+    {
+        "question": "What is risk management?",
+        "answer": "The process of identifying, assessing, and controlling risks throughout the software project."
+    },
+    {
+        "question": "What is a milestone in project management?",
+        "answer": "A significant event or point in time within a project, often marking the completion of a major phase or deliverable."
+    },
+    {
+        "question": "What is configuration management?",
+        "answer": "The discipline of tracking and controlling changes in software, including version control and build management."
+    },
+    {
+        "question": "What is software maintenance?",
+        "answer": "The process of modifying a software application after delivery to correct faults, improve performance, or adapt to a changed environment."
+    },
+    {
+        "question": "What is legacy code?",
+        "answer": "Code inherited from an earlier version of the system, often lacking documentation or modern design practices."
+    },
+    {
+        "question": "What is software quality assurance (SQA)?",
+        "answer": "A set of activities for ensuring quality in software engineering processes and products."
+    },
+    {
+        "question": "What is the ISO 9001 standard?",
+        "answer": "An international standard for quality management systems, including those for software development."
+    },
+    {
+        "question": "What is the IEEE?",
+        "answer": "The Institute of Electrical and Electronics Engineers, a professional association that sets standards for software engineering and other fields."
+    },
+    {
+        "question": "What is professional ethics in software engineering?",
+        "answer": "The principles and standards that guide behavior and decision-making for software engineers, including honesty, fairness, and respect for intellectual property."
+    },
+    {
+        "question": "What is intellectual property in software?",
+        "answer": "Legal rights that protect creations of the mind, such as software code, documentation, and algorithms."
+    },
+    {
+        "question": "What is open source software?",
+        "answer": "Software whose source code is made freely available for anyone to use, modify, and distribute."
+    },
+    {
+        "question": "What is a software license?",
+        "answer": "A legal agreement that specifies how software can be used, modified, and distributed."
+    },
+    {
+        "question": "What is the difference between GPL and MIT licenses?",
+        "answer": "GPL requires derivative works to also be open source (copyleft); MIT is more permissive, allowing proprietary use."
+    },
+    {
+        "question": "What is GDPR and how does it relate to software engineering?",
+        "answer": "The General Data Protection Regulation is a European law regulating data protection and privacy, affecting how software systems handle personal data."
+    },
+    {
+        "question": "What is accessibility in software?",
+        "answer": "The design of software so that it can be used by people with disabilities."
+    },
+    {
+        "question": "What is usability?",
+        "answer": "The ease with which users can learn and use a software product."
+    },
+    {
+        "question": "What is a persona in user-centered design?",
+        "answer": "A fictional character created to represent a user type that might use a site, brand, or product."
+    },
+    {
+        "question": "What is a wireframe?",
+        "answer": "A visual guide that represents the skeletal framework of a software interface."
+    },
+    {
+        "question": "What is the Model-View-Controller (MVC) pattern?",
+        "answer": "An architectural pattern that separates an application into three main components: the model (data), the view (UI), and the controller (logic)."
+    },
+    {
+        "question": "What is test-driven development (TDD)?",
+        "answer": "A software development process where tests are written before code, and code is only written to pass the tests."
+    },
+    {
+        "question": "What is pair programming?",
+        "answer": "A software development technique in which two programmers work together at one workstation, one typing and the other reviewing."
+    },
+    {
+        "question": "What is a code smell?",
+        "answer": "A symptom in the code that may indicate a deeper problem, such as duplicated code or long methods."
+    },
+    {
+        "question": "What is continuous deployment?",
+        "answer": "A software release process in which code changes are automatically deployed to production after passing tests."
+    },
+    {
+        "question": "What is DevOps?",
+        "answer": "A set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and provide continuous delivery."
+    },
+    {
+        "question": "What is a microservice?",
+        "answer": "An architectural style that structures an application as a collection of loosely coupled services, each implementing a business capability."
+    },
+    {
+        "question": "What is a REST API?",
+        "answer": "An application programming interface that follows Representational State Transfer architectural principles, using HTTP requests to access and manipulate data."
+    },
+    {
+        "question": "What is a design pattern?",
+        "answer": "A general, reusable solution to a commonly occurring problem within a given context in software design."
+    },
+    {
+        "question": "What is a software prototype?",
+        "answer": "An early, simplified version of a software system used to demonstrate concepts and gather feedback."
+    },
+    {
+        "question": "What is a burn-down chart?",
+        "answer": "A graphical representation of work left to do versus time, used in agile project management."
+    },
+    {
+        "question": "What is the difference between a process and a thread?",
+        "answer": "A process is an independent program in execution; a thread is a smaller unit of execution within a process."
+    },
+    {
+        "question": "What is concurrency in software?",
+        "answer": "The ability of a system to execute multiple tasks simultaneously."
+    },
+    {
+        "question": "What is deadlock?",
+        "answer": "A situation in concurrent programming where two or more processes are unable to proceed because each is waiting for the other to release a resource."
+    },
+    {
+        "question": "What is a race condition?",
+        "answer": "A defect that occurs when the outcome of a process depends on the sequence or timing of uncontrollable events."
+    },
+    {
+        "question": "What is a critical section?",
+        "answer": "A part of a program that accesses shared resources and must not be executed by more than one thread at a time."
+    },
+    {
+        "question": "What is a mutex?",
+        "answer": "A mutual exclusion object that prevents multiple threads from accessing a resource simultaneously."
+    },
+    {
+        "question": "What is a semaphore?",
+        "answer": "A synchronization primitive used to control access to a common resource in concurrent programming."
+    },
+    {
+        "question": "What is the difference between black-box and white-box testing?",
+        "answer": "Black-box testing tests the system without knowledge of its internals; white-box testing tests with knowledge of the internal structure."
+    },
+    {
+        "question": "What is the difference between validation and verification?",
+        "answer": "Validation checks if the system meets user needs; verification checks if the system meets specifications."
+    },
+    {
+        "question": "What is a software metric?",
+        "answer": "A measure used to quantify the characteristics of software, such as complexity, size, or quality."
+    },
+    {
+        "question": "What is cyclomatic complexity?",
+        "answer": "A software metric that measures the number of linearly independent paths through a program's source code."
+    },
+    {
+        "question": "What is the main goal of software engineering?",
+        "answer": "To produce high-quality software that is reliable, maintainable, and meets user requirements within budget and time constraints."
     }
 ]
+

@@ -1,0 +1,468 @@
+[
+  {
+    "question": "What is the addition principle in counting?",
+    "answer": "If A1,...,An are disjoint finite sets, then the number of elements in their union is the sum of their cardinalities: |A1 ∪ ... ∪ An| = |A1| + ... + |An|."
+  },
+  {
+    "question": "What is the multiplication principle in counting?",
+    "answer": "If A1,...,An are finite sets, then the number of elements in their Cartesian product is the product of their cardinalities: |A1 × ... × An| = |A1| × ... × |An|."
+  },
+  {
+    "question": "What is the subtraction principle in counting?",
+    "answer": "If B is a subset of A, then |A \\ B| = |A| - |B|."
+  },
+  {
+    "question": "How many four-digit PINs can be formed from digits 0-9?",
+    "answer": "There are 10^4 = 10,000 possible four-digit PINs."
+  },
+  {
+    "question": "How many 6-character passwords can be made from lower case letters and digits, with at least one digit?",
+    "answer": "36^6 - 26^6 = 1,867,866,560."
+  },
+  {
+    "question": "How many functions are there from a finite set A to a finite set B?",
+    "answer": "|B|^{|A|}."
+  },
+  {
+    "question": "How many subsets does a finite set A have?",
+    "answer": "2^{|A|}."
+  },
+  {
+    "question": "What is a permutation of n elements?",
+    "answer": "An ordering of all n elements of a set."
+  },
+  {
+    "question": "What is the formula for the number of permutations of r elements from n?",
+    "answer": "n! / (n - r)!"
+  },
+  {
+    "question": "What is a combination?",
+    "answer": "An unordered selection of r elements from n."
+  },
+  {
+    "question": "What is the formula for the number of combinations of r elements from n?",
+    "answer": "n choose r = n! / (r! (n - r)!)"
+  },
+  {
+    "question": "How many ways are there to seat 6 people around a circular table, considering rotations as the same?",
+    "answer": "5! = 120."
+  },
+  {
+    "question": "How many ways are there to order the 26 letters of the alphabet?",
+    "answer": "26! ways."
+  },
+  {
+    "question": "What is the binomial theorem?",
+    "answer": "(x + y)^n = sum_{r=0}^n (n choose r) x^{n - r} y^r."
+  },
+  {
+    "question": "State Pascal's identity for binomial coefficients.",
+    "answer": "n choose r = (n-1 choose r-1) + (n-1 choose r), for 0 < r < n."
+  },
+  {
+    "question": "State Vandermonde's identity.",
+    "answer": "(m + n choose r) = sum_{k + l = r} (m choose k)(n choose l)."
+  },
+  {
+    "question": "What is a multinomial coefficient?",
+    "answer": "n! / (r1! r2! ... rk!) for partitioning n objects into k groups of sizes r1,...,rk."
+  },
+  {
+    "question": "What is the multinomial theorem?",
+    "answer": "(x1 + ... + xk)^n = sum_{r1 + ... + rk = n} (n choose r1,...,rk) x1^{r1} ... xk^{rk}."
+  },
+  {
+    "question": "How many solutions in nonnegative integers are there to x1 + ... + xr = n?",
+    "answer": "(n + r - 1 choose n)."
+  },
+  {
+    "question": "How many ways can you divide n indistinguishable balls into r boxes?",
+    "answer": "(n + r - 1 choose n)."
+  },
+  {
+    "question": "What is the inclusion-exclusion principle for two sets?",
+    "answer": "|A ∪ B| = |A| + |B| - |A ∩ B|."
+  },
+  {
+    "question": "What is the inclusion-exclusion principle for three sets?",
+    "answer": "|A ∪ B ∪ C| = |A| + |B| + |C| - |A ∩ B| - |A ∩ C| - |B ∩ C| + |A ∩ B ∩ C|."
+  },
+  {
+    "question": "State the general inclusion-exclusion principle.",
+    "answer": "|A1 ∪ ... ∪ An| = sum_{i} |Ai| - sum_{i<j} |Ai ∩ Aj| + sum_{i<j<k} |Ai ∩ Aj ∩ Ak| - ... + (-1)^{n-1} |A1 ∩ ... ∩ An|."
+  },
+  {
+    "question": "How many derangements are there of n objects?",
+    "answer": "d_n = n! [1 - 1/1! + 1/2! - 1/3! + ... + (-1)^n / n!]."
+  },
+  {
+    "question": "What is a recurrence relation?",
+    "answer": "An equation that recursively defines a sequence where each term is a function of preceding terms."
+  },
+  {
+    "question": "Write the recurrence relation for the Fibonacci sequence.",
+    "answer": "f_n = f_{n-1} + f_{n-2} with f_1 = f_2 = 1."
+  },
+  {
+    "question": "What is the auxiliary equation for a second-order linear recurrence relation a_n = A a_{n-1} + B a_{n-2}?",
+    "answer": "t^2 = A t + B."
+  },
+  {
+    "question": "What is the general solution to a_n = A a_{n-1} + B a_{n-2} if the auxiliary equation has distinct roots α and β?",
+    "answer": "a_n = K α^n + L β^n for constants K, L."
+  },
+  {
+    "question": "What is the general solution if the auxiliary equation has a repeated root α?",
+    "answer": "a_n = (K + L n) α^n."
+  },
+  {
+    "question": "What is the Euclidean algorithm used for?",
+    "answer": "To compute the greatest common divisor (gcd) of two integers."
+  },
+  {
+    "question": "Define congruence modulo m.",
+    "answer": "a ≡ b mod m if m divides (a - b)."
+  },
+  {
+    "question": "State the properties of congruence modulo m.",
+    "answer": "If a ≡ b mod m and c ≡ d mod m, then a + c ≡ b + d mod m, a - c ≡ b - d mod m, and a c ≡ b d mod m."
+  },
+  {
+    "question": "How many congruence classes are there modulo m?",
+    "answer": "There are m classes, one for each integer 0 ≤ r < m."
+  },
+  {
+    "question": "What is the greatest common divisor (gcd) of two integers?",
+    "answer": "The largest integer that divides both numbers."
+  },
+  {
+    "question": "State Bezout's identity.",
+    "answer": "For integers a, b not both zero, there exist r, s such that r a + s b = gcd(a, b)."
+  },
+  {
+    "question": "What is the condition for a to have a multiplicative inverse modulo m?",
+    "answer": "a and m must be coprime (gcd(a, m) = 1)."
+  },
+  {
+    "question": "What is Fermat's Little Theorem?",
+    "answer": "If p is prime and a is not divisible by p, then a^{p-1} ≡ 1 mod p."
+  },
+  {
+    "question": "State Euler's theorem.",
+    "answer": "If n is a positive integer and a is coprime to n, then a^{φ(n)} ≡ 1 mod n."
+  },
+  {
+    "question": "What is Euler's phi function φ(n)?",
+    "answer": "The number of integers in {0,...,n-1} that are coprime to n."
+  },
+  {
+    "question": "State the formula for φ(n) in terms of prime factors.",
+    "answer": "φ(n) = n × product over primes p dividing n of (1 - 1/p)."
+  },
+  {
+    "question": "What is a prime number?",
+    "answer": "An integer greater than 1 with no positive divisors other than 1 and itself."
+  },
+  {
+    "question": "State the Fundamental Theorem of Arithmetic.",
+    "answer": "Every integer greater than 1 can be written uniquely as a product of primes, up to order."
+  },
+  {
+    "question": "What is a composite number?",
+    "answer": "An integer greater than 1 that is not prime."
+  },
+  {
+    "question": "What is a Carmichael number?",
+    "answer": "A composite number n such that a^n ≡ a mod n for all integers a."
+  },
+  {
+    "question": "What is the Chinese Remainder Theorem?",
+    "answer": "If m1 and m2 are coprime, then the system x ≡ a1 mod m1, x ≡ a2 mod m2 has a unique solution modulo m1 m2."
+  },
+  {
+    "question": "What is the RSA cryptosystem based on?",
+    "answer": "The difficulty of factoring large integers and modular exponentiation."
+  },
+  {
+    "question": "What is the public key in RSA?",
+    "answer": "A modulus N = pq (product of two large primes) and an encryption exponent e."
+  },
+  {
+    "question": "What is the private key in RSA?",
+    "answer": "A decryption exponent f such that e f ≡ 1 mod (p-1)(q-1)."
+  },
+  {
+    "question": "What is the Diffie-Hellman key exchange?",
+    "answer": "A method for two parties to securely share a secret key over an insecure channel using primitive elements in finite fields."
+  },
+  {
+    "question": "What is a finite field?",
+    "answer": "A field with a finite number of elements."
+  },
+  {
+    "question": "What is the order of a finite field?",
+    "answer": "The number of elements in the field, which must be a prime power."
+  },
+  {
+    "question": "What is a primitive element in a finite field?",
+    "answer": "An element whose powers generate all non-zero elements of the field."
+  },
+  {
+    "question": "What is a cyclotomic polynomial?",
+    "answer": "A monic polynomial whose roots are the primitive nth roots of unity."
+  },
+  {
+    "question": "What is the degree of the nth cyclotomic polynomial?",
+    "answer": "φ(n), Euler's phi function of n."
+  },
+  {
+    "question": "What is the inclusion-exclusion principle used for in number theory?",
+    "answer": "To count the number of integers with certain properties, such as being coprime to n."
+  },
+  {
+    "question": "What is a field?",
+    "answer": "A commutative ring with 1 ≠ 0 in which every nonzero element has a multiplicative inverse."
+  },
+  {
+    "question": "What is the characteristic of a field?",
+    "answer": "The smallest positive integer p such that p × 1 = 0 in the field, or 0 if no such p exists."
+  },
+  {
+    "question": "What is the order of the finite field F_p?",
+    "answer": "p, where p is prime."
+  },
+  {
+    "question": "How are finite fields of order p^n constructed?",
+    "answer": "By taking F_p[X] modulo an irreducible polynomial of degree n."
+  },
+  {
+    "question": "What is a commutative ring?",
+    "answer": "A set with two operations, addition and multiplication, satisfying the usual arithmetic rules."
+  },
+  {
+    "question": "What is the difference between a ring and a field?",
+    "answer": "In a field, every nonzero element has a multiplicative inverse; in a ring, this is not required."
+  },
+  {
+    "question": "What is a one-way function in cryptography?",
+    "answer": "A function that is easy to compute but hard to invert."
+  },
+  {
+    "question": "What is a recurrence relation with constant coefficients?",
+    "answer": "A recurrence relation where the coefficients do not depend on n."
+  },
+  {
+    "question": "How do you solve a linear recurrence relation with constant coefficients?",
+    "answer": "By finding the roots of the auxiliary equation and forming the general solution."
+  },
+  {
+    "question": "What is a derangement?",
+    "answer": "A permutation with no fixed points."
+  },
+  {
+    "question": "What is the probability that at least one guest gets their own present back in a random assignment of presents?",
+    "answer": "About 1 - 1/e ≈ 0.63 for large n."
+  },
+  {
+    "question": "What is the formula for the number of ways to partition n indistinguishable objects into r nonnegative integer parts?",
+    "answer": "(n + r - 1 choose n)."
+  },
+  {
+    "question": "What is the formula for the number of ways to partition n indistinguishable objects into r positive integer parts?",
+    "answer": "(n - 1 choose r - 1)."
+  },
+  {
+    "question": "What is a recurrence relation for the number of ways to tile a 2 × n path with 1 × 2 tiles?",
+    "answer": "b_n = b_{n-1} + b_{n-2}, with b_0 = 1, b_1 = 1."
+  },
+  {
+    "question": "What is the general solution to a_n = 6 a_{n-1} - 11 a_{n-2} + 6 a_{n-3}?",
+    "answer": "a_n = K + L 2^n + M 3^n for constants K, L, M."
+  },
+  {
+    "question": "What is the auxiliary equation for a third-order linear recurrence relation a_n = A a_{n-1} + B a_{n-2} + C a_{n-3}?",
+    "answer": "t^3 = A t^2 + B t + C."
+  },
+  {
+    "question": "What is a non-homogeneous recurrence relation?",
+    "answer": "A recurrence relation with a nonzero function of n on the right-hand side."
+  },
+  {
+    "question": "What is a derangement of n objects?",
+    "answer": "A permutation where no object is in its original position."
+  },
+  {
+    "question": "What is the formula for the number of solutions to x1 + x2 + ... + xr = n in nonnegative integers?",
+    "answer": "(n + r - 1 choose n)."
+  },
+  {
+    "question": "What is the formula for the number of solutions to x1 + x2 + ... + xr = n in positive integers?",
+    "answer": "(n - 1 choose r - 1)."
+  },
+  {
+    "question": "What is the formula for the number of surjective functions from a set of size n to a set of size k?",
+    "answer": "k! × S(n, k), where S(n, k) is the Stirling number of the second kind."
+  },
+  {
+    "question": "What is the principle of mathematical induction?",
+    "answer": "If a statement holds for n = 1 and holds for n + 1 whenever it holds for n, then it holds for all n."
+  },
+  {
+    "question": "What is the pigeonhole principle?",
+    "answer": "If n items are put into m containers and n > m, then at least one container has more than one item."
+  },
+  {
+    "question": "What is the formula for the number of ways to arrange n objects with repetitions?",
+    "answer": "n! / (n1! n2! ... nk!) where n1, ..., nk are the counts of each repeated object."
+  },
+  {
+    "question": "What is a Latin square?",
+    "answer": "An n × n array filled with n symbols, each occurring exactly once in each row and column."
+  },
+  {
+    "question": "What is a magic square?",
+    "answer": "An n × n array of numbers where the sums of each row, column, and diagonal are equal."
+  },
+  {
+    "question": "What is a graph in discrete mathematics?",
+    "answer": "A set of vertices and a set of edges connecting pairs of vertices."
+  },
+  {
+    "question": "What is a complete graph?",
+    "answer": "A graph in which every pair of vertices is connected by an edge."
+  },
+  {
+    "question": "What is a bipartite graph?",
+    "answer": "A graph whose vertices can be divided into two disjoint sets such that every edge connects a vertex in one set to a vertex in the other."
+  },
+  {
+    "question": "What is Euler's formula for planar graphs?",
+    "answer": "For a connected planar graph, v - e + f = 2, where v is the number of vertices, e is the number of edges, and f is the number of faces."
+  },
+  {
+    "question": "What is a spanning tree?",
+    "answer": "A subgraph that is a tree and connects all the vertices of the graph."
+  },
+  {
+    "question": "What is the adjacency matrix of a graph?",
+    "answer": "A square matrix where the entry at (i, j) is 1 if there is an edge from vertex i to vertex j, and 0 otherwise."
+  },
+  {
+    "question": "What is the degree of a vertex?",
+    "answer": "The number of edges incident to the vertex."
+  },
+  {
+    "question": "What is a Hamiltonian cycle?",
+    "answer": "A cycle that visits every vertex exactly once and returns to the starting vertex."
+  },
+  {
+    "question": "What is a spanning forest?",
+    "answer": "A subgraph that is a forest and includes all the vertices of the graph."
+  },
+  {
+    "question": "What is a path in a graph?",
+    "answer": "A sequence of edges connecting a sequence of vertices with no repeated edges."
+  },
+  {
+    "question": "What is a cycle in a graph?",
+    "answer": "A path that starts and ends at the same vertex and has no repeated edges or vertices except the start/end."
+  },
+  {
+    "question": "What is a tree in graph theory?",
+    "answer": "A connected acyclic graph."
+  },
+  {
+    "question": "What is the chromatic number of a graph?",
+    "answer": "The smallest number of colors needed to color the vertices so that no two adjacent vertices share the same color."
+  },
+  {
+    "question": "What is a planar graph?",
+    "answer": "A graph that can be drawn on a plane without any edges crossing."
+  },
+  {
+    "question": "What is the handshake lemma?",
+    "answer": "The sum of the degrees of all vertices in a graph is twice the number of edges."
+  },
+  {
+    "question": "What is the principle of double counting?",
+    "answer": "Counting the same set in two different ways to obtain an equality."
+  },
+  {
+    "question": "What is a matching in a graph?",
+    "answer": "A set of edges without common vertices."
+  },
+  {
+    "question": "What is Hall's marriage theorem?",
+    "answer": "A bipartite graph has a matching covering every vertex in one part if and only if every subset of that part is connected to at least as many vertices in the other part."
+  },
+  {
+    "question": "What is the chromatic polynomial of a graph?",
+    "answer": "A polynomial that counts the number of ways to color the graph with k colors."
+  },
+  {
+    "question": "What is a block in a graph?",
+    "answer": "A maximal connected subgraph with no cut-vertex."
+  },
+  {
+    "question": "What is a cut-vertex?",
+    "answer": "A vertex whose removal increases the number of connected components."
+  },
+  {
+    "question": "What is a bridge in a graph?",
+    "answer": "An edge whose removal increases the number of connected components."
+  },
+  {
+    "question": "What is a strongly connected digraph?",
+    "answer": "A directed graph in which there is a directed path from every vertex to every other vertex."
+  },
+  {
+    "question": "What is a tournament in graph theory?",
+    "answer": "A directed graph where every pair of vertices is connected by a single directed edge."
+  },
+  {
+    "question": "What is a Boolean algebra?",
+    "answer": "An algebraic structure with operations AND, OR, NOT satisfying certain axioms."
+  },
+  {
+    "question": "What is De Morgan's law in Boolean algebra?",
+    "answer": "The complement of the union is the intersection of the complements, and vice versa."
+  },
+  {
+    "question": "What is a logic gate?",
+    "answer": "A device that implements a Boolean function."
+  },
+  {
+    "question": "What is a truth table?",
+    "answer": "A table showing all possible input values and the corresponding output values of a logic function."
+  },
+  {
+    "question": "What is a tautology in propositional logic?",
+    "answer": "A formula that is true for all possible truth assignments."
+  },
+  {
+    "question": "What is a contradiction in logic?",
+    "answer": "A formula that is false for all possible truth assignments."
+  },
+  {
+    "question": "What is a satisfiable formula?",
+    "answer": "A formula that is true for at least one truth assignment."
+  },
+  {
+    "question": "What is the principle of mathematical induction?",
+    "answer": "If a statement holds for n = 1 and holds for n + 1 whenever it holds for n, then it holds for all n."
+  },
+  {
+    "question": "What is the difference between a proposition and a predicate?",
+    "answer": "A proposition is a statement that is either true or false; a predicate is a statement involving variables."
+  },
+  {
+    "question": "What is universal quantification?",
+    "answer": "A statement that asserts something is true for all elements in a domain."
+  },
+  {
+    "question": "What is existential quantification?",
+    "answer": "A statement that asserts there exists at least one element in the domain for which the statement is true."
+  }
+]
+
+

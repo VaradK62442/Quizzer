@@ -1,0 +1,398 @@
+[
+  {
+    "question": "What is a network protocol?",
+    "answer": "A network protocol is an agreed language for encoding messages, along with the rules defining what messages mean and when they can be sent."
+  },
+  {
+    "question": "What is a protocol data unit (PDU)?",
+    "answer": "A PDU is a type of message defined by a protocol, each with a specific syntax and format."
+  },
+  {
+    "question": "How are binary and textual PDUs different?",
+    "answer": "Textual PDUs use human-readable syntax and grammar (e.g., HTTP), while binary PDUs use binary formats and may specify details like endianness and alignment (e.g., TCP/IP)."
+  },
+  {
+    "question": "What is protocol layering and why is it used?",
+    "answer": "Protocol layering organizes communication systems into layers, each providing services to the layer above and simplifying network design."
+  },
+  {
+    "question": "What are the seven layers of the OSI model?",
+    "answer": "Physical, Data Link, Network, Transport, Session, Presentation, Application."
+  },
+  {
+    "question": "What is the function of the Physical Layer?",
+    "answer": "It manages the physical connection between devices, including cables, wireless transmission, and the encoding of bits onto the channel."
+  },
+  {
+    "question": "What is the function of the Data Link Layer?",
+    "answer": "It structures the bitstream into frames, detects and corrects errors, manages access to the link, and assigns MAC addresses."
+  },
+  {
+    "question": "What is the function of the Network Layer?",
+    "answer": "It handles packet routing and forwarding, addressing, and interconnection of multiple links to form a wide area network."
+  },
+  {
+    "question": "What is the function of the Transport Layer?",
+    "answer": "It ensures end-to-end data transfer, reliability, ordering, framing, and congestion control."
+  },
+  {
+    "question": "What is the function of the Session Layer?",
+    "answer": "It manages sessions and connections between applications, allowing multiple connections and coordination of flows."
+  },
+  {
+    "question": "What is the function of the Presentation Layer?",
+    "answer": "It translates data formats, manages character sets, data markup, and content negotiation."
+  },
+  {
+    "question": "What is the function of the Application Layer?",
+    "answer": "It provides network services directly to user applications, using protocols such as HTTP, DNS, and FTP."
+  },
+  {
+    "question": "What is a MAC address?",
+    "answer": "A MAC address is a unique identifier assigned to network interfaces for communications at the data link layer."
+  },
+  {
+    "question": "What is error detection and correction in networking?",
+    "answer": "Techniques like parity bits, checksums, and CRC are used to detect and sometimes correct bit errors in transmitted data."
+  },
+  {
+    "question": "What is bit stuffing?",
+    "answer": "A method where the sender inserts extra bits into the data to ensure special patterns (like frame start codes) are unique and can be identified by the receiver."
+  },
+  {
+    "question": "What is media access control (MAC)?",
+    "answer": "MAC determines how devices on a network share access to the physical transmission medium."
+  },
+  {
+    "question": "What is the difference between point-to-point and multi-access links?",
+    "answer": "Point-to-point links connect two devices directly; multi-access links allow multiple devices to share the same medium."
+  },
+  {
+    "question": "What is a collision in networking?",
+    "answer": "A collision occurs when two devices transmit at the same time on a shared medium, causing their signals to interfere."
+  },
+  {
+    "question": "What is CSMA and CSMA/CD?",
+    "answer": "Carrier Sense Multiple Access (CSMA) is a protocol where devices listen before transmitting; CSMA with Collision Detection (CSMA/CD) stops transmission if a collision is detected."
+  },
+  {
+    "question": "What is the ALOHA protocol?",
+    "answer": "ALOHA is a simple contention-based MAC protocol where devices transmit whenever they have data and retry after random delays if collisions occur."
+  },
+  {
+    "question": "What is the main role of the Network Layer?",
+    "answer": "To provide end-to-end delivery of data across multiple links and networks, including addressing and routing."
+  },
+  {
+    "question": "What is an autonomous system (AS)?",
+    "answer": "A network or group of networks under a common administration, using a common routing policy."
+  },
+  {
+    "question": "What is the Internet Protocol (IP)?",
+    "answer": "IP is a connectionless, best-effort packet delivery protocol that provides addressing, routing, and fragmentation."
+  },
+  {
+    "question": "What is the difference between IPv4 and IPv6?",
+    "answer": "IPv4 uses 32-bit addresses; IPv6 uses 128-bit addresses and has a simpler header format and larger address space."
+  },
+  {
+    "question": "What is fragmentation in IP networking?",
+    "answer": "Breaking up large packets into smaller fragments to fit the maximum transmission unit (MTU) of the underlying network."
+  },
+  {
+    "question": "How does IPv4 handle fragmentation?",
+    "answer": "Routers can fragment packets if they exceed the MTU; fragments are reassembled at the destination."
+  },
+  {
+    "question": "How does IPv6 handle fragmentation?",
+    "answer": "IPv6 does not allow routers to fragment packets; fragmentation must be handled by the sending and receiving hosts."
+  },
+  {
+    "question": "What is a netmask?",
+    "answer": "A bitmask used to divide IP addresses into network and host parts."
+  },
+  {
+    "question": "What is the purpose of the broadcast address?",
+    "answer": "To send a message to all hosts on a network."
+  },
+  {
+    "question": "What is the main limitation of IPv4?",
+    "answer": "The limited address space, which has led to the exhaustion of available IPv4 addresses."
+  },
+  {
+    "question": "What is a routing algorithm?",
+    "answer": "An algorithm used by routers to determine the best path for forwarding packets through a network."
+  },
+  {
+    "question": "What is unicast routing?",
+    "answer": "Routing data from a single source to a single destination."
+  },
+  {
+    "question": "What is the difference between intra-domain and inter-domain routing?",
+    "answer": "Intra-domain routing occurs within a single autonomous system; inter-domain routing occurs between different autonomous systems."
+  },
+  {
+    "question": "What is a distance vector routing protocol?",
+    "answer": "A protocol where each router shares its distance to all known destinations with its neighbors, and updates its routing table based on this information."
+  },
+  {
+    "question": "What is the count-to-infinity problem?",
+    "answer": "A limitation of distance vector protocols where incorrect routing information can propagate slowly, causing long convergence times."
+  },
+  {
+    "question": "What is split horizon?",
+    "answer": "A technique to prevent routing loops by not sending information about a route back in the direction from which it was learned."
+  },
+  {
+    "question": "What is a link state routing protocol?",
+    "answer": "A protocol where routers flood information about their directly connected links to all routers, allowing each to compute the entire network topology and shortest paths."
+  },
+  {
+    "question": "What algorithm is commonly used in link state routing?",
+    "answer": "Dijkstra's shortest path algorithm."
+  },
+  {
+    "question": "What is the main advantage of link state over distance vector routing?",
+    "answer": "Faster convergence and more accurate routing tables, at the cost of greater complexity and memory usage."
+  },
+  {
+    "question": "What is the main function of the Transport Layer?",
+    "answer": "To provide reliable or unreliable delivery of data between processes, with features like addressing, reliability, framing, congestion, and flow control."
+  },
+  {
+    "question": "What is multiplexing in the Transport Layer?",
+    "answer": "Combining data from multiple applications or services, each identified by a port number, into a single data stream."
+  },
+  {
+    "question": "What is demultiplexing?",
+    "answer": "Separating incoming data streams to deliver them to the correct application or service based on port numbers."
+  },
+  {
+    "question": "What is the difference between TCP and UDP?",
+    "answer": "TCP provides reliable, ordered, connection-oriented delivery; UDP provides unreliable, unordered, connectionless delivery."
+  },
+  {
+    "question": "What is the three-way handshake in TCP?",
+    "answer": "A process to establish a TCP connection using SYN, SYN-ACK, and ACK packets."
+  },
+  {
+    "question": "How does TCP provide reliability?",
+    "answer": "By using sequence numbers, acknowledgements, retransmissions, and flow/congestion control."
+  },
+  {
+    "question": "What is congestion control?",
+    "answer": "A mechanism to adjust the sending rate of data to avoid overwhelming the network."
+  },
+  {
+    "question": "What is the AIMD algorithm?",
+    "answer": "Additive Increase Multiplicative Decrease: gradually increase sending rate, but decrease rapidly upon detecting congestion."
+  },
+  {
+    "question": "What is a socket?",
+    "answer": "An endpoint for sending or receiving data across a network, used in programming network applications."
+  },
+  {
+    "question": "What is the difference between stream and datagram sockets?",
+    "answer": "Stream sockets (TCP) provide a reliable byte stream; datagram sockets (UDP) send and receive individual packets."
+  },
+  {
+    "question": "What is the difference between client and server sockets?",
+    "answer": "A server socket listens for incoming connections; a client socket initiates a connection to a server."
+  },
+  {
+    "question": "What is the CIA triad in security?",
+    "answer": "Confidentiality, Integrity, and Availability: the three core principles of information security."
+  },
+  {
+    "question": "What is symmetric cryptography?",
+    "answer": "A cryptographic method where the same key is used for both encryption and decryption."
+  },
+  {
+    "question": "What is public key cryptography?",
+    "answer": "A cryptographic method using a pair of keys: a public key for encryption and a private key for decryption."
+  },
+  {
+    "question": "What is hybrid cryptography?",
+    "answer": "A combination of public key and symmetric cryptography, using public key methods to exchange a symmetric session key."
+  },
+  {
+    "question": "What is a digital signature?",
+    "answer": "A cryptographic technique that uses a private key to sign data, providing integrity and authentication."
+  },
+  {
+    "question": "What is a cryptographic hash function?",
+    "answer": "A function that produces a fixed-length hash value from arbitrary input, designed to be irreversible and collision-resistant."
+  },
+  {
+    "question": "What is TLS?",
+    "answer": "Transport Layer Security is a protocol that provides privacy and data integrity between applications over a network."
+  },
+  {
+    "question": "What is IPSec?",
+    "answer": "A framework of protocols for securing IP communications by authenticating and encrypting each IP packet."
+  },
+  {
+    "question": "What is the difference between tunnel mode and transport mode in IPSec?",
+    "answer": "Tunnel mode secures packets between gateways; transport mode secures packets end-to-end between hosts."
+  },
+  {
+    "question": "What is GDPR?",
+    "answer": "The General Data Protection Regulation is an EU law governing data privacy and protection."
+  },
+  {
+    "question": "What are the main principles of GDPR?",
+    "answer": "Lawfulness, fairness, transparency, purpose limitation, data minimisation, accuracy, storage limitation, integrity/confidentiality, and accountability."
+  },
+  {
+    "question": "What is the difference between personal data and sensitive personal data?",
+    "answer": "Personal data identifies an individual; sensitive personal data includes special categories like health, race, religion, or criminal record."
+  },
+  {
+    "question": "What is the Robustness Principle (Postel's Law)?",
+    "answer": "\"Be liberal in what you accept, and conservative in what you send\"—accept a wide range of input but send strictly correct output."
+  },
+  {
+    "question": "What is a man-in-the-middle (MitM) attack?",
+    "answer": "An attack where a third party intercepts and possibly alters communication between two parties without their knowledge."
+  },
+  {
+    "question": "What is SSL stripping?",
+    "answer": "A MitM attack that downgrades a secure HTTPS connection to an insecure HTTP connection, allowing interception of sensitive data."
+  },
+  {
+    "question": "What is a buffer overflow?",
+    "answer": "A vulnerability where a program writes more data to a buffer than it can hold, potentially overwriting adjacent memory and causing security issues."
+  },
+  {
+    "question": "What is input validation and why is it important?",
+    "answer": "Checking that data from untrusted sources conforms to expected formats to prevent errors and security vulnerabilities."
+  },
+  {
+    "question": "What is process management in operating systems?",
+    "answer": "The creation, scheduling, synchronization, and termination of processes."
+  },
+  {
+    "question": "What is a process?",
+    "answer": "A program in execution, with its own memory address space and resources."
+  },
+  {
+    "question": "What is the difference between a program and a process?",
+    "answer": "A program is a passive set of instructions; a process is an active execution of those instructions."
+  },
+  {
+    "question": "What is a process control block (PCB)?",
+    "answer": "A data structure used by the OS to store information about a process, such as state, registers, and resources."
+  },
+  {
+    "question": "What is inter-process communication (IPC)?",
+    "answer": "Mechanisms that allow processes to exchange data and synchronize their actions."
+  },
+  {
+    "question": "What are the two main models of IPC?",
+    "answer": "Shared memory and message passing."
+  },
+  {
+    "question": "What is direct vs indirect communication in IPC?",
+    "answer": "Direct communication sends messages directly between processes; indirect uses mailboxes managed by the OS."
+  },
+  {
+    "question": "What is blocking vs non-blocking communication?",
+    "answer": "Blocking waits for the other party to be ready; non-blocking continues immediately."
+  },
+  {
+    "question": "What is process scheduling?",
+    "answer": "The method by which the OS decides which process runs next on the CPU."
+  },
+  {
+    "question": "What is the difference between preemptive and non-preemptive scheduling?",
+    "answer": "Preemptive allows the OS to interrupt and switch processes; non-preemptive lets a process run until it yields or finishes."
+  },
+  {
+    "question": "What is the First-Come, First-Served (FCFS) scheduling algorithm?",
+    "answer": "Processes are scheduled in the order they arrive, without preemption."
+  },
+  {
+    "question": "What is Shortest Job First (SJF) scheduling?",
+    "answer": "The process with the shortest CPU burst time is scheduled next."
+  },
+  {
+    "question": "What is Shortest Remaining Time First (SRTF) scheduling?",
+    "answer": "A preemptive version of SJF, always running the process with the least time left."
+  },
+  {
+    "question": "What is priority scheduling?",
+    "answer": "Processes are scheduled based on priority; higher priority processes run first."
+  },
+  {
+    "question": "What is round-robin scheduling?",
+    "answer": "Processes are scheduled in a circular queue, each given a fixed time quantum."
+  },
+  {
+    "question": "What is a context switch?",
+    "answer": "The process of saving and restoring the state of a CPU so that execution can be switched from one process to another."
+  },
+  {
+    "question": "What is concurrency?",
+    "answer": "Multiple tasks making progress over time, possibly interleaved on a single processor."
+  },
+  {
+    "question": "What is parallelism?",
+    "answer": "Multiple tasks executing at the same time on multiple processors or cores."
+  },
+  {
+    "question": "What is Amdahl's Law?",
+    "answer": "A formula that shows the maximum speedup of a program using multiple processors, limited by the serial portion of the code."
+  },
+  {
+    "question": "What is a thread?",
+    "answer": "A lightweight process that shares memory and resources with other threads in the same process."
+  },
+  {
+    "question": "What is a critical section?",
+    "answer": "A part of code that accesses shared resources and must not be executed by more than one thread at a time."
+  },
+  {
+    "question": "What is a mutex?",
+    "answer": "A mutual exclusion object used to prevent multiple threads from entering a critical section simultaneously."
+  },
+  {
+    "question": "What is a semaphore?",
+    "answer": "A synchronization primitive used to control access to a common resource by multiple processes."
+  },
+  {
+    "question": "What is deadlock?",
+    "answer": "A situation where two or more processes are blocked forever, each waiting for the other to release a resource."
+  },
+  {
+    "question": "What is starvation?",
+    "answer": "A situation where a process never gets scheduled to run because other processes are continuously chosen."
+  },
+  {
+    "question": "What is memory management in operating systems?",
+    "answer": "The process of tracking and controlling how memory is allocated and used by processes."
+  },
+  {
+    "question": "What is virtual memory?",
+    "answer": "A memory management technique that gives the illusion of a large, contiguous memory space by using disk storage."
+  },
+  {
+    "question": "What is paging?",
+    "answer": "A technique where memory is divided into fixed-size pages, which can be swapped between RAM and disk."
+  },
+  {
+    "question": "What is a file system?",
+    "answer": "A method for storing and organizing files and directories on storage devices."
+  },
+  {
+    "question": "What is caching?",
+    "answer": "Copying frequently accessed data into faster storage to speed up access."
+  },
+  {
+    "question": "What is the kernel?",
+    "answer": "The core part of the operating system that manages resources and provides essential services."
+  },
+  {
+    "question": "What is a system call?",
+    "answer": "A request from a user program to the operating system to perform a privileged operation."
+  }
+]
