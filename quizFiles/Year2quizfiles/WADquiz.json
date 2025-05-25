@@ -3,7 +3,6 @@
         "question": "In Django, how do you get a list of all objects from a model?",
         "answer": "Model.objects.all()"
     },
-
     {
         "question": "In Django, given an instance of a model, how do you add it to the database?",
         "answer": "instance.save()"
@@ -20,12 +19,10 @@
         "question": "In Django, how do you get a single object from a model matching a certain criteria?",
         "answer": "Model.objects.get(attribute = value)"
     },
-
     {
         "question": "In Django, what does each view in the views.py file do?",
         "answer": "Each view is a function that takes a HttpRequest object and returns a HttpResponse object."
     },
-
     {
         "question": "In Django, what does the path function do?",
         "answer": "It maps a URL to a view."
@@ -34,7 +31,6 @@
         "question": "In Django, the parameters of the path function are 'route', 'view', and 'name'. What do they do?",
         "answer": "Route is the URL, view is the view function, and name is the name of the URL."
     },
-
     {
         "question": "What are the three main components of an Entity Relationship Model?",
         "answer": "Entities, attributes, and relationships."
@@ -47,7 +43,6 @@
         "question": "In Django, what is the syntax for creating a new model?",
         "answer": "class ModelName(models.Model): attribute = models.AttributeField(params)"
     },
-
     {
         "question": "What complexity does the hypertext structure present?",
         "answer": "Need to avoid user disorientation, and provide a clear path for navigation."
@@ -60,12 +55,10 @@
         "question": "What complexity does content delivery present?",
         "answer": "Need to be fast, up-to-date, consistent, secure, and reliable."
     },
-
     {
         "question": "What are the different types of web apps?",
         "answer": "Static, interactive, transactional, workflow-based, portal oriented, collaborative, social web, mobile, and ubiquitous."
     },
-
     {
         "question": "What is a monolithic program?",
         "answer": "A single unit in which every aspect of the application is coded."
@@ -78,7 +71,6 @@
         "question": "What is a tiered architecture?",
         "answer": "A way to separate the different tasks of an application into different layers."
     },
-
     {
         "question": "Describe the fat client architecture.",
         "answer": "The user interacts with the client, which interacts with the database. The client handles user interface, methods, and functionality."
@@ -99,7 +91,6 @@
         "question": "What are two ways that load balancing can be achieved?",
         "answer": "By using Domain Name Servers or Load Balancing Servers."
     },
-
     {
         "question": "What is Information Architecture?",
         "answer": "The structural design of shared information."
@@ -112,7 +103,6 @@
         "question": "What are the deliverables of an Information Architect?",
         "answer": "Personas, user needs matrix, wireframes, site maps, URL design, usability testing."
     },
-
     {
         "question": "In CSS, how are conflicts of style resolved?",
         "answer": "Every ID attribute adds a value '1,0,0', every class attribute adds a value '0,1,0' and every element adds a value '0,0,1'. This is then ordered lexicographically."
@@ -137,7 +127,6 @@
         "question": "In CSS, what is fixed positioning?",
         "answer": "Elements are positioned relative to the browser window."
     },
-
     {
         "question": "What are the types of nodes in the Document Object Model?",
         "answer": "Element, attribute, text, comment, and document."
@@ -166,7 +155,6 @@
         "question": "What is the basic pattern that jQuery uses to manipulate elements?",
         "answer": "Select elements, manipulate elements, and return elements. $(selector).event(function() {...});"
     },
-
     {
         "question": "What is the role of XML?",
         "answer": "To describe the structure of semi-structured documents."
@@ -183,7 +171,6 @@
         "question": "What are the two types of pre-defined structures that can be used for XML?",
         "answer": "Document Type Definition (DTD) and XML Schemas."
     },
-
     {
         "question": "What does AJAX do?",
         "answer": "Eliminates the need to reload a web page in order to get new data, and improves the interactive experience in web apps."
@@ -200,12 +187,10 @@
         "question": "What are some XMLHttpRequest methods?",
         "answer": "open(), send(), setRequestHeader(), abort()."
     },
-
     {
         "question": "What is SAX?",
         "answer": "Simple API for XML, a way to sequentially parse XML documents."
     },
-
     {
         "question": "What happens when a user agent is asked to send a message?",
         "answer": "The URL is turned into an IP address, a TCP connection is opened on a port as that IP address, and a request is made using a specific URL scheme and sent using that TCP connection."
@@ -226,7 +211,6 @@
         "question": "How can statelessness be dealt with?",
         "answer": "By using cookies on the client side, hidden variables on the server side, and URL encoding."
     },
-    
     {
         "question": "What is the Model View Controller?",
         "answer": "A software architectural design pattern."
@@ -251,7 +235,6 @@
         "question": "What are the disadvantages of the Model View Controller pattern?",
         "answer": "Initial overheads splitting up concerns, debugging can be tricky, and it requires developer to understand patterns."
     },
-
     {
         "question": "What are some characteristics of a Web Application Framework?",
         "answer": "Inversion of control, extensibility, and non-modifiable framework code."
@@ -267,5 +250,203 @@
     {
         "question": "What is some common Web Application Framework functionality?",
         "answer": "Web template system, caching, security, URL mapping, automatic configuration, form management."
+    },
+    {
+        "question": "What is a distributed information management system (DIM)?",
+        "answer": "A system that enables the management, sharing, modification, and presentation of information across a network in a distributed fashion."
+    },
+    {
+        "question": "What is the main purpose of a web application?",
+        "answer": "To provide users with timely, relevant, and useful information in a seamless manner over a network."
+    },
+    {
+        "question": "List three examples of real-world web applications.",
+        "answer": "Booking.com, YouTube, Amazon."
+    },
+    {
+        "question": "What are the main aims of a Web Application Development course?",
+        "answer": "To provide an overview of web development tools and technologies, strengthen understanding of distributed systems, promote disciplined design, and enable implementation and deployment of web apps."
+    },
+    {
+        "question": "What are the three main components in a high-level web system architecture?",
+        "answer": "Client, middleware, and database."
+    },
+    {
+        "question": "What is the role of the client in a web application?",
+        "answer": "To send request messages, accept response messages, and act on the message by communicating with the user or affecting the environment."
+    },
+    {
+        "question": "What is the role of middleware in a web application?",
+        "answer": "To accept request messages from clients, return response messages, coordinate application components, and often handle business logic."
+    },
+    {
+        "question": "What is the role of the backend/database in a web application?",
+        "answer": "To store and provide data for the application, ensuring scalability and reliability."
+    },
+    {
+        "question": "What are some complexities involved in web development?",
+        "answer": "Collision of languages, shifting standards, browser compatibility, and the stateless nature of HTTP."
+    },
+    {
+        "question": "Why is version control important in web development?",
+        "answer": "It maintains a history of a software project, enables collaboration, safeguards code, and simplifies concurrent work."
+    },
+    {
+        "question": "What is the purpose of a package manager like pip or conda?",
+        "answer": "To automate installing, upgrading, and configuring software libraries and their dependencies."
+    },
+    {
+        "question": "What is a virtual environment in Python development?",
+        "answer": "A local environment that provides access to libraries and settings, keeping dependencies for different projects separate."
+    },
+    {
+        "question": "What is the purpose of an Integrated Development Environment (IDE)?",
+        "answer": "To provide tools for writing, debugging, and managing code, often with features like syntax highlighting and code completion."
+    },
+    {
+        "question": "What is the function of the 'pip freeze > requirements.txt' command?",
+        "answer": "It exports the list of installed packages and their versions to a requirements file for easy environment replication."
+    },
+    {
+        "question": "What is the difference between static, interactive, and transactional web apps?",
+        "answer": "Static apps serve fixed content, interactive apps respond to user input, and transactional apps handle data capture and storage."
+    },
+    {
+        "question": "What is the benefit of separating content and style in web development?",
+        "answer": "It improves maintainability, flexibility, and performance by allowing content and presentation to be managed independently."
+    },
+    {
+        "question": "What is the purpose of a template in web development?",
+        "answer": "To generate pages by merging a template with specific page data, reducing repetition and enabling dynamic content."
+    },
+    {
+        "question": "What is the main advantage of using external CSS files?",
+        "answer": "They promote separation of concerns, simplify maintenance, and improve performance by sharing styles across multiple pages."
+    },
+    {
+        "question": "What is the box model in CSS?",
+        "answer": "A model describing the rectangular boxes generated for elements, including content, padding, border, and margin."
+    },
+    {
+        "question": "What are the four main units for specifying length in CSS?",
+        "answer": "Pixels (px), em, rem, and percentages (%)."
+    },
+    {
+        "question": "What is the difference between class and ID selectors in CSS?",
+        "answer": "Class selectors (.) apply to multiple elements; ID selectors (#) apply to a unique element."
+    },
+    {
+        "question": "What is specificity in CSS?",
+        "answer": "A system for determining which CSS rule applies when multiple rules target the same element, based on selector type and order."
+    },
+    {
+        "question": "What is the cascade in CSS?",
+        "answer": "The process by which the browser determines which CSS rules to apply, considering specificity, importance, and source order."
+    },
+    {
+        "question": "What is the purpose of a wireframe in web design?",
+        "answer": "To visually represent the layout and structure of a web page before development, focusing on content placement and navigation."
+    },
+    {
+        "question": "What is a site map in web development?",
+        "answer": "A blueprint showing the organization and relationship between pages of a website."
+    },
+    {
+        "question": "What are the main goals of usability testing?",
+        "answer": "To evaluate how easy and satisfying a web application is to use, identifying issues and areas for improvement."
+    },
+    {
+        "question": "What is the main difference between top-down and bottom-up design?",
+        "answer": "Top-down starts from high-level system design; bottom-up builds from individual components upward."
+    },
+    {
+        "question": "What is the purpose of a user persona?",
+        "answer": "To represent typical users and guide design decisions based on their needs and behaviors."
+    },
+    {
+        "question": "What is a user needs matrix?",
+        "answer": "A document capturing and prioritizing the needs of different user groups for a web application."
+    },
+    {
+        "question": "What is the benefit of using a grid layout in web design?",
+        "answer": "It helps organize content visually, ensuring consistency and alignment across the site."
+    },
+    {
+        "question": "What is the difference between global, local, and contextual navigation?",
+        "answer": "Global navigation is available site-wide, local navigation is specific to a section, and contextual navigation relates to the current content."
+    },
+    {
+        "question": "What is HTTPS and why is it important?",
+        "answer": "HTTPS is HTTP Secure, using encryption (TLS/SSL) to protect data transmitted between client and server, ensuring privacy and security."
+    },
+    {
+        "question": "What is the main advantage of using a load balancer in web architecture?",
+        "answer": "It distributes incoming traffic across multiple servers to improve performance, reliability, and scalability."
+    },
+    {
+        "question": "What is the difference between a monolithic and a tiered web application architecture?",
+        "answer": "Monolithic apps have all functionality in a single unit; tiered architectures separate concerns into different layers (e.g., presentation, logic, data)."
+    },
+    {
+        "question": "What does 'separation of concerns' mean in web development?",
+        "answer": "Dividing a program into distinct sections, each addressing a separate concern, to improve modularity and maintainability."
+    },
+    {
+        "question": "What is the purpose of using a virtual environment when developing Python web applications?",
+        "answer": "To isolate project dependencies and avoid conflicts between different projects' packages and Python versions."
+    },
+    {
+        "question": "What is the role of the Django admin site?",
+        "answer": "To provide a web-based interface for managing database content and application models."
+    },
+    {
+        "question": "What is the purpose of automated testing in web development?",
+        "answer": "To verify that code works as intended, prevent regressions, and support safe refactoring."
+    },
+    {
+        "question": "What is test-driven development (TDD)?",
+        "answer": "A software development process where tests are written before code, and code is only written to pass those tests."
+    },
+    {
+        "question": "What is the advantage of using a package manager like pip or conda?",
+        "answer": "It simplifies installing, upgrading, and managing libraries and their dependencies."
+    },
+    {
+        "question": "What is the purpose of the 'requirements.txt' file in Python projects?",
+        "answer": "To list all required packages and their versions, enabling easy replication of the development environment."
+    },
+    {
+        "question": "What is the main role of middleware in a Django application?",
+        "answer": "To process requests and responses globally before they reach the view or after the view has processed them."
+    },
+    {
+        "question": "What is a mockup in web design?",
+        "answer": "A high-fidelity visual representation of a web page, showing design, layout, and interface elements."
+    },
+    {
+        "question": "What is the purpose of a persona in information architecture?",
+        "answer": "To help designers understand and prioritize the needs, goals, and behaviors of different user types."
+    },
+    {
+        "question": "What is the main benefit of using a command-line interface (CLI) in web development?",
+        "answer": "It allows for efficient navigation, file management, and execution of development tools and scripts."
+    },
+    {
+        "question": "What is the main advantage of using static analysis tools like PyLint or JSLint?",
+        "answer": "They help identify errors, enforce coding standards, and improve code quality before runtime."
+    },
+    {
+        "question": "What is the purpose of using a requirements.txt file with pip?",
+        "answer": "To enable easy installation of all required packages for a project with a single command."
+    },
+    {
+        "question": "What is the main benefit of using a virtual environment for each project?",
+        "answer": "It prevents dependency conflicts and makes it easy to manage different package versions for different projects."
+    },
+    {
+        "question": "What is a sitemap and why is it important in web development?",
+        "answer": "A sitemap shows the structure of a website, helping plan navigation and organization of content."
     }
 ]
+
+
