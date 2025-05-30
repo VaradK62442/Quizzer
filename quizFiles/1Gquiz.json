@@ -1,0 +1,430 @@
+[
+  {
+    "question": "What is the definition of a complex number?",
+    "answer": "A complex number is any number of the form x + i y, where x and y are real numbers and i is the imaginary unit with i^2 = -1."
+  },
+  {
+    "question": "What is the real part of a complex number z = x + i y?",
+    "answer": "The real part is x, denoted Re(z)."
+  },
+  {
+    "question": "What is the imaginary part of a complex number z = x + i y?",
+    "answer": "The imaginary part is y, denoted Im(z)."
+  },
+  {
+    "question": "When is a complex number said to be imaginary?",
+    "answer": "When its imaginary part is nonzero (y ≠ 0)."
+  },
+  {
+    "question": "What is a purely imaginary number?",
+    "answer": "A complex number of the form i y, where y ≠ 0."
+  },
+  {
+    "question": "What is the complex conjugate of z = x + i y?",
+    "answer": "The complex conjugate is x - i y, denoted as \\( \\bar{z} \\)."
+  },
+  {
+    "question": "How do you determine if two complex numbers a + i b and c + i d are equal?",
+    "answer": "They are equal if and only if a = c and b = d."
+  },
+  {
+    "question": "How is a complex number represented on an Argand diagram?",
+    "answer": "As the point with coordinates (x, y) in the plane."
+  },
+  {
+    "question": "How do you add, subtract, and multiply two complex numbers a + i b and c + i d?",
+    "answer": "Addition: (a + c) + i(b + d); Subtraction: (a - c) + i(b - d); Multiplication: (a c - b d) + i(a d + b c)."
+  },
+  {
+    "question": "How do you divide one complex number by another?",
+    "answer": "Multiply numerator and denominator by the conjugate of the denominator, then simplify."
+  },
+  {
+    "question": "What are the powers of i?",
+    "answer": "i^1 = i, i^2 = -1, i^3 = -i, i^4 = 1, and the pattern repeats every four powers."
+  },
+  {
+    "question": "What is the polar form of a complex number?",
+    "answer": "z = r e^{i θ}, where r = |z| = sqrt(x^2 + y^2), θ = arg(z) = arctan(y/x)."
+  },
+  {
+    "question": "How do you convert between Cartesian and polar coordinates for a complex number?",
+    "answer": "x = r cos θ, y = r sin θ; r = sqrt(x^2 + y^2), θ = arctan(y/x)."
+  },
+  {
+    "question": "What is Euler's formula?",
+    "answer": "e^{i θ} = cos θ + i sin θ."
+  },
+  {
+    "question": "What is De Moivre's theorem?",
+    "answer": "(cos θ + i sin θ)^n = cos(n θ) + i sin(n θ) for integer n."
+  },
+  {
+    "question": "What is the modulus of a complex number z = x + i y?",
+    "answer": "|z| = sqrt(x^2 + y^2)."
+  },
+  {
+    "question": "What is the triangle inequality for complex numbers?",
+    "answer": "|z_1 + z_2| ≤ |z_1| + |z_2|."
+  },
+  {
+    "question": "What is the Fundamental Theorem of Algebra?",
+    "answer": "Every non-constant polynomial equation has at least one complex root."
+  },
+  {
+    "question": "What is the geometric meaning of the modulus |z - w|?",
+    "answer": "It is the distance between the points z and w in the Argand plane."
+  },
+  {
+    "question": "What is the sum and product of a complex number with its conjugate?",
+    "answer": "z + \\bar{z} = 2 Re(z); z \\bar{z} = |z|^2."
+  },
+  {
+    "question": "What is the definition of a vector?",
+    "answer": "A mathematical object with magnitude and direction, or magnitude zero and no direction (the zero vector)."
+  },
+  {
+    "question": "What is a unit vector?",
+    "answer": "A vector with magnitude 1."
+  },
+  {
+    "question": "When are two vectors equal?",
+    "answer": "If they have the same magnitude and direction."
+  },
+  {
+    "question": "How is a vector represented geometrically?",
+    "answer": "As a directed line segment from one point to another."
+  },
+  {
+    "question": "What is the parallelogram property for vectors?",
+    "answer": "Opposite sides of a parallelogram represent the same vector."
+  },
+  {
+    "question": "How do you add and subtract vectors geometrically?",
+    "answer": "By the nose-to-tail rule for addition; subtraction is adding the negative vector."
+  },
+  {
+    "question": "What is scalar multiplication of a vector?",
+    "answer": "Multiplying a vector by a scalar scales its magnitude and may reverse its direction."
+  },
+  {
+    "question": "What are the properties of vector addition and scalar multiplication?",
+    "answer": "Commutative, associative, distributive, and compatible with scalar multiplication."
+  },
+  {
+    "question": "When are two vectors parallel?",
+    "answer": "If one is a scalar multiple of the other."
+  },
+  {
+    "question": "How do you construct a unit vector in the direction of a given vector?",
+    "answer": "Divide the vector by its magnitude."
+  },
+  {
+    "question": "What is a position vector?",
+    "answer": "The vector from the origin to a point."
+  },
+  {
+    "question": "How do you determine if three points are collinear using vectors?",
+    "answer": "If the vectors between them are parallel."
+  },
+  {
+    "question": "What is the scalar (dot) product of two vectors?",
+    "answer": "u · v = |u||v| cos θ, where θ is the angle between u and v."
+  },
+  {
+    "question": "What does the scalar product tell you about perpendicularity?",
+    "answer": "u · v = 0 if and only if u and v are perpendicular."
+  },
+  {
+    "question": "What is the geometric interpretation of the scalar product?",
+    "answer": "It measures the 'amount' of one vector in the direction of another (projection)."
+  },
+  {
+    "question": "What are the properties of the scalar product?",
+    "answer": "Commutative, distributive, and compatible with scalar multiplication."
+  },
+  {
+    "question": "What is the vector (cross) product of two vectors?",
+    "answer": "A vector perpendicular to both, with magnitude |u||v| sin θ and direction given by the right-hand rule."
+  },
+  {
+    "question": "When is the vector product zero?",
+    "answer": "If and only if the vectors are parallel or one is zero."
+  },
+  {
+    "question": "What are the properties of the vector product?",
+    "answer": "Anti-commutative, distributive, and compatible with scalar multiplication; not associative."
+  },
+  {
+    "question": "How do you use the vector product to find a normal to a plane?",
+    "answer": "The cross product of two non-parallel vectors in the plane gives a normal vector."
+  },
+  {
+    "question": "What is the section formula for collinear points?",
+    "answer": "If AP:PB = m:n, then the position vector of P is (n a + m b)/(m + n), where a and b are the position vectors of A and B."
+  },
+  {
+    "question": "What is the centroid of a triangle in terms of position vectors?",
+    "answer": "The centroid is at (a + b + c)/3, where a, b, c are the position vectors of the triangle's vertices."
+  },
+  {
+    "question": "What is a matrix?",
+    "answer": "A rectangular array of numbers arranged in rows and columns."
+  },
+  {
+    "question": "What is the order or type of a matrix?",
+    "answer": "The number of rows by the number of columns (m × n)."
+  },
+  {
+    "question": "What is a row matrix? A column matrix? A square matrix?",
+    "answer": "A row matrix has one row; a column matrix has one column; a square matrix has the same number of rows and columns."
+  },
+  {
+    "question": "How do you determine if two matrices are equal?",
+    "answer": "They must have the same size and all corresponding entries must be equal."
+  },
+  {
+    "question": "What is the zero matrix?",
+    "answer": "A matrix in which every entry is zero."
+  },
+  {
+    "question": "How are matrices used to represent systems of linear equations?",
+    "answer": "The coefficients form a matrix, the variables a column vector, and the right-hand sides another column vector."
+  },
+  {
+    "question": "What is an augmented matrix?",
+    "answer": "A matrix combining the coefficients and right-hand sides of a linear system."
+  },
+  {
+    "question": "How do you add or subtract matrices?",
+    "answer": "Entrywise, provided the matrices are the same size."
+  },
+  {
+    "question": "How do you multiply a matrix by a scalar?",
+    "answer": "Multiply each entry by the scalar."
+  },
+  {
+    "question": "What are elementary row operations (EROs)?",
+    "answer": "Type I: swap rows; Type II: multiply a row by a nonzero scalar; Type III: add a multiple of one row to another."
+  },
+  {
+    "question": "What does it mean for two matrices to be row equivalent?",
+    "answer": "One can be transformed into the other by a sequence of EROs."
+  },
+  {
+    "question": "What is a leading entry in a matrix row?",
+    "answer": "The first nonzero entry from the left in a nonzero row."
+  },
+  {
+    "question": "What is an echelon matrix?",
+    "answer": "A matrix where all zero rows are at the bottom, and leading entries move right as you go down."
+  },
+  {
+    "question": "What is a reduced echelon matrix?",
+    "answer": "An echelon matrix where all leading entries are 1 and are the only nonzero entries in their columns."
+  },
+  {
+    "question": "What is the rank of a matrix?",
+    "answer": "The number of nonzero rows in its echelon form."
+  },
+  {
+    "question": "How do you determine if a system of linear equations is consistent?",
+    "answer": "If the reduced echelon form does not contain a row with all zeros except for a nonzero entry in the last column."
+  },
+  {
+    "question": "What is a general solution to a system of linear equations?",
+    "answer": "A formula expressing all solutions, often in terms of parameters for free variables."
+  },
+  {
+    "question": "What is a unique solution to a system of equations?",
+    "answer": "A solution where each variable has exactly one value."
+  },
+  {
+    "question": "What is the matrix product AB defined?",
+    "answer": "When the number of columns of A equals the number of rows of B."
+  },
+  {
+    "question": "How is the product AB computed?",
+    "answer": "The (i, k) entry is the dot product of the i-th row of A and the k-th column of B."
+  },
+  {
+    "question": "What is the identity matrix?",
+    "answer": "A square matrix with ones on the main diagonal and zeros elsewhere."
+  },
+  {
+    "question": "What are the properties of matrix multiplication?",
+    "answer": "Associative, distributive, but not generally commutative."
+  },
+  {
+    "question": "What is a matrix inverse?",
+    "answer": "For a square matrix A, its inverse A^{-1} satisfies AA^{-1} = A^{-1}A = I."
+  },
+  {
+    "question": "When is a matrix invertible (non-singular)?",
+    "answer": "If it has an inverse; equivalently, if its determinant is nonzero."
+  },
+  {
+    "question": "What is a singular matrix?",
+    "answer": "A square matrix that does not have an inverse."
+  },
+  {
+    "question": "What is an idempotent matrix?",
+    "answer": "A matrix X such that X^2 = X."
+  },
+  {
+    "question": "What is the determinant of a 2x2 matrix?",
+    "answer": "For A = [[a, b], [c, d]], det(A) = ad - bc."
+  },
+  {
+    "question": "How do you find the inverse of a 2x2 matrix?",
+    "answer": "If det(A) ≠ 0, A^{-1} = (1/det(A)) * [[d, -b], [-c, a]]."
+  },
+  {
+    "question": "How do you find the inverse of an n x n matrix using EROs?",
+    "answer": "Augment the matrix with the identity and apply EROs to reduce the original to the identity; the other side becomes the inverse."
+  },
+  {
+    "question": "What is the commutator of two matrices A and B?",
+    "answer": "[A, B] = AB - BA."
+  },
+  {
+    "question": "What is the effect of EROs on the solution set of a system?",
+    "answer": "They produce an equivalent system with the same solutions."
+  },
+  {
+    "question": "What is the general solution to a homogeneous system?",
+    "answer": "A linear combination of basic solutions, possibly with parameters."
+  },
+  {
+    "question": "What is the Kronecker delta?",
+    "answer": "δ_{ik} = 1 if i = k, 0 otherwise; used to define the identity matrix."
+  },
+  {
+    "question": "What is the effect of multiplying a matrix by the identity matrix?",
+    "answer": "It leaves the matrix unchanged: AI = IA = A."
+  },
+  {
+    "question": "What is the difference between pre-multiplying and post-multiplying a matrix?",
+    "answer": "Pre-multiplying is multiplying on the left; post-multiplying is multiplying on the right."
+  },
+  {
+    "question": "What is the definition of a network (graph) in mathematics?",
+    "answer": "A collection of points (vertices) connected by lines (edges)."
+  },
+  {
+    "question": "What is a path in a graph?",
+    "answer": "A sequence of edges connecting a sequence of vertices without repeating edges."
+  },
+  {
+    "question": "What is a cycle in a graph?",
+    "answer": "A path that starts and ends at the same vertex."
+  },
+  {
+    "question": "What is a connected graph?",
+    "answer": "A graph in which there is a path between every pair of vertices."
+  },
+  {
+    "question": "What is a tree in graph theory?",
+    "answer": "A connected acyclic graph."
+  },
+  {
+    "question": "What is the degree of a vertex in a graph?",
+    "answer": "The number of edges incident to the vertex."
+  },
+  {
+    "question": "What is a complete graph?",
+    "answer": "A graph in which every pair of vertices is connected by an edge."
+  },
+  {
+    "question": "What is a bipartite graph?",
+    "answer": "A graph whose vertices can be divided into two disjoint sets so that every edge connects a vertex in one set to a vertex in the other."
+  },
+  {
+    "question": "What is a planar graph?",
+    "answer": "A graph that can be drawn on a plane without any edges crossing."
+  },
+  {
+    "question": "What is Euler's formula for planar graphs?",
+    "answer": "For a connected planar graph, v - e + f = 2, where v is the number of vertices, e is the number of edges, and f is the number of faces."
+  },
+  {
+    "question": "What is a sequence?",
+    "answer": "An ordered list of numbers, often defined by a formula or recurrence."
+  },
+  {
+    "question": "What is a series?",
+    "answer": "The sum of the terms of a sequence."
+  },
+  {
+    "question": "What is an arithmetic sequence?",
+    "answer": "A sequence where each term differs from the previous by a constant difference."
+  },
+  {
+    "question": "What is the formula for the nth term of an arithmetic sequence?",
+    "answer": "a_n = a_1 + (n-1)d, where d is the common difference."
+  },
+  {
+    "question": "What is a geometric sequence?",
+    "answer": "A sequence where each term is a constant multiple of the previous term."
+  },
+  {
+    "question": "What is the formula for the nth term of a geometric sequence?",
+    "answer": "a_n = a_1 r^{n-1}, where r is the common ratio."
+  },
+  {
+    "question": "What is the formula for the sum of the first n terms of a geometric series?",
+    "answer": "S_n = a_1 (1 - r^n) / (1 - r) for r ≠ 1."
+  },
+  {
+    "question": "What is the formula for the sum of the first n terms of an arithmetic series?",
+    "answer": "S_n = n/2 (a_1 + a_n)."
+  },
+  {
+    "question": "What is a recurrence relation?",
+    "answer": "An equation that defines each term of a sequence in terms of previous terms."
+  },
+  {
+    "question": "What is a factorial, denoted n! ?",
+    "answer": "The product of all positive integers up to n."
+  },
+  {
+    "question": "What is the binomial coefficient \\( \\binom{n}{k} \\) ?",
+    "answer": "The number of ways to choose k objects from n, given by n!/(k!(n-k)!)."
+  },
+  {
+    "question": "What is the principle of mathematical induction?",
+    "answer": "A method of proof showing that if a statement holds for n = 1 and if holding for n implies it holds for n+1, then it holds for all n."
+  },
+  {
+    "question": "What is the pigeonhole principle?",
+    "answer": "If n items are put into m containers and n > m, at least one container has more than one item."
+  },
+  {
+    "question": "What is the inclusion-exclusion principle?",
+    "answer": "A formula to count the size of the union of overlapping sets by adding sizes and subtracting overlaps."
+  },
+  {
+    "question": "What is a permutation?",
+    "answer": "An arrangement of objects in a specific order."
+  },
+  {
+    "question": "What is a combination?",
+    "answer": "A selection of objects without regard to order."
+  },
+  {
+    "question": "What is the difference between a combination and a permutation?",
+    "answer": "Permutations consider order; combinations do not."
+  },
+  {
+    "question": "What is a network flow problem?",
+    "answer": "A problem involving finding the maximum flow from a source to a sink in a network with capacity constraints."
+  },
+  {
+    "question": "What is a spanning tree?",
+    "answer": "A subgraph that is a tree and contains all the vertices of the original graph."
+  },
+  {
+    "question": "What is the shortest path problem in a network?",
+    "answer": "Finding the path between two vertices with the minimum total edge weight."
+  }
+]
