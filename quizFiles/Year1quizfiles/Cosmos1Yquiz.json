@@ -1,0 +1,362 @@
+[
+  {
+    "question": "What is an order of magnitude?",
+    "answer": "A power of ten used to compare different quantities or scales in the universe."
+  },
+  {
+    "question": "How many orders of magnitude separate the size of a human and the size of Earth?",
+    "answer": "About 7 orders of magnitude."
+  },
+  {
+    "question": "What is the approximate diameter of Earth in meters?",
+    "answer": "About 10^7 meters."
+  },
+  {
+    "question": "What is a light-year?",
+    "answer": "The distance light travels in one year, about 9.46 x 10^15 meters."
+  },
+  {
+    "question": "How far is a light-day in meters?",
+    "answer": "About 2.6 x 10^13 meters."
+  },
+  {
+    "question": "What is the size of the observable universe?",
+    "answer": "At least 93 billion light-years across."
+  },
+  {
+    "question": "Approximately how many stars are visible to the naked eye?",
+    "answer": "About 2,000."
+  },
+  {
+    "question": "How many stars are estimated to be in the observable universe?",
+    "answer": "Roughly 10^23."
+  },
+  {
+    "question": "What is the Cosmological Principle?",
+    "answer": "The assumption that the universe has the same properties for all observers on a large scale."
+  },
+  {
+    "question": "What are the three assumptions implicit in the Cosmological Principle?",
+    "answer": "Universality, Homogeneity, and Isotropy."
+  },
+  {
+    "question": "What does universality mean in cosmology?",
+    "answer": "The laws of physics are the same everywhere in the universe."
+  },
+  {
+    "question": "What does homogeneity mean in cosmology?",
+    "answer": "Matter is evenly distributed throughout the universe on large scales."
+  },
+  {
+    "question": "What does isotropy mean in cosmology?",
+    "answer": "The universe looks the same in all directions."
+  },
+  {
+    "question": "What is Olbers' Paradox?",
+    "answer": "The question of why the night sky is dark if the universe is infinite and filled with stars."
+  },
+  {
+    "question": "What is the Big Bang solution to Olbers' Paradox?",
+    "answer": "The universe has a finite age, so light from distant stars hasn't reached us yet."
+  },
+  {
+    "question": "Who first discussed Olbers' Paradox?",
+    "answer": "Thomas Digges in 1576, followed by Kepler, Halley, and later Olbers in 1826."
+  },
+  {
+    "question": "Why can't dust explain the darkness of the night sky?",
+    "answer": "Dust would eventually heat up and radiate as brightly as stars, so it cannot explain the darkness."
+  },
+  {
+    "question": "What is redshift?",
+    "answer": "The increase in wavelength of light from distant galaxies moving away from us."
+  },
+  {
+    "question": "What does redshift indicate about the universe?",
+    "answer": "That the universe is expanding."
+  },
+  {
+    "question": "Who formulated the law relating galaxy recession speed to distance?",
+    "answer": "Edwin Hubble."
+  },
+  {
+    "question": "What is the Hubble-Lemaître Law?",
+    "answer": "v = H0 × d, where v is recession velocity and d is distance."
+  },
+  {
+    "question": "What is Hubble's constant approximately?",
+    "answer": "69.32 km/s/Mpc."
+  },
+  {
+    "question": "What is a megaparsec (Mpc)?",
+    "answer": "One million parsecs, or about 3.26 million light-years."
+  },
+  {
+    "question": "Does the expansion of the universe mean we are at the center?",
+    "answer": "No, expansion occurs everywhere; all galaxies see others moving away."
+  },
+  {
+    "question": "What is the Cosmic Microwave Background (CMB)?",
+    "answer": "The first free-traveling photons after the Big Bang, observed as a uniform microwave background."
+  },
+  {
+    "question": "Who discovered the CMB?",
+    "answer": "Arno Penzias and Robert Wilson in 1964."
+  },
+  {
+    "question": "What is the temperature of the CMB?",
+    "answer": "About 2.73 K."
+  },
+  {
+    "question": "What is the surface of last scattering?",
+    "answer": "The time when the universe became transparent and photons could travel freely."
+  },
+  {
+    "question": "What is black-body radiation?",
+    "answer": "Radiation emitted by an idealized object that absorbs and emits all frequencies."
+  },
+  {
+    "question": "What does the CMB's black-body spectrum indicate?",
+    "answer": "That the universe was once hot, dense, and in thermal equilibrium."
+  },
+  {
+    "question": "What is the age of the universe according to the Big Bang model?",
+    "answer": "About 13.7 billion years."
+  },
+  {
+    "question": "What are the four main pieces of evidence for the Big Bang?",
+    "answer": "Dark night sky, expansion of the universe, CMB, and predicted relic abundances of elements."
+  },
+  {
+    "question": "What does Big Bang Nucleosynthesis predict?",
+    "answer": "The relative abundances of hydrogen, helium, and small amounts of lithium."
+  },
+  {
+    "question": "What is the Planck Era?",
+    "answer": "The earliest stage of the universe (<10^-43 s), where gravity was as strong as other forces."
+  },
+  {
+    "question": "What is the GUT Era?",
+    "answer": "The period from 10^-43 to 10^-35 s, when gravity separated from the other forces."
+  },
+  {
+    "question": "What is cosmic inflation?",
+    "answer": "A period of extremely rapid expansion of the universe at about 10^-32 s."
+  },
+  {
+    "question": "What is the Electroweak Era?",
+    "answer": "The time when the electromagnetic and weak forces were unified."
+  },
+  {
+    "question": "What is the Particle Era?",
+    "answer": "When the universe was filled with fundamental particles and antiparticles."
+  },
+  {
+    "question": "What is the Era of Nucleosynthesis?",
+    "answer": "The period when protons and neutrons combined to form light nuclei."
+  },
+  {
+    "question": "What is the Era of Atoms?",
+    "answer": "The period when electrons combined with nuclei to form neutral atoms."
+  },
+  {
+    "question": "What is the Era of Galaxies?",
+    "answer": "The period from about 1 billion years after the Big Bang to the present, when galaxies formed."
+  },
+  {
+    "question": "What is a Grand Unified Theory (GUT)?",
+    "answer": "A theory that unifies the strong, weak, and electromagnetic forces at high energies."
+  },
+  {
+    "question": "What is the Standard Model of particle physics?",
+    "answer": "A theory describing the fundamental particles (quarks, leptons, bosons) and their interactions except gravity."
+  },
+  {
+    "question": "What are the two families of matter particles in the Standard Model?",
+    "answer": "Quarks and leptons."
+  },
+  {
+    "question": "What is a force carrier particle?",
+    "answer": "A boson that mediates one of the fundamental forces."
+  },
+  {
+    "question": "What is a quark?",
+    "answer": "A fundamental particle that combines to form protons and neutrons."
+  },
+  {
+    "question": "How many types of quarks are there?",
+    "answer": "Six: up, down, charm, strange, top, and bottom."
+  },
+  {
+    "question": "What is a lepton?",
+    "answer": "A fundamental particle that does not feel the strong force, such as the electron and neutrinos."
+  },
+  {
+    "question": "What is a neutrino?",
+    "answer": "A very light, neutral lepton that interacts only via the weak force."
+  },
+  {
+    "question": "What is antimatter?",
+    "answer": "For every particle, there is a corresponding antiparticle with the same mass but opposite charge."
+  },
+  {
+    "question": "What happens when a particle meets its antiparticle?",
+    "answer": "They annihilate, releasing energy."
+  },
+  {
+    "question": "What is the Higgs boson?",
+    "answer": "A particle responsible for giving mass to other particles via the Higgs mechanism."
+  },
+  {
+    "question": "What is the Large Hadron Collider (LHC)?",
+    "answer": "The world's largest particle accelerator, used to study fundamental particles and forces."
+  },
+  {
+    "question": "What was discovered at the LHC in 2012?",
+    "answer": "The Higgs boson."
+  },
+  {
+    "question": "What is the main force not included in the Standard Model?",
+    "answer": "Gravity."
+  },
+  {
+    "question": "What is the strong force?",
+    "answer": "The force that binds quarks together in protons and neutrons, mediated by gluons."
+  },
+  {
+    "question": "What is the electromagnetic force?",
+    "answer": "The force between charged particles, mediated by photons."
+  },
+  {
+    "question": "What is the weak force?",
+    "answer": "The force responsible for radioactive decay, mediated by W and Z bosons."
+  },
+  {
+    "question": "What is gravity?",
+    "answer": "The force of attraction between masses, described by general relativity and possibly mediated by gravitons."
+  },
+  {
+    "question": "What is quantum superposition?",
+    "answer": "A system being in two or more distinct states simultaneously."
+  },
+  {
+    "question": "What is Schrödinger's cat thought experiment?",
+    "answer": "A cat in a box is both alive and dead until observed, illustrating quantum superposition."
+  },
+  {
+    "question": "What is the main purpose of particle accelerators?",
+    "answer": "To probe the structure of matter by colliding particles at high energies."
+  },
+  {
+    "question": "How fast do protons travel in the LHC?",
+    "answer": "At 99.9999991% of the speed of light."
+  },
+  {
+    "question": "What is the typical temperature generated in LHC collisions?",
+    "answer": "More than 100,000 times hotter than the center of the Sun."
+  },
+  {
+    "question": "What is the role of the ATLAS experiment at the LHC?",
+    "answer": "To detect and analyze particles produced in high-energy collisions."
+  },
+  {
+    "question": "What is the main evidence that the universe is expanding?",
+    "answer": "The observed redshift of distant galaxies."
+  },
+  {
+    "question": "What is the fate of antimatter in the early universe?",
+    "answer": "Most antimatter annihilated with matter, leaving a small excess of matter."
+  },
+  {
+    "question": "What is the predicted ratio of hydrogen to helium after Big Bang nucleosynthesis?",
+    "answer": "About 3:1 by mass."
+  },
+  {
+    "question": "Why are there more protons than neutrons in the universe?",
+    "answer": "Neutrons are heavier and decay into protons; as the universe cooled, more protons remained."
+  },
+  {
+    "question": "What is the main element formed during the era of nucleosynthesis?",
+    "answer": "Hydrogen, with significant amounts of helium and trace lithium."
+  },
+  {
+    "question": "Why does the strong force only act over short distances?",
+    "answer": "Because color charge is confined and gluons interact with each other, limiting the range."
+  },
+  {
+    "question": "What is the main difference between bosons and fermions?",
+    "answer": "Fermions make up matter; bosons mediate forces."
+  },
+  {
+    "question": "What is the significance of three generations of particles?",
+    "answer": "Each generation contains similar particles with increasing mass, but only the first is stable in ordinary matter."
+  },
+  {
+    "question": "What is the main challenge in unifying gravity with the Standard Model?",
+    "answer": "Gravity is extremely weak and not described by quantum field theory."
+  },
+  {
+    "question": "What is the main role of the photon?",
+    "answer": "To mediate the electromagnetic force."
+  },
+  {
+    "question": "What is the main role of the gluon?",
+    "answer": "To mediate the strong force between quarks."
+  },
+  {
+    "question": "What is the main role of the W and Z bosons?",
+    "answer": "To mediate the weak force."
+  },
+  {
+    "question": "What is the main role of the Higgs boson?",
+    "answer": "To give mass to the W and Z bosons and fermions."
+  },
+  {
+    "question": "What is the main evidence for the existence of neutrinos?",
+    "answer": "Their detection in beta decay and in neutrino observatories."
+  },
+  {
+    "question": "What is the main difference between the weak and electromagnetic forces?",
+    "answer": "The weak force is short-ranged and mediated by massive bosons; the electromagnetic force is long-ranged and mediated by massless photons."
+  },
+  {
+    "question": "What is the main reason gravity dominates at large scales?",
+    "answer": "Gravity is always attractive and adds up over large masses, while other forces cancel out."
+  },
+  {
+    "question": "What is the main function of the LHC's magnets?",
+    "answer": "To steer and focus the particle beams."
+  },
+  {
+    "question": "What is the main function of the detectors at the LHC?",
+    "answer": "To record the products of particle collisions for analysis."
+  },
+  {
+    "question": "What is the main challenge in detecting the Higgs boson?",
+    "answer": "Its rare production and rapid decay into other particles."
+  },
+  {
+    "question": "What is the significance of the discovery of the Higgs boson?",
+    "answer": "It confirmed the mechanism by which particles acquire mass in the Standard Model."
+  },
+  {
+    "question": "What is the main open question in particle physics?",
+    "answer": "How to unify gravity with the other forces, and the nature of dark matter and dark energy."
+  },
+  {
+    "question": "What is the main evidence for dark matter?",
+    "answer": "The rotation curves of galaxies and the dynamics of galaxy clusters."
+  },
+  {
+    "question": "What is the main evidence for dark energy?",
+    "answer": "The accelerated expansion of the universe observed in supernova data."
+  },
+  {
+    "question": "What is the fate of the universe according to current models?",
+    "answer": "It may expand forever, slow down, or eventually collapse, depending on its total energy density and dark energy."
+  },
+  {
+    "question": "What is the main unresolved problem in cosmology?",
+    "answer": "The nature and origin of dark matter and dark energy."
+  }
+]

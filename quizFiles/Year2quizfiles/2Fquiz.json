@@ -1,0 +1,330 @@
+[
+  {
+    "question": "What is a binary operation on a set S?",
+    "answer": "A rule that takes any two elements of S and combines them to produce a new element of S."
+  },
+  {
+    "question": "Give an example of a binary operation on the real numbers.",
+    "answer": "Addition, subtraction, and multiplication are binary operations on the set of real numbers."
+  },
+  {
+    "question": "Is division a binary operation on the real numbers? Why or why not?",
+    "answer": "No, because division by zero is undefined, so not all pairs of real numbers can be combined."
+  },
+  {
+    "question": "What does it mean for a set to be closed under a binary operation?",
+    "answer": "Combining any two elements of the set always yields another element of the set."
+  },
+  {
+    "question": "What is associativity in the context of binary operations?",
+    "answer": "A binary operation * is associative if (x * y) * z = x * (y * z) for all x, y, z in the set."
+  },
+  {
+    "question": "What is commutativity in the context of binary operations?",
+    "answer": "A binary operation * is commutative if x * y = y * x for all x, y in the set."
+  },
+  {
+    "question": "Give an example of a binary operation that is associative but not commutative.",
+    "answer": "Matrix multiplication is associative but not commutative."
+  },
+  {
+    "question": "What is an identity element for a binary operation?",
+    "answer": "An element e such that x * e = e * x = x for all x in the set."
+  },
+  {
+    "question": "What is an inverse element with respect to a binary operation?",
+    "answer": "Given an identity element e, an element y is an inverse of x if x * y = y * x = e."
+  },
+  {
+    "question": "What is modular arithmetic?",
+    "answer": "Arithmetic where numbers wrap around upon reaching a certain value, called the modulus."
+  },
+  {
+    "question": "What is the residue of a modulo n?",
+    "answer": "The remainder when a is divided by n."
+  },
+  {
+    "question": "When are two integers a and b congruent modulo n?",
+    "answer": "When a and b have the same residue modulo n, or equivalently, a - b is a multiple of n."
+  },
+  {
+    "question": "What is Zn in modular arithmetic?",
+    "answer": "The set {0, 1, ..., n-1} of possible residues modulo n."
+  },
+  {
+    "question": "What is a field?",
+    "answer": "A set with two binary operations (addition and multiplication) satisfying associativity, commutativity, identities, inverses, distributivity, and 0 ≠ 1."
+  },
+  {
+    "question": "Give an example of a field.",
+    "answer": "The real numbers under usual addition and multiplication."
+  },
+  {
+    "question": "Is the set of integers a field? Why or why not?",
+    "answer": "No, because not every integer has a multiplicative inverse in the integers."
+  },
+  {
+    "question": "When does Zn form a field?",
+    "answer": "When n is a prime number."
+  },
+  {
+    "question": "What is the additive identity in a field?",
+    "answer": "The element 0, such that x + 0 = x for all x."
+  },
+  {
+    "question": "What is the multiplicative identity in a field?",
+    "answer": "The element 1, such that 1 * x = x for all x."
+  },
+  {
+    "question": "What is a vector space over a field F?",
+    "answer": "A set with vector addition and scalar multiplication by elements of F, satisfying certain axioms."
+  },
+  {
+    "question": "What is the zero vector in a vector space?",
+    "answer": "The vector 0 such that v + 0 = v for all v in the vector space."
+  },
+  {
+    "question": "What is a linear combination of vectors v1, ..., vn?",
+    "answer": "Any vector of the form a1v1 + ... + anvn for scalars a1, ..., an."
+  },
+  {
+    "question": "What is the span of a set of vectors?",
+    "answer": "The set of all linear combinations of those vectors."
+  },
+  {
+    "question": "What is a subspace?",
+    "answer": "A subset of a vector space that is itself a vector space under the same operations."
+  },
+  {
+    "question": "What is the trivial subspace?",
+    "answer": "The set containing only the zero vector."
+  },
+  {
+    "question": "What does it mean for vectors to be linearly dependent?",
+    "answer": "There exist scalars, not all zero, such that their linear combination is zero."
+  },
+  {
+    "question": "What does it mean for vectors to be linearly independent?",
+    "answer": "The only solution to a1v1 + ... + anvn = 0 is a1 = ... = an = 0."
+  },
+  {
+    "question": "What is a basis for a vector space?",
+    "answer": "A linearly independent set of vectors that spans the space."
+  },
+  {
+    "question": "What is the dimension of a vector space?",
+    "answer": "The number of vectors in any basis for the space."
+  },
+  {
+    "question": "What is the standard basis for Fn?",
+    "answer": "The set of vectors each with a single 1 and all other entries 0."
+  },
+  {
+    "question": "How can you represent a vector with respect to a basis?",
+    "answer": "By its coordinates as a linear combination of the basis vectors."
+  },
+  {
+    "question": "What is a linear transformation between vector spaces?",
+    "answer": "A function T: V → W that preserves vector addition and scalar multiplication."
+  },
+  {
+    "question": "How is a linear transformation from Fn to Fm represented?",
+    "answer": "By multiplication by an m x n matrix."
+  },
+  {
+    "question": "What is the kernel of a linear transformation?",
+    "answer": "The set of vectors v such that T(v) = 0."
+  },
+  {
+    "question": "What is the image of a linear transformation?",
+    "answer": "The set of all vectors T(v) as v ranges over the domain."
+  },
+  {
+    "question": "What does the rank-nullity theorem state for linear transformations?",
+    "answer": "dim(domain) = rank(T) + nullity(T), where rank is the dimension of the image and nullity is the dimension of the kernel."
+  },
+  {
+    "question": "What is an injective linear transformation?",
+    "answer": "One whose kernel is {0}, meaning it maps distinct vectors to distinct images."
+  },
+  {
+    "question": "What is a surjective linear transformation?",
+    "answer": "One whose image is the entire codomain."
+  },
+  {
+    "question": "What is an isomorphism between vector spaces?",
+    "answer": "A bijective linear transformation."
+  },
+  {
+    "question": "What is a permutation of a set {1,...,n}?",
+    "answer": "A bijective function from {1,...,n} to itself."
+  },
+  {
+    "question": "What is the symmetric group Sn?",
+    "answer": "The set of all permutations of {1,...,n}."
+  },
+  {
+    "question": "How many elements does Sn have?",
+    "answer": "n! (n factorial)."
+  },
+  {
+    "question": "What is a transposition in Sn?",
+    "answer": "A permutation that swaps two elements and leaves all others fixed."
+  },
+  {
+    "question": "What is a k-cycle in Sn?",
+    "answer": "A permutation that cycles k elements and fixes the rest."
+  },
+  {
+    "question": "How is the product of two permutations defined?",
+    "answer": "By composition of functions: ab(i) = a(b(i))."
+  },
+  {
+    "question": "Is permutation multiplication always commutative?",
+    "answer": "No, it is generally not commutative for n ≥ 3."
+  },
+  {
+    "question": "What is the identity permutation?",
+    "answer": "The permutation that maps every element to itself."
+  },
+  {
+    "question": "What is the inverse of a permutation?",
+    "answer": "The permutation that undoes the effect of the original permutation."
+  },
+  {
+    "question": "What is the cycle decomposition theorem?",
+    "answer": "Every permutation can be written as a product of disjoint cycles."
+  },
+  {
+    "question": "What is the order of a permutation?",
+    "answer": "The smallest positive integer k such that the k-th power of the permutation is the identity."
+  },
+  {
+    "question": "How do you compute the order of a permutation given its cycle decomposition?",
+    "answer": "It is the least common multiple of the lengths of the cycles."
+  },
+  {
+    "question": "What is an even permutation?",
+    "answer": "A permutation that swaps an even number of pairs."
+  },
+  {
+    "question": "What is an odd permutation?",
+    "answer": "A permutation that swaps an odd number of pairs."
+  },
+  {
+    "question": "What is the alternating group An?",
+    "answer": "The subgroup of Sn consisting of all even permutations."
+  },
+  {
+    "question": "What is a group?",
+    "answer": "A set with a binary operation that is associative, has an identity element, and every element has an inverse."
+  },
+  {
+    "question": "What is an abelian group?",
+    "answer": "A group in which the binary operation is commutative."
+  },
+  {
+    "question": "What is the order of a group?",
+    "answer": "The number of elements in the group."
+  },
+  {
+    "question": "What is a subgroup?",
+    "answer": "A subset of a group that is itself a group under the same operation."
+  },
+  {
+    "question": "What is a cyclic subgroup generated by an element a?",
+    "answer": "The set of all powers of a: {a^n | n in Z}."
+  },
+  {
+    "question": "What is the order of an element in a group?",
+    "answer": "The smallest positive integer n such that a^n = e, where e is the identity."
+  },
+  {
+    "question": "What is a generating set for a group?",
+    "answer": "A set of elements such that every group element can be written as a product of these and their inverses."
+  },
+  {
+    "question": "What is the Klein four-group?",
+    "answer": "A group of order 4 with elements {e, r, s, t} where each non-identity element has order 2."
+  },
+  {
+    "question": "What is a symmetry group of a plane figure?",
+    "answer": "The group of all isometries of the plane that map the figure to itself."
+  },
+  {
+    "question": "What is the dihedral group Dn?",
+    "answer": "The symmetry group of a regular n-gon, consisting of n rotations and n reflections."
+  },
+  {
+    "question": "What is a group presentation?",
+    "answer": "A description of a group by generators and relations."
+  },
+  {
+    "question": "What is the relation sr = r^{-1}s in the dihedral group Dn?",
+    "answer": "It expresses how a reflection and a rotation interact: applying s then r is the same as r^{-1} then s."
+  },
+  {
+    "question": "How many elements does the dihedral group Dn have?",
+    "answer": "2n elements."
+  },
+  {
+    "question": "What is meant by the cycle structure of a permutation?",
+    "answer": "The number and lengths of cycles in its cycle decomposition."
+  },
+  {
+    "question": "What does it mean for two cycles to be disjoint?",
+    "answer": "They act on disjoint sets of elements."
+  },
+  {
+    "question": "When do two cycles commute?",
+    "answer": "When they are disjoint."
+  },
+  {
+    "question": "What is the centralizer of an element in a group?",
+    "answer": "The set of elements that commute with the given element."
+  },
+  {
+    "question": "What is a normal subgroup?",
+    "answer": "A subgroup N such that gNg^{-1} = N for all g in the group."
+  },
+  {
+    "question": "What is a conjugate of a permutation a by c in Sn?",
+    "answer": "The permutation cac^{-1}."
+  },
+  {
+    "question": "When are two permutations conjugate in Sn?",
+    "answer": "When they have the same cycle structure."
+  },
+  {
+    "question": "What is a group homomorphism?",
+    "answer": "A function between groups that preserves the group operation."
+  },
+  {
+    "question": "What is the kernel of a group homomorphism?",
+    "answer": "The set of elements mapped to the identity in the codomain."
+  },
+  {
+    "question": "What is the image of a group homomorphism?",
+    "answer": "The set of elements in the codomain that are images of elements in the domain."
+  },
+  {
+    "question": "What is the order of a subgroup?",
+    "answer": "The number of elements in the subgroup."
+  },
+  {
+    "question": "What is Lagrange's theorem?",
+    "answer": "The order of any subgroup divides the order of the group."
+  },
+  {
+    "question": "What is the relation between the order of an element and the order of the group?",
+    "answer": "The order of an element divides the order of the group."
+  },
+  {
+    "question": "What is a coset of a subgroup H in G?",
+    "answer": "A set of the form gH = {gh | h in H} for some g in G."
+  },
+  {
+    "question": "What is the index of a subgroup?",
+    "answer": "The number of distinct cosets of the subgroup in the group."
+  }
+]

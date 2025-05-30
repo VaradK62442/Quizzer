@@ -1,0 +1,454 @@
+[
+  {
+    "question": "What is the main aim of the Information Management module in CS1F?",
+    "answer": "To understand how databases contribute to the management of large amounts of data."
+  },
+  {
+    "question": "What is the difference between data, information, and knowledge?",
+    "answer": "Data is raw facts, information is data in context, and knowledge is understanding derived from information."
+  },
+  {
+    "question": "Give an example of data, information, and knowledge using exam results.",
+    "answer": "Data: 52; Information: J Smith's score on the final exam is 52%; Knowledge: I've passed!"
+  },
+  {
+    "question": "Why has data storage capacity increased faster than processing power?",
+    "answer": "Advances in storage technology have outpaced improvements in CPU processing, leading to much larger data sets."
+  },
+  {
+    "question": "What is a data centre?",
+    "answer": "A warehouse-sized building containing thousands of servers for storing and managing large amounts of data."
+  },
+  {
+    "question": "List three main types of databases mentioned in the course.",
+    "answer": "Hierarchic databases, network databases, and relational databases."
+  },
+  {
+    "question": "What is data redundancy and why is it undesirable?",
+    "answer": "Redundancy is unnecessary repetition of data, leading to inconsistency and wasted effort."
+  },
+  {
+    "question": "What is data integrity in the context of databases?",
+    "answer": "The correctness and consistency of data stored in a database."
+  },
+  {
+    "question": "What is controlled concurrent access in a DBMS?",
+    "answer": "It ensures that multiple users can read and write data simultaneously without causing inconsistencies."
+  },
+  {
+    "question": "What is the three-level architecture of a database system?",
+    "answer": "External (user views), conceptual (logical structure), and internal (physical storage)."
+  },
+  {
+    "question": "What is the difference between a client/server and a web-based DBMS interface?",
+    "answer": "Client/server interfaces use dedicated client applications, while web-based interfaces use browsers to access the DBMS."
+  },
+  {
+    "question": "What is a database management system (DBMS)?",
+    "answer": "A DBMS is software that manages databases, allowing for data storage, access, manipulation, security, and integrity."
+  },
+  {
+    "question": "What are the main components of a database system?",
+    "answer": "Users, applications, the DBMS, the data (database), and the host system."
+  },
+  {
+    "question": "What is a data model?",
+    "answer": "A description of the objects represented by a computer system, their properties, and relationships."
+  },
+  {
+    "question": "What is a schema in database design?",
+    "answer": "A description of how a database can be designed to represent a data model, typically as tables and columns."
+  },
+  {
+    "question": "What is the difference between a schema and a database instance?",
+    "answer": "A schema defines the structure; a database instance is the actual data stored according to that schema."
+  },
+  {
+    "question": "List the main stages of the database design lifecycle.",
+    "answer": "Requirements analysis, conceptual design, logical design, schema refinement, and physical design/tuning."
+  },
+  {
+    "question": "Who are the main people involved in database design?",
+    "answer": "Users, database designers, application developers, database administrators, and web-site designers."
+  },
+  {
+    "question": "What is the first step in designing a database?",
+    "answer": "Identifying user requirements by talking to all stakeholders."
+  },
+  {
+    "question": "What is an entity in an ER model?",
+    "answer": "A uniquely identifiable object in the real world about which we wish to store data."
+  },
+  {
+    "question": "What is an attribute in an ER model?",
+    "answer": "A property that describes an entity."
+  },
+  {
+    "question": "What is a relationship in an ER model?",
+    "answer": "An association among two or more entities."
+  },
+  {
+    "question": "What is a primary key?",
+    "answer": "An attribute or set of attributes that uniquely identifies each entity instance in a table."
+  },
+  {
+    "question": "What is a composite attribute?",
+    "answer": "An attribute composed of multiple component values, such as an address."
+  },
+  {
+    "question": "What is a multi-valued attribute?",
+    "answer": "An attribute that can have multiple values for a single entity, such as hobbies."
+  },
+  {
+    "question": "What is a weak entity?",
+    "answer": "An entity that cannot be uniquely identified by its own attributes alone and depends on another entity."
+  },
+  {
+    "question": "What is subtyping in ER diagrams?",
+    "answer": "A subtype is an entity type that inherits the properties of its parent type."
+  },
+  {
+    "question": "What is a recursive relationship?",
+    "answer": "A relationship where an entity type is related to itself, such as an employee supervising another employee."
+  },
+  {
+    "question": "What is the degree of a relationship in ER diagrams?",
+    "answer": "The number of entity types participating in the relationship."
+  },
+  {
+    "question": "What is the difference between binary and ternary relationships?",
+    "answer": "Binary involves two entity types; ternary involves three."
+  },
+  {
+    "question": "What is a relationship attribute?",
+    "answer": "An attribute that belongs to a relationship, such as the date an employee started managing a department."
+  },
+  {
+    "question": "What is a participation constraint in ER diagrams?",
+    "answer": "Specifies whether all or only some entity instances participate in a relationship (total vs partial participation)."
+  },
+  {
+    "question": "What is cardinality in ER diagrams?",
+    "answer": "The number of instances of one entity that can be associated with instances of another entity (1:1, 1:N, N:M)."
+  },
+  {
+    "question": "What is the process for converting an ER diagram to tables?",
+    "answer": "Create tables for entities, add attributes, set primary keys, and add foreign keys for relationships."
+  },
+  {
+    "question": "What is a relational schema?",
+    "answer": "A set of attribute names and their domains that define the structure of a relation (table)."
+  },
+  {
+    "question": "What is a relation in the relational model?",
+    "answer": "A two-dimensional table with rows (tuples) and columns (attributes)."
+  },
+  {
+    "question": "What is the degree of a relation?",
+    "answer": "The number of attributes (columns) in the relation."
+  },
+  {
+    "question": "What is the cardinality of a relation?",
+    "answer": "The number of tuples (rows) in the relation."
+  },
+  {
+    "question": "What is a domain in a relational schema?",
+    "answer": "The set of allowable values for an attribute."
+  },
+  {
+    "question": "What is a NULL value in a database?",
+    "answer": "A special marker indicating that a value is missing or unknown."
+  },
+  {
+    "question": "What is a composite key?",
+    "answer": "A primary key that consists of more than one attribute."
+  },
+  {
+    "question": "What is a foreign key?",
+    "answer": "An attribute in one table that refers to the primary key of another table."
+  },
+  {
+    "question": "What is referential integrity?",
+    "answer": "A property that ensures foreign key values always refer to existing primary key values."
+  },
+  {
+    "question": "What is the difference between a strong and a weak entity?",
+    "answer": "A strong entity has a primary key; a weak entity depends on another entity for its identification."
+  },
+  {
+    "question": "What is the purpose of an ER diagram?",
+    "answer": "To visually represent entities, attributes, and relationships in a database system."
+  },
+  {
+    "question": "What is the difference between a one-to-many and a many-to-many relationship?",
+    "answer": "In a one-to-many relationship, one entity instance is related to many instances of another; in many-to-many, many instances of one entity relate to many of another."
+  },
+  {
+    "question": "What is the process for mapping a 1:N relationship in ER to tables?",
+    "answer": "Add the primary key of the 'one' side as a foreign key to the 'many' side."
+  },
+  {
+    "question": "How is a many-to-many relationship represented in relational schema?",
+    "answer": "By creating a new table containing the primary keys from both sides as foreign keys."
+  },
+  {
+    "question": "What is the main rule for mapping 1:1 relationships to tables?",
+    "answer": "Add the primary key of one entity as a foreign key to the other; choose based on participation constraints."
+  },
+  {
+    "question": "What is a set in set theory?",
+    "answer": "A collection of distinct objects, called elements or members."
+  },
+  {
+    "question": "How is set builder notation used?",
+    "answer": "By specifying a property that elements must satisfy, e.g. {x | x is an even number}."
+  },
+  {
+    "question": "What is the power set of a set S?",
+    "answer": "The set of all subsets of S."
+  },
+  {
+    "question": "What is the union of two sets A and B?",
+    "answer": "The set of elements that are in A, in B, or in both."
+  },
+  {
+    "question": "What is the intersection of two sets A and B?",
+    "answer": "The set of elements that are in both A and B."
+  },
+  {
+    "question": "What is the difference of two sets A and B?",
+    "answer": "The set of elements in A that are not in B."
+  },
+  {
+    "question": "What is the complement of a set A?",
+    "answer": "The set of elements not in A, relative to a universal set."
+  },
+  {
+    "question": "What is the symmetric difference of sets A and B?",
+    "answer": "The set of elements in A or B but not both."
+  },
+  {
+    "question": "What is the Cartesian product of sets A and B?",
+    "answer": "The set of all ordered pairs (a, b) where a is in A and b is in B."
+  },
+  {
+    "question": "What is a relation in set theory?",
+    "answer": "A subset of the Cartesian product of two or more sets."
+  },
+  {
+    "question": "What is relational algebra?",
+    "answer": "A set of operations for manipulating relations (tables) in a database."
+  },
+  {
+    "question": "What does the selection (σ) operation do in relational algebra?",
+    "answer": "It selects rows from a relation that satisfy a given condition."
+  },
+  {
+    "question": "What does the projection (π) operation do in relational algebra?",
+    "answer": "It selects specific columns from a relation."
+  },
+  {
+    "question": "What does the union operation do in relational algebra?",
+    "answer": "It combines the tuples from two relations, removing duplicates."
+  },
+  {
+    "question": "What does the intersection operation do in relational algebra?",
+    "answer": "It returns the tuples that are present in both relations."
+  },
+  {
+    "question": "What does the difference operation do in relational algebra?",
+    "answer": "It returns the tuples that are in one relation but not in the other."
+  },
+  {
+    "question": "What is a join in relational algebra?",
+    "answer": "An operation that combines related tuples from two relations based on a common attribute."
+  },
+  {
+    "question": "What is a natural join?",
+    "answer": "A join that pairs tuples with equal values for all attributes with the same name, removing duplicate columns."
+  },
+  {
+    "question": "What is the purpose of relational algebra in databases?",
+    "answer": "To provide a formal foundation for querying and manipulating relational data."
+  },
+  {
+    "question": "What is SQL?",
+    "answer": "Structured Query Language, a standard language for managing and querying relational databases."
+  },
+  {
+    "question": "What is a SELECT statement in SQL used for?",
+    "answer": "To retrieve data from one or more tables."
+  },
+  {
+    "question": "What is a primary key constraint in SQL?",
+    "answer": "A rule that ensures each row in a table has a unique, non-null identifier."
+  },
+  {
+    "question": "What is a foreign key constraint in SQL?",
+    "answer": "A rule that ensures a value in one table matches a primary key value in another table."
+  },
+  {
+    "question": "What is the difference between procedural and declarative query languages?",
+    "answer": "Procedural languages specify how to perform operations; declarative languages specify what result is desired."
+  },
+  {
+    "question": "Why is set theory important in databases?",
+    "answer": "Because relational databases are based on sets and set operations."
+  },
+  {
+    "question": "What is a tuple in the context of databases?",
+    "answer": "A row in a relation (table), representing a single record."
+  },
+  {
+    "question": "Why is it important to avoid redundancy in database design?",
+    "answer": "To prevent inconsistency and reduce wasted storage and effort."
+  },
+  {
+    "question": "What is the purpose of normalisation (covered in later years)?",
+    "answer": "To organise a database to reduce redundancy and improve data integrity."
+  },
+  {
+    "question": "What is an example of a composite key in a table?",
+    "answer": "A combination of account number and sort code in UK banking."
+  },
+  {
+    "question": "What is the difference between a relation's schema and its instance?",
+    "answer": "The schema is the structure (columns and types); the instance is the current set of rows."
+  },
+  {
+    "question": "What is the First Normal Form (1NF) assumption?",
+    "answer": "All values in a relation are atomic; no attribute can have a set or decomposable value."
+  },
+  {
+    "question": "What is the purpose of domains in a relational schema?",
+    "answer": "To define the set of values and allowable operations for each attribute."
+  },
+  {
+    "question": "What is the difference between a procedural and a declarative query?",
+    "answer": "Procedural queries specify the sequence of operations; declarative queries specify the desired result."
+  },
+  {
+    "question": "What is the significance of duplicate tuples in a relation?",
+    "answer": "Relations must not have duplicate tuples; this is enforced by the DBMS."
+  },
+  {
+    "question": "What happens if a primary key value is NULL?",
+    "answer": "It violates the integrity constraints; primary keys cannot be NULL."
+  },
+  {
+    "question": "What is the effect of deleting a row referenced by a foreign key?",
+    "answer": "It can violate referential integrity unless handled by restrict, cascade, or set-to-NULL strategies."
+  },
+  {
+    "question": "What is the difference between restrict, cascade, and set-to-NULL strategies for referential integrity?",
+    "answer": "Restrict prevents deletion; cascade deletes related rows; set-to-NULL sets foreign key values to NULL."
+  },
+  {
+    "question": "What is the purpose of the 'reverse engineer schema' feature in MySQL Workbench?",
+    "answer": "To view the relationships and structure of the database as an EER diagram."
+  },
+  {
+    "question": "What is the difference between a strong entity and a weak entity in table mapping?",
+    "answer": "Strong entities become tables with their own primary keys; weak entities include a foreign key from the owner entity."
+  },
+  {
+    "question": "What is the rule for mapping multi-valued attributes to tables?",
+    "answer": "Represent each multi-valued attribute as if it were a weak entity type."
+  },
+  {
+    "question": "What is the purpose of the 'CREATE TABLE' SQL statement?",
+    "answer": "To define a new table, its columns, data types, and constraints in the database."
+  },
+  {
+    "question": "What is the difference between CHAR and VARCHAR data types in SQL?",
+    "answer": "CHAR is fixed-length; VARCHAR is variable-length up to a specified maximum."
+  },
+  {
+    "question": "What is a join condition in SQL?",
+    "answer": "A condition that specifies how rows from two tables are matched in a join operation."
+  },
+  {
+    "question": "What is a natural join in SQL?",
+    "answer": "A join that automatically matches columns with the same name in both tables."
+  },
+  {
+    "question": "What is the purpose of the WHERE clause in SQL?",
+    "answer": "To specify conditions that filter which rows are returned or affected."
+  },
+  {
+    "question": "What is the effect of the DISTINCT keyword in a SELECT statement?",
+    "answer": "It removes duplicate rows from the result set."
+  },
+  {
+    "question": "What is the difference between SELECT * and SELECT column_list in SQL?",
+    "answer": "SELECT * returns all columns; SELECT column_list returns only specified columns."
+  },
+  {
+    "question": "What is the purpose of the GROUP BY clause in SQL?",
+    "answer": "To group rows sharing a value so that aggregate functions can be applied to each group."
+  },
+  {
+    "question": "What is an aggregate function in SQL?",
+    "answer": "A function that computes a single value from a set of values, such as SUM, AVG, COUNT, MIN, or MAX."
+  },
+  {
+    "question": "What does the HAVING clause do in SQL?",
+    "answer": "It filters groups created by GROUP BY based on a condition."
+  },
+  {
+    "question": "What is the difference between INNER JOIN and OUTER JOIN?",
+    "answer": "INNER JOIN returns only matching rows; OUTER JOIN returns all rows from one or both tables, filling with NULLs where no match exists."
+  },
+  {
+    "question": "What is a subquery in SQL?",
+    "answer": "A query nested inside another query, used as a value or table."
+  },
+  {
+    "question": "What is the purpose of the ORDER BY clause in SQL?",
+    "answer": "To sort the result set by one or more columns."
+  },
+  {
+    "question": "What is the purpose of the INSERT statement in SQL?",
+    "answer": "To add new rows to a table."
+  },
+  {
+    "question": "What is the purpose of the UPDATE statement in SQL?",
+    "answer": "To modify existing rows in a table."
+  },
+  {
+    "question": "What is the purpose of the DELETE statement in SQL?",
+    "answer": "To remove rows from a table."
+  },
+  {
+    "question": "What is the difference between a transaction and a single SQL statement?",
+    "answer": "A transaction is a sequence of statements executed as a single unit of work, ensuring atomicity."
+  },
+  {
+    "question": "What is the ACID property in databases?",
+    "answer": "Atomicity, Consistency, Isolation, and Durability—properties that ensure reliable processing of transactions."
+  },
+  {
+    "question": "What is a view in SQL?",
+    "answer": "A virtual table defined by a query, which can be used like a regular table in queries."
+  },
+  {
+    "question": "What is the purpose of indexing in databases?",
+    "answer": "To speed up data retrieval by creating data structures for quick lookup."
+  },
+  {
+    "question": "What is the difference between a clustered and a non-clustered index?",
+    "answer": "A clustered index determines the physical order of data; a non-clustered index is a separate structure."
+  },
+  {
+    "question": "What is a transaction log?",
+    "answer": "A file that records all changes made to the database, used for recovery and auditing."
+  },
+  {
+    "question": "What is a deadlock in database systems?",
+    "answer": "A situation where two or more transactions are waiting for each other to release locks, preventing progress."
+  },
+  {
+    "question": "What is the purpose of a backup in database management?",
+    "answer": "To create a copy of the database for recovery in case of failure or data loss."
+  }
+]

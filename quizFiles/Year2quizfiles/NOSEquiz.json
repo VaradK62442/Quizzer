@@ -1,0 +1,426 @@
+[
+  {
+    "question": "What is a network protocol?",
+    "answer": "A network protocol is an agreed language for encoding messages, along with rules defining what messages mean and when they can be sent."
+  },
+  {
+    "question": "What is a protocol data unit (PDU)?",
+    "answer": "A PDU is a specific type of message defined by a protocol, with a particular syntax and format."
+  },
+  {
+    "question": "Give two examples of protocols that use textual PDUs.",
+    "answer": "HTTP/1.1 and SMTP."
+  },
+  {
+    "question": "What is the difference between textual and binary PDUs?",
+    "answer": "Textual PDUs are human-readable, while binary PDUs are formatted as binary data with specific alignment and encoding rules."
+  },
+  {
+    "question": "What does protocol semantics define?",
+    "answer": "Protocol semantics define when PDUs can be sent, what responses are needed, who can send them, and how errors are handled."
+  },
+  {
+    "question": "How are protocol operations commonly described?",
+    "answer": "Using state-transition diagrams, where states indicate stages of operation and transitions occur in response to PDUs."
+  },
+  {
+    "question": "What is protocol layering?",
+    "answer": "Protocol layering organizes communication systems into a series of layers, each with a specific role and interface."
+  },
+  {
+    "question": "Name the seven layers of the OSI reference model.",
+    "answer": "Physical, Data Link, Network, Transport, Session, Presentation, Application."
+  },
+  {
+    "question": "What is the main function of the physical layer?",
+    "answer": "It manages the physical connection between devices, including cables, plugs, and the transmission of raw data bits."
+  },
+  {
+    "question": "What is the main function of the data link layer?",
+    "answer": "It ensures reliable data transfer across the physical network, including framing, error detection, correction, and media access control."
+  },
+  {
+    "question": "What is the main function of the network layer?",
+    "answer": "It handles packet routing and forwarding across multiple networks, providing logical addressing."
+  },
+  {
+    "question": "What is the main function of the transport layer?",
+    "answer": "It ensures complete data transfer with error checking, flow control, and reliability between end systems."
+  },
+  {
+    "question": "What is the main function of the session layer?",
+    "answer": "It manages sessions and connections between applications."
+  },
+  {
+    "question": "What is the main function of the presentation layer?",
+    "answer": "It translates data formats between applications and the network, including character sets and data encoding."
+  },
+  {
+    "question": "What is the main function of the application layer?",
+    "answer": "It interfaces directly with the end-user and provides network services such as HTTP, DNS, and FTP."
+  },
+  {
+    "question": "What is Manchester encoding?",
+    "answer": "A line code that encodes a 1 as a high-low transition and a 0 as a low-high transition, improving clock recovery."
+  },
+  {
+    "question": "What is the purpose of carrier modulation?",
+    "answer": "To shift a baseband signal to a higher carrier frequency, allowing multiple signals to share a channel."
+  },
+  {
+    "question": "What is spread spectrum communication?",
+    "answer": "A technique that mitigates interference by repeatedly changing the carrier frequency using a pseudo-random sequence."
+  },
+  {
+    "question": "What is the Nyquist theorem?",
+    "answer": "To accurately digitise an analogue signal, you need at least twice the highest frequency (2H) samples per second."
+  },
+  {
+    "question": "What is Shannon's theorem for channel capacity?",
+    "answer": "Rmax = H log2(1+S/N), where H is bandwidth and S/N is the signal-to-noise ratio."
+  },
+  {
+    "question": "What is a parity bit?",
+    "answer": "A bit added to data to indicate whether the number of 1s is even or odd, used for simple error detection."
+  },
+  {
+    "question": "What is a cyclic redundancy check (CRC)?",
+    "answer": "A powerful error-detecting code that uses polynomial division to detect errors in transmitted data."
+  },
+  {
+    "question": "What is bit stuffing?",
+    "answer": "A technique where the sender inserts a '0' after five consecutive '1's to prevent confusion with special bit patterns."
+  },
+  {
+    "question": "What is media access control (MAC)?",
+    "answer": "A method to arbitrate access to a shared network link, ensuring fair and orderly transmission."
+  },
+  {
+    "question": "What is Carrier Sense Multiple Access (CSMA)?",
+    "answer": "A protocol where devices listen before transmitting and back off if the channel is busy."
+  },
+  {
+    "question": "What is the main difference between point-to-point and multi-access links?",
+    "answer": "Point-to-point links connect two devices directly, while multi-access links are shared by multiple devices."
+  },
+  {
+    "question": "What is a MAC address?",
+    "answer": "A globally unique 48-bit address assigned to network interfaces for identification on a local network."
+  },
+  {
+    "question": "What is the main function of the network layer?",
+    "answer": "To interconnect multiple links, deliver data end-to-end, and provide logical addressing and routing."
+  },
+  {
+    "question": "What is an autonomous system (AS)?",
+    "answer": "A network or group of networks administered as a single entity, with its own routing policies."
+  },
+  {
+    "question": "What is the Internet Protocol (IP)?",
+    "answer": "A connectionless, best-effort protocol for packet delivery across interconnected networks."
+  },
+  {
+    "question": "What is the difference between IPv4 and IPv6?",
+    "answer": "IPv4 uses 32-bit addresses; IPv6 uses 128-bit addresses and a simplified header format."
+  },
+  {
+    "question": "What is packet fragmentation?",
+    "answer": "The process of breaking a large packet into smaller fragments to fit the maximum transmission unit (MTU) of a link."
+  },
+  {
+    "question": "What is the Time To Live (TTL) field in an IP packet?",
+    "answer": "A value that limits the number of hops a packet can take before being discarded to prevent infinite loops."
+  },
+  {
+    "question": "What is a routing table?",
+    "answer": "A data structure used by routers to determine the next hop for forwarding packets to their destination."
+  },
+  {
+    "question": "What is the difference between intra-domain and inter-domain routing?",
+    "answer": "Intra-domain routing occurs within a single AS; inter-domain routing occurs between different ASes."
+  },
+  {
+    "question": "What is the purpose of the default route in a routing table?",
+    "answer": "To provide a next-hop for packets destined for unknown networks."
+  },
+  {
+    "question": "What is a distance vector routing protocol?",
+    "answer": "A protocol where each router shares its distance to all known destinations with its neighbours, updating routes accordingly."
+  },
+  {
+    "question": "What is the count-to-infinity problem?",
+    "answer": "A limitation of distance vector protocols where routers can take a long time to recover from certain failures, repeatedly increasing route cost."
+  },
+  {
+    "question": "What is split horizon?",
+    "answer": "A technique in distance vector routing where routes learned from a neighbour are not sent back to that neighbour, reducing loops."
+  },
+  {
+    "question": "What is link state routing?",
+    "answer": "A protocol where each router floods information about its directly connected links to all routers, allowing each to compute shortest paths."
+  },
+  {
+    "question": "What algorithm is used in link state routing to compute shortest paths?",
+    "answer": "Dijkstra's algorithm."
+  },
+  {
+    "question": "What is the main advantage of link state routing over distance vector routing?",
+    "answer": "Faster convergence and more accurate routing information."
+  },
+  {
+    "question": "What is a unicast routing protocol?",
+    "answer": "A protocol that delivers packets from one source to a single destination."
+  },
+  {
+    "question": "What is the main function of the transport layer?",
+    "answer": "To provide end-to-end communication, reliability, multiplexing, and congestion control."
+  },
+  {
+    "question": "What is multiplexing in the transport layer?",
+    "answer": "Combining data from multiple applications into a single stream for transmission."
+  },
+  {
+    "question": "What is a port number?",
+    "answer": "A 16-bit number used by the transport layer to identify specific processes or services on a host."
+  },
+  {
+    "question": "What is the main difference between TCP and UDP?",
+    "answer": "TCP provides reliable, ordered, congestion-controlled delivery; UDP provides unreliable, connectionless datagram delivery."
+  },
+  {
+    "question": "What is the three-way handshake in TCP?",
+    "answer": "A process using SYN and ACK flags to establish a reliable connection between client and server."
+  },
+  {
+    "question": "How does TCP ensure reliability?",
+    "answer": "Through sequence numbers, acknowledgements, retransmissions, and sliding window flow control."
+  },
+  {
+    "question": "What is congestion control?",
+    "answer": "A mechanism to adapt the sending rate to available network capacity, preventing congestion collapse."
+  },
+  {
+    "question": "What is the Additive Increase Multiplicative Decrease (AIMD) algorithm?",
+    "answer": "A congestion control strategy where the sending rate increases gradually and decreases rapidly on loss."
+  },
+  {
+    "question": "What is a socket?",
+    "answer": "An endpoint for sending or receiving data across a network, used by applications to access transport services."
+  },
+  {
+    "question": "What is the difference between stream and datagram sockets?",
+    "answer": "Stream sockets provide a reliable byte stream (TCP); datagram sockets deliver individual packets (UDP)."
+  },
+  {
+    "question": "What is a well-known port?",
+    "answer": "A port number in the range 0–1023, reserved for standard services."
+  },
+  {
+    "question": "What is the CIA triad in network security?",
+    "answer": "Confidentiality, Integrity, and Availability."
+  },
+  {
+    "question": "What is symmetric cryptography?",
+    "answer": "An encryption method where the same key is used for both encryption and decryption."
+  },
+  {
+    "question": "What is public key cryptography?",
+    "answer": "An encryption method using a public key for encryption and a private key for decryption."
+  },
+  {
+    "question": "What is a digital signature?",
+    "answer": "A cryptographic technique that uses a private key to sign data, allowing others to verify integrity and authenticity with the public key."
+  },
+  {
+    "question": "What is a cryptographic hash function?",
+    "answer": "A function that maps input data to a fixed-length hash value, designed to be infeasible to invert or find collisions."
+  },
+  {
+    "question": "What is Transport Layer Security (TLS)?",
+    "answer": "A protocol that provides privacy and data integrity between applications over a network."
+  },
+  {
+    "question": "What is IPSec?",
+    "answer": "A suite of protocols for securing IP communications by authenticating and encrypting each IP packet."
+  },
+  {
+    "question": "What is the main difference between tunnel mode and transport mode in IPSec?",
+    "answer": "Tunnel mode secures the entire IP packet between gateways; transport mode secures only the payload between hosts."
+  },
+  {
+    "question": "What is the purpose of the Internet Key Exchange (IKE) protocol?",
+    "answer": "To establish security associations and keys for IPSec."
+  },
+  {
+    "question": "What is a man-in-the-middle (MitM) attack?",
+    "answer": "An attack where the adversary intercepts and possibly alters communication between two parties."
+  },
+  {
+    "question": "What is buffer overflow?",
+    "answer": "A security vulnerability where a program writes data beyond the bounds of allocated memory, potentially allowing code execution."
+  },
+  {
+    "question": "What is the main principle behind the GDPR?",
+    "answer": "To protect personal data by ensuring lawfulness, fairness, transparency, purpose limitation, data minimisation, accuracy, storage limitation, integrity, and accountability."
+  },
+  {
+    "question": "What is the main function of the operating system kernel?",
+    "answer": "It is the core program running at all times, managing resources and providing services to other programs."
+  },
+  {
+    "question": "What is virtual memory?",
+    "answer": "A memory management technique that gives the illusion of a large, continuous memory space by using disk storage."
+  },
+  {
+    "question": "What is process scheduling?",
+    "answer": "The method by which the operating system decides which process runs at any given time."
+  },
+  {
+    "question": "What is the main purpose of the file system in an OS?",
+    "answer": "To manage the storage, retrieval, and organisation of files on storage devices."
+  },
+  {
+    "question": "What is the difference between main memory and cache?",
+    "answer": "Cache is smaller, faster memory used to store frequently accessed data; main memory is larger but slower."
+  },
+  {
+    "question": "What is a system call?",
+    "answer": "A request from a user program to the operating system for a service, such as file access or process control."
+  },
+  {
+    "question": "What is the purpose of the bootstrap program?",
+    "answer": "To initialise the system at startup, load the operating system, and start execution."
+  },
+  {
+    "question": "What is the difference between user mode and kernel mode?",
+    "answer": "User mode restricts access to hardware and critical resources; kernel mode allows full access."
+  },
+  {
+    "question": "What is a process control block (PCB)?",
+    "answer": "A data structure in the OS that contains information about a process, such as its state, registers, and memory."
+  },
+  {
+    "question": "What is paging in memory management?",
+    "answer": "A technique that divides memory into fixed-size pages, allowing non-contiguous allocation and efficient use."
+  },
+  {
+    "question": "What is a context switch?",
+    "answer": "The process of saving the state of one process and loading the state of another, allowing multitasking."
+  },
+  {
+    "question": "What is a deadlock?",
+    "answer": "A situation where two or more processes are blocked, each waiting for resources held by the other."
+  },
+  {
+    "question": "What is the main difference between block storage and file storage?",
+    "answer": "Block storage manages raw storage blocks; file storage organises data into files and directories."
+  },
+  {
+    "question": "What is the purpose of the device driver in an OS?",
+    "answer": "To provide an interface between the operating system and hardware devices."
+  },
+  {
+    "question": "What is the main function of the command line interface (CLI)?",
+    "answer": "To allow users to interact with the operating system by typing commands."
+  },
+  {
+    "question": "What is the main advantage of using an operating system?",
+    "answer": "It abstracts hardware details, manages resources, and provides a convenient environment for running applications."
+  },
+  {
+    "question": "What is the main function of the session layer in the OSI model?",
+    "answer": "It manages sessions and connections between applications, such as coordinating multiple TCP connections for a web page download."
+  },
+  {
+    "question": "What is the main function of the presentation layer in the OSI model?",
+    "answer": "It manages data representation and conversion, such as character sets, markup languages, and data format conversion."
+  },
+  {
+    "question": "What is the difference between open and closed standards development?",
+    "answer": "Open standards allow broad participation and public availability; closed standards restrict participation and access."
+  },
+  {
+    "question": "What is the role of the Internet Engineering Task Force (IETF)?",
+    "answer": "It develops and maintains Internet standards, including protocols like TCP, IP, and DNS."
+  },
+  {
+    "question": "What is the main goal of hierarchical address allocation in IP networks?",
+    "answer": "To enable efficient routing by aggregating addresses according to network topology."
+  },
+  {
+    "question": "What is the difference between identity-based and location-based addressing?",
+    "answer": "Identity-based addresses remain constant regardless of location; location-based addresses reflect the network attachment point."
+  },
+  {
+    "question": "What is a netmask?",
+    "answer": "A binary mask used to separate the network and host portions of an IP address."
+  },
+  {
+    "question": "What is a broadcast address in IPv4?",
+    "answer": "An address with all host bits set to 1, used to send messages to all hosts on a network."
+  },
+  {
+    "question": "What is the role of the IANA?",
+    "answer": "The Internet Assigned Numbers Authority manages global IP address and protocol number allocations."
+  },
+  {
+    "question": "What is the main challenge in deploying IPv6?",
+    "answer": "It requires updating all hosts, routers, firewalls, and applications to support the new protocol."
+  },
+  {
+    "question": "What is the difference between a static and a dynamic IP address?",
+    "answer": "Static addresses do not change; dynamic addresses are assigned as needed, often by DHCP."
+  },
+  {
+    "question": "What is the main purpose of the ARP protocol?",
+    "answer": "To map IP addresses to MAC addresses on a local network."
+  },
+  {
+    "question": "What is the main function of the ICMP protocol?",
+    "answer": "To send error messages and operational information, such as 'destination unreachable' or 'echo request/reply' (ping)."
+  },
+  {
+    "question": "What is the difference between TCP and UDP sockets?",
+    "answer": "TCP sockets provide a reliable, connection-oriented byte stream; UDP sockets provide connectionless, unreliable datagram delivery."
+  },
+  {
+    "question": "What is the main security risk of buffer overflows?",
+    "answer": "They can allow attackers to execute arbitrary code or crash programs by overwriting memory."
+  },
+  {
+    "question": "What is the role of the firewall in network security?",
+    "answer": "To filter and control incoming and outgoing network traffic based on predetermined security rules."
+  },
+  {
+    "question": "What is the main principle of the end-to-end argument?",
+    "answer": "Functions should be implemented at the endpoints of communication rather than in the network core."
+  },
+  {
+    "question": "What is the main advantage of using memory-safe programming languages?",
+    "answer": "They prevent common vulnerabilities like buffer overflows by checking array bounds and memory access."
+  },
+  {
+    "question": "What is the difference between a process and a thread?",
+    "answer": "A process is an independent program with its own memory; a thread is a lightweight unit of execution within a process."
+  },
+  {
+    "question": "What is the main purpose of process synchronisation?",
+    "answer": "To coordinate access to shared resources and prevent race conditions."
+  },
+  {
+    "question": "What is the role of the scheduler in an operating system?",
+    "answer": "To allocate CPU time to processes according to a scheduling algorithm."
+  },
+  {
+    "question": "What is the main function of the file system?",
+    "answer": "To organise and manage files and directories on storage devices."
+  },
+  {
+    "question": "What is the difference between block storage and file storage?",
+    "answer": "Block storage manages raw blocks of data; file storage manages files and directories."
+  },
+  {
+    "question": "What is the main sustainability concern in modern computing?",
+    "answer": "Reducing energy consumption and environmental impact of data centers and computing infrastructure."
+  }
+]

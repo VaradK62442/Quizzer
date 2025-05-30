@@ -1,0 +1,406 @@
+[
+  {
+    "question": "What is the definition of the set of complex numbers?",
+    "answer": "The set of all numbers of the form x + iy, where x and y are real numbers and i = sqrt(-1)."
+  },
+  {
+    "question": "What is the Fundamental Theorem of Algebra?",
+    "answer": "Every non-constant polynomial in one variable has a solution in the set of complex numbers."
+  },
+  {
+    "question": "How are the real and imaginary parts of a complex number z = x + iy denoted?",
+    "answer": "Re(z) = x and Im(z) = y."
+  },
+  {
+    "question": "What does it mean for a complex number to be purely imaginary?",
+    "answer": "It has no real part, i.e., z = iy with y ≠ 0."
+  },
+  {
+    "question": "What is the complex conjugate of z = x + iy?",
+    "answer": "The complex conjugate is x - iy, denoted as \\( \\bar{z} \\)."
+  },
+  {
+    "question": "How do you determine equality of two complex numbers?",
+    "answer": "z1 = z2 if and only if their real parts and imaginary parts are equal."
+  },
+  {
+    "question": "What is the Argand diagram?",
+    "answer": "A geometric representation of complex numbers as points (x, y) in the plane."
+  },
+  {
+    "question": "How do you add and multiply complex numbers?",
+    "answer": "Addition: (a+ib)+(c+id) = (a+c)+i(b+d); Multiplication: (a+ib)(c+id) = (ac-bd) + i(ad+bc)."
+  },
+  {
+    "question": "What is the result of multiplying a complex number by its conjugate?",
+    "answer": "z * \\bar{z} = x^2 + y^2, which is always real and non-negative."
+  },
+  {
+    "question": "How do you divide complex numbers?",
+    "answer": "Multiply numerator and denominator by the conjugate of the denominator and simplify."
+  },
+  {
+    "question": "What is the pattern for powers of i?",
+    "answer": "i^1 = i, i^2 = -1, i^3 = -i, i^4 = 1, and repeats every four powers."
+  },
+  {
+    "question": "How do you solve quadratic equations with complex solutions?",
+    "answer": "Use the quadratic formula; if the discriminant is negative, solutions are complex."
+  },
+  {
+    "question": "What is the polar form of a complex number?",
+    "answer": "z = r e^{iθ}, where r = |z| and θ = arg(z)."
+  },
+  {
+    "question": "How do you convert between Cartesian and polar coordinates for complex numbers?",
+    "answer": "x = r cos θ, y = r sin θ; r = sqrt(x^2 + y^2), θ = arctan(y/x)."
+  },
+  {
+    "question": "What is Euler's formula?",
+    "answer": "e^{iθ} = cos θ + i sin θ."
+  },
+  {
+    "question": "What is de Moivre's Theorem?",
+    "answer": "(cos θ + i sin θ)^n = cos(nθ) + i sin(nθ) for integer n."
+  },
+  {
+    "question": "How do you find the modulus and argument of a complex number?",
+    "answer": "Modulus: |z| = sqrt(x^2 + y^2); Argument: θ = arctan(y/x), adjusted for the correct quadrant."
+  },
+  {
+    "question": "What are the properties of the modulus of complex numbers?",
+    "answer": "|z1 z2| = |z1||z2|; |z1/z2| = |z1|/|z2|; |z|^2 = z \\bar{z}."
+  },
+  {
+    "question": "What is the triangle inequality for complex numbers?",
+    "answer": "|z1 + z2| ≤ |z1| + |z2|."
+  },
+  {
+    "question": "What is the geometric interpretation of |z - w|?",
+    "answer": "It is the distance between the points z and w in the Argand plane."
+  },
+  {
+    "question": "What is a vector?",
+    "answer": "A mathematical object with magnitude and direction, or zero magnitude and no direction."
+  },
+  {
+    "question": "How do you denote the magnitude of a vector v?",
+    "answer": "|v|."
+  },
+  {
+    "question": "What is a unit vector?",
+    "answer": "A vector of magnitude 1."
+  },
+  {
+    "question": "How do you find a unit vector in the direction of a given vector u?",
+    "answer": "Divide u by its magnitude: u / |u|."
+  },
+  {
+    "question": "How do you represent a vector geometrically?",
+    "answer": "As a directed line segment from point A to point B, denoted \\( \\overrightarrow{AB} \\)."
+  },
+  {
+    "question": "How do you add vectors geometrically?",
+    "answer": "By placing them nose-to-tail; the sum is the vector from the start of the first to the end of the last."
+  },
+  {
+    "question": "What is scalar multiplication of a vector?",
+    "answer": "Multiplying a vector by a scalar scales its magnitude and may reverse its direction if the scalar is negative."
+  },
+  {
+    "question": "What is the position vector of a point P relative to the origin?",
+    "answer": "The vector \\( \\overrightarrow{OP} \\)."
+  },
+  {
+    "question": "How do you express \\( \\overrightarrow{AB} \\) in terms of position vectors?",
+    "answer": "\\( \\overrightarrow{AB} = b - a \\), where a and b are the position vectors of A and B."
+  },
+  {
+    "question": "What is the scalar (dot) product of two vectors u and v?",
+    "answer": "u · v = |u||v|cosθ, where θ is the angle between u and v."
+  },
+  {
+    "question": "What is the geometric interpretation of the dot product?",
+    "answer": "It measures how much one vector extends in the direction of another."
+  },
+  {
+    "question": "What is the criterion for perpendicularity of two vectors?",
+    "answer": "u · v = 0 if and only if u and v are perpendicular."
+  },
+  {
+    "question": "What is the vector (cross) product of two vectors u and v?",
+    "answer": "u × v is a vector perpendicular to both u and v, with magnitude |u||v|sinθ."
+  },
+  {
+    "question": "What is the right-hand rule?",
+    "answer": "A rule to determine the direction of the cross product: thumb in the direction of u, fingers in v, palm points in u × v."
+  },
+  {
+    "question": "What is the criterion for parallelism using the cross product?",
+    "answer": "u × v = 0 if and only if u and v are parallel."
+  },
+  {
+    "question": "What are the properties of the cross product?",
+    "answer": "It is anti-commutative, distributive, and not associative."
+  },
+  {
+    "question": "How do you determine if three points A, B, C are collinear using vectors?",
+    "answer": "If \\( \\overrightarrow{AB} \\) and \\( \\overrightarrow{BC} \\) are parallel."
+  },
+  {
+    "question": "What is the section formula for collinear points?",
+    "answer": "If AP:PB = m:n, then the position vector of P is (n a + m b)/(m + n)."
+  },
+  {
+    "question": "What is the centroid of a triangle with vertices at a, b, c?",
+    "answer": "The centroid is at (a + b + c)/3."
+  },
+  {
+    "question": "What is a matrix?",
+    "answer": "A rectangular array of numbers arranged in rows and columns."
+  },
+  {
+    "question": "How do you denote the (i, k)-th entry of a matrix A?",
+    "answer": "As a_{ik}."
+  },
+  {
+    "question": "What is a square matrix?",
+    "answer": "A matrix with the same number of rows and columns."
+  },
+  {
+    "question": "What is the zero matrix?",
+    "answer": "A matrix in which every entry is zero."
+  },
+  {
+    "question": "How is matrix equality defined?",
+    "answer": "Two matrices are equal if they are the same size and all corresponding entries are equal."
+  },
+  {
+    "question": "How do you add or subtract matrices?",
+    "answer": "By adding or subtracting corresponding entries."
+  },
+  {
+    "question": "What are the three types of elementary row operations (EROs)?",
+    "answer": "Type I: swap two rows; Type II: multiply a row by a nonzero scalar; Type III: add a multiple of one row to another."
+  },
+  {
+    "question": "What does it mean for two matrices to be row equivalent?",
+    "answer": "They can be transformed into each other by a sequence of EROs."
+  },
+  {
+    "question": "What is the leading entry of a row in a matrix?",
+    "answer": "The first nonzero entry from the left."
+  },
+  {
+    "question": "What is an echelon matrix?",
+    "answer": "A matrix where all zero rows are at the bottom and each leading entry is to the right of the leading entry in the row above."
+  },
+  {
+    "question": "What is a reduced echelon matrix?",
+    "answer": "An echelon matrix where all leading entries are 1 and each leading 1 is the only nonzero entry in its column."
+  },
+  {
+    "question": "How do you determine if a system of equations is consistent?",
+    "answer": "If the reduced echelon form does not have a row with all zeros except in the last column, the system is consistent."
+  },
+  {
+    "question": "When is the matrix product AB defined?",
+    "answer": "If A is l × m and B is m × n, then AB is l × n."
+  },
+  {
+    "question": "What is the identity matrix?",
+    "answer": "A square matrix with 1's on the diagonal and 0's elsewhere."
+  },
+  {
+    "question": "Is matrix multiplication commutative?",
+    "answer": "No, in general AB ≠ BA."
+  },
+  {
+    "question": "What is an idempotent matrix?",
+    "answer": "A matrix X such that X^2 = X."
+  },
+  {
+    "question": "What is a singular matrix?",
+    "answer": "A square matrix with no inverse."
+  },
+  {
+    "question": "What is a non-singular (invertible) matrix?",
+    "answer": "A square matrix that has an inverse."
+  },
+  {
+    "question": "How do you find the inverse of a 2 × 2 matrix?",
+    "answer": "If A = [[a, b], [c, d]], then A^{-1} = (1/(ad-bc)) * [[d, -b], [-c, a]] if ad-bc ≠ 0."
+  },
+  {
+    "question": "What is the determinant of a 2 × 2 matrix?",
+    "answer": "For A = [[a, b], [c, d]], the determinant is ad - bc."
+  },
+  {
+    "question": "What is the multiplication principle in counting?",
+    "answer": "If one event can occur in m ways and another in n ways, the total number of ways both can occur is m × n."
+  },
+  {
+    "question": "What is n factorial (n!)?",
+    "answer": "The product of all positive integers up to n."
+  },
+  {
+    "question": "What is the formula for the number of permutations of n objects taken r at a time (nPr)?",
+    "answer": "nPr = n! / (n - r)!"
+  },
+  {
+    "question": "What is the formula for the number of combinations of n objects taken r at a time (nCr)?",
+    "answer": "nCr = n! / (r!(n - r)!)"
+  },
+  {
+    "question": "What is Pascal's triangle?",
+    "answer": "A triangular array of numbers where each entry is the sum of the two above it, giving binomial coefficients."
+  },
+  {
+    "question": "What is the binomial theorem?",
+    "answer": "(a + b)^n = sum_{k=0}^n (n choose k) a^{n-k} b^k."
+  },
+  {
+    "question": "What is the sum of the entries in the nth row of Pascal's triangle?",
+    "answer": "2^n."
+  },
+  {
+    "question": "What is the principle of inclusion-exclusion in counting?",
+    "answer": "The number of elements in the union of two sets is |A| + |B| - |A ∩ B|."
+  },
+  {
+    "question": "How do you count the number of ways to arrange n objects in a circle?",
+    "answer": "(n-1)!"
+  },
+  {
+    "question": "What is the difference between a permutation and a combination?",
+    "answer": "A permutation is an ordered arrangement; a combination is an unordered selection."
+  },
+  {
+    "question": "What is the formula for the number of ways to distribute n identical objects into r distinct boxes?",
+    "answer": "(n + r - 1 choose r - 1)."
+  },
+  {
+    "question": "What is the multinomial theorem?",
+    "answer": "(x1 + x2 + ... + xr)^n = sum over all k1 + ... + kr = n of n!/(k1!...kr!) x1^{k1}...xr^{kr}."
+  },
+  {
+    "question": "What is the equation of a plane in vector form?",
+    "answer": "A plane through point a with normal n: n · (r - a) = 0."
+  },
+  {
+    "question": "What is the distance from a point to a plane?",
+    "answer": "If the plane is n · (r - a) = 0 and point P has position vector p, the distance is |n · (p - a)| / |n|."
+  },
+  {
+    "question": "What is the equation of a line in vector form?",
+    "answer": "r = a + λd, where a is a point on the line and d is the direction vector."
+  },
+  {
+    "question": "How do you determine if two lines in 3D are parallel?",
+    "answer": "If their direction vectors are scalar multiples of each other."
+  },
+  {
+    "question": "How do you determine if two lines in 3D intersect?",
+    "answer": "Set their vector equations equal and solve for parameters; if a solution exists, they intersect."
+  },
+  {
+    "question": "What is the shortest distance between two skew lines?",
+    "answer": "It is the length of the projection of the vector connecting points on each line onto the normal vector to both direction vectors."
+  },
+  {
+    "question": "What is the equation of a sphere in vector form?",
+    "answer": "|r - a| = r, where a is the center and r is the radius."
+  },
+  {
+    "question": "What is an arithmetic progression (AP)?",
+    "answer": "A sequence where each term after the first is obtained by adding a constant difference."
+  },
+  {
+    "question": "What is the nth term of an AP?",
+    "answer": "a_n = a_1 + (n-1)d."
+  },
+  {
+    "question": "What is the sum of the first n terms of an AP?",
+    "answer": "S_n = n/2 (a_1 + a_n) = n/2 [2a_1 + (n-1)d]."
+  },
+  {
+    "question": "What is a geometric progression (GP)?",
+    "answer": "A sequence where each term after the first is obtained by multiplying by a constant ratio."
+  },
+  {
+    "question": "What is the nth term of a GP?",
+    "answer": "a_n = a_1 r^{n-1}."
+  },
+  {
+    "question": "What is the sum of the first n terms of a GP?",
+    "answer": "S_n = a_1 (1 - r^n)/(1 - r), for r ≠ 1."
+  },
+  {
+    "question": "When does an infinite geometric series converge?",
+    "answer": "If |r| < 1."
+  },
+  {
+    "question": "What is the sum to infinity of a convergent GP?",
+    "answer": "S_∞ = a_1 / (1 - r), for |r| < 1."
+  },
+  {
+    "question": "What is a recurrence relation?",
+    "answer": "An equation that defines each term of a sequence as a function of preceding terms."
+  },
+  {
+    "question": "What is the Fibonacci sequence?",
+    "answer": "A sequence where each term is the sum of the two preceding terms, starting with F_1 = 1, F_2 = 1."
+  },
+  {
+    "question": "What is a graph in network theory?",
+    "answer": "A set of vertices (nodes) connected by edges (links)."
+  },
+  {
+    "question": "What is the degree of a vertex?",
+    "answer": "The number of edges incident to the vertex."
+  },
+  {
+    "question": "What is a path in a graph?",
+    "answer": "A sequence of edges joining a sequence of distinct vertices."
+  },
+  {
+    "question": "What is a cycle in a graph?",
+    "answer": "A path that starts and ends at the same vertex, with no other repeated vertices."
+  },
+  {
+    "question": "What is a connected graph?",
+    "answer": "A graph in which there is a path between every pair of vertices."
+  },
+  {
+    "question": "What is a tree in graph theory?",
+    "answer": "A connected graph with no cycles."
+  },
+  {
+    "question": "What is a spanning tree?",
+    "answer": "A tree that includes all the vertices of the graph."
+  },
+  {
+    "question": "What is the adjacency matrix of a graph?",
+    "answer": "A square matrix where the (i, j)-th entry is the number of edges between vertices i and j."
+  },
+  {
+    "question": "What is an Eulerian circuit?",
+    "answer": "A cycle that uses every edge of a graph exactly once."
+  },
+  {
+    "question": "What is a Hamiltonian cycle?",
+    "answer": "A cycle that visits every vertex of a graph exactly once."
+  },
+  {
+    "question": "What is the Handshaking Lemma?",
+    "answer": "In any graph, the sum of the degrees of all vertices equals twice the number of edges."
+  },
+  {
+    "question": "What is a planar graph?",
+    "answer": "A graph that can be drawn in the plane without any edges crossing."
+  },
+  {
+    "question": "What is Kuratowski's Theorem?",
+    "answer": "A graph is non-planar if and only if it contains a subdivision of K_5 or K_{3,3}."
+  }
+]

@@ -1,0 +1,382 @@
+[
+  {
+    "question": "What is a numerical array and why is it useful in data science?",
+    "answer": "A numerical array is a multidimensional data structure for storing numbers, enabling efficient vectorized computation, and is central to representing images, sounds, scientific data, and more."
+  },
+  {
+    "question": "What is vectorized computation?",
+    "answer": "Vectorized computation is the practice of applying operations to entire arrays of data at once, rather than using explicit loops, resulting in simpler and faster code."
+  },
+  {
+    "question": "How do images, sounds, and videos map onto arrays?",
+    "answer": "Images are 2D arrays of brightness values, sounds are 1D arrays of amplitudes, and videos are 3D arrays (x, y, time) of brightness values."
+  },
+  {
+    "question": "What is the difference between a vector, a matrix, and a tensor?",
+    "answer": "A vector is a 1D array, a matrix is a 2D array, and a tensor is an n-dimensional array (n > 2)."
+  },
+  {
+    "question": "What is meant by the 'shape' of an array?",
+    "answer": "The shape of an array is a tuple indicating the size of the array along each axis."
+  },
+  {
+    "question": "What is the dtype of an array?",
+    "answer": "The dtype is the data type of the elements in the array, such as float64 or int32."
+  },
+  {
+    "question": "What is an axis in the context of arrays?",
+    "answer": "An axis is a specific dimension of an array, such as rows (axis 0) or columns (axis 1) in a matrix."
+  },
+  {
+    "question": "How do you create a new NumPy array from a list?",
+    "answer": "By using np.array(list), which converts the list into a NumPy array."
+  },
+  {
+    "question": "What is slicing in array operations?",
+    "answer": "Slicing selects a rectangular region or subset of an array, using the syntax start:stop:step."
+  },
+  {
+    "question": "How do you rotate or flip an array?",
+    "answer": "By using slicing with negative steps or functions like np.transpose, np.fliplr, and np.flipud."
+  },
+  {
+    "question": "What is broadcasting in NumPy?",
+    "answer": "Broadcasting automatically expands arrays of different shapes to make their shapes compatible for elementwise operations."
+  },
+  {
+    "question": "What are aggregation operations in NumPy?",
+    "answer": "Aggregation operations reduce an array to a single value or lower-dimensional array, such as sum, mean, or cumulative sum."
+  },
+  {
+    "question": "How do you find the maximum value in an array?",
+    "answer": "By using np.max(array) or array.max()."
+  },
+  {
+    "question": "What is fancy indexing?",
+    "answer": "Fancy indexing is selecting elements from an array using another array of indices or a boolean mask."
+  },
+  {
+    "question": "What is the difference between slicing and indexing in arrays?",
+    "answer": "Slicing returns a view with the same number of dimensions, while indexing usually reduces the rank by one."
+  },
+  {
+    "question": "How do you join two arrays along a specific axis?",
+    "answer": "By using np.concatenate([a, b], axis=n) or np.stack([a, b], axis=n)."
+  },
+  {
+    "question": "What does np.tile do?",
+    "answer": "It repeats an array along specified axes, creating a larger array by tiling the original."
+  },
+  {
+    "question": "How do you generate a blank array of a given shape?",
+    "answer": "By using np.zeros(shape), np.ones(shape), np.full(shape, value), or np.empty(shape)."
+  },
+  {
+    "question": "What is the purpose of np.arange?",
+    "answer": "np.arange generates a 1D array with evenly spaced values within a given range."
+  },
+  {
+    "question": "How do you load data from a CSV file into a NumPy array?",
+    "answer": "By using np.loadtxt('filename.csv', delimiter=',')."
+  },
+  {
+    "question": "What does np.linspace do?",
+    "answer": "It generates a 1D array of evenly spaced values between a start and stop value, inclusive."
+  },
+  {
+    "question": "What is a ragged array and why should it be avoided?",
+    "answer": "A ragged array has rows of different lengths, which breaks the rectangular structure required for efficient numerical arrays."
+  },
+  {
+    "question": "How do you copy a NumPy array?",
+    "answer": "By using np.array(x) or x.copy()."
+  },
+  {
+    "question": "What is boolean masking in arrays?",
+    "answer": "Boolean masking selects elements from an array where a boolean condition is True."
+  },
+  {
+    "question": "How do you use np.where?",
+    "answer": "np.where(condition, a, b) returns elements from a where condition is True, and from b otherwise."
+  },
+  {
+    "question": "What does np.nonzero return?",
+    "answer": "It returns the indices of elements that are nonzero (or True for boolean arrays)."
+  },
+  {
+    "question": "What is elementwise arithmetic?",
+    "answer": "Arithmetic operations applied to each element of an array individually."
+  },
+  {
+    "question": "How do you apply a function like np.sin to an array?",
+    "answer": "By passing the array as the argument, e.g., np.sin(array), which applies the function elementwise."
+  },
+  {
+    "question": "What is accumulation in arrays?",
+    "answer": "Accumulation refers to cumulative operations, such as np.cumsum (cumulative sum) or np.cumprod (cumulative product)."
+  },
+  {
+    "question": "What is reduction in NumPy?",
+    "answer": "Reduction is applying an operation like sum, min, or max across an axis or the entire array, collapsing dimensions."
+  },
+  {
+    "question": "How do you find the index of the maximum value in an array?",
+    "answer": "By using np.argmax(array)."
+  },
+  {
+    "question": "What does np.argsort return?",
+    "answer": "It returns the indices that would sort the array."
+  },
+  {
+    "question": "How do you reshape an array?",
+    "answer": "By using array.reshape(new_shape) or np.reshape(array, new_shape)."
+  },
+  {
+    "question": "What is the difference between a view and a copy in NumPy?",
+    "answer": "A view shares data with the original array; a copy has its own data and changes do not affect the original."
+  },
+  {
+    "question": "What is a strided array?",
+    "answer": "An array where elements are accessed with fixed steps (strides) in memory, enabling efficient indexing and transformations."
+  },
+  {
+    "question": "How are arrays laid out in memory?",
+    "answer": "Arrays are stored as contiguous blocks of memory, with a header describing shape, dtype, and strides."
+  },
+  {
+    "question": "What is the difference between C order and Fortran order in arrays?",
+    "answer": "C order (row-major) stores the last index changing fastest; Fortran order (column-major) stores the first index changing fastest."
+  },
+  {
+    "question": "What is broadcasting's role in vectorized computation?",
+    "answer": "Broadcasting allows arithmetic operations between arrays of different shapes by automatically expanding them as needed."
+  },
+  {
+    "question": "What is a singleton dimension?",
+    "answer": "A dimension of size 1, often added or removed to change the rank of an array for broadcasting."
+  },
+  {
+    "question": "How do you add a new axis to an array?",
+    "answer": "By using None or np.newaxis in the index, e.g., x[:, np.newaxis]."
+  },
+  {
+    "question": "How do you remove singleton dimensions?",
+    "answer": "By using np.squeeze(array), which removes all dimensions of size 1."
+  },
+  {
+    "question": "What is the purpose of np.meshgrid?",
+    "answer": "It generates coordinate matrices from coordinate vectors, useful for evaluating functions on a grid."
+  },
+  {
+    "question": "What is Einstein summation notation (einsum) in NumPy?",
+    "answer": "A concise syntax for specifying complex array operations, including summation and axis rearrangement."
+  },
+  {
+    "question": "What is the difference between rank-preserving, rank-reducing, and rank-promoting operations?",
+    "answer": "Rank-preserving keeps the same number of dimensions; rank-reducing removes dimensions; rank-promoting adds dimensions."
+  },
+  {
+    "question": "What is the main advantage of vectorization over explicit iteration?",
+    "answer": "Vectorization leads to simpler, more readable, and much faster code by leveraging hardware acceleration."
+  },
+  {
+    "question": "How can you implement conditional logic without explicit loops in arrays?",
+    "answer": "By using masking, np.where, or functions like np.maximum, np.minimum, and np.clip."
+  },
+  {
+    "question": "What is the role of np.clip?",
+    "answer": "It limits array values to a specified range, replacing values outside the range with the range boundaries."
+  },
+  {
+    "question": "How do you round, floor, or ceil array values?",
+    "answer": "By using np.round, np.floor, and np.ceil, which operate elementwise."
+  },
+  {
+    "question": "How do you implement a sum over all elements of an array?",
+    "answer": "By using np.sum(array)."
+  },
+  {
+    "question": "What is the difference between np.sum and np.cumsum?",
+    "answer": "np.sum returns a single value (or reduces over an axis); np.cumsum returns the cumulative sum along an axis."
+  },
+  {
+    "question": "What is the grammar of graphics in scientific visualization?",
+    "answer": "A framework describing visualizations as combinations of dataset, stat, scale, mapping, coord, geom, guide, layer, facet, figure, and caption."
+  },
+  {
+    "question": "What are the basic plot types in matplotlib?",
+    "answer": "Line plots, bar charts, and scatter plots."
+  },
+  {
+    "question": "What is the purpose of matplotlib in scientific computing?",
+    "answer": "It is a Python library for creating static, interactive, and animated visualizations from numerical data."
+  },
+  {
+    "question": "How do you plot a line graph using matplotlib?",
+    "answer": "By using plt.plot(x, y) where x and y are arrays of data."
+  },
+  {
+    "question": "What is binning in data visualization?",
+    "answer": "Grouping continuous data into discrete intervals for summarization or plotting."
+  },
+  {
+    "question": "What is smoothing in data visualization?",
+    "answer": "Applying a function (like a moving average) to reduce noise and reveal trends in data."
+  },
+  {
+    "question": "What are linear, log, and polar coordinate systems?",
+    "answer": "Linear uses uniform spacing; log uses logarithmic scaling; polar uses angles and radii for plotting."
+  },
+  {
+    "question": "What is an aesthetic mapping in a plot?",
+    "answer": "A mapping from data variables to visual properties like color, size, or shape."
+  },
+  {
+    "question": "What is a geom in the grammar of graphics?",
+    "answer": "A geometric object used to represent data, such as points, lines, or bars."
+  },
+  {
+    "question": "What is a facet in data visualization?",
+    "answer": "A way to split data into multiple subplots based on a categorical variable."
+  },
+  {
+    "question": "What is the difference between a guide and a layer in the grammar of graphics?",
+    "answer": "A guide helps interpret the plot (like axes or legends); a layer is a component (like a line or points) added to the plot."
+  },
+  {
+    "question": "How do you save a NumPy array to a text file?",
+    "answer": "By using np.savetxt('filename.csv', array, delimiter=',')."
+  },
+  {
+    "question": "How do you check if any or all elements of a boolean array are True?",
+    "answer": "By using np.any(array) or np.all(array)."
+  },
+  {
+    "question": "What is the role of np.logical_and, np.logical_or, and np.logical_not?",
+    "answer": "They perform elementwise logical operations on boolean arrays."
+  },
+  {
+    "question": "What is a reduction axis?",
+    "answer": "The axis along which a reduction operation (like sum or mean) is performed."
+  },
+  {
+    "question": "How do you compute the mean of each column in a 2D array?",
+    "answer": "By using np.mean(array, axis=0)."
+  },
+  {
+    "question": "How do you compute the mean of each row in a 2D array?",
+    "answer": "By using np.mean(array, axis=1)."
+  },
+  {
+    "question": "What is the difference between np.min, np.max, and np.argmin, np.argmax?",
+    "answer": "np.min and np.max return the minimum and maximum values; np.argmin and np.argmax return their indices."
+  },
+  {
+    "question": "How do you find all indices where a condition is true in an array?",
+    "answer": "By using np.nonzero(condition) or np.where(condition)."
+  },
+  {
+    "question": "What is the effect of using negative indices in array slicing?",
+    "answer": "Negative indices count from the end of the array, e.g., -1 is the last element."
+  },
+  {
+    "question": "How do you reverse an array?",
+    "answer": "By using slicing with a negative step, e.g., array[::-1]."
+  },
+  {
+    "question": "How do you transpose a 2D array?",
+    "answer": "By using array.T or np.transpose(array)."
+  },
+  {
+    "question": "What is the difference between np.reshape and np.ravel?",
+    "answer": "np.reshape changes the shape of an array; np.ravel flattens it into 1D."
+  },
+  {
+    "question": "How do you swap two axes of an array?",
+    "answer": "By using np.swapaxes(array, axis1, axis2)."
+  },
+  {
+    "question": "What is the purpose of np.einsum?",
+    "answer": "To perform complex array operations, like summation and axis rearrangement, using Einstein summation notation."
+  },
+  {
+    "question": "How do you check for NaN values in an array?",
+    "answer": "By using np.isnan(array)."
+  },
+  {
+    "question": "How do you compare floating point numbers safely?",
+    "answer": "By using np.allclose(x, y) or checking if their absolute difference is less than a small epsilon."
+  },
+  {
+    "question": "What is machine epsilon?",
+    "answer": "The smallest difference between two representable floating point numbers, indicating the precision limit."
+  },
+  {
+    "question": "What is the difference between float32 and float64?",
+    "answer": "float32 uses 32 bits (4 bytes) per number, float64 uses 64 bits (8 bytes), with float64 offering higher precision."
+  },
+  {
+    "question": "What is overflow and underflow in floating point arithmetic?",
+    "answer": "Overflow occurs when a result exceeds the largest representable value; underflow occurs when it is smaller than the smallest."
+  },
+  {
+    "question": "What is NaN and how does it arise?",
+    "answer": "NaN stands for 'Not a Number' and arises from undefined operations like 0/0 or inf - inf."
+  },
+  {
+    "question": "Why should you avoid using floating point equality (==) in comparisons?",
+    "answer": "Because roundoff errors may make two numbers that should be equal appear different; use np.allclose instead."
+  },
+  {
+    "question": "What is the purpose of np.isinf and np.isfinite?",
+    "answer": "np.isinf checks for infinite values; np.isfinite checks for finite (not inf or NaN) values."
+  },
+  {
+    "question": "What is a dope vector in array implementation?",
+    "answer": "A data structure holding metadata (shape, strides, etc.) for efficient multidimensional array access."
+  },
+  {
+    "question": "What is a meshgrid and when is it used?",
+    "answer": "A meshgrid creates coordinate matrices for evaluating functions over a grid, commonly used in 2D plotting."
+  },
+  {
+    "question": "What is the difference between a scalar, vector, and matrix in terms of array rank?",
+    "answer": "A scalar is rank 0, a vector is rank 1, and a matrix is rank 2."
+  },
+  {
+    "question": "How do you promote the rank of an array?",
+    "answer": "By adding singleton dimensions using None or np.newaxis."
+  },
+  {
+    "question": "How do you reduce the rank of an array?",
+    "answer": "By indexing or using np.squeeze to remove singleton dimensions."
+  },
+  {
+    "question": "What is the effect of using ellipsis (...) in array indexing?",
+    "answer": "It replaces as many ':' as needed to match the array's rank, simplifying indexing expressions."
+  },
+  {
+    "question": "How do you handle missing data in arrays?",
+    "answer": "By using NaN as a placeholder or mask for missing values."
+  },
+  {
+    "question": "What is the main advantage of using NumPy arrays over Python lists for numerical computation?",
+    "answer": "NumPy arrays are more memory efficient, support vectorized operations, and enable much faster computation."
+  },
+  {
+    "question": "What is the significance of stride information in an array?",
+    "answer": "Strides determine how to step through memory to access elements along each axis, enabling efficient indexing and transformations."
+  },
+  {
+    "question": "How can you efficiently apply a function to only part of an array?",
+    "answer": "By using slicing, masking, or fancy indexing to select the region and then applying the function."
+  },
+  {
+    "question": "What is the difference between np.dot and np.outer?",
+    "answer": "np.dot computes the dot product (or matrix multiplication); np.outer computes the outer product, resulting in a matrix."
+  },
+  {
+    "question": "What is the difference between np.add and the '+' operator?",
+    "answer": "Both perform elementwise addition, but np.add is the explicit function form."
+  }
+]

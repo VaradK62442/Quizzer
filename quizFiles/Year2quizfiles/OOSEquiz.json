@@ -1,0 +1,450 @@
+[
+  {
+    "question": "What is the primary aim of Object Oriented Software Engineering (OOSE)?",
+    "answer": "To introduce the basic concepts of software engineering, present methods for designing, implementing, and documenting larger object-oriented programs, and develop program comprehension and design skills."
+  },
+  {
+    "question": "Why is software reliability important in software engineering?",
+    "answer": "Software reliability measures the probability that software will function without failure over time, directly impacting user trust and system availability."
+  },
+  {
+    "question": "What is meant by Mean Time Between Failures (MTBF)?",
+    "answer": "MTBF is the average time between system failures, used as a metric for software reliability."
+  },
+  {
+    "question": "How does the cost to fix a bug change throughout the software lifecycle?",
+    "answer": "The cost to fix a bug increases exponentially the later it is found, from specification to release."
+  },
+  {
+    "question": "What is a bug tracking workflow?",
+    "answer": "A process where bugs are reported, triaged, assigned, resolved, and verified, often tracked in a system like Jira or Bugzilla."
+  },
+  {
+    "question": "What is a bug pattern?",
+    "answer": "A common mistake in code that appears frequently enough to have its own name and category."
+  },
+  {
+    "question": "What is the purpose of static analysis tools?",
+    "answer": "To automatically detect potential problems in code without requiring manual code review."
+  },
+  {
+    "question": "How do breakpoints assist in debugging?",
+    "answer": "They pause program execution at specific lines, allowing inspection of variables and program state."
+  },
+  {
+    "question": "What information does a stack trace provide?",
+    "answer": "It shows the sequence of method calls leading to an exception or error, helping to locate bugs."
+  },
+  {
+    "question": "What is the Strategy design pattern?",
+    "answer": "A pattern that encapsulates interchangeable behaviours and allows them to be selected at runtime."
+  },
+  {
+    "question": "What are the benefits of using the Strategy pattern?",
+    "answer": "It allows behaviour to vary independently from clients, reduces code duplication, and enables plug-and-play behaviours."
+  },
+  {
+    "question": "How is behaviour encapsulated in the Strategy pattern?",
+    "answer": "By defining an interface for behaviours and having concrete classes implement this interface."
+  },
+  {
+    "question": "What does 'composition over inheritance' mean in OOSE?",
+    "answer": "Favouring the use of composition (HAS-A relationships) to share behaviour, rather than inheritance (IS-A relationships)."
+  },
+  {
+    "question": "How can you change a duck's fly behaviour at runtime in the Strategy pattern example?",
+    "answer": "By calling a setter method to assign a new FlyBehaviour implementation to the duck."
+  },
+  {
+    "question": "What is the main problem with using inheritance for varying duck behaviours?",
+    "answer": "It leads to code duplication and makes it difficult to modify or extend behaviours without changing multiple classes."
+  },
+  {
+    "question": "What is the Observer design pattern?",
+    "answer": "A pattern where an object (subject) maintains a list of dependents (observers) and notifies them of state changes."
+  },
+  {
+    "question": "How does the Observer pattern help with the Open/Closed Principle?",
+    "answer": "It allows new observers to be added without modifying the subject's code, keeping it open for extension but closed for modification."
+  },
+  {
+    "question": "What are the key methods in the Subject interface of the Observer pattern?",
+    "answer": "registerObserver, removeObserver, and notifyObservers."
+  },
+  {
+    "question": "What is the difference between push and pull models in the Observer pattern?",
+    "answer": "Push sends data to observers immediately; pull notifies observers and lets them retrieve data if needed."
+  },
+  {
+    "question": "Why is it important to avoid coding to concrete implementations in OOSE?",
+    "answer": "It makes code less flexible and harder to extend or maintain."
+  },
+  {
+    "question": "What is the Decorator design pattern?",
+    "answer": "A pattern that attaches additional responsibilities to objects dynamically, providing a flexible alternative to subclassing."
+  },
+  {
+    "question": "How does the Decorator pattern solve the 'class explosion' problem?",
+    "answer": "By allowing combinations of features to be built up at runtime, rather than creating a subclass for every combination."
+  },
+  {
+    "question": "What is a component in the Decorator pattern?",
+    "answer": "The abstract base class or interface that both concrete components and decorators implement."
+  },
+  {
+    "question": "What is a concrete decorator?",
+    "answer": "A class that adds new behaviour to a component by wrapping it and implementing the same interface."
+  },
+  {
+    "question": "How does the Decorator pattern relate to Java's I/O streams?",
+    "answer": "Java I/O streams use the Decorator pattern to add functionality (e.g., buffering, compression) by wrapping streams."
+  },
+  {
+    "question": "What are some shortcomings of the Decorator pattern?",
+    "answer": "It can lead to many small classes, complex instantiation, and issues with type checking."
+  },
+  {
+    "question": "What is the Singleton design pattern?",
+    "answer": "A pattern that ensures only one instance of a class exists and provides a global point of access to it."
+  },
+  {
+    "question": "How is a Singleton implemented in Java?",
+    "answer": "By making the constructor private, storing a static instance, and providing a public static getInstance() method."
+  },
+  {
+    "question": "What is lazy instantiation in the Singleton pattern?",
+    "answer": "The instance is created only when it is first needed, not at class loading."
+  },
+  {
+    "question": "What is a potential problem with Singleton in multithreaded applications?",
+    "answer": "It is not thread-safe by default and may result in multiple instances if accessed by multiple threads simultaneously."
+  },
+  {
+    "question": "Why is Singleton often criticised?",
+    "answer": "It can break OO principles, hinder testing, and is sometimes misused as a global variable."
+  },
+  {
+    "question": "What are the three main categories of design patterns covered in OOSE?",
+    "answer": "Creational, Structural, and Behavioural patterns."
+  },
+  {
+    "question": "What is the main purpose of creational patterns?",
+    "answer": "To manage object creation in a flexible and reusable way."
+  },
+  {
+    "question": "What is the Factory design pattern?",
+    "answer": "A pattern that delegates object creation to a separate factory class, reducing code repetition and conditional logic."
+  },
+  {
+    "question": "How does the Factory pattern improve code maintainability?",
+    "answer": "By centralising object creation logic so new types can be added without modifying client code."
+  },
+  {
+    "question": "What is the Composite design pattern?",
+    "answer": "A pattern that allows you to compose objects into tree structures to represent part-whole hierarchies."
+  },
+  {
+    "question": "How does the Composite pattern treat individual and composite objects?",
+    "answer": "It treats them uniformly, allowing clients to interact with both through a common interface."
+  },
+  {
+    "question": "What is the Iterator design pattern?",
+    "answer": "A pattern that provides a way to access elements of a collection sequentially without exposing its underlying representation."
+  },
+  {
+    "question": "When should you use the Iterator pattern?",
+    "answer": "When you want to traverse a collection without exposing its internal structure or allowing external modification."
+  },
+  {
+    "question": "What is the State design pattern?",
+    "answer": "A pattern that allows an object to alter its behaviour when its internal state changes."
+  },
+  {
+    "question": "How does the State pattern improve code flexibility?",
+    "answer": "By encapsulating state-specific behaviour in separate classes, making it easy to add new states without modifying the core class."
+  },
+  {
+    "question": "What is the difference between the State and Strategy patterns?",
+    "answer": "State changes behaviour based on internal state transitions; Strategy allows behaviour to be changed externally at runtime."
+  },
+  {
+    "question": "What is coupling in software engineering?",
+    "answer": "The degree of interdependence between software modules, classes, or services."
+  },
+  {
+    "question": "What is cohesion in software engineering?",
+    "answer": "The degree to which elements within a module or class belong together and perform a single function."
+  },
+  {
+    "question": "What is content coupling?",
+    "answer": "When one module directly uses or modifies the contents of another module."
+  },
+  {
+    "question": "What is common coupling?",
+    "answer": "When multiple modules share access to the same global data."
+  },
+  {
+    "question": "What is control coupling?",
+    "answer": "When one module controls the flow of another by passing control information."
+  },
+  {
+    "question": "What is stamp coupling?",
+    "answer": "When modules share composite data structures, such as objects or records."
+  },
+  {
+    "question": "What is data coupling?",
+    "answer": "When modules share data through parameters, ideally passing only what is necessary."
+  },
+  {
+    "question": "How does high cohesion benefit software design?",
+    "answer": "It makes modules easier to understand, maintain, and reuse, and reduces the risk of unintended side effects."
+  },
+  {
+    "question": "What is the DRY principle?",
+    "answer": "Don't Repeat Yourself—encourages modularisation and code reuse to avoid duplication."
+  },
+  {
+    "question": "What is refactoring?",
+    "answer": "Changing the internal structure of code to make it easier to understand and modify, without changing its observable behaviour."
+  },
+  {
+    "question": "When should you consider refactoring code?",
+    "answer": "When implementing new features, correcting defects, during code review, or when trying to understand the code."
+  },
+  {
+    "question": "What are code smells?",
+    "answer": "Indicators of potential problems in code, such as rigidity, fragility, needless complexity, or repetition."
+  },
+  {
+    "question": "What is the Single Responsibility Principle (SRP)?",
+    "answer": "A class should have only one reason to change, meaning it should have only one job."
+  },
+  {
+    "question": "What is the Open-Closed Principle (OCP)?",
+    "answer": "Software entities should be open for extension but closed for modification."
+  },
+  {
+    "question": "What is the Liskov Substitution Principle (LSP)?",
+    "answer": "Subtypes must be substitutable for their base types without altering the correctness of the program."
+  },
+  {
+    "question": "What is the Interface Segregation Principle (ISP)?",
+    "answer": "Clients should not be forced to depend on interfaces they do not use."
+  },
+  {
+    "question": "What is the Dependency Inversion Principle (DIP)?",
+    "answer": "High-level modules should not depend on low-level modules; both should depend on abstractions."
+  },
+  {
+    "question": "Why is clean code important?",
+    "answer": "It is easier to read, maintain, extend, and reduces the likelihood of bugs."
+  },
+  {
+    "question": "What are some rules for clean code naming?",
+    "answer": "Use descriptive, unambiguous, and pronounceable names; avoid magic numbers and encodings."
+  },
+  {
+    "question": "What is the Boy Scout rule in clean code?",
+    "answer": "Leave the codebase cleaner than you found it."
+  },
+  {
+    "question": "Why should functions be small and do one thing?",
+    "answer": "It makes them easier to understand, test, and maintain."
+  },
+  {
+    "question": "What is the purpose of comments in code?",
+    "answer": "To explain intent, clarify complex code, or warn of consequences; not to repeat what the code does."
+  },
+  {
+    "question": "What is unit testing?",
+    "answer": "Testing individual units of code, such as methods or classes, in isolation to ensure correctness."
+  },
+  {
+    "question": "What is regression testing?",
+    "answer": "Testing to ensure that new code changes do not break existing functionality."
+  },
+  {
+    "question": "What is continuous integration?",
+    "answer": "A practice where code is frequently integrated, built, and tested automatically to detect issues early."
+  },
+  {
+    "question": "What is code review?",
+    "answer": "A process where one or more developers examine code written by others to find defects and improve quality."
+  },
+  {
+    "question": "What are the benefits of code review?",
+    "answer": "It improves code quality, shares knowledge, encourages best practices, and reduces bugs."
+  },
+  {
+    "question": "What is pair programming?",
+    "answer": "A coding style where two programmers work together at one workstation, with one typing and the other reviewing."
+  },
+  {
+    "question": "What is mob programming?",
+    "answer": "A style where the whole team works together on the same code at the same time."
+  },
+  {
+    "question": "What is test-driven development (TDD)?",
+    "answer": "A methodology where tests are written before code, and code is developed to pass the tests."
+  },
+  {
+    "question": "What is mocking in unit testing?",
+    "answer": "Replacing real objects with simulated ones to isolate the unit under test."
+  },
+  {
+    "question": "Why is mocking useful in continuous integration?",
+    "answer": "It removes dependencies on external systems, making tests faster and more reliable."
+  },
+  {
+    "question": "What is the difference between mocking and spying?",
+    "answer": "Mocking creates a fake object; spying wraps a real object to override specific methods."
+  },
+  {
+    "question": "What is an edge case in testing?",
+    "answer": "A scenario that occurs at the extreme ends of input ranges, often revealing bugs."
+  },
+  {
+    "question": "What is code coverage?",
+    "answer": "A measure of how much of the code is exercised by tests."
+  },
+  {
+    "question": "Why doesn't 100% code coverage guarantee bug-free code?",
+    "answer": "Because it may not cover all use cases or logic paths, and tests may not check for correct behaviour."
+  },
+  {
+    "question": "What is a UML class diagram?",
+    "answer": "A visual blueprint showing classes, their attributes, methods, and relationships."
+  },
+  {
+    "question": "What does a '+' and '-' symbol mean in UML?",
+    "answer": "+ means public, - means private."
+  },
+  {
+    "question": "What is aggregation in UML?",
+    "answer": "A relationship where one object contains or is composed of other objects, but those objects can exist independently."
+  },
+  {
+    "question": "What is composition in UML?",
+    "answer": "A strong form of aggregation where the contained object cannot exist independently of the container."
+  },
+  {
+    "question": "What is realisation in UML?",
+    "answer": "A relationship where a class implements an interface or an abstract class."
+  },
+  {
+    "question": "What is multiplicity in UML diagrams?",
+    "answer": "It indicates how many instances of one class are associated with another (e.g., 1, 0..1, 0..*, 1..*)."
+  },
+  {
+    "question": "What is the main advantage of using class diagrams?",
+    "answer": "They help visualise system structure, relationships, and design before coding."
+  },
+  {
+    "question": "What is the main disadvantage of low cohesion?",
+    "answer": "It makes code harder to maintain, understand, and reuse."
+  },
+  {
+    "question": "What is the purpose of design patterns in OOSE?",
+    "answer": "To provide proven solutions to common design problems and establish a shared vocabulary."
+  },
+  {
+    "question": "Why is it important to separate what varies from what stays the same in design?",
+    "answer": "It makes code more flexible, maintainable, and easier to extend."
+  },
+  {
+    "question": "What is the main benefit of using interfaces in OOSE?",
+    "answer": "They define contracts for behaviour, allowing for flexible and interchangeable implementations."
+  },
+  {
+    "question": "What is the difference between a leaf and a composite in the Composite pattern?",
+    "answer": "A leaf is an individual object; a composite is a collection of objects treated as a single entity."
+  },
+  {
+    "question": "What is the main advantage of the State pattern?",
+    "answer": "It eliminates complex conditional logic by delegating behaviour to state-specific classes."
+  },
+  {
+    "question": "What is the main disadvantage of the State pattern?",
+    "answer": "It can lead to a large number of classes, increasing code complexity."
+  },
+  {
+    "question": "What is the main advantage of the Factory pattern?",
+    "answer": "It centralises object creation, making it easier to manage and extend."
+  },
+  {
+    "question": "What is the main disadvantage of the Singleton pattern?",
+    "answer": "It can hinder testing, break OO principles, and is often misused as a global variable."
+  },
+  {
+    "question": "What is the main purpose of clean code and refactoring?",
+    "answer": "To make code easier to read, maintain, and extend, and to reduce bugs."
+  },
+  {
+    "question": "What is the main benefit of continuous integration?",
+    "answer": "It detects integration issues early, ensuring that the codebase is always in a working state."
+  },
+  {
+    "question": "What is the main purpose of code review?",
+    "answer": "To improve code quality, share knowledge, and catch defects early."
+  },
+  {
+    "question": "What is the Boy Scout rule in software engineering?",
+    "answer": "Leave the codebase cleaner than you found it."
+  },
+  {
+    "question": "What is the KISS principle?",
+    "answer": "Keep It Simple, Stupid—encourages reducing complexity wherever possible."
+  },
+  {
+    "question": "What is the role of naming conventions in clean code?",
+    "answer": "They improve readability, consistency, and maintainability."
+  },
+  {
+    "question": "What is the purpose of integration testing?",
+    "answer": "To verify that independent components or applications work together as expected."
+  },
+  {
+    "question": "What is the main purpose of regression test packs?",
+    "answer": "To ensure that changes do not break existing functionality by running a suite of tests."
+  },
+  {
+    "question": "What is the main benefit of using mocking frameworks like Mockito?",
+    "answer": "They allow for isolation of units under test by simulating dependencies."
+  },
+  {
+    "question": "What is the main challenge with 100% code coverage?",
+    "answer": "It may not guarantee that all use cases and logic paths are tested."
+  },
+  {
+    "question": "What is the main advantage of using the Decorator pattern in Java's I/O streams?",
+    "answer": "It allows for flexible composition of behaviours like buffering, compression, and encryption."
+  },
+  {
+    "question": "What is the main disadvantage of class explosion in the Decorator pattern?",
+    "answer": "It can make the codebase harder to understand and maintain due to many small classes."
+  },
+  {
+    "question": "How does the Factory pattern help with adding new product types?",
+    "answer": "By centralising creation logic, new types can be added with minimal changes to existing code."
+  },
+  {
+    "question": "What is the main purpose of the Open/Closed Principle?",
+    "answer": "To allow software to be extended without modifying existing code."
+  },
+  {
+    "question": "What is the main advantage of using the Composite pattern for file systems?",
+    "answer": "It allows files and folders to be treated uniformly, simplifying traversal and manipulation."
+  },
+  {
+    "question": "What is the main benefit of using the Iterator pattern?",
+    "answer": "It provides a standard way to traverse collections without exposing their internal structure."
+  },
+  {
+    "question": "What is the main purpose of the State pattern in a game like Blackjack?",
+    "answer": "To manage player actions and transitions (e.g., ready, twist, stick, end) in a flexible way."
+  },
+  {
+    "question": "What is the main benefit of using design patterns in OOSE?",
+    "answer": "They provide reusable solutions to common problems and facilitate communication among developers."
+  }
+]
