@@ -84,7 +84,7 @@ def print_results(data, user_answers, user_data):
 def setup():
     GLOB_PATH = "quizFiles/**/*.json"  # Recursive pattern
 
-    print(f"{Colours.BLUE}QUIZZER{Colours.END} by {Colours.ORANGE}Varad and Liam{Colours.END}")
+    print(f"{Colours.BLUE}QUIZZER{Colours.END}")
     print("\nSETUP\n")
 
     file_paths = glob(GLOB_PATH, recursive=True)
